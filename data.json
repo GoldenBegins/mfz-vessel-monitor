@@ -1,9 +1,10 @@
 {
-  "updatedAt": "2026-08-16 19:23",
+  "updatedAt": "2026-08-16 20:37:21",
+  "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 27,
     "benghaziCalls": 14,
-    "estimatedCalls": 3,
+    "estimatedCalls": 0,
     "unestimatedCalls": 11,
     "coverage": 21.4,
     "trustedVessels": 193,
@@ -25,20 +26,12 @@
   ],
   "estimates": [
     {
-      "vessel": "MEDKON ANKA",
-      "imo": "9366469",
-      "type": "Container",
-      "estimate": "1,928 TEU",
-      "confidence": "Medium",
-      "method": "Same IMO - trusted MFZ historical median"
-    },
-    {
       "vessel": "ABASHIE",
       "imo": "8207410",
       "type": "General Cargo",
       "estimate": "2,675 t",
       "confidence": "Low",
-      "method": "DWT × verified MFZ utilization"
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     },
     {
       "vessel": "GAHURA",
@@ -46,10 +39,34 @@
       "type": "General Cargo",
       "estimate": "4,279 t",
       "confidence": "Low",
-      "method": "DWT × verified MFZ utilization"
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MEDKON ANKA",
+      "imo": "9366469",
+      "type": "Container",
+      "estimate": "1,928 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [
+    {
+      "historicalName": "FENG XIN DA 29",
+      "currentName": "",
+      "imo": "1025174",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "PARPALI",
+      "currentName": "",
+      "imo": "1025174",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
     {
       "historicalName": "KOSOVAK",
       "currentName": "GOTHICA",
@@ -57,16 +74,188 @@
       "masterMmsi": "352004499",
       "observedMmsi": "352004499",
       "status": "Needs Review"
+    },
+    {
+      "historicalName": "MAYFIELD",
+      "currentName": "GOTHICA",
+      "imo": "7826867",
+      "masterMmsi": "352004499",
+      "observedMmsi": "352004499",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "NABIHA STAR",
+      "currentName": "GOTHICA",
+      "imo": "7826867",
+      "masterMmsi": "352004499",
+      "observedMmsi": "352004499",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "ROLEX",
+      "currentName": "GOTHICA",
+      "imo": "7826867",
+      "masterMmsi": "352004499",
+      "observedMmsi": "352004499",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "KOSOVAK",
+      "currentName": "",
+      "imo": "8223062",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "LADY SUHA II",
+      "currentName": "",
+      "imo": "8223062",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "MEDKON SINOP",
+      "currentName": "",
+      "imo": "8223062",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "MN SCORPIO",
+      "currentName": "",
+      "imo": "8223062",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "PRINCESS JOULIA",
+      "currentName": "",
+      "imo": "8223062",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "TB DATANG",
+      "currentName": "",
+      "imo": "8223062",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "TIMUCIN A",
+      "currentName": "",
+      "imo": "8223062",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "MEDKON SINOP",
+      "currentName": "",
+      "imo": "8415794",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "TIMUCIN A",
+      "currentName": "",
+      "imo": "8415794",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "AYA 1",
+      "currentName": "",
+      "imo": "8591794",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "SWARD",
+      "currentName": "",
+      "imo": "8591794",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "CHANG YUE 1",
+      "currentName": "",
+      "imo": "8716954",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "MEDKON SINOP",
+      "currentName": "",
+      "imo": "8716954",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "MSC TAMARA",
+      "currentName": "",
+      "imo": "8716954",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "SANITY",
+      "currentName": "",
+      "imo": "8716954",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "HELMUT",
+      "currentName": "",
+      "imo": "8815308",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "MAYFIELD",
+      "currentName": "",
+      "imo": "8815308",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "SENATOR",
+      "currentName": "",
+      "imo": "8815308",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
+    },
+    {
+      "historicalName": "TUGBERK IMAMOGLU",
+      "currentName": "",
+      "imo": "8815308",
+      "masterMmsi": "",
+      "observedMmsi": "",
+      "status": "Needs Review"
     }
   ],
   "quality": [
     {
       "title": "Historical identity review",
-      "detail": "Some historical IMO/name combinations require review before being used for calibration. Live calls remain counted."
-    },
-    {
-      "title": "EconDB benchmark unavailable",
-      "detail": "EconDB did not return parseable monthly totals for Misurata or Benghazi during the latest run."
+      "detail": "235 historical identity combinations require review before calibration. Live calls remain counted."
     }
   ]
 }
