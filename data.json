@@ -1,0 +1,72 @@
+{
+  "updatedAt": "2026-08-16 19:23",
+  "summary": {
+    "misurataCalls": 27,
+    "benghaziCalls": 14,
+    "estimatedCalls": 3,
+    "unestimatedCalls": 11,
+    "coverage": 21.4,
+    "trustedVessels": 193,
+    "identityReview": 235,
+    "estimatedTEU": 1928,
+    "estimatedGeneralCargoTons": 6954,
+    "historicalHighMediumCalls": 1,
+    "fallbackLowCalls": 2
+  },
+  "comparison": [
+    {
+      "period": "2026-08",
+      "misurataCalls": 27,
+      "benghaziCalls": 14,
+      "estimatedTEU": 1928,
+      "estimatedGeneralCargoTons": 6954,
+      "coverage": 21.4
+    }
+  ],
+  "estimates": [
+    {
+      "vessel": "MEDKON ANKA",
+      "imo": "9366469",
+      "type": "Container",
+      "estimate": "1,928 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median"
+    },
+    {
+      "vessel": "ABASHIE",
+      "imo": "8207410",
+      "type": "General Cargo",
+      "estimate": "2,675 t",
+      "confidence": "Low",
+      "method": "DWT × verified MFZ utilization"
+    },
+    {
+      "vessel": "GAHURA",
+      "imo": "9053907",
+      "type": "General Cargo",
+      "estimate": "4,279 t",
+      "confidence": "Low",
+      "method": "DWT × verified MFZ utilization"
+    }
+  ],
+  "review": [
+    {
+      "historicalName": "KOSOVAK",
+      "currentName": "GOTHICA",
+      "imo": "7826867",
+      "masterMmsi": "352004499",
+      "observedMmsi": "352004499",
+      "status": "Needs Review"
+    }
+  ],
+  "quality": [
+    {
+      "title": "Historical identity review",
+      "detail": "Some historical IMO/name combinations require review before being used for calibration. Live calls remain counted."
+    },
+    {
+      "title": "EconDB benchmark unavailable",
+      "detail": "EconDB did not return parseable monthly totals for Misurata or Benghazi during the latest run."
+    }
+  ]
+}
