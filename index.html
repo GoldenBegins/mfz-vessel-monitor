@@ -36,11 +36,17 @@
 
       <section id="expected" class="view">
         <div class="cards" id="expectedCards"></div>
-        <article class="panel">
-          <div class="panel-head"><div><span class="kicker">ShipNext</span><h2>السفن المخطط وصولها إلى مصراتة وبنغازي</h2></div></div>
-          <p class="muted">هذه بيانات Planned / Expected من ShipNext، وليست تأكيدًا لوصول السفينة فعليًا. بمجرد رصد السفينة في مصدر الميناء الأساسي تنتقل للمتابعة الفعلية.</p>
-          <div class="table-wrap"><table><thead><tr><th>الميناء</th><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>ميناء المغادرة</th><th>وقت المغادرة</th><th>ETA</th><th>الحالة</th></tr></thead><tbody id="expectedRows"></tbody></table></div>
-        </article>
+        <p class="muted">ShipNext مصدر للتخطيط المتوقع. النظام يطابق IMO تلقائيًا مع الرصد الحي؛ إذا ظهرت السفينة فعليًا داخل الميناء تتحول إلى Arrived / In Port ولا تبقى ضمن Expected.</p>
+        <div class="grid two">
+          <article class="panel">
+            <div class="panel-head"><div><span class="kicker">Qasr Ahmed / ShipNext</span><h2>ميناء مصراتة</h2></div><span class="pill" id="misExpectedCount">0 Expected</span></div>
+            <div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>ميناء المغادرة</th><th>ETA</th><th>الحالة</th></tr></thead><tbody id="misExpectedRows"></tbody></table></div>
+          </article>
+          <article class="panel">
+            <div class="panel-head"><div><span class="kicker">Benghazi / ShipNext</span><h2>ميناء بنغازي</h2></div><span class="pill" id="benExpectedCount">0 Expected</span></div>
+            <div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>ميناء المغادرة</th><th>ETA</th><th>الحالة</th></tr></thead><tbody id="benExpectedRows"></tbody></table></div>
+          </article>
+        </div>
       </section>
 
       <section id="ports" class="view">
@@ -56,7 +62,7 @@
         <article class="panel"><div class="panel-head"><div><span class="kicker">منهجية التقدير</span><h2>سُلّم الأولوية</h2></div></div><ol class="steps"><li><b>نفس IMO + تاريخ MFZ موثوق</b><span>يستخدم Median للمناولة الفعلية التاريخية.</span></li><li><b>Fallback بالسعة</b><span>TEU Capacity × معامل مناولة MFZ للحاويات.</span></li><li><b>Fallback بـ DWT</b><span>DWT × معامل الاستفادة التاريخي للبضائع العامة.</span></li><li><b>غير مقدّر</b><span>الزيارة التجارية تظل محسوبة حتى عند نقص بيانات الحمولة.</span></li></ol></article>
       </section>
 
-      <section id="review" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Vessel Identity Check</span><h2>الحالات التي تحتاج مراجعة</h2></div><span class="pill warn" id="reviewCount">0</span></div><p class="muted">هذه الصفحة للعرض حاليًا. التعديل المباشر سيضاف لاحقًا عبر API آمن على الاستضافة، وليس عبر مفاتيح Google داخل GitHub.</p><div class="table-wrap"><table><thead><tr><th>الاسم التاريخي</th><th>الاسم الحالي</th><th>IMO</th><th>Master MMSI</th><th>Observed MMSI</th><th>الحالة</th></tr></thead><tbody id="reviewRows"></tbody></table></div></article></section>
+      <section id="review" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Vessel Identity Check</span><h2>الحالات التي تحتاج مراجعة</h2></div><span class="pill warn" id="reviewCount">0</span></div><p class="muted">التحقق الخارجي يعمل آليًا، والحالات غير المحسومة تُوقف من المعايرة التاريخية دون إسقاط الزيارة الحية.</p><div class="table-wrap"><table><thead><tr><th>الاسم التاريخي</th><th>الاسم الحالي</th><th>IMO</th><th>Master MMSI</th><th>Observed MMSI</th><th>الحالة</th></tr></thead><tbody id="reviewRows"></tbody></table></div></article></section>
 
       <section id="quality" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Data Quality</span><h2>تنبيهات جودة البيانات</h2></div></div><div id="qualityList" class="quality-list"></div></article></section>
     </main>
