@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17 11:26:34",
+  "updatedAt": "2026-08-17 12:09:58",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 26,
@@ -14,10 +14,10 @@
     "estimatedCalls": 4,
     "unestimatedCalls": 12,
     "coverage": 25.0,
-    "trustedVessels": 194,
-    "identityReview": 234,
+    "trustedVessels": 198,
+    "identityReview": 0,
     "estimatedTEU": 1928,
-    "estimatedGeneralCargoTons": 12793,
+    "estimatedGeneralCargoTons": 13221,
     "historicalHighMediumCalls": 0,
     "fallbackLowCalls": 3
   },
@@ -33,7 +33,7 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 1928,
-      "estimatedGeneralCargoTons": 12793,
+      "estimatedGeneralCargoTons": 13221,
       "coverage": 25.0
     }
   ],
@@ -42,7 +42,7 @@
       "vessel": "ABASHIE",
       "imo": "8207410",
       "type": "General Cargo",
-      "estimate": "2,675 t",
+      "estimate": "3,103 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -71,212 +71,11 @@
       "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
-  "review": [
-    {
-      "historicalName": "FENG XIN DA 29",
-      "currentName": "",
-      "imo": "1025174",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "PARPALI",
-      "currentName": "",
-      "imo": "1025174",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "KOSOVAK",
-      "currentName": "GOTHICA",
-      "imo": "7826867",
-      "masterMmsi": "352004499",
-      "observedMmsi": "352004499",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "MAYFIELD",
-      "currentName": "GOTHICA",
-      "imo": "7826867",
-      "masterMmsi": "352004499",
-      "observedMmsi": "352004499",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "NABIHA STAR",
-      "currentName": "GOTHICA",
-      "imo": "7826867",
-      "masterMmsi": "352004499",
-      "observedMmsi": "352004499",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "ROLEX",
-      "currentName": "GOTHICA",
-      "imo": "7826867",
-      "masterMmsi": "352004499",
-      "observedMmsi": "352004499",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "KOSOVAK",
-      "currentName": "",
-      "imo": "8223062",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "LADY SUHA II",
-      "currentName": "",
-      "imo": "8223062",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "MEDKON SINOP",
-      "currentName": "",
-      "imo": "8223062",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "MN SCORPIO",
-      "currentName": "",
-      "imo": "8223062",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "PRINCESS JOULIA",
-      "currentName": "",
-      "imo": "8223062",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "TB DATANG",
-      "currentName": "",
-      "imo": "8223062",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "TIMUCIN A",
-      "currentName": "",
-      "imo": "8223062",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "MEDKON SINOP",
-      "currentName": "",
-      "imo": "8415794",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "TIMUCIN A",
-      "currentName": "",
-      "imo": "8415794",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "AYA 1",
-      "currentName": "",
-      "imo": "8591794",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "SWARD",
-      "currentName": "",
-      "imo": "8591794",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "CHANG YUE 1",
-      "currentName": "",
-      "imo": "8716954",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "MEDKON SINOP",
-      "currentName": "",
-      "imo": "8716954",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "MSC TAMARA",
-      "currentName": "",
-      "imo": "8716954",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "SANITY",
-      "currentName": "",
-      "imo": "8716954",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "HELMUT",
-      "currentName": "",
-      "imo": "8815308",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "MAYFIELD",
-      "currentName": "",
-      "imo": "8815308",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "SENATOR",
-      "currentName": "",
-      "imo": "8815308",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    },
-    {
-      "historicalName": "TUGBERK IMAMOGLU",
-      "currentName": "",
-      "imo": "8815308",
-      "masterMmsi": "",
-      "observedMmsi": "",
-      "status": "Needs Review"
-    }
-  ],
+  "review": [],
   "quality": [
     {
-      "title": "Historical identity review",
-      "detail": "234 historical identity combinations require review before calibration. Live calls remain counted."
+      "title": "High-priority data-quality checks",
+      "detail": "225 internal high-priority checks are recorded."
     }
   ]
 }
