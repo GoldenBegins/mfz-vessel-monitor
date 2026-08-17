@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17 14:41:36",
+  "updatedAt": "2026-08-17 14:49:54",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 26,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 4,
-    "unestimatedCalls": 12,
-    "coverage": 25.0,
+    "estimatedCalls": 5,
+    "unestimatedCalls": 11,
+    "coverage": 31.2,
     "trustedVessels": 198,
     "identityReview": 0,
-    "estimatedTEU": 1928,
+    "estimatedTEU": 5044,
     "estimatedGeneralCargoTons": 13221,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 3
+    "fallbackLowCalls": 4
   },
   "comparison": [
     {
@@ -32,9 +32,9 @@
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 1928,
+      "estimatedTEU": 5044,
       "estimatedGeneralCargoTons": 13221,
-      "coverage": 25.0
+      "coverage": 31.2
     }
   ],
   "estimates": [
@@ -53,6 +53,14 @@
       "estimate": "4,279 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "BUXLINK",
+      "imo": "9235816",
+      "type": "Container",
+      "estimate": "3,116 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio"
     },
     {
       "vessel": "MEDKON ANKA",
@@ -89,7 +97,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-17 15:49",
+      "eta": "2026-08-17 15:47",
       "source": "MyShipTracking",
       "status": "Planned / Expected"
     },
@@ -103,7 +111,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-20 15:43",
+      "eta": "2026-08-20 15:44",
       "source": "MyShipTracking",
       "status": "Planned / Expected"
     }
@@ -117,7 +125,7 @@
       "terminals": 1,
       "servicesText": "Services (16) Terminals (1) Schedules (9) Service Carriers Europe → Africa ALGERIA L Intra-Europe EMS A Africa ↔ Europe GTL Intra-Africa I02 / LBX / Z71 G + 1 Africa → Europe ILE G Africa ↔ Europe JLS L Intra-Europe LIBIA L S Africa ↔ Europe LIBYA1 Africa ↔ Europe LSS A Europe → Africa LTS A Africa → Europe LYS Intra-Africa NAS A Africa ↔ Europe TLS M Africa ↔ Europe TNX S Africa ↔ Europe TULYB Intra-Europe WMS A",
       "status": "Available",
-      "fetchedOn": "2026-08-17 14:37:50"
+      "fetchedOn": "2026-08-17 14:46:17"
     },
     {
       "port": "Benghazi",
@@ -127,7 +135,7 @@
       "terminals": 1,
       "servicesText": "Services (12) Terminals (1) Schedules (11) Service Carriers Intra-Africa I03 Intra-Europe LIBIA L S Africa ↔ Europe LSII Africa → Europe LSS A Africa ↔ Europe LTS A Africa ↔ Europe LYS Africa ↔ Europe MLTTSLY Intra-Africa NAS A Africa ↔ Europe TNAS M Africa → Europe TNX S Africa → Europe TULYB Intra-Africa Z72 G",
       "status": "Available",
-      "fetchedOn": "2026-08-17 14:37:50"
+      "fetchedOn": "2026-08-17 14:46:17"
     }
   ],
   "flexportVessels": [
@@ -151,7 +159,7 @@
       "service": "",
       "voyage": "",
       "status": "Verified by exact IMO",
-      "fetchedOn": "2026-08-17 14:37:50"
+      "fetchedOn": "2026-08-17 14:46:17"
     },
     {
       "vessel": "MEDKON ANKA",
@@ -173,7 +181,7 @@
       "service": "HLCU:I03",
       "voyage": "40",
       "status": "Verified by exact IMO",
-      "fetchedOn": "2026-08-17 14:37:50"
+      "fetchedOn": "2026-08-17 14:46:17"
     }
   ]
 }
