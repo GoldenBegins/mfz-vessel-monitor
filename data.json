@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17 23:53:35",
+  "updatedAt": "2026-08-18 01:24:14",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 30,
@@ -111,8 +111,8 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-18 13:23",
-      "source": "https://www.myshiptracking.com/estimate?pid=3184 + Flexport Atlas",
+      "eta": "2026-08-18 13:14",
+      "source": "https://www.myshiptracking.com/estimate?pid=3184",
       "status": "Planned / Expected"
     },
     {
@@ -125,21 +125,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-18 18:53",
-      "source": "https://www.myshiptracking.com/estimate?pid=3184 + Flexport Atlas",
-      "status": "Planned / Expected"
-    },
-    {
-      "port": "Benghazi",
-      "vessel": "KARAM K",
-      "imo": "9563885",
-      "type": "",
-      "dwt": 0,
-      "built": "",
-      "departurePort": "",
-      "departureTime": "",
-      "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-19 6:09",
+      "eta": "2026-08-18 18:41",
       "source": "https://www.myshiptracking.com/estimate?pid=3184",
       "status": "Planned / Expected"
     },
@@ -153,7 +139,21 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-19 13:31",
+      "eta": "2026-08-19 13:38",
+      "source": "https://www.myshiptracking.com/estimate?pid=3184",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Benghazi",
+      "vessel": "KARAM K",
+      "imo": "9563885",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "BENGHAZI",
+      "eta": "2026-08-19 6:09",
       "source": "https://www.myshiptracking.com/estimate?pid=3184",
       "status": "Planned / Expected"
     },
@@ -223,7 +223,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-17 21:44",
+      "eta": "2026-08-18 0:12",
       "source": "https://www.myshiptracking.com/estimate?pid=3197",
       "status": "Overdue / Not Confirmed"
     },
@@ -237,7 +237,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-18 7:17",
+      "eta": "2026-08-18 10:14",
       "source": "https://www.myshiptracking.com/estimate?pid=3197",
       "status": "Planned / Expected"
     },
@@ -251,7 +251,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-19 19:16",
+      "eta": "2026-08-19 19:55",
       "source": "https://www.myshiptracking.com/estimate?pid=3197",
       "status": "Planned / Expected"
     },
@@ -279,7 +279,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-21 19:31",
+      "eta": "2026-08-21 21:45",
       "source": "https://www.myshiptracking.com/estimate?pid=3197",
       "status": "Planned / Expected"
     }
@@ -293,7 +293,7 @@
       "terminals": 1,
       "servicesText": "Services (16) Terminals (1) Schedules (7) Service Carriers Europe → Africa ALGERIA L Intra-Europe EMS A Africa ↔ Europe GTL Intra-Africa I02 / LBX / Z71 G + 1 Africa → Europe ILE G Africa ↔ Europe JLS L Intra-Europe LIBIA L S Africa ↔ Europe LIBYA1 Africa ↔ Europe LSS A Europe → Africa LTS A Africa → Europe LYS Intra-Africa NAS A Africa ↔ Europe TLS M Africa ↔ Europe TNX S Africa ↔ Europe TULYB Intra-Europe WMS A",
       "status": "Available",
-      "fetchedOn": "2026-08-17 23:49:18"
+      "fetchedOn": "2026-08-18 1:19:32"
     },
     {
       "port": "Benghazi",
@@ -303,7 +303,7 @@
       "terminals": 1,
       "servicesText": "Services (12) Terminals (1) Schedules (12) Service Carriers Intra-Africa I03 Intra-Europe LIBIA L S Africa ↔ Europe LSII Africa → Europe LSS A Africa ↔ Europe LTS A Africa ↔ Europe LYS Africa ↔ Europe MLTTSLY Intra-Africa NAS A Africa ↔ Europe TNAS M Africa → Europe TNX S Africa → Europe TULYB Intra-Africa Z72 G",
       "status": "Available",
-      "fetchedOn": "2026-08-17 23:49:18"
+      "fetchedOn": "2026-08-18 1:19:32"
     }
   ],
   "flexportVessels": [
