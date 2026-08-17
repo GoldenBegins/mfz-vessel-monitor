@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-17 19:22:19",
+  "updatedAt": "2026-08-17 23:53:35",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 27,
+    "misurataCalls": 30,
     "benghaziCalls": 16,
     "misurataExcludedCalls": 5,
     "benghaziExcludedCalls": 1,
@@ -24,7 +24,7 @@
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 27,
+      "misurataCalls": 30,
       "benghaziCalls": 16,
       "misurataExcludedCalls": 5,
       "benghaziExcludedCalls": 1,
@@ -89,6 +89,48 @@
   "expectedArrivals": [
     {
       "port": "Benghazi",
+      "vessel": "MEDKON ANKA",
+      "imo": "9366469",
+      "type": "Container",
+      "dwt": 12690,
+      "built": "2007",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "Benghazi",
+      "eta": "2026-08-16 08:00 UTC",
+      "source": "Flexport Atlas",
+      "status": "Arrived / In Port"
+    },
+    {
+      "port": "Benghazi",
+      "vessel": "KOSOVAK",
+      "imo": "9211157",
+      "type": "Container",
+      "dwt": 18425,
+      "built": "1999",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "BENGHAZI",
+      "eta": "2026-08-18 13:23",
+      "source": "https://www.myshiptracking.com/estimate?pid=3184 + Flexport Atlas",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Benghazi",
+      "vessel": "ALEXANDRA A",
+      "imo": "9356684",
+      "type": "General Cargo",
+      "dwt": 12099,
+      "built": "2011",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "BENGHAZI",
+      "eta": "2026-08-18 18:53",
+      "source": "https://www.myshiptracking.com/estimate?pid=3184 + Flexport Atlas",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Benghazi",
       "vessel": "KARAM K",
       "imo": "9563885",
       "type": "",
@@ -97,8 +139,8 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-19 8:57",
-      "source": "MyShipTracking",
+      "eta": "2026-08-19 6:09",
+      "source": "https://www.myshiptracking.com/estimate?pid=3184",
       "status": "Planned / Expected"
     },
     {
@@ -111,9 +153,37 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-19 12:35",
-      "source": "MyShipTracking",
+      "eta": "2026-08-19 13:31",
+      "source": "https://www.myshiptracking.com/estimate?pid=3184",
       "status": "Planned / Expected"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "ATHENA",
+      "imo": "9187344",
+      "type": "Container",
+      "dwt": 29266,
+      "built": "1999",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "Misurata Free Zone Port",
+      "eta": "2026-08-15 07:00 UTC",
+      "source": "Flexport Atlas",
+      "status": "Arrived / In Port"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "PARPALI",
+      "imo": "9134701",
+      "type": "Container",
+      "dwt": 13583,
+      "built": "1997",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "Misurata Free Zone Port",
+      "eta": "2026-08-16 08:00 UTC",
+      "source": "Flexport Atlas",
+      "status": "Arrived / In Port"
     },
     {
       "port": "Misurata",
@@ -126,8 +196,64 @@
       "departureTime": "",
       "arrivalPort": "MISURATA",
       "eta": "2026-08-17 15:43",
-      "source": "MyShipTracking",
+      "source": "https://www.myshiptracking.com/estimate?pid=3197",
+      "status": "Arrived / In Port"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "MEDKON LIA",
+      "imo": "9139646",
+      "type": "Container",
+      "dwt": 12238,
+      "built": "1998",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "Misurata Free Zone Port",
+      "eta": "2026-08-17 16:00 UTC",
+      "source": "Flexport Atlas",
+      "status": "Arrived / In Port"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "OSTERGOTLAND",
+      "imo": "9369069",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "MISURATA",
+      "eta": "2026-08-17 21:44",
+      "source": "https://www.myshiptracking.com/estimate?pid=3197",
       "status": "Overdue / Not Confirmed"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "PACIFIC DALIAN",
+      "imo": "9339090",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "MISURATA",
+      "eta": "2026-08-18 7:17",
+      "source": "https://www.myshiptracking.com/estimate?pid=3197",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "HISTRIA NARVI",
+      "imo": "9800829",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "MISURATA",
+      "eta": "2026-08-19 19:16",
+      "source": "https://www.myshiptracking.com/estimate?pid=3197",
+      "status": "Planned / Expected"
     },
     {
       "port": "Misurata",
@@ -139,8 +265,8 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-20 16:17",
-      "source": "MyShipTracking",
+      "eta": "2026-08-20 14:26",
+      "source": "https://www.myshiptracking.com/estimate?pid=3197",
       "status": "Planned / Expected"
     },
     {
@@ -153,8 +279,8 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-22 10:45",
-      "source": "MyShipTracking",
+      "eta": "2026-08-21 19:31",
+      "source": "https://www.myshiptracking.com/estimate?pid=3197",
       "status": "Planned / Expected"
     }
   ],
@@ -167,17 +293,17 @@
       "terminals": 1,
       "servicesText": "Services (16) Terminals (1) Schedules (7) Service Carriers Europe → Africa ALGERIA L Intra-Europe EMS A Africa ↔ Europe GTL Intra-Africa I02 / LBX / Z71 G + 1 Africa → Europe ILE G Africa ↔ Europe JLS L Intra-Europe LIBIA L S Africa ↔ Europe LIBYA1 Africa ↔ Europe LSS A Europe → Africa LTS A Africa → Europe LYS Intra-Africa NAS A Africa ↔ Europe TLS M Africa ↔ Europe TNX S Africa ↔ Europe TULYB Intra-Europe WMS A",
       "status": "Available",
-      "fetchedOn": "2026-08-17 19:13:45"
+      "fetchedOn": "2026-08-17 23:49:18"
     },
     {
       "port": "Benghazi",
       "unlocode": "LYBEN",
       "services": 12,
-      "scheduledCalls": 13,
+      "scheduledCalls": 12,
       "terminals": 1,
-      "servicesText": "Services (12) Terminals (1) Schedules (13) Service Carriers Intra-Africa I03 Intra-Europe LIBIA L S Africa ↔ Europe LSII Africa → Europe LSS A Africa ↔ Europe LTS A Africa ↔ Europe LYS Africa ↔ Europe MLTTSLY Intra-Africa NAS A Africa ↔ Europe TNAS M Africa → Europe TNX S Africa → Europe TULYB Intra-Africa Z72 G",
+      "servicesText": "Services (12) Terminals (1) Schedules (12) Service Carriers Intra-Africa I03 Intra-Europe LIBIA L S Africa ↔ Europe LSII Africa → Europe LSS A Africa ↔ Europe LTS A Africa ↔ Europe LYS Africa ↔ Europe MLTTSLY Intra-Africa NAS A Africa ↔ Europe TNAS M Africa → Europe TNX S Africa → Europe TULYB Intra-Africa Z72 G",
       "status": "Available",
-      "fetchedOn": "2026-08-17 19:13:45"
+      "fetchedOn": "2026-08-17 23:49:18"
     }
   ],
   "flexportVessels": [
@@ -334,6 +460,28 @@
       "voyage": "",
       "status": "Not found / no vessel JSON-LD",
       "fetchedOn": "2026-08-17 16:07:38"
+    },
+    {
+      "vessel": "HOPE",
+      "imo": "8609917",
+      "mmsi": "511101996",
+      "type": "",
+      "dwt": 0,
+      "gt": 0,
+      "nt": 0,
+      "teu": 0,
+      "length": 0.0,
+      "built": "",
+      "builtCountry": "",
+      "draught": 0.0,
+      "position": "",
+      "destination": "",
+      "eta": "",
+      "carrier": "",
+      "service": "",
+      "voyage": "",
+      "status": "Not found / no verified Flexport vessel profile",
+      "fetchedOn": "2026-08-17 23:49:18"
     },
     {
       "vessel": "NABIHA STAR",
@@ -710,6 +858,28 @@
       "fetchedOn": "2026-08-17 14:46:17"
     },
     {
+      "vessel": "CMA CGM FORT STE MARIE",
+      "imo": "9261906",
+      "mmsi": "215396000",
+      "type": "Container",
+      "dwt": 30804,
+      "gt": 26342,
+      "nt": 10218,
+      "teu": 2260,
+      "length": 197.0,
+      "built": "2003",
+      "builtCountry": "Chinese Taipei",
+      "draught": 10.4,
+      "position": "Mediterranean Sea, Eastern Basin",
+      "destination": "MTMAR",
+      "eta": "2026-08-17 20:00 UTC",
+      "carrier": "CMA-CGM",
+      "service": "CMDU:GTL",
+      "voyage": "GTL060S19",
+      "status": "Verified by exact IMO",
+      "fetchedOn": "2026-08-17 23:49:18"
+    },
+    {
       "vessel": "BENGHAZI",
       "imo": "9277840",
       "mmsi": "642157047",
@@ -862,6 +1032,28 @@
       "voyage": "40",
       "status": "Verified by exact IMO",
       "fetchedOn": "2026-08-17 14:46:17"
+    },
+    {
+      "vessel": "NAVIGATOR",
+      "imo": "9370719",
+      "mmsi": "538012063",
+      "type": "",
+      "dwt": 0,
+      "gt": 0,
+      "nt": 0,
+      "teu": 0,
+      "length": 0.0,
+      "built": "",
+      "builtCountry": "",
+      "draught": 0.0,
+      "position": "",
+      "destination": "",
+      "eta": "",
+      "carrier": "",
+      "service": "",
+      "voyage": "",
+      "status": "Not found / no verified Flexport vessel profile",
+      "fetchedOn": "2026-08-17 23:49:18"
     },
     {
       "vessel": "MV ANA N",
