@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17 12:54:30",
+  "updatedAt": "2026-08-17 13:14:11",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 26,
@@ -81,29 +81,29 @@
   "expectedArrivals": [
     {
       "port": "Misurata",
-      "vessel": "636093423",
-      "imo": "1031305",
-      "type": "",
-      "dwt": 0,
-      "built": "",
-      "departurePort": "",
-      "departureTime": "",
-      "arrivalPort": "Misurata Free Zone Port",
-      "eta": "BUERGENSTOCK [LR]",
-      "source": "MyShipTracking",
-      "status": "Planned / Expected"
-    },
-    {
-      "port": "Misurata",
-      "vessel": "215396000",
+      "vessel": "CMACGM FORT ST MARIE",
       "imo": "9261906",
       "type": "",
       "dwt": 0,
       "built": "",
       "departurePort": "",
       "departureTime": "",
-      "arrivalPort": "Misurata Free Zone Port",
-      "eta": "CMACGM FORT ST MARIE [MT]",
+      "arrivalPort": "MISURATA",
+      "eta": "2026-08-17 15:49",
+      "source": "MyShipTracking",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "BUERGENSTOCK",
+      "imo": "1031305",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "MISURATA",
+      "eta": "2026-08-20 15:16",
       "source": "MyShipTracking",
       "status": "Planned / Expected"
     }
