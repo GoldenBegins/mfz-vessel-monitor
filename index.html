@@ -37,15 +37,15 @@
 
       <section id="expected" class="view">
         <div class="cards" id="expectedCards"></div>
-        <p class="muted">MyShipTracking هو مصدر بيانات الوصول المتوقع. يطابق النظام IMO واسم السفينة مع الرصد الحي؛ فإذا ظهرت السفينة داخل الميناء تتحول إلى Arrived / In Port ولا تبقى محسوبة ضمن Expected.</p>
+        <p class="muted">تجمع القائمة بيانات الوصول المتوقع من MyShipTracking وFlexport Atlas. تُدمج السفينة المتكررة بالـIMO في سطر واحد، بينما يبقى الرصد الحي للميناء هو المرجع الوحيد لتأكيد الوصول وتحويل الحالة إلى Arrived / In Port.</p>
         <div class="grid two">
           <article class="panel">
-            <div class="panel-head"><div><span class="kicker">MyShipTracking</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div><span class="pill" id="misExpectedCount">0 Expected</span></div>
-            <div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>ETA</th><th>الحالة</th></tr></thead><tbody id="misExpectedRows"></tbody></table></div>
+            <div class="panel-head"><div><span class="kicker">MyShipTracking + Flexport Atlas</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div><span class="pill" id="misExpectedCount">0 Expected</span></div>
+            <div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>ETA</th><th>المصدر</th><th>الحالة</th></tr></thead><tbody id="misExpectedRows"></tbody></table></div>
           </article>
           <article class="panel">
-            <div class="panel-head"><div><span class="kicker">MyShipTracking</span><h2>ميناء بنغازي</h2></div><span class="pill" id="benExpectedCount">0 Expected</span></div>
-            <div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>ETA</th><th>الحالة</th></tr></thead><tbody id="benExpectedRows"></tbody></table></div>
+            <div class="panel-head"><div><span class="kicker">MyShipTracking + Flexport Atlas</span><h2>ميناء بنغازي</h2></div><span class="pill" id="benExpectedCount">0 Expected</span></div>
+            <div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>ETA</th><th>المصدر</th><th>الحالة</th></tr></thead><tbody id="benExpectedRows"></tbody></table></div>
           </article>
         </div>
       </section>
@@ -81,6 +81,6 @@
       <section id="quality" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Data Quality</span><h2>تنبيهات جودة البيانات</h2></div></div><div id="qualityList" class="quality-list"></div></article></section>
     </main>
   </div>
-  <script src="app.js"></script>
+  <script src="app.js?v=20260817-combined-expected"></script>
 </body>
 </html>
