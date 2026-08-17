@@ -1,35 +1,40 @@
 {
-  "updatedAt": "2026-08-16 21:07:29",
+  "updatedAt": "2026-08-17 10:57:34",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 27,
-    "benghaziCalls": 14,
+    "misurataCalls": 26,
+    "benghaziCalls": 16,
+    "misurataExcludedCalls": 5,
+    "benghaziExcludedCalls": 1,
+    "excludedCalls": 6,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 3,
-    "unestimatedCalls": 0,
-    "coverage": 21.4,
-    "trustedVessels": 193,
-    "identityReview": 235,
+    "estimatedCalls": 4,
+    "unestimatedCalls": 12,
+    "coverage": 25.0,
+    "trustedVessels": 194,
+    "identityReview": 234,
     "estimatedTEU": 1928,
-    "estimatedGeneralCargoTons": 6954,
-    "historicalHighMediumCalls": 1,
-    "fallbackLowCalls": 2
+    "estimatedGeneralCargoTons": 0,
+    "historicalHighMediumCalls": 0,
+    "fallbackLowCalls": 3
   },
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 27,
-      "benghaziCalls": 14,
+      "misurataCalls": 26,
+      "benghaziCalls": 16,
+      "misurataExcludedCalls": 5,
+      "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 1928,
-      "estimatedGeneralCargoTons": 6954,
-      "coverage": 21.4
+      "estimatedGeneralCargoTons": 0,
+      "coverage": 25.0
     }
   ],
   "estimates": [
@@ -56,6 +61,14 @@
       "estimate": "1,928 TEU",
       "confidence": "Medium",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "NABIHA STAR",
+      "imo": "9005388",
+      "type": "General Cargo",
+      "estimate": "5,839 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [
@@ -263,7 +276,7 @@
   "quality": [
     {
       "title": "Historical identity review",
-      "detail": "235 historical identity combinations require review before calibration. Live calls remain counted."
+      "detail": "234 historical identity combinations require review before calibration. Live calls remain counted."
     }
   ]
 }
