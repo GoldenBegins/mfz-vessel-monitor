@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17 13:14:11",
+  "updatedAt": "2026-08-17 14:41:36",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 26,
@@ -103,9 +103,77 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-20 15:16",
+      "eta": "2026-08-20 15:43",
       "source": "MyShipTracking",
       "status": "Planned / Expected"
+    }
+  ],
+  "flexportPorts": [
+    {
+      "port": "Misurata",
+      "unlocode": "LYMRA",
+      "services": 16,
+      "scheduledCalls": 9,
+      "terminals": 1,
+      "servicesText": "Services (16) Terminals (1) Schedules (9) Service Carriers Europe → Africa ALGERIA L Intra-Europe EMS A Africa ↔ Europe GTL Intra-Africa I02 / LBX / Z71 G + 1 Africa → Europe ILE G Africa ↔ Europe JLS L Intra-Europe LIBIA L S Africa ↔ Europe LIBYA1 Africa ↔ Europe LSS A Europe → Africa LTS A Africa → Europe LYS Intra-Africa NAS A Africa ↔ Europe TLS M Africa ↔ Europe TNX S Africa ↔ Europe TULYB Intra-Europe WMS A",
+      "status": "Available",
+      "fetchedOn": "2026-08-17 14:37:50"
+    },
+    {
+      "port": "Benghazi",
+      "unlocode": "LYBEN",
+      "services": 12,
+      "scheduledCalls": 11,
+      "terminals": 1,
+      "servicesText": "Services (12) Terminals (1) Schedules (11) Service Carriers Intra-Africa I03 Intra-Europe LIBIA L S Africa ↔ Europe LSII Africa → Europe LSS A Africa ↔ Europe LTS A Africa ↔ Europe LYS Africa ↔ Europe MLTTSLY Intra-Africa NAS A Africa ↔ Europe TNAS M Africa → Europe TNX S Africa → Europe TULYB Intra-Africa Z72 G",
+      "status": "Available",
+      "fetchedOn": "2026-08-17 14:37:50"
+    }
+  ],
+  "flexportVessels": [
+    {
+      "vessel": "BUXLINK",
+      "imo": "9235816",
+      "mmsi": "636091785",
+      "type": "Container",
+      "dwt": 33817,
+      "gt": 25375,
+      "nt": 12733,
+      "teu": 2478,
+      "length": 207.0,
+      "built": "2002",
+      "builtCountry": "Germany",
+      "draught": 7.0,
+      "position": "Mediterranean Sea, Eastern Basin",
+      "destination": "TRMER",
+      "eta": "2026-08-19 20:00 UTC",
+      "carrier": "",
+      "service": "",
+      "voyage": "",
+      "status": "Verified by exact IMO",
+      "fetchedOn": "2026-08-17 14:37:50"
+    },
+    {
+      "vessel": "MEDKON ANKA",
+      "imo": "9366469",
+      "mmsi": "352003607",
+      "type": "Container",
+      "dwt": 12690,
+      "gt": 10308,
+      "nt": 5070,
+      "teu": 1147,
+      "length": 148.0,
+      "built": "2007",
+      "builtCountry": "Turkey",
+      "draught": 8.0,
+      "position": "Mediterranean Sea, Eastern Basin",
+      "destination": "LYBEN",
+      "eta": "2026-08-16 08:00 UTC",
+      "carrier": "G GFS Z72 Hapag-Lloyd",
+      "service": "HLCU:I03",
+      "voyage": "40",
+      "status": "Verified by exact IMO",
+      "fetchedOn": "2026-08-17 14:37:50"
     }
   ]
 }
