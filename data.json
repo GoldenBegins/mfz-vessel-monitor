@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17 12:37:50",
+  "updatedAt": "2026-08-17 12:54:30",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 26,
@@ -78,5 +78,34 @@
       "detail": "225 internal high-priority checks are recorded."
     }
   ],
-  "expectedArrivals": []
+  "expectedArrivals": [
+    {
+      "port": "Misurata",
+      "vessel": "636093423",
+      "imo": "1031305",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "Misurata Free Zone Port",
+      "eta": "BUERGENSTOCK [LR]",
+      "source": "MyShipTracking",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "215396000",
+      "imo": "9261906",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "Misurata Free Zone Port",
+      "eta": "CMACGM FORT ST MARIE [MT]",
+      "source": "MyShipTracking",
+      "status": "Planned / Expected"
+    }
+  ]
 }
