@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17 11:13:26",
+  "updatedAt": "2026-08-17 11:26:34",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 26,
@@ -17,7 +17,7 @@
     "trustedVessels": 194,
     "identityReview": 234,
     "estimatedTEU": 1928,
-    "estimatedGeneralCargoTons": 0,
+    "estimatedGeneralCargoTons": 12793,
     "historicalHighMediumCalls": 0,
     "fallbackLowCalls": 3
   },
@@ -33,7 +33,7 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 1928,
-      "estimatedGeneralCargoTons": 0,
+      "estimatedGeneralCargoTons": 12793,
       "coverage": 25.0
     }
   ],
