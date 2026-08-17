@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-17 18:44:21",
+  "updatedAt": "2026-08-17 19:22:19",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 26,
+    "misurataCalls": 27,
     "benghaziCalls": 16,
     "misurataExcludedCalls": 5,
     "benghaziExcludedCalls": 1,
@@ -16,7 +16,7 @@
     "coverage": 31.2,
     "trustedVessels": 198,
     "identityReview": 0,
-    "estimatedTEU": 5044,
+    "estimatedTEU": 4629,
     "estimatedGeneralCargoTons": 13221,
     "historicalHighMediumCalls": 0,
     "fallbackLowCalls": 4
@@ -24,7 +24,7 @@
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 26,
+      "misurataCalls": 27,
       "benghaziCalls": 16,
       "misurataExcludedCalls": 5,
       "benghaziExcludedCalls": 1,
@@ -32,7 +32,7 @@
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 5044,
+      "estimatedTEU": 4629,
       "estimatedGeneralCargoTons": 13221,
       "coverage": 31.2
     }
@@ -58,9 +58,9 @@
       "vessel": "BUXLINK",
       "imo": "9235816",
       "type": "Container",
-      "estimate": "3,116 TEU",
+      "estimate": "2,701 TEU",
       "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio"
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
     {
       "vessel": "MEDKON ANKA",
@@ -89,6 +89,20 @@
   "expectedArrivals": [
     {
       "port": "Benghazi",
+      "vessel": "KARAM K",
+      "imo": "9563885",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "BENGHAZI",
+      "eta": "2026-08-19 8:57",
+      "source": "MyShipTracking",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Benghazi",
       "vessel": "ANDROMEDA",
       "imo": "9315795",
       "type": "",
@@ -97,7 +111,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-19 12:55",
+      "eta": "2026-08-19 12:35",
       "source": "MyShipTracking",
       "status": "Planned / Expected"
     },
@@ -125,7 +139,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-20 16:13",
+      "eta": "2026-08-20 16:17",
       "source": "MyShipTracking",
       "status": "Planned / Expected"
     },
@@ -139,7 +153,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-22 11:19",
+      "eta": "2026-08-22 10:45",
       "source": "MyShipTracking",
       "status": "Planned / Expected"
     }
@@ -153,7 +167,7 @@
       "terminals": 1,
       "servicesText": "Services (16) Terminals (1) Schedules (7) Service Carriers Europe → Africa ALGERIA L Intra-Europe EMS A Africa ↔ Europe GTL Intra-Africa I02 / LBX / Z71 G + 1 Africa → Europe ILE G Africa ↔ Europe JLS L Intra-Europe LIBIA L S Africa ↔ Europe LIBYA1 Africa ↔ Europe LSS A Europe → Africa LTS A Africa → Europe LYS Intra-Africa NAS A Africa ↔ Europe TLS M Africa ↔ Europe TNX S Africa ↔ Europe TULYB Intra-Europe WMS A",
       "status": "Available",
-      "fetchedOn": "2026-08-17 18:39:57"
+      "fetchedOn": "2026-08-17 19:13:45"
     },
     {
       "port": "Benghazi",
@@ -163,7 +177,7 @@
       "terminals": 1,
       "servicesText": "Services (12) Terminals (1) Schedules (13) Service Carriers Intra-Africa I03 Intra-Europe LIBIA L S Africa ↔ Europe LSII Africa → Europe LSS A Africa ↔ Europe LTS A Africa ↔ Europe LYS Africa ↔ Europe MLTTSLY Intra-Africa NAS A Africa ↔ Europe TNAS M Africa → Europe TNX S Africa → Europe TULYB Intra-Africa Z72 G",
       "status": "Available",
-      "fetchedOn": "2026-08-17 18:39:57"
+      "fetchedOn": "2026-08-17 19:13:45"
     }
   ],
   "flexportVessels": [
@@ -452,6 +466,28 @@
       "voyage": "",
       "status": "Not found / no vessel JSON-LD",
       "fetchedOn": "2026-08-17 16:07:38"
+    },
+    {
+      "vessel": "MEDKON LIA",
+      "imo": "9139646",
+      "mmsi": "352002790",
+      "type": "Container",
+      "dwt": 12238,
+      "gt": 10384,
+      "nt": 5070,
+      "teu": 1145,
+      "length": 149.0,
+      "built": "1998",
+      "builtCountry": "Turkey",
+      "draught": 6.6,
+      "position": "Mediterranean Sea, Eastern Basin",
+      "destination": "LYMRA",
+      "eta": "2026-08-17 16:00 UTC",
+      "carrier": "",
+      "service": "",
+      "voyage": "",
+      "status": "Verified by exact IMO",
+      "fetchedOn": "2026-08-17 19:13:45"
     },
     {
       "vessel": "WALES",
