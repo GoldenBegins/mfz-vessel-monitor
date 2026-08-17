@@ -13,6 +13,7 @@
       <div class="brand"><div class="brand-mark">MFZ</div><div><strong>Vessel Monitor</strong><span>Misurata × Benghazi</span></div></div>
       <nav>
         <button class="nav active" data-view="overview">لوحة المتابعة</button>
+        <button class="nav" data-view="expected">السفن المتوقعة</button>
         <button class="nav" data-view="ports">مقارنة الموانئ</button>
         <button class="nav" data-view="cargo">TEU والبضائع</button>
         <button class="nav" data-view="review">مراجعة الهوية</button>
@@ -31,6 +32,15 @@
           <article class="panel"><div class="panel-head"><div><span class="kicker">جودة التقدير</span><h2>تغطية تقديرات بنغازي</h2></div><strong id="coverageText" class="big-number">—</strong></div><div class="progress"><div id="coverageBar"></div></div><div id="confidenceBreakdown" class="legend"></div></article>
         </div>
         <article class="panel"><div class="panel-head"><div><span class="kicker">آخر النتائج</span><h2>السفن التي حصلت على تقدير حمولة</h2></div></div><div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>التقدير</th><th>الثقة</th><th>الطريقة</th></tr></thead><tbody id="estimateRows"></tbody></table></div></article>
+      </section>
+
+      <section id="expected" class="view">
+        <div class="cards" id="expectedCards"></div>
+        <article class="panel">
+          <div class="panel-head"><div><span class="kicker">ShipNext</span><h2>السفن المخطط وصولها إلى مصراتة وبنغازي</h2></div></div>
+          <p class="muted">هذه بيانات Planned / Expected من ShipNext، وليست تأكيدًا لوصول السفينة فعليًا. بمجرد رصد السفينة في مصدر الميناء الأساسي تنتقل للمتابعة الفعلية.</p>
+          <div class="table-wrap"><table><thead><tr><th>الميناء</th><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>ميناء المغادرة</th><th>وقت المغادرة</th><th>ETA</th><th>الحالة</th></tr></thead><tbody id="expectedRows"></tbody></table></div>
+        </article>
       </section>
 
       <section id="ports" class="view">
