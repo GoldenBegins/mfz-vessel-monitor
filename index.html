@@ -14,6 +14,7 @@
       <nav>
         <button class="nav active" data-view="overview">لوحة المتابعة</button>
         <button class="nav" data-view="expected">السفن المتوقعة</button>
+        <button class="nav" data-view="flexport">الجداول والخدمات الملاحية</button>
         <button class="nav" data-view="ports">مقارنة الموانئ</button>
         <button class="nav" data-view="cargo">TEU والبضائع</button>
         <button class="nav" data-view="review">مراجعة الهوية</button>
@@ -47,6 +48,19 @@
             <div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>ETA</th><th>الحالة</th></tr></thead><tbody id="benExpectedRows"></tbody></table></div>
           </article>
         </div>
+      </section>
+
+      <section id="flexport" class="view">
+        <div class="cards" id="flexportCards"></div>
+        <div class="grid two">
+          <article class="panel"><div class="panel-head"><div><span class="kicker">Flexport Atlas · LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div></div><div id="flexMisSummary" class="quality-list"></div></article>
+          <article class="panel"><div class="panel-head"><div><span class="kicker">Flexport Atlas · LYBEN</span><h2>ميناء بنغازي</h2></div></div><div id="flexBenSummary" class="quality-list"></div></article>
+        </div>
+        <article class="panel">
+          <div class="panel-head"><div><span class="kicker">Flexport Vessel Enrichment</span><h2>بيانات السفن والوجهات والخدمات</h2></div></div>
+          <p class="muted">هذه البيانات تستخدم للإثراء والتحقق: السعة التصميمية TEU وDWT والوجهة وETA والخدمة. لا تعتبر Scheduled Vessel Calls زيارات فعلية حتى يؤكدها الرصد الحي.</p>
+          <div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>TEU</th><th>الوجهة</th><th>ETA</th><th>الخدمة</th><th>الرحلة</th></tr></thead><tbody id="flexVesselRows"></tbody></table></div>
+        </article>
       </section>
 
       <section id="ports" class="view">
