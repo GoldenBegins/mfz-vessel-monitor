@@ -27,7 +27,7 @@
       <section id="overview" class="view active-view">
         <div class="cards" id="metricCards"></div>
         <div class="grid two">
-          <article class="panel"><div class="panel-head"><div><span class="kicker">المقارنة الحالية</span><h2>مصراتة مقابل بنغازي</h2></div></div><div id="portBars" class="bars"></div></article>
+          <article class="panel"><div class="panel-head"><div><span class="kicker">المقارنة الحالية</span><h2>الحركة التجارية: مصراتة مقابل بنغازي</h2></div></div><div id="portBars" class="bars"></div></article>
           <article class="panel"><div class="panel-head"><div><span class="kicker">جودة التقدير</span><h2>تغطية تقديرات بنغازي</h2></div><strong id="coverageText" class="big-number">—</strong></div><div class="progress"><div id="coverageBar"></div></div><div id="confidenceBreakdown" class="legend"></div></article>
         </div>
         <article class="panel"><div class="panel-head"><div><span class="kicker">آخر النتائج</span><h2>السفن التي حصلت على تقدير حمولة</h2></div></div><div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>التقدير</th><th>الثقة</th><th>الطريقة</th></tr></thead><tbody id="estimateRows"></tbody></table></div></article>
@@ -36,13 +36,14 @@
       <section id="ports" class="view">
         <article class="panel">
           <div class="panel-head"><div><span class="kicker">Port Comparison</span><h2>Actual مصراتة مقابل Estimated بنغازي</h2></div></div>
-          <div class="table-wrap"><table><thead><tr><th>الفترة</th><th>زيارات مصراتة</th><th>زيارات بنغازي</th><th>TEU مصراتة فعلي</th><th>TEU بنغازي تقديري</th><th>بضائع عامة مصراتة فعلي</th><th>بضائع عامة بنغازي تقديري</th><th>التغطية</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
+          <p class="muted">Fishing / tug / local craft المؤكدة يدويًا تبقى في الرصد الخام، لكنها لا تدخل في أرقام الحركة التجارية أدناه.</p>
+          <div class="table-wrap"><table><thead><tr><th>الفترة</th><th>زيارات مصراتة التجارية</th><th>مستبعد مصراتة</th><th>زيارات بنغازي التجارية</th><th>مستبعد بنغازي</th><th>TEU مصراتة فعلي</th><th>TEU بنغازي تقديري</th><th>بضائع عامة مصراتة فعلي</th><th>بضائع عامة بنغازي تقديري</th><th>التغطية</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
         </article>
       </section>
 
       <section id="cargo" class="view">
         <div class="cards" id="cargoCards"></div>
-        <article class="panel"><div class="panel-head"><div><span class="kicker">منهجية التقدير</span><h2>سُلّم الأولوية</h2></div></div><ol class="steps"><li><b>نفس IMO + تاريخ MFZ موثوق</b><span>يستخدم Median للمناولة الفعلية التاريخية.</span></li><li><b>Fallback بالسعة</b><span>TEU Capacity × معامل مناولة MFZ للحاويات.</span></li><li><b>Fallback بـ DWT</b><span>DWT × معامل الاستفادة التاريخي للبضائع العامة.</span></li><li><b>غير مقدّر</b><span>الزيارة تظل محسوبة حتى عند نقص بيانات الحمولة.</span></li></ol></article>
+        <article class="panel"><div class="panel-head"><div><span class="kicker">منهجية التقدير</span><h2>سُلّم الأولوية</h2></div></div><ol class="steps"><li><b>نفس IMO + تاريخ MFZ موثوق</b><span>يستخدم Median للمناولة الفعلية التاريخية.</span></li><li><b>Fallback بالسعة</b><span>TEU Capacity × معامل مناولة MFZ للحاويات.</span></li><li><b>Fallback بـ DWT</b><span>DWT × معامل الاستفادة التاريخي للبضائع العامة.</span></li><li><b>غير مقدّر</b><span>الزيارة التجارية تظل محسوبة حتى عند نقص بيانات الحمولة.</span></li></ol></article>
       </section>
 
       <section id="review" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Vessel Identity Check</span><h2>الحالات التي تحتاج مراجعة</h2></div><span class="pill warn" id="reviewCount">0</span></div><p class="muted">هذه الصفحة للعرض حاليًا. التعديل المباشر سيضاف لاحقًا عبر API آمن على الاستضافة، وليس عبر مفاتيح Google داخل GitHub.</p><div class="table-wrap"><table><thead><tr><th>الاسم التاريخي</th><th>الاسم الحالي</th><th>IMO</th><th>Master MMSI</th><th>Observed MMSI</th><th>الحالة</th></tr></thead><tbody id="reviewRows"></tbody></table></div></article></section>
