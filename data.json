@@ -1299,21 +1299,21 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-18 02:11:01",
+    "updatedAt": "2026-08-18 03:00:13",
     "summary": {
       "Misurata": {
         "active": 2,
-        "avgWaitingHours": 0.5,
-        "medianWaitingHours": 0.5,
-        "longestWaitingHours": 0.5,
+        "avgWaitingHours": 1.4,
+        "medianWaitingHours": 1.4,
+        "longestWaitingHours": 1.4,
         "destinationConfirmed": 2,
         "destinationUncertain": 0
       },
       "Benghazi": {
         "active": 1,
-        "avgWaitingHours": 0.5,
-        "medianWaitingHours": 0.5,
-        "longestWaitingHours": 0.5,
+        "avgWaitingHours": 1.4,
+        "medianWaitingHours": 1.4,
+        "longestWaitingHours": 1.4,
         "destinationConfirmed": 1,
         "destinationUncertain": 0
       },
@@ -1329,8 +1329,8 @@
         "imo": "9128154",
         "mmsi": "630001132",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 2:10:50",
-        "waitingHours": 0.53,
+        "lastSeen": "2026-08-18 3:00:03",
+        "waitingHours": 1.35,
         "lat": 32.16075,
         "lon": 19.94558,
         "sog": 0.0,
@@ -1350,8 +1350,8 @@
         "imo": "",
         "mmsi": "354486000",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 2:10:50",
-        "waitingHours": 0.53,
+        "lastSeen": "2026-08-18 3:00:03",
+        "waitingHours": 1.35,
         "lat": 32.37897,
         "lon": 15.28814,
         "sog": 0.1,
@@ -1371,8 +1371,8 @@
         "imo": "",
         "mmsi": "613003584",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 2:10:50",
-        "waitingHours": 0.53,
+        "lastSeen": "2026-08-18 3:00:03",
+        "waitingHours": 1.35,
         "lat": 32.38608,
         "lon": 15.3131,
         "sog": 0.0,
@@ -1388,5 +1388,5 @@
     ],
     "recentHistory": []
   },
-  "anchorageUpdatedAt": "2026-08-18 02:11:01"
+  "anchorageUpdatedAt": "2026-08-18 03:00:13"
 }
