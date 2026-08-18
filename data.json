@@ -1363,7 +1363,7 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-18 12:39:58",
+    "updatedAt": "2026-08-18 12:41:43",
     "summary": {
       "Misurata": {
         "active": 2,
@@ -1393,8 +1393,8 @@
         "imo": "",
         "mmsi": "354486000",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 12:39:42",
-        "waitingHours": 11.01,
+        "lastSeen": "2026-08-18 12:41:28",
+        "waitingHours": 11.04,
         "lat": 32.37897,
         "lon": 15.28814,
         "sog": 0.1,
@@ -1405,8 +1405,7 @@
         "status": "Anchorage / Waiting",
         "enteredPortOn": "",
         "closedOn": "",
-        "confidence": "High",
-        "cog": 898.0
+        "confidence": "High"
       },
       {
         "episodeId": "Misurata|613003584|20260818013912",
@@ -1415,8 +1414,8 @@
         "imo": "",
         "mmsi": "613003584",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 12:39:42",
-        "waitingHours": 11.01,
+        "lastSeen": "2026-08-18 12:41:28",
+        "waitingHours": 11.04,
         "lat": 32.38608,
         "lon": 15.3131,
         "sog": 0.0,
@@ -1427,8 +1426,7 @@
         "status": "Anchorage / Waiting",
         "enteredPortOn": "",
         "closedOn": "",
-        "confidence": "High",
-        "cog": 772.0
+        "confidence": "High"
       }
     ],
     "currentInPort": {
@@ -1442,14 +1440,8 @@
           "destination": "SAN LORENZO",
           "destinationClass": "Other Port",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36112667,
-          "lon": 15.22164167,
-          "cog": 224.5,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "ATHENA",
@@ -1460,14 +1452,8 @@
           "destination": "LYMRA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36375833,
-          "lon": 15.217135,
-          "cog": 138.7,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "BAO SUCCESS",
@@ -1478,14 +1464,8 @@
           "destination": "MISURATA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36778333,
-          "lon": 15.21933333,
-          "cog": 259.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "BFR",
@@ -1496,14 +1476,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36759,
-          "lon": 15.21755833,
-          "cog": 53.8,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "CMACGM FORT ST MARIE",
@@ -1514,32 +1488,20 @@
           "destination": "MTMAR-LYMRA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36605,
-          "lon": 15.21698167,
-          "cog": 0.5,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "HASAN G",
           "imo": "9136852",
           "mmsi": "620360000",
           "sog": 0.0,
-          "distanceKm": 1.53,
+          "distanceKm": 1.52,
           "destination": "MUSRATA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36618333,
-          "lon": 15.22355833,
-          "cog": 115.9,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "HOPE",
@@ -1550,14 +1512,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36298833,
-          "lon": 15.22152667,
-          "cog": 0.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "MEDKON LIA",
@@ -1568,14 +1524,8 @@
           "destination": "VALLETTA",
           "destinationClass": "Other Port",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36092667,
-          "lon": 15.215345,
-          "cog": 202.2,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "MOONLIT",
@@ -1586,14 +1536,8 @@
           "destination": "MISURATA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36412667,
-          "lon": 15.22154667,
-          "cog": 295.1,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "NAVIGATOR",
@@ -1604,14 +1548,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36639667,
-          "lon": 15.21490833,
-          "cog": 145.1,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "NEPTUNE MARINE",
@@ -1622,14 +1560,8 @@
           "destination": "LY MRA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.348495,
-          "lon": 15.25305833,
-          "cog": 119.2,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "OSTERGOTLAND",
@@ -1640,14 +1572,8 @@
           "destination": "MISURATA LIBYA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.34855833,
-          "lon": 15.24489,
-          "cog": 326.7,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "PARPALI",
@@ -1658,32 +1584,20 @@
           "destination": "LYMRA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36165167,
-          "lon": 15.21717167,
-          "cog": 217.3,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "RAFINA",
           "imo": "9159737",
           "mmsi": "671540100",
           "sog": 0.0,
-          "distanceKm": 1.37,
+          "distanceKm": 1.38,
           "destination": "RO SUL",
           "destinationClass": "Other Port",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36324833,
-          "lon": 15.22351,
-          "cog": 0.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "YUAN HAI",
@@ -1694,14 +1608,8 @@
           "destination": "LYMRA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.36598,
-          "lon": 15.22177167,
-          "cog": 157.9,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         }
       ],
       "Benghazi": [
@@ -1714,14 +1622,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.11666667,
-          "lon": 20.055,
-          "cog": 511.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "AGORA",
@@ -1732,14 +1634,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.115,
-          "lon": 20.045,
-          "cog": 122.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "BOMMEL",
@@ -1750,14 +1646,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.11383,
-          "lon": 20.0515,
-          "cog": 13989.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "BUXLINK",
@@ -1768,14 +1658,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.10738833,
-          "lon": 20.04438833,
-          "cog": 162.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "DIAMOND",
@@ -1786,14 +1670,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.11333333,
-          "lon": 20.05,
-          "cog": 302.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "LEPTIS STAR",
@@ -1804,32 +1682,20 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.11433333,
-          "lon": 20.0495,
-          "cog": 322.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "MARWAN KAPTAN",
           "imo": "8355657",
           "mmsi": "677044100",
           "sog": 0.0,
-          "distanceKm": 2.5,
+          "distanceKm": 2.34,
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.12,
-          "lon": 20.04833333,
-          "cog": 25.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "MEDKON ANKA",
@@ -1840,14 +1706,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.10982,
-          "lon": 20.04351167,
-          "cog": 161.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "NABIHA STAR",
@@ -1858,14 +1718,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.111435,
-          "lon": 20.042875,
-          "cog": 204.5,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "SONGA POLARIS",
@@ -1876,14 +1730,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.11767667,
-          "lon": 20.04897167,
-          "cog": 182.4,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         },
         {
           "vessel": "XIN HAI TONG 31",
@@ -1894,14 +1742,8 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 12:39:42",
-          "state": "In Port",
-          "lat": 32.11166667,
-          "lon": 20.04166667,
-          "cog": 74.0,
-          "mapObservedAt": "2026-08-18 12:39:42",
-          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "mapMatch": "IMO"
+          "observedAt": "2026-08-18 12:41:28",
+          "state": "In Port"
         }
       ]
     },
@@ -2078,10 +1920,7 @@
         "closedOn": "2026-08-18 10:25:20",
         "confidence": "High"
       }
-    ],
-    "mapUpdatedAt": "2026-08-18 12:40:02",
-    "mapPositionMatches": 26,
-    "mapPositionMisses": 0
+    ]
   },
-  "anchorageUpdatedAt": "2026-08-18 12:39:58"
+  "anchorageUpdatedAt": "2026-08-18 12:41:43"
 }
