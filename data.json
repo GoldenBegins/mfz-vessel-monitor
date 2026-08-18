@@ -1405,7 +1405,8 @@
         "status": "Anchorage / Waiting",
         "enteredPortOn": "",
         "closedOn": "",
-        "confidence": "High"
+        "confidence": "High",
+        "cog": 885.0
       },
       {
         "episodeId": "Misurata|613003584|20260818013912",
@@ -1426,7 +1427,8 @@
         "status": "Anchorage / Waiting",
         "enteredPortOn": "",
         "closedOn": "",
-        "confidence": "High"
+        "confidence": "High",
+        "cog": 759.0
       }
     ],
     "currentInPort": {
@@ -1441,7 +1443,12 @@
           "destinationClass": "Other Port",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36114833,
+          "lon": 15.22162833,
+          "cog": 224.5,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "ATHENA",
@@ -1453,7 +1460,12 @@
           "destinationClass": "To Misurata",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.363795,
+          "lon": 15.21705167,
+          "cog": 138.7,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "BAO SUCCESS",
@@ -1465,7 +1477,12 @@
           "destinationClass": "To Misurata",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36776667,
+          "lon": 15.21933333,
+          "cog": 259.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "BFR",
@@ -1477,7 +1494,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36757333,
+          "lon": 15.21758167,
+          "cog": 53.8,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "CMACGM FORT ST MARIE",
@@ -1489,7 +1511,12 @@
           "destinationClass": "To Misurata",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36606,
+          "lon": 15.21698667,
+          "cog": 0.5,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "HASAN G",
@@ -1501,7 +1528,12 @@
           "destinationClass": "To Misurata",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36618333,
+          "lon": 15.22355833,
+          "cog": 115.9,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "HOPE",
@@ -1513,7 +1545,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36298833,
+          "lon": 15.22152667,
+          "cog": 0.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "MEDKON LIA",
@@ -1525,7 +1562,12 @@
           "destinationClass": "Other Port",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36092667,
+          "lon": 15.21532167,
+          "cog": 202.2,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "MOONLIT",
@@ -1537,7 +1579,12 @@
           "destinationClass": "To Misurata",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.364175,
+          "lon": 15.22161333,
+          "cog": 295.1,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "NAVIGATOR",
@@ -1549,7 +1596,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36639667,
+          "lon": 15.21490833,
+          "cog": 145.1,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "NEPTUNE MARINE",
@@ -1561,7 +1613,12 @@
           "destinationClass": "To Misurata",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.34852667,
+          "lon": 15.25301667,
+          "cog": 122.5,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "OSTERGOTLAND",
@@ -1573,7 +1630,12 @@
           "destinationClass": "To Misurata",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.34855333,
+          "lon": 15.24488167,
+          "cog": 326.7,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "PARPALI",
@@ -1585,7 +1647,12 @@
           "destinationClass": "To Misurata",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36166,
+          "lon": 15.217165,
+          "cog": 217.3,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "RAFINA",
@@ -1597,7 +1664,12 @@
           "destinationClass": "Other Port",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36324833,
+          "lon": 15.22351,
+          "cog": 0.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "YUAN HAI",
@@ -1609,7 +1681,12 @@
           "destinationClass": "To Misurata",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.36598,
+          "lon": 15.22177167,
+          "cog": 157.9,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         }
       ],
       "Benghazi": [
@@ -1623,7 +1700,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.11666667,
+          "lon": 20.055,
+          "cog": 511.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "AGORA",
@@ -1635,7 +1717,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.115,
+          "lon": 20.045,
+          "cog": 122.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "BOMMEL",
@@ -1647,7 +1734,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.11383,
+          "lon": 20.0515,
+          "cog": 13989.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "BUXLINK",
@@ -1659,7 +1751,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.10738833,
+          "lon": 20.04438833,
+          "cog": 162.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "DIAMOND",
@@ -1671,7 +1768,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.11333333,
+          "lon": 20.05,
+          "cog": 302.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "LEPTIS STAR",
@@ -1683,7 +1785,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.11433333,
+          "lon": 20.0495,
+          "cog": 322.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "MARWAN KAPTAN",
@@ -1695,7 +1802,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.12,
+          "lon": 20.04833333,
+          "cog": 25.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "MEDKON ANKA",
@@ -1707,7 +1819,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.10982,
+          "lon": 20.04351167,
+          "cog": 161.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "NABIHA STAR",
@@ -1719,7 +1836,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.111435,
+          "lon": 20.042875,
+          "cog": 204.5,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "SONGA POLARIS",
@@ -1731,7 +1853,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.11767667,
+          "lon": 20.04897167,
+          "cog": 182.4,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         },
         {
           "vessel": "XIN HAI TONG 31",
@@ -1743,7 +1870,12 @@
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
           "observedAt": "2026-08-18 12:27:06",
-          "state": "In Port"
+          "state": "In Port",
+          "lat": 32.11166667,
+          "lon": 20.04166667,
+          "cog": 74.0,
+          "mapSource": "MyShipTracking vesselonmap / vesseldestination",
+          "geographicState": "In Port"
         }
       ]
     },
@@ -1920,7 +2052,2016 @@
         "closedOn": "2026-08-18 10:25:20",
         "confidence": "High"
       }
-    ]
+    ],
+    "portPolygons": {
+      "Misurata": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.14173097088797,
+                    32.36430146855955
+                  ],
+                  [
+                    15.24884767010672,
+                    32.27493997269908
+                  ],
+                  [
+                    15.415015882997345,
+                    32.28248688239178
+                  ],
+                  [
+                    15.442481703309845,
+                    32.42575876746748
+                  ],
+                  [
+                    15.338798231630157,
+                    32.51902422225558
+                  ],
+                  [
+                    15.161643690614532,
+                    32.50396926275105
+                  ],
+                  [
+                    15.14173097088797,
+                    32.36430146855955
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ec4",
+            "type": "Feature",
+            "properties": {
+              "name": "MISURATA FREE ZONE"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.213641077216975,
+                    32.36317185340362
+                  ],
+                  [
+                    15.215948353614834,
+                    32.36314158824064
+                  ],
+                  [
+                    15.215941103557359,
+                    32.367544014557886
+                  ],
+                  [
+                    15.216405125716935,
+                    32.3686124133109
+                  ],
+                  [
+                    15.213661176892419,
+                    32.36862223065464
+                  ],
+                  [
+                    15.213641077216975,
+                    32.36317185340362
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ec3",
+            "type": "Feature",
+            "properties": {
+              "name": "TERMINAL PETROLIER",
+              "type": "T-Wet",
+              "terminalID": "d2f640d5-52be-4ccd-be59-0671e89b445d"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.21521615500513,
+                    32.363175725595745
+                  ],
+                  [
+                    15.215337259733897,
+                    32.36813267342967
+                  ],
+                  [
+                    15.214382393324595,
+                    32.36813040796675
+                  ],
+                  [
+                    15.214352483702335,
+                    32.363188186324486
+                  ],
+                  [
+                    15.21521615500513,
+                    32.363175725595745
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ec2",
+            "type": "Feature",
+            "properties": {
+              "name": "PETROLIER PIER",
+              "type": "B-Wet",
+              "terminalID": "d2f640d5-52be-4ccd-be59-0671e89b445d",
+              "berthID": "4041fe53-c2fd-42a7-81a7-a6d39f003d5a"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.22603013227946,
+                    32.37070246305831
+                  ],
+                  [
+                    15.225214740738933,
+                    32.36841891245185
+                  ],
+                  [
+                    15.22512775221287,
+                    32.36024417882712
+                  ],
+                  [
+                    15.213626439957011,
+                    32.36024417882712
+                  ],
+                  [
+                    15.213640139485682,
+                    32.363170390318245
+                  ],
+                  [
+                    15.215957568074549,
+                    32.36313414091363
+                  ],
+                  [
+                    15.215979025746668,
+                    32.36755646100112
+                  ],
+                  [
+                    15.21642963686117,
+                    32.36860763641188
+                  ],
+                  [
+                    15.22168676653036,
+                    32.36871637799807
+                  ],
+                  [
+                    15.222545073415125,
+                    32.370873059098
+                  ],
+                  [
+                    15.22603013227946,
+                    32.37070246305831
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ec1",
+            "type": "Feature",
+            "properties": {
+              "name": "MISURATA TERMINAL",
+              "type": "T-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.215193342425465,
+                    32.3608196364633
+                  ],
+                  [
+                    15.215201843206145,
+                    32.36306719133735
+                  ],
+                  [
+                    15.214499087558853,
+                    32.36306908578991
+                  ],
+                  [
+                    15.214490586989303,
+                    32.360821530915274
+                  ],
+                  [
+                    15.215193342425465,
+                    32.3608196364633
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ec0",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 16",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "3e5ca246-d9e2-4612-85bc-de4b1acb4f02"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.215196090724733,
+                    32.360819504628566
+                  ],
+                  [
+                    15.217312333073185,
+                    32.360801408703274
+                  ],
+                  [
+                    15.217317812245607,
+                    32.36125904534906
+                  ],
+                  [
+                    15.215201569925986,
+                    32.361277141274115
+                  ],
+                  [
+                    15.215196090724733,
+                    32.360819504628566
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ebf",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 15",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "de356226-4f06-4889-8e33-fbf35dbd8f9f"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.216583098524268,
+                    32.36126691164045
+                  ],
+                  [
+                    15.217315185472211,
+                    32.36126060132378
+                  ],
+                  [
+                    15.217331530259411,
+                    32.36261399631458
+                  ],
+                  [
+                    15.216599432302107,
+                    32.362620302401915
+                  ],
+                  [
+                    15.216583098524268,
+                    32.36126691164045
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ebe",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 14",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "6283ad07-af57-4743-b0fc-38a264c0f516"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.216599239886234,
+                    32.36262124924132
+                  ],
+                  [
+                    15.21733069802701,
+                    32.362614719723496
+                  ],
+                  [
+                    15.217350814378348,
+                    32.36422303802193
+                  ],
+                  [
+                    15.216619343172813,
+                    32.36422956331757
+                  ],
+                  [
+                    15.216599239886234,
+                    32.36262124924132
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ebd",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 13",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "b28a3e79-0b97-4db3-99e0-c6ddb4bd2076"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.216619238336131,
+                    32.36423079917655
+                  ],
+                  [
+                    15.21735045799899,
+                    32.36422460679458
+                  ],
+                  [
+                    15.217370224383334,
+                    32.365890409627944
+                  ],
+                  [
+                    15.216638991196918,
+                    32.36589659779035
+                  ],
+                  [
+                    15.216619238336131,
+                    32.36423079917655
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ebc",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 12",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "56999ce6-f711-4bed-9eb0-bdcab783f555"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.216639386512657,
+                    32.36589770596656
+                  ],
+                  [
+                    15.217370160458774,
+                    32.365891353567434
+                  ],
+                  [
+                    15.21738899683493,
+                    32.36743778093878
+                  ],
+                  [
+                    15.21665821033639,
+                    32.36744412912339
+                  ],
+                  [
+                    15.216639386512657,
+                    32.36589770596656
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473ebb",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 11",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "dceb6494-bf54-4994-bcb4-06880472070f"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.217212655059571,
+                    32.36744033331707
+                  ],
+                  [
+                    15.21932101770612,
+                    32.36744049290908
+                  ],
+                  [
+                    15.219320949939954,
+                    32.368015923077486
+                  ],
+                  [
+                    15.217212573876811,
+                    32.36801572840416
+                  ],
+                  [
+                    15.217212655059571,
+                    32.36744033331707
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eba",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 11A",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "f7ae73f5-3cd8-4852-9f69-4ed10b66a1c9"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.219322419518345,
+                    32.36801574053494
+                  ],
+                  [
+                    15.219322468926023,
+                    32.36744109042709
+                  ],
+                  [
+                    15.221399853246744,
+                    32.36744120081991
+                  ],
+                  [
+                    15.221399803838755,
+                    32.368015850927755
+                  ],
+                  [
+                    15.219322419518345,
+                    32.36801574053494
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb9",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 10A",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "43edf517-a162-4375-8e94-924be93ff193"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.221401326505942,
+                    32.36751837546927
+                  ],
+                  [
+                    15.221393459147778,
+                    32.36579360314731
+                  ],
+                  [
+                    15.222149912504355,
+                    32.36579113921569
+                  ],
+                  [
+                    15.222157780012408,
+                    32.36751591153717
+                  ],
+                  [
+                    15.221401326505942,
+                    32.36751837546927
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb8",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 10",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "51ecf121-db38-49b8-93e4-0f176e9a6ae9"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.222149956820722,
+                    32.36578982209521
+                  ],
+                  [
+                    15.221393690186845,
+                    32.36579258124782
+                  ],
+                  [
+                    15.221385450818717,
+                    32.36418268839575
+                  ],
+                  [
+                    15.222141703962444,
+                    32.364179924729726
+                  ],
+                  [
+                    15.222149956820722,
+                    32.36578982209521
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb7",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 09",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "dd222325-6b3e-4670-8cd6-69de1889eded"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.22214153276427,
+                    32.3641785385576
+                  ],
+                  [
+                    15.221385497787887,
+                    32.364181264587124
+                  ],
+                  [
+                    15.22137708093887,
+                    32.36251717625661
+                  ],
+                  [
+                    15.222133101977182,
+                    32.36251444571657
+                  ],
+                  [
+                    15.22214153276427,
+                    32.3641785385576
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb6",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 08",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "8d324869-6fce-4956-8c59-07ee4cea3a69"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.22213292642511,
+                    32.362513522093124
+                  ],
+                  [
+                    15.22137724245379,
+                    32.36251607736032
+                  ],
+                  [
+                    15.22137130013946,
+                    32.36126332447025
+                  ],
+                  [
+                    15.222126973619197,
+                    32.36126076469681
+                  ],
+                  [
+                    15.22213292642511,
+                    32.362513522093124
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb5",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 07",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "258b7f88-c852-4be5-9284-937ce385295e"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.222963317009164,
+                    32.367321334429796
+                  ],
+                  [
+                    15.223681317739475,
+                    32.367320533948224
+                  ],
+                  [
+                    15.223684238667992,
+                    32.369194350331554
+                  ],
+                  [
+                    15.22296622304751,
+                    32.36919514674453
+                  ],
+                  [
+                    15.222963317009164,
+                    32.367321334429796
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb4",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 06",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "99ee9eec-c2a6-4fdd-a230-ef0963f02f5f"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.22296189840397,
+                    32.36574621877516
+                  ],
+                  [
+                    15.22367923466664,
+                    32.36574556797414
+                  ],
+                  [
+                    15.223681229514906,
+                    32.367319136134554
+                  ],
+                  [
+                    15.22296388076057,
+                    32.36731978287464
+                  ],
+                  [
+                    15.22296189840397,
+                    32.36574621877516
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb3",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 05",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "51e41996-e44e-4083-bc80-bc6704e72e6b"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.222960648578287,
+                    32.36425989506884
+                  ],
+                  [
+                    15.223677948102905,
+                    32.36425931902067
+                  ],
+                  [
+                    15.223679613625995,
+                    32.3657441754414
+                  ],
+                  [
+                    15.222962302315551,
+                    32.36574474742915
+                  ],
+                  [
+                    15.222960648578287,
+                    32.36425989506884
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb2",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 04",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "ca59e5f8-a5f7-4c16-98b8-7aa0fe6c4bb9"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.222958152300702,
+                    32.36263184978398
+                  ],
+                  [
+                    15.223675168846679,
+                    32.36263099721416
+                  ],
+                  [
+                    15.223677873741602,
+                    32.36425788613497
+                  ],
+                  [
+                    15.222960844286538,
+                    32.36425873464768
+                  ],
+                  [
+                    15.222958152300702,
+                    32.36263184978398
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb1",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 03",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "ce1494fc-70fe-4aa2-90a1-11dcbbe72ab7"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.22295497421391,
+                    32.361259917789575
+                  ],
+                  [
+                    15.223671971098014,
+                    32.3612587433564
+                  ],
+                  [
+                    15.223675112921548,
+                    32.36262965547893
+                  ],
+                  [
+                    15.222958105156824,
+                    32.36263082585532
+                  ],
+                  [
+                    15.22295497421391,
+                    32.361259917789575
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eb0",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 02",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "b680a2b8-e72c-449f-a3c5-b7487781a0ba"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    15.22137127827584,
+                    32.361262073232986
+                  ],
+                  [
+                    15.221369643830974,
+                    32.36070114499093
+                  ],
+                  [
+                    15.223670155813144,
+                    32.36069634125174
+                  ],
+                  [
+                    15.223671804406234,
+                    32.361257227731386
+                  ],
+                  [
+                    15.22137127827584,
+                    32.361262073232986
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b29caafb6863fd473eaf",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 01",
+              "type": "B-Dry",
+              "terminalID": "ec5c81d9-b4ce-47d3-a2d6-0d58f12ed851",
+              "berthID": "4fec2479-7658-4bef-ad2b-b39ea9075204"
+            }
+          }
+        ]
+      },
+      "Benghazi": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.045620196952257,
+                    32.07492259001741
+                  ],
+                  [
+                    20.074802631034288,
+                    32.08103162304211
+                  ],
+                  [
+                    20.083042377128038,
+                    32.10662693993103
+                  ],
+                  [
+                    20.01403450359288,
+                    32.16738706634712
+                  ],
+                  [
+                    19.970432513846788,
+                    32.12523721106696
+                  ],
+                  [
+                    20.02708076824132,
+                    32.080304378613754
+                  ],
+                  [
+                    20.045620196952257,
+                    32.07492259001741
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470be4",
+            "type": "Feature",
+            "properties": {
+              "name": "BINGAZI (BENGHAZI)"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.045813126374576,
+                    32.12080713387105
+                  ],
+                  [
+                    20.035562670524772,
+                    32.113887373575395
+                  ],
+                  [
+                    20.037011063392814,
+                    32.1126333244523
+                  ],
+                  [
+                    20.039950764473137,
+                    32.11440534535977
+                  ],
+                  [
+                    20.039746916588005,
+                    32.11504144703905
+                  ],
+                  [
+                    20.044961130912956,
+                    32.1185399270417
+                  ],
+                  [
+                    20.049097043478703,
+                    32.11566466334762
+                  ],
+                  [
+                    20.051209210511217,
+                    32.11880800554788
+                  ],
+                  [
+                    20.045813126374576,
+                    32.12080713387105
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470be3",
+            "type": "Feature",
+            "properties": {
+              "name": "BENGHAZI",
+              "type": "T-Wet",
+              "terminalID": "aa11d301-6264-41a1-9f76-cabb4cf23d98"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.03684992787077,
+                    32.112913211219954
+                  ],
+                  [
+                    20.03735418316557,
+                    32.11325398609795
+                  ],
+                  [
+                    20.036195133595008,
+                    32.11428482235987
+                  ],
+                  [
+                    20.03569188412859,
+                    32.113939507707535
+                  ],
+                  [
+                    20.03684992787077,
+                    32.112913211219954
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470be2",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 2",
+              "type": "B-Wet",
+              "terminalID": "aa11d301-6264-41a1-9f76-cabb4cf23d98",
+              "berthID": "c83ef47e-cc28-43fd-9988-be7b90412852"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.0471691963335,
+                    32.11932815173836
+                  ],
+                  [
+                    20.046225058760257,
+                    32.11848308394234
+                  ],
+                  [
+                    20.049036013807864,
+                    32.116465793701295
+                  ],
+                  [
+                    20.049958693708987,
+                    32.11729270635442
+                  ],
+                  [
+                    20.0471691963335,
+                    32.11932815173836
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470be1",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH 1",
+              "type": "B-Wet",
+              "terminalID": "aa11d301-6264-41a1-9f76-cabb4cf23d98",
+              "berthID": "da085a3f-f9e1-4b53-b534-4f6ea805bf50"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.04302734467082,
+                    32.10550561430434
+                  ],
+                  [
+                    20.046031418767498,
+                    32.106387154229495
+                  ],
+                  [
+                    20.04297370049052,
+                    32.11437157478816
+                  ],
+                  [
+                    20.044926348653362,
+                    32.11580734139231
+                  ],
+                  [
+                    20.04751199814372,
+                    32.11413530723382
+                  ],
+                  [
+                    20.04793491275461,
+                    32.11386231604754
+                  ],
+                  [
+                    20.04926260621698,
+                    32.115182921380786
+                  ],
+                  [
+                    20.044954978539064,
+                    32.11822251278028
+                  ],
+                  [
+                    20.04004117162378,
+                    32.114860328011645
+                  ],
+                  [
+                    20.04278775365503,
+                    32.107126833082276
+                  ],
+                  [
+                    20.042361282421663,
+                    32.106981426198786
+                  ],
+                  [
+                    20.04302734467082,
+                    32.10550561430434
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470be0",
+            "type": "Feature",
+            "properties": {
+              "name": "MIDDLE HARBOUR",
+              "type": "T-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.043150257220518,
+                    32.10960959258379
+                  ],
+                  [
+                    20.043929438939344,
+                    32.10982599260909
+                  ],
+                  [
+                    20.043309313053214,
+                    32.11142793491849
+                  ],
+                  [
+                    20.04253011950971,
+                    32.11121153012224
+                  ],
+                  [
+                    20.043150257220518,
+                    32.10960959258379
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bdf",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 6",
+              "type": "B-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f",
+              "berthID": "b9e56df1-6320-49f7-b585-61032199f5e5"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.047671075616673,
+                    32.11548995176716
+                  ],
+                  [
+                    20.047259579108605,
+                    32.11506313242085
+                  ],
+                  [
+                    20.04836888354347,
+                    32.11429589738889
+                  ],
+                  [
+                    20.048780378516987,
+                    32.11472271540449
+                  ],
+                  [
+                    20.047671075616673,
+                    32.11548995176716
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bde",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 2",
+              "type": "B-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f",
+              "berthID": "c3ae7aab-a3c2-4af1-b663-89287f9da97c"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.044190980480046,
+                    32.10690367198989
+                  ],
+                  [
+                    20.04442501222455,
+                    32.10630315903524
+                  ],
+                  [
+                    20.04299406006593,
+                    32.10590301146362
+                  ],
+                  [
+                    20.042760027807905,
+                    32.10650352398788
+                  ],
+                  [
+                    20.044190980480046,
+                    32.10690367198989
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bdd",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 9",
+              "type": "B-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f",
+              "berthID": "23429e95-a2c0-491d-b701-80d81a1c69ce"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.04663662384443,
+                    32.11620786281169
+                  ],
+                  [
+                    20.046223563656138,
+                    32.11578077191626
+                  ],
+                  [
+                    20.04481409888213,
+                    32.116758642852496
+                  ],
+                  [
+                    20.045227165428273,
+                    32.11718573240703
+                  ],
+                  [
+                    20.04663662384443,
+                    32.11620786281169
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bdc",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 3 A",
+              "type": "B-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f",
+              "berthID": "3b455c22-0093-450c-be17-0a1b8a1fc1ec"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.042530418515234,
+                    32.11121255335343
+                  ],
+                  [
+                    20.043308929681807,
+                    32.11142866559522
+                  ],
+                  [
+                    20.0426951004559,
+                    32.11301503175354
+                  ],
+                  [
+                    20.04191657760447,
+                    32.112798914748886
+                  ],
+                  [
+                    20.042530418515234,
+                    32.11121255335343
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bdb",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 5",
+              "type": "B-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f",
+              "berthID": "0db594c9-5cf2-4e75-81ce-07346de5f54e"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.04663634230296,
+                    32.11620703046338
+                  ],
+                  [
+                    20.046224045246067,
+                    32.11577977337005
+                  ],
+                  [
+                    20.047258262886626,
+                    32.115063825727965
+                  ],
+                  [
+                    20.04767055863957,
+                    32.11549108148538
+                  ],
+                  [
+                    20.04663634230296,
+                    32.11620703046338
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bda",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 3",
+              "type": "B-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f",
+              "berthID": "a93989b5-310b-4c0c-b2e8-956f1beb3199"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.041917196414335,
+                    32.112800249640735
+                  ],
+                  [
+                    20.042694412622566,
+                    32.11301532750134
+                  ],
+                  [
+                    20.04203413858722,
+                    32.11472701716359
+                  ],
+                  [
+                    20.041256909637017,
+                    32.11451193455581
+                  ],
+                  [
+                    20.041917196414335,
+                    32.112800249640735
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd9",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 4",
+              "type": "B-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f",
+              "berthID": "41e465ed-c3a2-4c15-86ae-98690962bc16"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.0445923973882,
+                    32.10810896339038
+                  ],
+                  [
+                    20.04520662325261,
+                    32.10652085212036
+                  ],
+                  [
+                    20.04442614244247,
+                    32.10630425860118
+                  ],
+                  [
+                    20.04381190735224,
+                    32.10789236690665
+                  ],
+                  [
+                    20.0445923973882,
+                    32.10810896339038
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd8",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 8",
+              "type": "B-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f",
+              "berthID": "a8b541c1-e579-473d-a2d7-65fe20dbace6"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.043811870745962,
+                    32.107893643725006
+                  ],
+                  [
+                    20.044591949841042,
+                    32.108109816330774
+                  ],
+                  [
+                    20.043929488884263,
+                    32.10982495634238
+                  ],
+                  [
+                    20.043149396982578,
+                    32.10960877895479
+                  ],
+                  [
+                    20.043811870745962,
+                    32.107893643725006
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd7",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 7",
+              "type": "B-Dry",
+              "terminalID": "c32f4757-3bea-4b8e-8517-23222328868f",
+              "berthID": "5d38b804-0f5e-4ca5-a435-f1269c59f410"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.045812616369457,
+                    32.12080822098703
+                  ],
+                  [
+                    20.05120922090742,
+                    32.11880915565839
+                  ],
+                  [
+                    20.05344081880781,
+                    32.12136249952909
+                  ],
+                  [
+                    20.050050506612987,
+                    32.124052065636704
+                  ],
+                  [
+                    20.045812616369457,
+                    32.12080822098703
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd6",
+            "type": "Feature",
+            "properties": {
+              "name": "OLD HARBOUR",
+              "type": "T-Dry",
+              "terminalID": "0a4d1a42-580c-4b69-8ea5-64ed3123af8d"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.05011130324152,
+                    32.12359771495219
+                  ],
+                  [
+                    20.052187333019045,
+                    32.12186221833426
+                  ],
+                  [
+                    20.05161412332945,
+                    32.12137038846644
+                  ],
+                  [
+                    20.049538065260222,
+                    32.12310585120921
+                  ],
+                  [
+                    20.05011130324152,
+                    32.12359771495219
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd5",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 3",
+              "type": "B-Dry",
+              "terminalID": "0a4d1a42-580c-4b69-8ea5-64ed3123af8d",
+              "berthID": "0204d67c-438f-4759-905d-5704fd5117e0"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.047659764201907,
+                    32.12034476754527
+                  ],
+                  [
+                    20.050744304569033,
+                    32.11931797515433
+                  ],
+                  [
+                    20.051003359159008,
+                    32.11987621409119
+                  ],
+                  [
+                    20.0479187652243,
+                    32.120902931703185
+                  ],
+                  [
+                    20.047659764201907,
+                    32.12034476754527
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd4",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 1",
+              "type": "B-Dry",
+              "terminalID": "0a4d1a42-580c-4b69-8ea5-64ed3123af8d",
+              "berthID": "a36ea2d4-c14c-4737-b877-1a16d35ae2c2"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.05117095808695,
+                    32.11976783560103
+                  ],
+                  [
+                    20.052699817225438,
+                    32.12135344480901
+                  ],
+                  [
+                    20.052137717963944,
+                    32.121742192003836
+                  ],
+                  [
+                    20.050608878875558,
+                    32.120156564425194
+                  ],
+                  [
+                    20.05117095808695,
+                    32.11976783560103
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd3",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 2",
+              "type": "B-Dry",
+              "terminalID": "0a4d1a42-580c-4b69-8ea5-64ed3123af8d",
+              "berthID": "1644d990-77bb-46f8-b366-c8e6472082eb"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.047935866496417,
+                    32.113862103497276
+                  ],
+                  [
+                    20.04917130035191,
+                    32.112838899602856
+                  ],
+                  [
+                    20.0499437765482,
+                    32.11365675783875
+                  ],
+                  [
+                    20.05217537444859,
+                    32.11225730706628
+                  ],
+                  [
+                    20.051660390317732,
+                    32.109294762580724
+                  ],
+                  [
+                    20.055029244840437,
+                    32.108440514106846
+                  ],
+                  [
+                    20.056552739560896,
+                    32.11689176971328
+                  ],
+                  [
+                    20.054063649595076,
+                    32.118872703531984
+                  ],
+                  [
+                    20.052368493497664,
+                    32.11852740623547
+                  ],
+                  [
+                    20.051531644285017,
+                    32.115365149181685
+                  ],
+                  [
+                    20.05024418395787,
+                    32.11620115882583
+                  ],
+                  [
+                    20.049263201021066,
+                    32.11518265061691
+                  ],
+                  [
+                    20.047935866496417,
+                    32.113862103497276
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd2",
+            "type": "Feature",
+            "properties": {
+              "name": "INNER HARBOUR",
+              "type": "T-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.051404033689646,
+                    32.11463789029744
+                  ],
+                  [
+                    20.050932300179152,
+                    32.114160244393005
+                  ],
+                  [
+                    20.052027502506736,
+                    32.11338426659266
+                  ],
+                  [
+                    20.05249923447558,
+                    32.1138619107483
+                  ],
+                  [
+                    20.051404033689646,
+                    32.11463789029744
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd1",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 18 A",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "92a5204a-1e49-4350-a66a-9e83f67b56cf"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.049928662470013,
+                    32.11487202349752
+                  ],
+                  [
+                    20.050931808641582,
+                    32.11416095108002
+                  ],
+                  [
+                    20.05140412017138,
+                    32.11463895935714
+                  ],
+                  [
+                    20.050400960932816,
+                    32.11535002386629
+                  ],
+                  [
+                    20.049928662470013,
+                    32.11487202349752
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bd0",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 18",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "5b96f54e-d58f-4b4b-ae5c-356dfbcda002"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.05487395979262,
+                    32.11731051488955
+                  ],
+                  [
+                    20.054037110579973,
+                    32.11795341145824
+                  ],
+                  [
+                    20.05378067651232,
+                    32.11771396819405
+                  ],
+                  [
+                    20.054617517635307,
+                    32.117071066121575
+                  ],
+                  [
+                    20.05487395979262,
+                    32.11731051488955
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bcf",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 21",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "2bd0d53a-dea0-454d-8408-6ca1659fe08d"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.05322599162481,
+                    32.11251759810844
+                  ],
+                  [
+                    20.052641270059564,
+                    32.10935513286165
+                  ],
+                  [
+                    20.053611135932695,
+                    32.10922647060636
+                  ],
+                  [
+                    20.054195876928176,
+                    32.11238893316634
+                  ],
+                  [
+                    20.05322599162481,
+                    32.11251759810844
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bce",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 19 A",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "eb1a4d1a-668f-4c4c-8f42-b8cbd5a4d5bf"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.05547136672758,
+                    32.11718039321699
+                  ],
+                  [
+                    20.055154866063823,
+                    32.11532209870059
+                  ],
+                  [
+                    20.055926054167724,
+                    32.1152278711717
+                  ],
+                  [
+                    20.056242560948196,
+                    32.11708616490085
+                  ],
+                  [
+                    20.05547136672758,
+                    32.11718039321699
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bcd",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 22 A",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "97b7463b-0f31-4d7a-9077-d291181a8397"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.052750893003324,
+                    32.11804181793572
+                  ],
+                  [
+                    20.053821094400266,
+                    32.118096338938365
+                  ],
+                  [
+                    20.05384301306328,
+                    32.11778773529362
+                  ],
+                  [
+                    20.052772815924133,
+                    32.1177332052897
+                  ],
+                  [
+                    20.052750893003324,
+                    32.11804181793572
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bcc",
+            "type": "Feature",
+            "properties": {
+              "name": "RASIF LIBYA NO 3",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "7d016047-d35a-4c23-bb1a-9152d7112559"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.054819471842027,
+                    32.11703861293584
+                  ],
+                  [
+                    20.054532475477433,
+                    32.115648301083525
+                  ],
+                  [
+                    20.0539919739628,
+                    32.115728339329465
+                  ],
+                  [
+                    20.05427897495043,
+                    32.11711865053446
+                  ],
+                  [
+                    20.054819471842027,
+                    32.11703861293584
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bcb",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 22",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "f43f69fc-0385-4dea-8ba7-7083834d82ed"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.04839222802766,
+                    32.114270944974145
+                  ],
+                  [
+                    20.048928669830637,
+                    32.11389745861219
+                  ],
+                  [
+                    20.049968572527423,
+                    32.114968964864595
+                  ],
+                  [
+                    20.049432122232858,
+                    32.115342448965016
+                  ],
+                  [
+                    20.04839222802766,
+                    32.114270944974145
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bca",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 1",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "357a5a96-23b5-46a3-9ab4-8c861cf3f494"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.05227291314903,
+                    32.11630096697321
+                  ],
+                  [
+                    20.052892337806355,
+                    32.116193052659945
+                  ],
+                  [
+                    20.05324101908146,
+                    32.117628789872406
+                  ],
+                  [
+                    20.052621600320965,
+                    32.11773670323017
+                  ],
+                  [
+                    20.05227291314903,
+                    32.11630096697321
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bc9",
+            "type": "Feature",
+            "properties": {
+              "name": "RASIF LIBYA NO 2",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "1762e657-6109-4d74-bdcd-a47065d0fd89"
+            }
+          },
+          {
+            "geometry": {
+              "coordinates": [
+                [
+                  [
+                    20.0524995995464,
+                    32.113860911590464
+                  ],
+                  [
+                    20.052028417257738,
+                    32.113383444526136
+                  ],
+                  [
+                    20.05320169808534,
+                    32.11255279155961
+                  ],
+                  [
+                    20.053672878551083,
+                    32.11303025687925
+                  ],
+                  [
+                    20.0524995995464,
+                    32.113860911590464
+                  ]
+                ]
+              ],
+              "type": "Polygon"
+            },
+            "_id": "62c6b280aafb6863fd470bc8",
+            "type": "Feature",
+            "properties": {
+              "name": "BERTH NO 19",
+              "type": "B-Dry",
+              "terminalID": "072b61cb-df83-4b49-a406-adee1573a70d",
+              "berthID": "6f1efc20-4205-412c-81d0-15ce9e591aea"
+            }
+          }
+        ]
+      }
+    },
+    "mapUpdatedAt": "2026-08-18 12:29:47",
+    "mapSnapshotAt": "2026-08-18 12:27:06"
   },
   "anchorageUpdatedAt": "2026-08-18 12:27:20"
 }
