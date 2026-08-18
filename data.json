@@ -1297,5 +1297,96 @@
       "status": "Not found / no verified Flexport vessel profile",
       "fetchedOn": "2026-08-17 18:39:57"
     }
-  ]
+  ],
+  "anchorage": {
+    "updatedAt": "2026-08-18 02:09:04",
+    "summary": {
+      "Misurata": {
+        "active": 2,
+        "avgWaitingHours": 0.0,
+        "medianWaitingHours": 0.0,
+        "longestWaitingHours": 0.0,
+        "destinationConfirmed": 2,
+        "destinationUncertain": 0
+      },
+      "Benghazi": {
+        "active": 1,
+        "avgWaitingHours": 0.0,
+        "medianWaitingHours": 0.0,
+        "longestWaitingHours": 0.0,
+        "destinationConfirmed": 1,
+        "destinationUncertain": 0
+      },
+      "historicalEpisodes": 3,
+      "completedEpisodes": 0,
+      "historicalMedianWaitingHours": 0
+    },
+    "active": [
+      {
+        "episodeId": "Benghazi|9128154|20260818013912",
+        "port": "Benghazi",
+        "vessel": "AGORA",
+        "imo": "9128154",
+        "mmsi": "630001132",
+        "firstSeen": "2026-08-18 1:39:12",
+        "lastSeen": "2026-08-18 1:39:12",
+        "waitingHours": 0.0,
+        "lat": 32.16075,
+        "lon": 19.94558,
+        "sog": 0.0,
+        "distanceKm": 10.93,
+        "destination": "BENGHAZI",
+        "destinationClass": "To Benghazi",
+        "eta": "06:00 (UTC)",
+        "status": "Anchorage / Waiting",
+        "enteredPortOn": "",
+        "closedOn": "",
+        "confidence": "High"
+      },
+      {
+        "episodeId": "Misurata|354486000|20260818013912",
+        "port": "Misurata",
+        "vessel": "AK PIONEER",
+        "imo": "",
+        "mmsi": "354486000",
+        "firstSeen": "2026-08-18 1:39:12",
+        "lastSeen": "2026-08-18 1:39:12",
+        "waitingHours": 0.0,
+        "lat": 32.37897,
+        "lon": 15.28814,
+        "sog": 0.1,
+        "distanceKm": 5.31,
+        "destination": "LY MRA",
+        "destinationClass": "To Misurata",
+        "eta": "",
+        "status": "Anchorage / Waiting",
+        "enteredPortOn": "",
+        "closedOn": "",
+        "confidence": "High"
+      },
+      {
+        "episodeId": "Misurata|613003584|20260818013912",
+        "port": "Misurata",
+        "vessel": "PRINCESS EVA",
+        "imo": "",
+        "mmsi": "613003584",
+        "firstSeen": "2026-08-18 1:39:12",
+        "lastSeen": "2026-08-18 1:39:12",
+        "waitingHours": 0.0,
+        "lat": 32.38608,
+        "lon": 15.3131,
+        "sog": 0.0,
+        "distanceKm": 7.77,
+        "destination": "MISURATA",
+        "destinationClass": "To Misurata",
+        "eta": "",
+        "status": "Anchorage / Waiting",
+        "enteredPortOn": "",
+        "closedOn": "",
+        "confidence": "High"
+      }
+    ],
+    "recentHistory": []
+  },
+  "anchorageUpdatedAt": "2026-08-18 02:09:04"
 }
