@@ -1363,13 +1363,13 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-18 10:25:40",
+    "updatedAt": "2026-08-18 10:44:41",
     "summary": {
       "Misurata": {
         "active": 2,
-        "avgWaitingHours": 8.8,
-        "medianWaitingHours": 8.8,
-        "longestWaitingHours": 8.8,
+        "avgWaitingHours": 9.1,
+        "medianWaitingHours": 9.1,
+        "longestWaitingHours": 9.1,
         "destinationConfirmed": 2,
         "destinationUncertain": 0
       },
@@ -1393,8 +1393,8 @@
         "imo": "",
         "mmsi": "354486000",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 10:25:20",
-        "waitingHours": 8.77,
+        "lastSeen": "2026-08-18 10:44:19",
+        "waitingHours": 9.09,
         "lat": 32.37897,
         "lon": 15.28814,
         "sog": 0.1,
@@ -1414,8 +1414,8 @@
         "imo": "",
         "mmsi": "613003584",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 10:25:20",
-        "waitingHours": 8.77,
+        "lastSeen": "2026-08-18 10:44:19",
+        "waitingHours": 9.09,
         "lat": 32.38608,
         "lon": 15.3131,
         "sog": 0.0,
@@ -1799,5 +1799,5 @@
       }
     ]
   },
-  "anchorageUpdatedAt": "2026-08-18 10:25:40"
+  "anchorageUpdatedAt": "2026-08-18 10:44:41"
 }
