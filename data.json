@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-18 13:05:21",
+  "updatedAt": "2026-08-18 23:05:48",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 31,
-    "benghaziCalls": 16,
+    "misurataCalls": 34,
+    "benghaziCalls": 17,
     "misurataExcludedCalls": 5,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 6,
@@ -11,30 +11,30 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 5,
+    "estimatedCalls": 6,
     "unestimatedCalls": 11,
-    "coverage": 31.2,
-    "trustedVessels": 198,
+    "coverage": 35.3,
+    "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 4629,
+    "estimatedTEU": 5382,
     "estimatedGeneralCargoTons": 13221,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 4
+    "fallbackLowCalls": 5
   },
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 31,
-      "benghaziCalls": 16,
+      "misurataCalls": 34,
+      "benghaziCalls": 17,
       "misurataExcludedCalls": 5,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 4629,
+      "estimatedTEU": 5382,
       "estimatedGeneralCargoTons": 13221,
-      "coverage": 31.2
+      "coverage": 35.3
     }
   ],
   "estimates": [
@@ -58,7 +58,7 @@
       "vessel": "BUXLINK",
       "imo": "9235816",
       "type": "Container",
-      "estimate": "2,701 TEU",
+      "estimate": "2,436 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
@@ -77,13 +77,21 @@
       "estimate": "5,839 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "CMA CGM NADOR",
+      "imo": "9396696",
+      "type": "Container",
+      "estimate": "1,018 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "225 internal high-priority checks are recorded."
+      "detail": "224 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
