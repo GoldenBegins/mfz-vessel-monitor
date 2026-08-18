@@ -1448,7 +1448,9 @@
           "lon": 15.22162833,
           "cog": 224.5,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "ATHENA",
@@ -1465,7 +1467,9 @@
           "lon": 15.21705167,
           "cog": 138.7,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "BAO SUCCESS",
@@ -1482,7 +1486,9 @@
           "lon": 15.21933333,
           "cog": 259.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "BFR",
@@ -1499,7 +1505,9 @@
           "lon": 15.21758167,
           "cog": 53.8,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "CMACGM FORT ST MARIE",
@@ -1516,7 +1524,9 @@
           "lon": 15.21698667,
           "cog": 0.5,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "HASAN G",
@@ -1533,7 +1543,9 @@
           "lon": 15.22355833,
           "cog": 115.9,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "HOPE",
@@ -1550,7 +1562,9 @@
           "lon": 15.22152667,
           "cog": 0.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "MEDKON LIA",
@@ -1567,7 +1581,9 @@
           "lon": 15.21532167,
           "cog": 202.2,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "MOONLIT",
@@ -1584,7 +1600,9 @@
           "lon": 15.22161333,
           "cog": 295.1,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "NAVIGATOR",
@@ -1601,7 +1619,9 @@
           "lon": 15.21490833,
           "cog": 145.1,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "NEPTUNE MARINE",
@@ -1618,7 +1638,9 @@
           "lon": 15.25301667,
           "cog": 122.5,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "OSTERGOTLAND",
@@ -1635,7 +1657,9 @@
           "lon": 15.24488167,
           "cog": 326.7,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "PARPALI",
@@ -1652,7 +1676,9 @@
           "lon": 15.217165,
           "cog": 217.3,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "RAFINA",
@@ -1669,7 +1695,9 @@
           "lon": 15.22351,
           "cog": 0.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "YUAN HAI",
@@ -1686,7 +1714,9 @@
           "lon": 15.22177167,
           "cog": 157.9,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         }
       ],
       "Benghazi": [
@@ -1705,7 +1735,9 @@
           "lon": 20.055,
           "cog": 511.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "AGORA",
@@ -1722,7 +1754,9 @@
           "lon": 20.045,
           "cog": 122.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "BOMMEL",
@@ -1739,7 +1773,9 @@
           "lon": 20.0515,
           "cog": 13989.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "BUXLINK",
@@ -1756,7 +1792,9 @@
           "lon": 20.04438833,
           "cog": 162.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "DIAMOND",
@@ -1773,7 +1811,9 @@
           "lon": 20.05,
           "cog": 302.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "LEPTIS STAR",
@@ -1790,7 +1830,9 @@
           "lon": 20.0495,
           "cog": 322.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "MARWAN KAPTAN",
@@ -1807,7 +1849,9 @@
           "lon": 20.04833333,
           "cog": 25.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "MEDKON ANKA",
@@ -1824,7 +1868,9 @@
           "lon": 20.04351167,
           "cog": 161.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "NABIHA STAR",
@@ -1841,7 +1887,9 @@
           "lon": 20.042875,
           "cog": 204.5,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "SONGA POLARIS",
@@ -1858,7 +1906,9 @@
           "lon": 20.04897167,
           "cog": 182.4,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         },
         {
           "vessel": "XIN HAI TONG 31",
@@ -1875,7 +1925,9 @@
           "lon": 20.04166667,
           "cog": 74.0,
           "mapSource": "MyShipTracking vesselonmap / vesseldestination",
-          "geographicState": "In Port"
+          "geographicState": "In Port",
+          "mapObservedAt": "2026-08-18 12:27:06",
+          "mapMatch": "IMO"
         }
       ]
     },
@@ -4060,8 +4112,10 @@
         ]
       }
     },
-    "mapUpdatedAt": "2026-08-18 12:29:47",
-    "mapSnapshotAt": "2026-08-18 12:27:06"
+    "mapUpdatedAt": "2026-08-18 12:33:14",
+    "mapSnapshotAt": "2026-08-18 12:27:06",
+    "mapPositionMatches": 26,
+    "mapPositionMisses": 0
   },
   "anchorageUpdatedAt": "2026-08-18 12:27:20"
 }
