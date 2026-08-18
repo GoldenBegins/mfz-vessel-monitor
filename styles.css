@@ -60,3 +60,11 @@
   .anchorage-hero{padding:16px}
   .lifecycle span{min-width:74px;padding:7px 9px}
 }
+
+/* Current geographically verified vessels */
+.current-port-heading{display:flex;justify-content:space-between;align-items:end;gap:16px;margin:24px 2px 10px}
+.current-port-heading h2{margin:3px 0 0}
+.current-port-grid{margin-bottom:16px}
+.current-port-panel{border-color:#214d55}
+.inport-pill{color:#9fe8cf;border-color:#2c735f;background:#0e302a}
+.current-port-panel tbody strong{color:#f4fbff}
