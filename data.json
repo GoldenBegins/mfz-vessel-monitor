@@ -1363,50 +1363,29 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-18 11:19:26",
+    "updatedAt": "2026-08-18 11:27:28",
     "summary": {
       "Misurata": {
-        "active": 8,
-        "avgWaitingHours": 2.4,
-        "medianWaitingHours": 0.0,
-        "longestWaitingHours": 9.7,
-        "destinationConfirmed": 3,
-        "destinationUncertain": 5
+        "active": 2,
+        "avgWaitingHours": 9.8,
+        "medianWaitingHours": 9.8,
+        "longestWaitingHours": 9.8,
+        "destinationConfirmed": 2,
+        "destinationUncertain": 0
       },
       "Benghazi": {
-        "active": 1,
-        "avgWaitingHours": 0.0,
-        "medianWaitingHours": 0.0,
-        "longestWaitingHours": 0.0,
-        "destinationConfirmed": 1,
+        "active": 0,
+        "avgWaitingHours": 0,
+        "medianWaitingHours": 0,
+        "longestWaitingHours": 0,
+        "destinationConfirmed": 0,
         "destinationUncertain": 0
       },
       "historicalEpisodes": 10,
-      "completedEpisodes": 1,
-      "historicalMedianWaitingHours": 8.3
+      "completedEpisodes": 8,
+      "historicalMedianWaitingHours": 0.0
     },
     "active": [
-      {
-        "episodeId": "Benghazi|9128154|20260818111901",
-        "port": "Benghazi",
-        "vessel": "AGORA",
-        "imo": "9128154",
-        "mmsi": "630001132",
-        "firstSeen": "2026-08-18 11:19:01",
-        "lastSeen": "2026-08-18 11:19:01",
-        "waitingHours": 0.0,
-        "lat": 32.16075,
-        "lon": 19.94558,
-        "sog": 0.0,
-        "distanceKm": 10.93,
-        "destination": "BENGHAZI",
-        "destinationClass": "To Benghazi",
-        "eta": "06:00 (UTC)",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High"
-      },
       {
         "episodeId": "Misurata|354486000|20260818013912",
         "port": "Misurata",
@@ -1414,8 +1393,8 @@
         "imo": "",
         "mmsi": "354486000",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 11:19:01",
-        "waitingHours": 9.66,
+        "lastSeen": "2026-08-18 11:27:05",
+        "waitingHours": 9.8,
         "lat": 32.37897,
         "lon": 15.28814,
         "sog": 0.1,
@@ -1435,139 +1414,13 @@
         "imo": "",
         "mmsi": "613003584",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 11:19:01",
-        "waitingHours": 9.66,
+        "lastSeen": "2026-08-18 11:27:05",
+        "waitingHours": 9.8,
         "lat": 32.38608,
         "lon": 15.3131,
         "sog": 0.0,
         "distanceKm": 7.77,
         "destination": "MISURATA",
-        "destinationClass": "To Misurata",
-        "eta": "",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High"
-      },
-      {
-        "episodeId": "Misurata|918000132|20260818111901",
-        "port": "Misurata",
-        "vessel": "918000132 93%",
-        "imo": "",
-        "mmsi": "918000132",
-        "firstSeen": "2026-08-18 11:19:01",
-        "lastSeen": "2026-08-18 11:19:01",
-        "waitingHours": 0.0,
-        "lat": 32.373,
-        "lon": 15.21755,
-        "sog": 0.9,
-        "distanceKm": 2.44,
-        "destination": "",
-        "destinationClass": "Destination Uncertain",
-        "eta": "",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium"
-      },
-      {
-        "episodeId": "Misurata|918000157|20260818111901",
-        "port": "Misurata",
-        "vessel": "918000157 91%",
-        "imo": "",
-        "mmsi": "918000157",
-        "firstSeen": "2026-08-18 11:19:01",
-        "lastSeen": "2026-08-18 11:19:01",
-        "waitingHours": 0.0,
-        "lat": 32.37303,
-        "lon": 15.21754,
-        "sog": 0.9,
-        "distanceKm": 2.44,
-        "destination": "",
-        "destinationClass": "Destination Uncertain",
-        "eta": "",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium"
-      },
-      {
-        "episodeId": "Misurata|918000164|20260818111901",
-        "port": "Misurata",
-        "vessel": "918000164 15%",
-        "imo": "",
-        "mmsi": "918000164",
-        "firstSeen": "2026-08-18 11:19:01",
-        "lastSeen": "2026-08-18 11:19:01",
-        "waitingHours": 0.0,
-        "lat": 32.37303,
-        "lon": 15.21751,
-        "sog": 0.9,
-        "distanceKm": 2.44,
-        "destination": "",
-        "destinationClass": "Destination Uncertain",
-        "eta": "",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium"
-      },
-      {
-        "episodeId": "Misurata|9277840|20260818111901",
-        "port": "Misurata",
-        "vessel": "BENGHAZI",
-        "imo": "9277840",
-        "mmsi": "642157047",
-        "firstSeen": "2026-08-18 11:19:01",
-        "lastSeen": "2026-08-18 11:19:01",
-        "waitingHours": 0.0,
-        "lat": 32.37044,
-        "lon": 15.21462,
-        "sog": 0.0,
-        "distanceKm": 2.49,
-        "destination": "",
-        "destinationClass": "Destination Uncertain",
-        "eta": "",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium"
-      },
-      {
-        "episodeId": "Misurata|996421012|20260818111901",
-        "port": "Misurata",
-        "vessel": "MISRATA 2",
-        "imo": "",
-        "mmsi": "996421012",
-        "firstSeen": "2026-08-18 11:19:01",
-        "lastSeen": "2026-08-18 11:19:01",
-        "waitingHours": 0.0,
-        "lat": 32.37302,
-        "lon": 15.22729,
-        "sog": 0.0,
-        "distanceKm": 1.85,
-        "destination": "",
-        "destinationClass": "Destination Uncertain",
-        "eta": "",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium"
-      },
-      {
-        "episodeId": "Misurata|9474656|20260818111901",
-        "port": "Misurata",
-        "vessel": "NEPTUNE MARINE",
-        "imo": "9474656",
-        "mmsi": "268269000",
-        "firstSeen": "2026-08-18 11:19:01",
-        "lastSeen": "2026-08-18 11:19:01",
-        "waitingHours": 0.0,
-        "lat": 32.34851,
-        "lon": 15.25306,
-        "sog": 0.0,
-        "distanceKm": 1.87,
-        "destination": "LY MRA",
         "destinationClass": "To Misurata",
         "eta": "",
         "status": "Anchorage / Waiting",
@@ -1587,7 +1440,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1599,7 +1452,7 @@
           "destination": "SAN LORENZO",
           "destinationClass": "Other Port",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1611,7 +1464,7 @@
           "destination": "LYMRA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1623,7 +1476,7 @@
           "destination": "MISURATA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1635,7 +1488,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1647,7 +1500,7 @@
           "destination": "MTMAR-LYMRA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1659,7 +1512,7 @@
           "destination": "MUSRATA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1671,7 +1524,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1683,7 +1536,7 @@
           "destination": "VALLETTA",
           "destinationClass": "Other Port",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1695,7 +1548,7 @@
           "destination": "MISURATA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1707,7 +1560,19 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
+          "state": "In Port"
+        },
+        {
+          "vessel": "OSTERGOTLAND",
+          "imo": "9369069",
+          "mmsi": "305024000",
+          "sog": 0.0,
+          "distanceKm": 1.33,
+          "destination": "MISURATA LIBYA",
+          "destinationClass": "To Misurata",
+          "confidence": "Medium",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1719,7 +1584,7 @@
           "destination": "LYMRA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1731,7 +1596,7 @@
           "destination": "RO SUL",
           "destinationClass": "Other Port",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1743,7 +1608,7 @@
           "destination": "LYMRA",
           "destinationClass": "To Misurata",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         }
       ],
@@ -1757,7 +1622,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1769,7 +1634,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1781,7 +1646,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1789,11 +1654,11 @@
           "imo": "9593086",
           "mmsi": "341142001",
           "sog": 0.0,
-          "distanceKm": 2.11,
+          "distanceKm": 1.96,
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1805,7 +1670,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1817,7 +1682,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1829,7 +1694,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1841,7 +1706,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1853,7 +1718,7 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         },
         {
@@ -1865,16 +1730,163 @@
           "destination": "",
           "destinationClass": "Destination Uncertain",
           "confidence": "Medium",
-          "observedAt": "2026-08-18 11:19:01",
+          "observedAt": "2026-08-18 11:27:05",
           "state": "In Port"
         }
       ]
     },
     "currentInPortCounts": {
-      "Misurata": 14,
+      "Misurata": 15,
       "Benghazi": 10
     },
     "recentHistory": [
+      {
+        "episodeId": "Misurata|996421012|20260818111901",
+        "port": "Misurata",
+        "vessel": "MISRATA 2",
+        "imo": "",
+        "mmsi": "996421012",
+        "firstSeen": "2026-08-18 11:19:01",
+        "lastSeen": "2026-08-18 11:19:01",
+        "waitingHours": 0.0,
+        "lat": 32.37302,
+        "lon": 15.22729,
+        "sog": 0.0,
+        "distanceKm": 1.85,
+        "destination": "",
+        "destinationClass": "Destination Uncertain",
+        "eta": "",
+        "status": "Closed / Port Area / Uncertain",
+        "enteredPortOn": "",
+        "closedOn": "2026-08-18 11:27:05",
+        "confidence": "Medium"
+      },
+      {
+        "episodeId": "Misurata|918000164|20260818111901",
+        "port": "Misurata",
+        "vessel": "918000164 15%",
+        "imo": "",
+        "mmsi": "918000164",
+        "firstSeen": "2026-08-18 11:19:01",
+        "lastSeen": "2026-08-18 11:19:01",
+        "waitingHours": 0.0,
+        "lat": 32.37303,
+        "lon": 15.21751,
+        "sog": 0.9,
+        "distanceKm": 2.44,
+        "destination": "",
+        "destinationClass": "Destination Uncertain",
+        "eta": "",
+        "status": "Closed / Port Area / Uncertain",
+        "enteredPortOn": "",
+        "closedOn": "2026-08-18 11:27:05",
+        "confidence": "Medium"
+      },
+      {
+        "episodeId": "Misurata|918000157|20260818111901",
+        "port": "Misurata",
+        "vessel": "918000157 91%",
+        "imo": "",
+        "mmsi": "918000157",
+        "firstSeen": "2026-08-18 11:19:01",
+        "lastSeen": "2026-08-18 11:19:01",
+        "waitingHours": 0.0,
+        "lat": 32.37303,
+        "lon": 15.21754,
+        "sog": 0.9,
+        "distanceKm": 2.44,
+        "destination": "",
+        "destinationClass": "Destination Uncertain",
+        "eta": "",
+        "status": "Closed / Port Area / Uncertain",
+        "enteredPortOn": "",
+        "closedOn": "2026-08-18 11:27:05",
+        "confidence": "Medium"
+      },
+      {
+        "episodeId": "Misurata|918000132|20260818111901",
+        "port": "Misurata",
+        "vessel": "918000132 93%",
+        "imo": "",
+        "mmsi": "918000132",
+        "firstSeen": "2026-08-18 11:19:01",
+        "lastSeen": "2026-08-18 11:19:01",
+        "waitingHours": 0.0,
+        "lat": 32.373,
+        "lon": 15.21755,
+        "sog": 0.9,
+        "distanceKm": 2.44,
+        "destination": "",
+        "destinationClass": "Destination Uncertain",
+        "eta": "",
+        "status": "Closed / Port Area / Uncertain",
+        "enteredPortOn": "",
+        "closedOn": "2026-08-18 11:27:05",
+        "confidence": "Medium"
+      },
+      {
+        "episodeId": "Misurata|9277840|20260818111901",
+        "port": "Misurata",
+        "vessel": "BENGHAZI",
+        "imo": "9277840",
+        "mmsi": "642157047",
+        "firstSeen": "2026-08-18 11:19:01",
+        "lastSeen": "2026-08-18 11:19:01",
+        "waitingHours": 0.0,
+        "lat": 32.37044,
+        "lon": 15.21462,
+        "sog": 0.0,
+        "distanceKm": 2.49,
+        "destination": "",
+        "destinationClass": "Destination Uncertain",
+        "eta": "",
+        "status": "Closed / Port Area / Uncertain",
+        "enteredPortOn": "",
+        "closedOn": "2026-08-18 11:27:05",
+        "confidence": "Medium"
+      },
+      {
+        "episodeId": "Benghazi|9128154|20260818111901",
+        "port": "Benghazi",
+        "vessel": "AGORA",
+        "imo": "9128154",
+        "mmsi": "630001132",
+        "firstSeen": "2026-08-18 11:19:01",
+        "lastSeen": "2026-08-18 11:19:01",
+        "waitingHours": 0.0,
+        "lat": 32.16075,
+        "lon": 19.94558,
+        "sog": 0.0,
+        "distanceKm": 10.93,
+        "destination": "BENGHAZI",
+        "destinationClass": "Destination Uncertain",
+        "eta": "06:00 (UTC)",
+        "status": "Entered Port",
+        "enteredPortOn": "2026-08-18 11:27:05",
+        "closedOn": "2026-08-18 11:27:05",
+        "confidence": "High"
+      },
+      {
+        "episodeId": "Misurata|9474656|20260818111901",
+        "port": "Misurata",
+        "vessel": "NEPTUNE MARINE",
+        "imo": "9474656",
+        "mmsi": "268269000",
+        "firstSeen": "2026-08-18 11:19:01",
+        "lastSeen": "2026-08-18 11:19:01",
+        "waitingHours": 0.0,
+        "lat": 32.34851,
+        "lon": 15.25306,
+        "sog": 0.0,
+        "distanceKm": 1.87,
+        "destination": "LY MRA",
+        "destinationClass": "To Misurata",
+        "eta": "",
+        "status": "Entered Port",
+        "enteredPortOn": "2026-08-18 11:27:05",
+        "closedOn": "2026-08-18 11:27:05",
+        "confidence": "High"
+      },
       {
         "episodeId": "Benghazi|9128154|20260818013912",
         "port": "Benghazi",
@@ -1898,5 +1910,5 @@
       }
     ]
   },
-  "anchorageUpdatedAt": "2026-08-18 11:19:26"
+  "anchorageUpdatedAt": "2026-08-18 11:27:28"
 }
