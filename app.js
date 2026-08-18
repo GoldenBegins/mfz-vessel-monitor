@@ -19,6 +19,26 @@ function anchorageDate(value){
   const hh=String(m[4]).padStart(2,'0');
   return `${m[3]}-${m[2]}-${m[1]} · ${hh}:${m[5]}`;
 }
+
+function renderCurrentInPort(a){
+  const cp=a.currentInPort||{};
+  const mis=cp.Misurata||[];
+  const ben=cp.Benghazi||[];
+  const row=r=>`<tr>
+    <td><strong>${r.vessel||'—'}</strong></td>
+    <td>${r.imo||r.mmsi||'—'}${r.imo&&r.mmsi?`<small class="cell-sub">MMSI ${r.mmsi}</small>`:''}</td>
+    <td>${Number(r.sog||0).toFixed(1)}</td>
+    <td>${Number(r.distanceKm||0).toFixed(1)} كم</td>
+    <td><span class="dest-chip">${destinationArabic(r.destinationClass)}</span><small class="cell-sub">${r.destination||'—'}</small></td>
+    <td>${anchorageDate(r.observedAt||'')}</td>
+    <td>${badge(r.confidence||'Medium')}</td>
+  </tr>`;
+  $('#misInPortCount').textContent=`${mis.length} داخل الميناء`;
+  $('#benInPortCount').textContent=`${ben.length} داخل الميناء`;
+  $('#misInPortRows').innerHTML=mis.map(row).join('')||'<tr><td colspan="7">لا توجد سفن مؤكدة جغرافيًا داخل الميناء في آخر رصد</td></tr>';
+  $('#benInPortRows').innerHTML=ben.map(row).join('')||'<tr><td colspan="7">لا توجد سفن مؤكدة جغرافيًا داخل الميناء في آخر رصد</td></tr>';
+}
+
 function renderAnchorage(d){
   const a=d.anchorage||{};
   const sm=a.summary||{};
@@ -27,6 +47,7 @@ function renderAnchorage(d){
   const active=a.active||[];
   const misRows=active.filter(r=>r.port==='Misurata');
   const benRows=active.filter(r=>r.port==='Benghazi');
+  renderCurrentInPort(a);
 
   const total=(mis.active||0)+(ben.active||0);
   const allWait=active.map(r=>Number(r.waitingHours||0));
