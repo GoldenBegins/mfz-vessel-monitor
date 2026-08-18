@@ -1363,15 +1363,18 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-18 15:00:29",
+    "updatedAt": "2026-08-18 22:06:05",
     "summary": {
       "Misurata": {
         "active": 2,
-        "avgWaitingHours": 13.3,
-        "medianWaitingHours": 13.3,
-        "longestWaitingHours": 13.3,
+        "avgWaitingHours": 18.2,
+        "medianWaitingHours": 18.2,
+        "longestWaitingHours": 18.2,
         "destinationConfirmed": 2,
-        "destinationUncertain": 0
+        "destinationUncertain": 0,
+        "entryCandidates": 0,
+        "departureCandidates": 0,
+        "review": 0
       },
       "Benghazi": {
         "active": 0,
@@ -1379,7 +1382,10 @@
         "medianWaitingHours": 0,
         "longestWaitingHours": 0,
         "destinationConfirmed": 0,
-        "destinationUncertain": 0
+        "destinationUncertain": 0,
+        "entryCandidates": 0,
+        "departureCandidates": 0,
+        "review": 0
       },
       "historicalEpisodes": 10,
       "completedEpisodes": 8,
@@ -1393,19 +1399,20 @@
         "imo": "",
         "mmsi": "354486000",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 15:00:03",
-        "waitingHours": 13.35,
+        "lastSeen": "2026-08-18T19:53:28Z",
+        "waitingHours": 18.24,
         "lat": 32.37897,
         "lon": 15.28814,
         "sog": 0.1,
         "distanceKm": 5.31,
         "destination": "LY MRA",
         "destinationClass": "To Misurata",
-        "eta": "",
-        "status": "Anchorage / Waiting",
+        "eta": "2027-06-30 19:00 (UTC)",
+        "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
-        "confidence": "High"
+        "confidence": "High",
+        "source": "MyShipTracking Light Anchorage"
       },
       {
         "episodeId": "Misurata|613003584|20260818013912",
@@ -1414,19 +1421,20 @@
         "imo": "",
         "mmsi": "613003584",
         "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 15:00:03",
-        "waitingHours": 13.35,
+        "lastSeen": "2026-08-18T19:53:34Z",
+        "waitingHours": 18.24,
         "lat": 32.38608,
         "lon": 15.3131,
         "sog": 0.0,
         "distanceKm": 7.77,
         "destination": "MISURATA",
         "destinationClass": "To Misurata",
-        "eta": "",
-        "status": "Anchorage / Waiting",
+        "eta": "03:30 (UTC)",
+        "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
-        "confidence": "High"
+        "confidence": "High",
+        "source": "MyShipTracking Light Anchorage"
       }
     ],
     "currentInPort": {
@@ -2131,7 +2139,8 @@
         "status": "Closed / Port Area / Uncertain",
         "enteredPortOn": "",
         "closedOn": "2026-08-18 11:27:05",
-        "confidence": "Medium"
+        "confidence": "Medium",
+        "source": "MyShipTracking vesselonmap / vesseldestination"
       },
       {
         "episodeId": "Misurata|918000164|20260818111901",
@@ -2152,7 +2161,8 @@
         "status": "Closed / Port Area / Uncertain",
         "enteredPortOn": "",
         "closedOn": "2026-08-18 11:27:05",
-        "confidence": "Medium"
+        "confidence": "Medium",
+        "source": "MyShipTracking vesselonmap / vesseldestination"
       },
       {
         "episodeId": "Misurata|918000157|20260818111901",
@@ -2173,7 +2183,8 @@
         "status": "Closed / Port Area / Uncertain",
         "enteredPortOn": "",
         "closedOn": "2026-08-18 11:27:05",
-        "confidence": "Medium"
+        "confidence": "Medium",
+        "source": "MyShipTracking vesselonmap / vesseldestination"
       },
       {
         "episodeId": "Misurata|918000132|20260818111901",
@@ -2194,7 +2205,8 @@
         "status": "Closed / Port Area / Uncertain",
         "enteredPortOn": "",
         "closedOn": "2026-08-18 11:27:05",
-        "confidence": "Medium"
+        "confidence": "Medium",
+        "source": "MyShipTracking vesselonmap / vesseldestination"
       },
       {
         "episodeId": "Misurata|9277840|20260818111901",
@@ -2215,7 +2227,8 @@
         "status": "Closed / Port Area / Uncertain",
         "enteredPortOn": "",
         "closedOn": "2026-08-18 11:27:05",
-        "confidence": "Medium"
+        "confidence": "Medium",
+        "source": "MyShipTracking vesselonmap / vesseldestination"
       },
       {
         "episodeId": "Benghazi|9128154|20260818111901",
@@ -2236,7 +2249,8 @@
         "status": "Entered Port",
         "enteredPortOn": "2026-08-18 11:27:05",
         "closedOn": "2026-08-18 11:27:05",
-        "confidence": "High"
+        "confidence": "High",
+        "source": "MyShipTracking vesselonmap / vesseldestination"
       },
       {
         "episodeId": "Misurata|9474656|20260818111901",
@@ -2257,7 +2271,8 @@
         "status": "Entered Port",
         "enteredPortOn": "2026-08-18 11:27:05",
         "closedOn": "2026-08-18 11:27:05",
-        "confidence": "High"
+        "confidence": "High",
+        "source": "MyShipTracking vesselonmap / vesseldestination"
       },
       {
         "episodeId": "Benghazi|9128154|20260818013912",
@@ -2278,7 +2293,8 @@
         "status": "Entered Port",
         "enteredPortOn": "2026-08-18 10:25:20",
         "closedOn": "2026-08-18 10:25:20",
-        "confidence": "High"
+        "confidence": "High",
+        "source": "MyShipTracking vesselonmap / vesseldestination"
       }
     ],
     "lightPortSyncUpdatedAt": "2026-08-18T17:46:15.456366+00:00",
@@ -2307,7 +2323,7 @@
       }
     ]
   },
-  "anchorageUpdatedAt": "2026-08-18T17:46:15.456366+00:00",
+  "anchorageUpdatedAt": "2026-08-18 22:06:05",
   "currentInPort": {
     "Misurata": [
       {
