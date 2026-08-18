@@ -68,3 +68,29 @@
 .current-port-panel{border-color:#214d55}
 .inport-pill{color:#9fe8cf;border-color:#2c735f;background:#0e302a}
 .current-port-panel tbody strong{color:#f4fbff}
+
+
+/* Interactive vessel maps v1 */
+.map-hero{display:flex;justify-content:space-between;gap:18px;align-items:center;background:linear-gradient(135deg,rgba(40,184,199,.11),rgba(13,27,45,.9));border:1px solid #245066;border-radius:18px;padding:18px;margin-bottom:14px}
+.map-legend{display:flex;gap:12px;flex-wrap:wrap;align-items:center;color:#9fb5c8;font-size:11px}
+.map-legend span{display:flex;align-items:center;gap:7px;background:#091827;border:1px solid #1b3a50;border-radius:999px;padding:6px 9px}
+.legend-ship{width:9px;height:18px;display:inline-block;clip-path:polygon(50% 0,100% 20%,88% 100%,12% 100%,0 20%);border:1px solid rgba(255,255,255,.55)}
+.legend-ship.inport{background:#63d69b}
+.legend-ship.anchorage{background:#45b8ef}
+.legend-line{width:19px;height:4px;border-radius:8px;display:inline-block}
+.legend-line.operational{background:#63d69b}
+.legend-line.outer{background:#f2b84b}
+.port-map-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.port-map-panel{padding:14px;border-color:#21475c}
+.port-map{height:560px;border:1px solid #23435d;border-radius:14px;overflow:hidden;background:#0a1726;direction:ltr}
+.map-footnote{font-size:10px;color:#68839b;margin:4px 4px 14px}
+.leaflet-container{font-family:system-ui,-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;background:#0b1725}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#0d1b2d;color:#eff7ff;border:1px solid #2a4b65}
+.leaflet-popup-content{margin:12px 14px;direction:rtl;min-width:210px}
+.vessel-popup strong{font-size:14px}
+.vessel-popup small{display:block;color:#8fa7bd;margin-top:4px}
+.vessel-popup .popup-state{display:inline-block;margin-top:8px;border:1px solid #2b5b66;border-radius:999px;padding:3px 7px;color:#a9e6ec;font-size:10px}
+.ship-marker{background:transparent!important;border:0!important}
+.ship-marker svg{display:block;filter:drop-shadow(0 2px 3px rgba(0,0,0,.45));transform-origin:50% 50%}
+@media(max-width:1250px){.port-map-grid{grid-template-columns:1fr!important}.port-map{height:500px}}
+@media(max-width:700px){.map-hero{align-items:flex-start;flex-direction:column}.port-map{height:430px}.map-legend{gap:7px}}
