@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-18 01:24:14",
+  "updatedAt": "2026-08-18 08:27:00",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 30,
+    "misurataCalls": 31,
     "benghaziCalls": 16,
     "misurataExcludedCalls": 5,
     "benghaziExcludedCalls": 1,
@@ -24,7 +24,7 @@
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 30,
+      "misurataCalls": 31,
       "benghaziCalls": 16,
       "misurataExcludedCalls": 5,
       "benghaziExcludedCalls": 1,
@@ -111,8 +111,8 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-18 13:14",
-      "source": "https://www.myshiptracking.com/estimate?pid=3184",
+      "eta": "2026-08-18 12:57",
+      "source": "https://www.myshiptracking.com/estimate?pid=3184 + Flexport Atlas",
       "status": "Planned / Expected"
     },
     {
@@ -125,7 +125,21 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-18 18:41",
+      "eta": "2026-08-18 17:57",
+      "source": "https://www.myshiptracking.com/estimate?pid=3184 + Flexport Atlas",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Benghazi",
+      "vessel": "JELENA",
+      "imo": "9519042",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "BENGHAZI",
+      "eta": "2026-08-19 7:21",
       "source": "https://www.myshiptracking.com/estimate?pid=3184",
       "status": "Planned / Expected"
     },
@@ -139,7 +153,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "BENGHAZI",
-      "eta": "2026-08-19 13:38",
+      "eta": "2026-08-19 14:26",
       "source": "https://www.myshiptracking.com/estimate?pid=3184",
       "status": "Planned / Expected"
     },
@@ -225,7 +239,7 @@
       "arrivalPort": "MISURATA",
       "eta": "2026-08-18 0:12",
       "source": "https://www.myshiptracking.com/estimate?pid=3197",
-      "status": "Overdue / Not Confirmed"
+      "status": "Arrived / In Port"
     },
     {
       "port": "Misurata",
@@ -238,6 +252,34 @@
       "departureTime": "",
       "arrivalPort": "MISURATA",
       "eta": "2026-08-18 10:14",
+      "source": "https://www.myshiptracking.com/estimate?pid=3197",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "COUSINS",
+      "imo": "9161156",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "MISURATA",
+      "eta": "2026-08-19 19:18",
+      "source": "https://www.myshiptracking.com/estimate?pid=3197",
+      "status": "Planned / Expected"
+    },
+    {
+      "port": "Misurata",
+      "vessel": "CONTSHIP  ACE",
+      "imo": "9348637",
+      "type": "",
+      "dwt": 0,
+      "built": "",
+      "departurePort": "",
+      "departureTime": "",
+      "arrivalPort": "MISURATA",
+      "eta": "2026-08-19 19:44",
       "source": "https://www.myshiptracking.com/estimate?pid=3197",
       "status": "Planned / Expected"
     },
@@ -279,7 +321,7 @@
       "departurePort": "",
       "departureTime": "",
       "arrivalPort": "MISURATA",
-      "eta": "2026-08-21 21:45",
+      "eta": "2026-08-22 0:48",
       "source": "https://www.myshiptracking.com/estimate?pid=3197",
       "status": "Planned / Expected"
     }
@@ -289,21 +331,21 @@
       "port": "Misurata",
       "unlocode": "LYMRA",
       "services": 16,
-      "scheduledCalls": 7,
+      "scheduledCalls": 20,
       "terminals": 1,
-      "servicesText": "Services (16) Terminals (1) Schedules (7) Service Carriers Europe → Africa ALGERIA L Intra-Europe EMS A Africa ↔ Europe GTL Intra-Africa I02 / LBX / Z71 G + 1 Africa → Europe ILE G Africa ↔ Europe JLS L Intra-Europe LIBIA L S Africa ↔ Europe LIBYA1 Africa ↔ Europe LSS A Europe → Africa LTS A Africa → Europe LYS Intra-Africa NAS A Africa ↔ Europe TLS M Africa ↔ Europe TNX S Africa ↔ Europe TULYB Intra-Europe WMS A",
+      "servicesText": "Services (16) Terminals (1) Schedules (20) Service Carriers Europe → Africa ALGERIA L Intra-Europe EMS A Africa ↔ Europe GTL Intra-Africa I02 / LBX / Z71 G + 1 Africa → Europe ILE G Africa ↔ Europe JLS L Intra-Europe LIBIA L S Africa ↔ Europe LIBYA1 Africa ↔ Europe LSS A Europe → Africa LTS A Africa → Europe LYS Intra-Africa NAS A Africa ↔ Europe TLS M Africa ↔ Europe TNX S Africa ↔ Europe TULYB Intra-Europe WMS A",
       "status": "Available",
-      "fetchedOn": "2026-08-18 1:19:32"
+      "fetchedOn": "2026-08-18 8:23:12"
     },
     {
       "port": "Benghazi",
       "unlocode": "LYBEN",
       "services": 12,
-      "scheduledCalls": 12,
+      "scheduledCalls": 9,
       "terminals": 1,
-      "servicesText": "Services (12) Terminals (1) Schedules (12) Service Carriers Intra-Africa I03 Intra-Europe LIBIA L S Africa ↔ Europe LSII Africa → Europe LSS A Africa ↔ Europe LTS A Africa ↔ Europe LYS Africa ↔ Europe MLTTSLY Intra-Africa NAS A Africa ↔ Europe TNAS M Africa → Europe TNX S Africa → Europe TULYB Intra-Africa Z72 G",
+      "servicesText": "Services (12) Terminals (1) Schedules (9) Service Carriers Intra-Africa I03 Intra-Europe LIBIA L S Africa ↔ Europe LSII Africa → Europe LSS A Africa ↔ Europe LTS A Africa ↔ Europe LYS Africa ↔ Europe MLTTSLY Intra-Africa NAS A Africa ↔ Europe TNAS M Africa → Europe TNX S Africa → Europe TULYB Intra-Africa Z72 G",
       "status": "Available",
-      "fetchedOn": "2026-08-18 1:19:32"
+      "fetchedOn": "2026-08-18 8:23:12"
     }
   ],
   "flexportVessels": [
@@ -1034,6 +1076,28 @@
       "fetchedOn": "2026-08-17 14:46:17"
     },
     {
+      "vessel": "OSTERGOTLAND",
+      "imo": "9369069",
+      "mmsi": "305024000",
+      "type": "",
+      "dwt": 0,
+      "gt": 0,
+      "nt": 0,
+      "teu": 0,
+      "length": 0.0,
+      "built": "",
+      "builtCountry": "",
+      "draught": 0.0,
+      "position": "",
+      "destination": "",
+      "eta": "",
+      "carrier": "",
+      "service": "",
+      "voyage": "",
+      "status": "Not found / no verified Flexport vessel profile",
+      "fetchedOn": "2026-08-18 8:23:12"
+    },
+    {
       "vessel": "NAVIGATOR",
       "imo": "9370719",
       "mmsi": "538012063",
@@ -1297,96 +1361,5 @@
       "status": "Not found / no verified Flexport vessel profile",
       "fetchedOn": "2026-08-17 18:39:57"
     }
-  ],
-  "anchorage": {
-    "updatedAt": "2026-08-18 06:00:45",
-    "summary": {
-      "Misurata": {
-        "active": 2,
-        "avgWaitingHours": 4.3,
-        "medianWaitingHours": 4.3,
-        "longestWaitingHours": 4.3,
-        "destinationConfirmed": 2,
-        "destinationUncertain": 0
-      },
-      "Benghazi": {
-        "active": 1,
-        "avgWaitingHours": 4.3,
-        "medianWaitingHours": 4.3,
-        "longestWaitingHours": 4.3,
-        "destinationConfirmed": 1,
-        "destinationUncertain": 0
-      },
-      "historicalEpisodes": 3,
-      "completedEpisodes": 0,
-      "historicalMedianWaitingHours": 0
-    },
-    "active": [
-      {
-        "episodeId": "Benghazi|9128154|20260818013912",
-        "port": "Benghazi",
-        "vessel": "AGORA",
-        "imo": "9128154",
-        "mmsi": "630001132",
-        "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 6:00:03",
-        "waitingHours": 4.35,
-        "lat": 32.16075,
-        "lon": 19.94558,
-        "sog": 0.0,
-        "distanceKm": 10.93,
-        "destination": "BENGHAZI",
-        "destinationClass": "To Benghazi",
-        "eta": "06:00 (UTC)",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High"
-      },
-      {
-        "episodeId": "Misurata|354486000|20260818013912",
-        "port": "Misurata",
-        "vessel": "AK PIONEER",
-        "imo": "",
-        "mmsi": "354486000",
-        "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 6:00:03",
-        "waitingHours": 4.35,
-        "lat": 32.37897,
-        "lon": 15.28814,
-        "sog": 0.1,
-        "distanceKm": 5.31,
-        "destination": "LY MRA",
-        "destinationClass": "To Misurata",
-        "eta": "",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High"
-      },
-      {
-        "episodeId": "Misurata|613003584|20260818013912",
-        "port": "Misurata",
-        "vessel": "PRINCESS EVA",
-        "imo": "",
-        "mmsi": "613003584",
-        "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-18 6:00:03",
-        "waitingHours": 4.35,
-        "lat": 32.38608,
-        "lon": 15.3131,
-        "sog": 0.0,
-        "distanceKm": 7.77,
-        "destination": "MISURATA",
-        "destinationClass": "To Misurata",
-        "eta": "",
-        "status": "Anchorage / Waiting",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High"
-      }
-    ],
-    "recentHistory": []
-  },
-  "anchorageUpdatedAt": "2026-08-18 06:00:45"
+  ]
 }
