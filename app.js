@@ -12,6 +12,11 @@ function destinationArabic(c){
   if(s==='Other Port')return 'ميناء آخر';
   return 'الوجهة غير مؤكدة';
 }
+function anchorageDate(value){
+  const s=String(value||'').trim();
+  const m=s.match(/^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/);
+  return m?`${m[3]}-${m[2]}-${m[1]} · ${m[4]}:${m[5]}`:(s||'—');
+}
 function renderAnchorage(d){
   const a=d.anchorage||{};
   const sm=a.summary||{};
@@ -26,42 +31,56 @@ function renderAnchorage(d){
   const longest=allWait.length?Math.max(...allWait):0;
 
   $('#anchorageCards').innerHTML=[
-    ['في المخطاف الآن',total,'الميناءان'],
-    ['مخطاف مصراتة',mis.active||0,`متوسط ${waitText(mis.avgWaitingHours||0)}`],
-    ['مخطاف بنغازي',ben.active||0,`متوسط ${waitText(ben.avgWaitingHours||0)}`],
-    ['أطول انتظار حالي',waitText(longest),'Observed waiting time']
+    ['في المخطاف الآن',total,'إجمالي الميناءين'],
+    ['ميناء المنطقة الحرة بمصراتة',mis.active||0,`متوسط الانتظار ${waitText(mis.avgWaitingHours||0)}`],
+    ['ميناء بنغازي',ben.active||0,`متوسط الانتظار ${waitText(ben.avgWaitingHours||0)}`],
+    ['أطول انتظار حالي',waitText(longest),'زمن رصد تقريبي']
   ].map(x=>`<div class="metric anchor-metric"><div class="label">${x[0]}</div><div class="value">${x[1]}</div><div class="sub">${x[2]}</div></div>`).join('');
 
   $('#misAnchorageCount').textContent=`${mis.active||0} في المخطاف`;
   $('#benAnchorageCount').textContent=`${ben.active||0} في المخطاف`;
 
-  const stat=(s)=>`<span><b>${waitText(s.avgWaitingHours||0)}</b><small>متوسط الانتظار</small></span><span><b>${waitText(s.medianWaitingHours||0)}</b><small>الوسيط</small></span><span><b>${waitText(s.longestWaitingHours||0)}</b><small>الأطول</small></span><span><b>${s.destinationConfirmed||0}</b><small>وجهتها مؤكدة للميناء</small></span>`;
+  const stat=s=>[
+    ['متوسط الانتظار',waitText(s.avgWaitingHours||0)],
+    ['الوسيط',waitText(s.medianWaitingHours||0)],
+    ['أطول انتظار',waitText(s.longestWaitingHours||0)],
+    ['وجهة مؤكدة',String(s.destinationConfirmed||0)]
+  ].map(([label,value])=>`<div class="anchor-stat"><small>${label}</small><b>${value}</b></div>`).join('');
+
   $('#misAnchorageStats').innerHTML=stat(mis);
   $('#benAnchorageStats').innerHTML=stat(ben);
 
   const row=r=>`<tr>
-    <td><strong>${r.vessel||'—'}</strong></td>
-    <td>${r.imo||r.mmsi||'—'}${r.imo&&r.mmsi?`<small class="cell-sub">${r.mmsi}</small>`:''}</td>
-    <td>${Number(r.distanceKm||0).toFixed(1)} كم</td>
+    <td><div class="vessel-name">${r.vessel||'—'}</div></td>
+    <td><span class="identity-main">${r.imo||'—'}</span><small class="cell-sub">MMSI ${r.mmsi||'—'}</small></td>
+    <td><strong>${Number(r.distanceKm||0).toFixed(1)}</strong><small class="cell-sub">كم</small></td>
     <td>${Number(r.sog||0).toFixed(1)}</td>
     <td><span class="dest-chip">${destinationArabic(r.destinationClass)}</span><small class="cell-sub">${r.destination||'—'}</small></td>
     <td><strong class="wait-value">${waitText(r.waitingHours||0)}</strong></td>
-    <td>${r.firstSeen||'—'}</td>
+    <td><span class="date-cell">${anchorageDate(r.firstSeen)}</span></td>
     <td>${badge(r.confidence||'Low')}</td>
   </tr>`;
 
-  $('#misAnchorageRows').innerHTML=misRows.map(row).join('')||'<tr><td colspan="8">لا توجد سفن مؤكدة في المخطاف حاليًا</td></tr>';
-  $('#benAnchorageRows').innerHTML=benRows.map(row).join('')||'<tr><td colspan="8">لا توجد سفن مؤكدة في المخطاف حاليًا</td></tr>';
+  $('#misAnchorageRows').innerHTML=misRows.map(row).join('')||'<tr><td colspan="8" class="empty-anchor">لا توجد سفن مؤكدة في المخطاف حاليًا</td></tr>';
+  $('#benAnchorageRows').innerHTML=benRows.map(row).join('')||'<tr><td colspan="8" class="empty-anchor">لا توجد سفن مؤكدة في المخطاف حاليًا</td></tr>';
 
-  $('#anchorageUpdated').textContent=`آخر رصد: ${a.updatedAt||d.anchorageUpdatedAt||'—'}`;
+  document.querySelectorAll('.anchorage-port-panel table').forEach(t=>t.classList.add('anchorage-table'));
+
+  const anchorUpdated=anchorageDate(a.updatedAt||d.anchorageUpdatedAt);
+  $('#anchorageUpdated').textContent=`آخر تحديث للمخطاف: ${anchorUpdated}`;
+
   $('#anchorageHistoryRows').innerHTML=(a.recentHistory||[]).slice(0,25).map(r=>`<tr>
     <td>${r.port==='Misurata'?'مصراتة':'بنغازي'}</td>
-    <td>${r.vessel||'—'}</td>
+    <td><strong>${r.vessel||'—'}</strong></td>
     <td>${waitText(r.waitingHours||0)}</td>
     <td>${destinationArabic(r.destinationClass)}</td>
     <td>${r.status||'—'}</td>
-    <td>${r.enteredPortOn||'—'}</td>
+    <td>${anchorageDate(r.enteredPortOn)}</td>
   </tr>`).join('')||'<tr><td colspan="6">سيظهر السجل بعد اكتمال أول فترة انتظار</td></tr>';
+
+  document.body.dataset.anchorageUpdated=anchorUpdated;
+  document.body.dataset.generalUpdated=String(d.updatedAt||'—');
 }
+
 
 function render(d){$('#updatedAt').textContent=d.updatedAt||'—';const s=d.summary||{};$('#metricCards').innerHTML=[['زيارات مصراتة التجارية',s.misurataCalls,'Commercial calls'],['زيارات بنغازي التجارية',s.benghaziCalls,'Commercial calls'],['مستبعد Fishing/Tug',s.excludedCalls||0,'Raw monitoring retained'],['TEU بنغازي تقديري',fmt(s.estimatedTEU),'Estimated']].map(x=>`<div class="metric"><div class="label">${x[0]}</div><div class="value">${x[1]}</div><div class="sub">${x[2]}</div></div>`).join('');const max=Math.max(s.misurataCalls||0,s.benghaziCalls||0,1);$('#portBars').innerHTML=[['مصراتة',s.misurataCalls],['بنغازي',s.benghaziCalls]].map(([n,v])=>`<div class="bar-item"><span>${n}</span><div class="bar-track"><div class="bar-fill" style="width:${v/max*100}%"></div></div><b>${v}</b></div>`).join('');$('#coverageText').textContent=`${s.coverage||0}%`;$('#coverageBar').style.width=`${Math.min(100,s.coverage||0)}%`;$('#confidenceBreakdown').innerHTML=`<span>High/Medium: ${s.historicalHighMediumCalls||0}</span><span>Fallback Low: ${s.fallbackLowCalls||0}</span><span>Unestimated: ${s.unestimatedCalls||0}</span>`;$('#estimateRows').innerHTML=(d.estimates||[]).map(r=>`<tr><td>${r.vessel}</td><td>${r.imo}</td><td>${r.type}</td><td>${r.estimate}</td><td>${badge(r.confidence)}</td><td>${r.method}</td></tr>`).join('')||'<tr><td colspan="6">لا توجد بيانات</td></tr>';renderExpected(d);renderAnchorage(d);renderFlexport(d);$('#comparisonRows').innerHTML=(d.comparison||[]).map(r=>`<tr><td>${r.period||'—'}</td><td>${fmt(r.misurataCalls)}</td><td>${fmt(r.misurataExcludedCalls||0)}</td><td>${fmt(r.benghaziCalls)}</td><td>${fmt(r.benghaziExcludedCalls||0)}</td><td>${valueOrDash(r.misurataActualTEU,r.misurataTEUStatus)}${r.misurataTEUStatus==='Verified Actual'?' <small>Actual</small>':''}</td><td>${fmt(r.estimatedTEU)} <small>Estimated</small></td><td>${valueOrDash(r.misurataActualGeneralCargoTons,r.misurataGeneralCargoStatus)}${r.misurataGeneralCargoStatus==='Verified Actual'?' t <small>Actual</small>':''}</td><td>${fmt(r.estimatedGeneralCargoTons)} t <small>Estimated</small></td><td>${r.coverage||0}%</td></tr>`).join('')||'<tr><td colspan="10">لا توجد بيانات</td></tr>';$('#cargoCards').innerHTML=[['TEU مصراتة فعلي',s.misurataTEUStatus==='Verified Actual'?fmt(s.misurataActualTEU):'—',s.misurataTEUStatus||'Not available'],['بضائع مصراتة الفعلية',s.misurataGeneralCargoStatus==='Verified Actual'?fmt(s.misurataActualGeneralCargoTons)+' t':'—',s.misurataGeneralCargoStatus||'Not available'],['TEU بنغازي تقديري',fmt(s.estimatedTEU),'Estimated'],['بضائع بنغازي تقديرية',fmt(s.estimatedGeneralCargoTons)+' t','Estimated']].map(x=>`<div class="metric"><div class="label">${x[0]}</div><div class="value">${x[1]}</div><div class="sub">${x[2]}</div></div>`).join('');$('#reviewCount').textContent=(d.review||[]).length;$('#reviewRows').innerHTML=(d.review||[]).map(r=>`<tr><td>${r.historicalName}</td><td>${r.currentName||'—'}</td><td>${r.imo}</td><td>${r.masterMmsi||'—'}</td><td>${r.observedMmsi||'—'}</td><td>${badge(r.status)}</td></tr>`).join('')||'<tr><td colspan="6">لا توجد حالات معروضة</td></tr>';$('#qualityList').innerHTML=(d.quality||[]).map(q=>`<div class="quality-item"><strong>${q.title}</strong><span>${q.detail}</span></div>`).join('')||'<p class="muted">لا توجد تنبيهات</p>'}$$('.nav').forEach(b=>b.addEventListener('click',()=>{$$('.nav').forEach(x=>x.classList.remove('active'));b.classList.add('active');$$('.view').forEach(v=>v.classList.remove('active-view'));$('#'+b.dataset.view).classList.add('active-view');$('#pageTitle').textContent=b.textContent}));load().catch(e=>{console.error(e);$('#updatedAt').textContent='تعذر تحميل البيانات'})
