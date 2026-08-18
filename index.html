@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#0b1630" />
   <title>MFZ Vessel Monitor</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css?v=map-20260818_122645" />
 </head>
 <body>
   <div class="shell">
@@ -15,6 +16,7 @@
         <button class="nav active" data-view="overview">لوحة المتابعة</button>
         <button class="nav" data-view="expected">السفن المتوقعة</button>
         <button class="nav" data-view="anchorage">السفن في المخطاف</button>
+        <button class="nav" data-view="map">خريطة الموانئ</button>
         <button class="nav" data-view="flexport">الجداول والخدمات الملاحية</button>
         <button class="nav" data-view="ports">مقارنة الموانئ</button>
         <button class="nav" data-view="cargo">TEU والبضائع</button>
@@ -148,6 +150,42 @@
       </section>
 
 
+
+      <section id="map" class="view">
+        <div class="map-hero">
+          <div>
+            <span class="kicker">Live Vessel Map</span>
+            <h2>الخريطة التفاعلية للميناءين</h2>
+            <p class="muted">مواضع السفن مأخوذة من أحدث رصد متاح، ورمز السفينة يدور حسب COG عندما تكون قيمة الاتجاه متاحة.</p>
+          </div>
+          <div class="map-legend">
+            <span><i class="legend-ship inport"></i> داخل الميناء</span>
+            <span><i class="legend-ship anchorage"></i> في المخطاف</span>
+            <span><i class="legend-line operational"></i> رصيف / Terminal</span>
+            <span><i class="legend-line outer"></i> حدود Shipnext</span>
+          </div>
+        </div>
+
+        <div class="grid two port-map-grid">
+          <article class="panel port-map-panel">
+            <div class="panel-head">
+              <div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div>
+              <span class="pill" id="misMapCount">—</span>
+            </div>
+            <div id="misurataMap" class="port-map"></div>
+          </article>
+
+          <article class="panel port-map-panel">
+            <div class="panel-head">
+              <div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div>
+              <span class="pill" id="benMapCount">—</span>
+            </div>
+            <div id="benghaziMap" class="port-map"></div>
+          </article>
+        </div>
+        <p class="map-footnote">الخريطة أداة متابعة بصرية وليست بديلًا عن بيانات AIS الرسمية أو تعليمات سلطات الميناء.</p>
+      </section>
+
       <section id="flexport" class="view">
         <div class="cards" id="flexportCards"></div>
         <div class="grid two">
@@ -179,6 +217,7 @@
       <section id="quality" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Data Quality</span><h2>تنبيهات جودة البيانات</h2></div></div><div id="qualityList" class="quality-list"></div></article></section>
     </main>
   </div>
-  <script src="app.js?v=data-cache-20260818103206"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js?v=map-20260818_122645"></script>
 </body>
 </html>
