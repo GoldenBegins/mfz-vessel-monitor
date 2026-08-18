@@ -96,6 +96,43 @@
           </article>
         </div>
 
+
+        <div class="current-port-heading">
+          <div>
+            <span class="kicker">Live Port Status</span>
+            <h2>السفن الموجودة حاليًا داخل الميناء</h2>
+            <p class="muted">تعرض الجداول أحدث السفن التي أكدها الرصد الجغرافي داخل نطاق كل ميناء.</p>
+          </div>
+        </div>
+
+        <div class="grid two current-port-grid">
+          <article class="panel current-port-panel">
+            <div class="panel-head">
+              <div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div>
+              <span class="pill inport-pill" id="misInPortCount">0 داخل الميناء</span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>SOG</th><th>المسافة</th><th>الوجهة</th><th>آخر رصد</th><th>الثقة</th></tr></thead>
+                <tbody id="misInPortRows"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="panel current-port-panel">
+            <div class="panel-head">
+              <div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div>
+              <span class="pill inport-pill" id="benInPortCount">0 داخل الميناء</span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>SOG</th><th>المسافة</th><th>الوجهة</th><th>آخر رصد</th><th>الثقة</th></tr></thead>
+                <tbody id="benInPortRows"></tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+
         <article class="panel">
           <div class="panel-head">
             <div><span class="kicker">Waiting History</span><h2>آخر فترات الانتظار المكتملة</h2></div>
@@ -142,6 +179,6 @@
       <section id="quality" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Data Quality</span><h2>تنبيهات جودة البيانات</h2></div></div><div id="qualityList" class="quality-list"></div></article></section>
     </main>
   </div>
-  <script src="app.js?v=20260818-anchorage-final"></script>
+  <script src="app.js?v=20260818-current-inport-v1"></script>
 </body>
 </html>
