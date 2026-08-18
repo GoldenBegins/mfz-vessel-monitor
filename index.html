@@ -14,6 +14,7 @@
       <nav>
         <button class="nav active" data-view="overview">لوحة المتابعة</button>
         <button class="nav" data-view="expected">السفن المتوقعة</button>
+        <button class="nav" data-view="anchorage">السفن في المخطاف</button>
         <button class="nav" data-view="flexport">الجداول والخدمات الملاحية</button>
         <button class="nav" data-view="ports">مقارنة الموانئ</button>
         <button class="nav" data-view="cargo">TEU والبضائع</button>
@@ -50,6 +51,66 @@
         </div>
       </section>
 
+
+      <section id="anchorage" class="view">
+        <div class="anchorage-hero">
+          <div>
+            <span class="kicker">Anchorage Intelligence</span>
+            <h2>السفن في المخطاف وزمن الانتظار</h2>
+            <p class="muted">يتم تحديد الحالة جغرافيًا من موقع السفينة وسرعتها، ثم تُراجع الوجهة المعلنة. زمن الانتظار هو زمن رصد تقريبي بين أول وآخر مشاهدة للنظام.</p>
+          </div>
+          <div class="lifecycle" aria-label="دورة السفينة">
+            <span>متوقعة</span><i>←</i><span class="current">المخطاف</span><i>←</i><span>داخل الميناء</span><i>←</i><span>غادرت</span>
+          </div>
+        </div>
+
+        <div class="cards" id="anchorageCards"></div>
+
+        <div class="grid two">
+          <article class="panel anchorage-port-panel">
+            <div class="panel-head">
+              <div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div>
+              <span class="pill anchor-pill" id="misAnchorageCount">0 في المخطاف</span>
+            </div>
+            <div class="anchorage-mini" id="misAnchorageStats"></div>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>الانتظار</th><th>أول رصد</th><th>الثقة</th></tr></thead>
+                <tbody id="misAnchorageRows"></tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="panel anchorage-port-panel">
+            <div class="panel-head">
+              <div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div>
+              <span class="pill anchor-pill" id="benAnchorageCount">0 في المخطاف</span>
+            </div>
+            <div class="anchorage-mini" id="benAnchorageStats"></div>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>الانتظار</th><th>أول رصد</th><th>الثقة</th></tr></thead>
+                <tbody id="benAnchorageRows"></tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+
+        <article class="panel">
+          <div class="panel-head">
+            <div><span class="kicker">Waiting History</span><h2>آخر فترات الانتظار المكتملة</h2></div>
+            <span class="pill" id="anchorageUpdated">—</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>الميناء</th><th>السفينة</th><th>مدة الانتظار</th><th>الوجهة</th><th>الحالة النهائية</th><th>دخل الميناء</th></tr></thead>
+              <tbody id="anchorageHistoryRows"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+
       <section id="flexport" class="view">
         <div class="cards" id="flexportCards"></div>
         <div class="grid two">
@@ -81,6 +142,6 @@
       <section id="quality" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Data Quality</span><h2>تنبيهات جودة البيانات</h2></div></div><div id="qualityList" class="quality-list"></div></article></section>
     </main>
   </div>
-  <script src="app.js?v=20260817-combined-expected"></script>
+  <script src="app.js?v=20260818-anchorage"></script>
 </body>
 </html>
