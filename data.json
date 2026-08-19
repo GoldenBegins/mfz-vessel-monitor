@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-19 06:03:51",
+  "updatedAt": "2026-08-19 14:04:27",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 34,
-    "benghaziCalls": 18,
+    "benghaziCalls": 20,
     "misurataExcludedCalls": 5,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 6,
@@ -11,21 +11,21 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 6,
-    "unestimatedCalls": 12,
-    "coverage": 33.3,
+    "estimatedCalls": 7,
+    "unestimatedCalls": 13,
+    "coverage": 35.0,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 5382,
-    "estimatedGeneralCargoTons": 13221,
+    "estimatedGeneralCargoTons": 19063,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 5
+    "fallbackLowCalls": 6
   },
   "comparison": [
     {
       "period": "2026-08",
       "misurataCalls": 34,
-      "benghaziCalls": 18,
+      "benghaziCalls": 20,
       "misurataExcludedCalls": 5,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -33,8 +33,8 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 5382,
-      "estimatedGeneralCargoTons": 13221,
-      "coverage": 33.3
+      "estimatedGeneralCargoTons": 19063,
+      "coverage": 35.0
     }
   ],
   "estimates": [
@@ -85,6 +85,14 @@
       "estimate": "1,018 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "JELENA",
+      "imo": "9519042",
+      "type": "General Cargo",
+      "estimate": "5,842 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
