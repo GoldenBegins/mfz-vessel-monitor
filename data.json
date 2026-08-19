@@ -1371,7 +1371,7 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-19 09:01:45",
+    "updatedAt": "2026-08-19 09:40:26",
     "summary": {
       "Misurata": {
         "active": 0,
@@ -2253,7 +2253,7 @@
       }
     ]
   },
-  "anchorageUpdatedAt": "2026-08-19T07:40:14.898476+00:00",
+  "anchorageUpdatedAt": "2026-08-19 09:40:26",
   "currentInPort": {
     "Misurata": [
       {
