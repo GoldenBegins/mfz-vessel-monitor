@@ -1371,13 +1371,13 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-19 12:59:44",
+    "updatedAt": "2026-08-19 13:40:43",
     "summary": {
       "Misurata": {
-        "active": 0,
-        "avgWaitingHours": 0,
-        "medianWaitingHours": 0,
-        "longestWaitingHours": 0,
+        "active": 1,
+        "avgWaitingHours": 4.1,
+        "medianWaitingHours": 4.1,
+        "longestWaitingHours": 4.1,
         "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1385,9 +1385,9 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 1,
-        "avgWaitingHours": 9.6,
-        "medianWaitingHours": 9.6,
+        "active": 2,
+        "avgWaitingHours": 6.6,
+        "medianWaitingHours": 6.6,
         "longestWaitingHours": 9.6,
         "destinationConfirmed": 1,
         "destinationUncertain": 0,
@@ -1395,7 +1395,7 @@
         "departureCandidates": 0,
         "review": 0
       },
-      "historicalEpisodes": 11,
+      "historicalEpisodes": 13,
       "completedEpisodes": 10,
       "historicalMedianWaitingHours": 0.0
     },
@@ -1421,6 +1421,50 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Multi-source Anchorage Discovery (Shipnext)"
+      },
+      {
+        "episodeId": "ANCH-BENGHAZI-9053907-20260819T080400Z",
+        "port": "Benghazi",
+        "vessel": "GAHURA",
+        "imo": "9053907",
+        "mmsi": "352624000",
+        "firstSeen": "2026-08-19T08:04:00Z",
+        "lastSeen": "2026-08-19T08:04:00Z",
+        "waitingHours": 3.58,
+        "lat": 32.143607,
+        "lon": 20.009068,
+        "sog": 0.0,
+        "distanceKm": 5.52,
+        "destination": "TO ORDER",
+        "destinationClass": "Other Port",
+        "eta": "",
+        "status": "Anchorage",
+        "enteredPortOn": "",
+        "closedOn": "",
+        "confidence": "High",
+        "source": "Multi-source Anchorage Discovery (Shipnext; fresh timed)"
+      },
+      {
+        "episodeId": "ANCH-MISURATA-9136852-20260819T073343Z",
+        "port": "Misurata",
+        "vessel": "HASAN G",
+        "imo": "9136852",
+        "mmsi": "620360000",
+        "firstSeen": "2026-08-19T07:33:43Z",
+        "lastSeen": "2026-08-19T07:33:43Z",
+        "waitingHours": 4.08,
+        "lat": 32.365,
+        "lon": 15.3,
+        "sog": 0.0,
+        "distanceKm": 5.96,
+        "destination": "Qasr Ahmed",
+        "destinationClass": "Other Port",
+        "eta": "",
+        "status": "Anchorage",
+        "enteredPortOn": "",
+        "closedOn": "",
+        "confidence": "High",
+        "source": "Multi-source Anchorage Discovery (Shipnext; fresh timed)"
       }
     ],
     "currentInPort": {
@@ -2276,7 +2320,7 @@
       }
     ]
   },
-  "anchorageUpdatedAt": "2026-08-19 12:59:44",
+  "anchorageUpdatedAt": "2026-08-19 13:40:43",
   "currentInPort": {
     "Misurata": [
       {
