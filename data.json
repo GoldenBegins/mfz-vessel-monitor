@@ -3200,5 +3200,58 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-19T19:40:18.800757+00:00"
+  "mapUpdatedAt": "2026-08-19T19:40:18.800757+00:00",
+  "interPortVoyages": {
+    "updatedAt": "2026-08-19T21:17:03Z",
+    "summary": {
+      "confirmedTotal": 0,
+      "candidateTotal": 2,
+      "misurataToBenghaziConfirmed": 0,
+      "benghaziToMisurataConfirmed": 0,
+      "misurataToBenghaziCandidates": 2,
+      "benghaziToMisurataCandidates": 0
+    },
+    "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9211157",
+        "mmsi": "271047045",
+        "vessel": "KOSOVAK",
+        "type": "Container",
+        "originPort": "Misurata",
+        "destinationPort": "Benghazi",
+        "originFirstSeen": "2026-08-15",
+        "originLastSeen": "2026-08-17",
+        "originStayHours": 72.0,
+        "destinationAnchorageFirstSeen": "2026-08-19T08:00:44Z",
+        "destinationAnchorageLastSeen": "2026-08-19T12:54:51Z",
+        "destinationAnchorageHours": 11.67,
+        "seaTransitCalendarGapDays": 2,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Misurata|9211157|2026-08-15",
+        "anchorEpisodeId": "ANCH-BENGHAZI-9211157-20260819T080044Z"
+      },
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9356684",
+        "mmsi": "256589000",
+        "vessel": "ALEXANDRA A",
+        "type": "General Cargo",
+        "originPort": "Misurata",
+        "destinationPort": "Benghazi",
+        "originFirstSeen": "2026-08-16",
+        "originLastSeen": "2026-08-17",
+        "originStayHours": 48.0,
+        "destinationAnchorageFirstSeen": "2026-08-19T01:20:04Z",
+        "destinationAnchorageLastSeen": "2026-08-19T15:17:00Z",
+        "destinationAnchorageHours": 18.34,
+        "seaTransitCalendarGapDays": 2,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Misurata|9356684|2026-08-16",
+        "anchorEpisodeId": "ANCH-BENGHAZI-9356684-20260819T012004Z"
+      }
+    ]
+  }
 }
