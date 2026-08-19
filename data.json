@@ -1371,7 +1371,7 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-19 09:59:51",
+    "updatedAt": "2026-08-19 12:59:44",
     "summary": {
       "Misurata": {
         "active": 0,
@@ -1386,9 +1386,9 @@
       },
       "Benghazi": {
         "active": 1,
-        "avgWaitingHours": 6.6,
-        "medianWaitingHours": 6.6,
-        "longestWaitingHours": 6.6,
+        "avgWaitingHours": 9.6,
+        "medianWaitingHours": 9.6,
+        "longestWaitingHours": 9.6,
         "destinationConfirmed": 1,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1408,12 +1408,12 @@
         "mmsi": "256589000",
         "firstSeen": "2026-08-19T01:20:04Z",
         "lastSeen": "2026-08-19T01:20:04Z",
-        "waitingHours": 6.63,
+        "waitingHours": 9.61,
         "lat": 32.119267,
         "lon": 19.959567,
         "sog": 0.0,
         "distanceKm": 7.57,
-        "destination": "Benghazi",
+        "destination": "BENGHAZI",
         "destinationClass": "To Benghazi",
         "eta": "",
         "status": "Anchorage",
@@ -2276,7 +2276,7 @@
       }
     ]
   },
-  "anchorageUpdatedAt": "2026-08-19T10:40:14.458665+00:00",
+  "anchorageUpdatedAt": "2026-08-19 12:59:44",
   "currentInPort": {
     "Misurata": [
       {
