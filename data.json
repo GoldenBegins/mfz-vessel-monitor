@@ -1371,7 +1371,7 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-19 09:40:26",
+    "updatedAt": "2026-08-19 09:59:51",
     "summary": {
       "Misurata": {
         "active": 0,
@@ -1385,21 +1385,44 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 0,
-        "avgWaitingHours": 0,
-        "medianWaitingHours": 0,
-        "longestWaitingHours": 0,
-        "destinationConfirmed": 0,
+        "active": 1,
+        "avgWaitingHours": 6.6,
+        "medianWaitingHours": 6.6,
+        "longestWaitingHours": 6.6,
+        "destinationConfirmed": 1,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
         "review": 0
       },
-      "historicalEpisodes": 10,
+      "historicalEpisodes": 11,
       "completedEpisodes": 10,
       "historicalMedianWaitingHours": 0.0
     },
-    "active": [],
+    "active": [
+      {
+        "episodeId": "ANCH-BENGHAZI-9356684-20260819T012004Z",
+        "port": "Benghazi",
+        "vessel": "ALEXANDRA A",
+        "imo": "9356684",
+        "mmsi": "256589000",
+        "firstSeen": "2026-08-19T01:20:04Z",
+        "lastSeen": "2026-08-19T01:20:04Z",
+        "waitingHours": 6.63,
+        "lat": 32.119267,
+        "lon": 19.959567,
+        "sog": 0.0,
+        "distanceKm": 7.57,
+        "destination": "Benghazi",
+        "destinationClass": "To Benghazi",
+        "eta": "",
+        "status": "Anchorage",
+        "enteredPortOn": "",
+        "closedOn": "",
+        "confidence": "High",
+        "source": "Multi-source Anchorage Discovery (Shipnext)"
+      }
+    ],
     "currentInPort": {
       "Misurata": [
         {
@@ -2253,7 +2276,7 @@
       }
     ]
   },
-  "anchorageUpdatedAt": "2026-08-19 09:40:26",
+  "anchorageUpdatedAt": "2026-08-19 09:59:51",
   "currentInPort": {
     "Misurata": [
       {
