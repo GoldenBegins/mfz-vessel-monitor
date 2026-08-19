@@ -225,58 +225,7 @@ document.addEventListener('click',e=>{
 });
 
 
-\n// INTERPORT_DASHBOARD_V1
-function interportEsc(v){
-  return String(v??'').replace(/[&<>"']/g,c=>({
-    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-  }[c]));
-}
-function interportDate(v){
-  if(!v)return '—';
-  if(typeof anchorageDate==='function')return anchorageDate(v);
-  const s=String(v);
-  const m=s.match(/^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{1,2}):(\d{2}))?/);
-  if(!m)return s;
-  return `${m[3]}-${m[2]}-${m[1]}${m[4]?` · ${String(m[4]).padStart(2,'0')}:${m[5]}`:''}`;
-}
-function interportHours(v){
-  const n=Number(v);
-  if(!Number.isFinite(n))return '—';
-  return n<24?`${n.toFixed(n<10?1:0)} س`:`${(n/24).toFixed(1)} يوم`;
-}
-function renderInterport(d){
-  const box=d&&d.interPortVoyages?d.interPortVoyages:{};
-  const s=box.summary||{};
-  const rows=Array.isArray(box.rows)?box.rows:[];
-  const set=(id,val)=>{const el=document.getElementById(id);if(el)el.textContent=val};
-  set('m2bConfirmed',s.misurataToBenghaziConfirmed||0);
-  set('b2mConfirmed',s.benghaziToMisurataConfirmed||0);
-  set('interportConfirmedTotal',s.confirmedTotal||0);
-  set('interportCandidateTotal',s.candidateTotal||0);
-  set('m2bCandidates',`${s.misurataToBenghaziCandidates||0} مرشح`);
-  set('b2mCandidates',`${s.benghaziToMisurataCandidates||0} مرشح`);
-  set('interportUpdated',box.updatedAt?interportDate(box.updatedAt):'—');
-  const tbody=document.getElementById('interportRows');
-  if(!tbody)return;
-  if(!rows.length){
-    tbody.innerHTML='<tr><td colspan="8" class="muted">لا توجد رحلات مؤكدة أو مرشحة بعد.</td></tr>';
-    return;
-  }
-  tbody.innerHTML=rows.map(r=>{
-    const candidate=r.kind==='candidate';
-    const direction=`${r.originPort==='Misurata'?'مصراتة':'بنغازي'} → ${r.destinationPort==='Misurata'?'مصراتة':'بنغازي'}`;
-    const second=candidate?(r.destinationAnchorageFirstSeen||''):(r.destinationFirstSeen||'');
-    const gap=Number.isFinite(Number(r.seaTransitCalendarGapDays))?`${Number(r.seaTransitCalendarGapDays)} يوم`:'—';
-    const anchor=interportHours(r.destinationAnchorageHours);
-    const stay=interportHours(candidate?r.originStayHours:r.destinationStayHours);
-    const status=candidate
-      ?'<span class="voyage-status candidate">مرشح · في المخطاف</span>'
-      :'<span class="voyage-status confirmed">رحلة مؤكدة</span>';
-    return `<tr><td><strong>${interportEsc(r.vessel||'—')}</strong><br><small>IMO ${interportEsc(r.imo||'—')}</small></td><td class="voyage-direction">${interportEsc(direction)}</td><td>${status}</td><td>${interportEsc(interportDate(r.originLastSeen))}</td><td>${interportEsc(interportDate(second))}</td><td>${interportEsc(gap)}</td><td>${interportEsc(anchor)}</td><td>${interportEsc(stay)}</td></tr>`;
-  }).join('');
-}
-
-function render(d){renderInterport(d);preparePortMaps(d);$('#updatedAt').textContent=d.updatedAt||'—';const s=d.summary||{};$('#metricCards').innerHTML=[['زيارات مصراتة التجارية',s.misurataCalls,'Commercial calls'],['زيارات بنغازي التجارية',s.benghaziCalls,'Commercial calls'],['مستبعد Fishing/Tug',s.excludedCalls||0,'Raw monitoring retained'],['TEU بنغازي تقديري',fmt(s.estimatedTEU),'Estimated']].map(x=>`<div class="metric"><div class="label">${x[0]}</div><div class="value">${x[1]}</div><div class="sub">${x[2]}</div></div>`).join('');const max=Math.max(s.misurataCalls||0,s.benghaziCalls||0,1);$('#portBars').innerHTML=[['مصراتة',s.misurataCalls],['بنغازي',s.benghaziCalls]].map(([n,v])=>`<div class="bar-item"><span>${n}</span><div class="bar-track"><div class="bar-fill" style="width:${v/max*100}%"></div></div><b>${v}</b></div>`).join('');$('#coverageText').textContent=`${s.coverage||0}%`;$('#coverageBar').style.width=`${Math.min(100,s.coverage||0)}%`;$('#confidenceBreakdown').innerHTML=`<span>High/Medium: ${s.historicalHighMediumCalls||0}</span><span>Fallback Low: ${s.fallbackLowCalls||0}</span><span>Unestimated: ${s.unestimatedCalls||0}</span>`;$('#estimateRows').innerHTML=(d.estimates||[]).map(r=>`<tr><td>${r.vessel}</td><td>${r.imo}</td><td>${r.type}</td><td>${r.estimate}</td><td>${badge(r.confidence)}</td><td>${r.method}</td></tr>`).join('')||'<tr><td colspan="6">لا توجد بيانات</td></tr>';renderExpected(d);renderAnchorage(d);renderFlexport(d);$('#comparisonRows').innerHTML=(d.comparison||[]).map(r=>`<tr><td>${r.period||'—'}</td><td>${fmt(r.misurataCalls)}</td><td>${fmt(r.misurataExcludedCalls||0)}</td><td>${fmt(r.benghaziCalls)}</td><td>${fmt(r.benghaziExcludedCalls||0)}</td><td>${valueOrDash(r.misurataActualTEU,r.misurataTEUStatus)}${r.misurataTEUStatus==='Verified Actual'?' <small>Actual</small>':''}</td><td>${fmt(r.estimatedTEU)} <small>Estimated</small></td><td>${valueOrDash(r.misurataActualGeneralCargoTons,r.misurataGeneralCargoStatus)}${r.misurataGeneralCargoStatus==='Verified Actual'?' t <small>Actual</small>':''}</td><td>${fmt(r.estimatedGeneralCargoTons)} t <small>Estimated</small></td><td>${r.coverage||0}%</td></tr>`).join('')||'<tr><td colspan="10">لا توجد بيانات</td></tr>';$('#cargoCards').innerHTML=[['TEU مصراتة فعلي',s.misurataTEUStatus==='Verified Actual'?fmt(s.misurataActualTEU):'—',s.misurataTEUStatus||'Not available'],['بضائع مصراتة الفعلية',s.misurataGeneralCargoStatus==='Verified Actual'?fmt(s.misurataActualGeneralCargoTons)+' t':'—',s.misurataGeneralCargoStatus||'Not available'],['TEU بنغازي تقديري',fmt(s.estimatedTEU),'Estimated'],['بضائع بنغازي تقديرية',fmt(s.estimatedGeneralCargoTons)+' t','Estimated']].map(x=>`<div class="metric"><div class="label">${x[0]}</div><div class="value">${x[1]}</div><div class="sub">${x[2]}</div></div>`).join('');$('#reviewCount').textContent=(d.review||[]).length;$('#reviewRows').innerHTML=(d.review||[]).map(r=>`<tr><td>${r.historicalName}</td><td>${r.currentName||'—'}</td><td>${r.imo}</td><td>${r.masterMmsi||'—'}</td><td>${r.observedMmsi||'—'}</td><td>${badge(r.status)}</td></tr>`).join('')||'<tr><td colspan="6">لا توجد حالات معروضة</td></tr>';$('#qualityList').innerHTML=(d.quality||[]).map(q=>`<div class="quality-item"><strong>${q.title}</strong><span>${q.detail}</span></div>`).join('')||'<p class="muted">لا توجد تنبيهات</p>'}$$('.nav').forEach(b=>b.addEventListener('click',()=>{
+function render(d){preparePortMaps(d);$('#updatedAt').textContent=d.updatedAt||'—';const s=d.summary||{};$('#metricCards').innerHTML=[['زيارات مصراتة التجارية',s.misurataCalls,'Commercial calls'],['زيارات بنغازي التجارية',s.benghaziCalls,'Commercial calls'],['مستبعد Fishing/Tug',s.excludedCalls||0,'Raw monitoring retained'],['TEU بنغازي تقديري',fmt(s.estimatedTEU),'Estimated']].map(x=>`<div class="metric"><div class="label">${x[0]}</div><div class="value">${x[1]}</div><div class="sub">${x[2]}</div></div>`).join('');const max=Math.max(s.misurataCalls||0,s.benghaziCalls||0,1);$('#portBars').innerHTML=[['مصراتة',s.misurataCalls],['بنغازي',s.benghaziCalls]].map(([n,v])=>`<div class="bar-item"><span>${n}</span><div class="bar-track"><div class="bar-fill" style="width:${v/max*100}%"></div></div><b>${v}</b></div>`).join('');$('#coverageText').textContent=`${s.coverage||0}%`;$('#coverageBar').style.width=`${Math.min(100,s.coverage||0)}%`;$('#confidenceBreakdown').innerHTML=`<span>High/Medium: ${s.historicalHighMediumCalls||0}</span><span>Fallback Low: ${s.fallbackLowCalls||0}</span><span>Unestimated: ${s.unestimatedCalls||0}</span>`;$('#estimateRows').innerHTML=(d.estimates||[]).map(r=>`<tr><td>${r.vessel}</td><td>${r.imo}</td><td>${r.type}</td><td>${r.estimate}</td><td>${badge(r.confidence)}</td><td>${r.method}</td></tr>`).join('')||'<tr><td colspan="6">لا توجد بيانات</td></tr>';renderExpected(d);renderAnchorage(d);renderFlexport(d);$('#comparisonRows').innerHTML=(d.comparison||[]).map(r=>`<tr><td>${r.period||'—'}</td><td>${fmt(r.misurataCalls)}</td><td>${fmt(r.misurataExcludedCalls||0)}</td><td>${fmt(r.benghaziCalls)}</td><td>${fmt(r.benghaziExcludedCalls||0)}</td><td>${valueOrDash(r.misurataActualTEU,r.misurataTEUStatus)}${r.misurataTEUStatus==='Verified Actual'?' <small>Actual</small>':''}</td><td>${fmt(r.estimatedTEU)} <small>Estimated</small></td><td>${valueOrDash(r.misurataActualGeneralCargoTons,r.misurataGeneralCargoStatus)}${r.misurataGeneralCargoStatus==='Verified Actual'?' t <small>Actual</small>':''}</td><td>${fmt(r.estimatedGeneralCargoTons)} t <small>Estimated</small></td><td>${r.coverage||0}%</td></tr>`).join('')||'<tr><td colspan="10">لا توجد بيانات</td></tr>';$('#cargoCards').innerHTML=[['TEU مصراتة فعلي',s.misurataTEUStatus==='Verified Actual'?fmt(s.misurataActualTEU):'—',s.misurataTEUStatus||'Not available'],['بضائع مصراتة الفعلية',s.misurataGeneralCargoStatus==='Verified Actual'?fmt(s.misurataActualGeneralCargoTons)+' t':'—',s.misurataGeneralCargoStatus||'Not available'],['TEU بنغازي تقديري',fmt(s.estimatedTEU),'Estimated'],['بضائع بنغازي تقديرية',fmt(s.estimatedGeneralCargoTons)+' t','Estimated']].map(x=>`<div class="metric"><div class="label">${x[0]}</div><div class="value">${x[1]}</div><div class="sub">${x[2]}</div></div>`).join('');$('#reviewCount').textContent=(d.review||[]).length;$('#reviewRows').innerHTML=(d.review||[]).map(r=>`<tr><td>${r.historicalName}</td><td>${r.currentName||'—'}</td><td>${r.imo}</td><td>${r.masterMmsi||'—'}</td><td>${r.observedMmsi||'—'}</td><td>${badge(r.status)}</td></tr>`).join('')||'<tr><td colspan="6">لا توجد حالات معروضة</td></tr>';$('#qualityList').innerHTML=(d.quality||[]).map(q=>`<div class="quality-item"><strong>${q.title}</strong><span>${q.detail}</span></div>`).join('')||'<p class="muted">لا توجد تنبيهات</p>'}$$('.nav').forEach(b=>b.addEventListener('click',()=>{
   $$('.nav').forEach(x=>x.classList.remove('active'));
   b.classList.add('active');
   $$('.view').forEach(v=>v.classList.remove('active-view'));
