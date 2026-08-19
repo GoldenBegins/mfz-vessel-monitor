@@ -1371,14 +1371,14 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-19 06:40:29",
+    "updatedAt": "2026-08-19 09:01:45",
     "summary": {
       "Misurata": {
-        "active": 2,
-        "avgWaitingHours": 27.0,
-        "medianWaitingHours": 27.0,
-        "longestWaitingHours": 27.0,
-        "destinationConfirmed": 2,
+        "active": 0,
+        "avgWaitingHours": 0,
+        "medianWaitingHours": 0,
+        "longestWaitingHours": 0,
+        "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1396,55 +1396,10 @@
         "review": 0
       },
       "historicalEpisodes": 10,
-      "completedEpisodes": 8,
+      "completedEpisodes": 10,
       "historicalMedianWaitingHours": 0.0
     },
-    "active": [
-      {
-        "episodeId": "Misurata|354486000|20260818013912",
-        "port": "Misurata",
-        "vessel": "AK PIONEER",
-        "imo": "",
-        "mmsi": "354486000",
-        "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-19T04:40:19Z",
-        "waitingHours": 27.02,
-        "lat": 32.37897,
-        "lon": 15.28814,
-        "sog": 0.1,
-        "distanceKm": 5.31,
-        "destination": "LY MRA",
-        "destinationClass": "To Misurata",
-        "eta": "2027-06-30 19:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "MyShipTracking Light Anchorage"
-      },
-      {
-        "episodeId": "Misurata|613003584|20260818013912",
-        "port": "Misurata",
-        "vessel": "PRINCESS EVA",
-        "imo": "",
-        "mmsi": "613003584",
-        "firstSeen": "2026-08-18 1:39:12",
-        "lastSeen": "2026-08-19T04:40:24Z",
-        "waitingHours": 27.02,
-        "lat": 32.38608,
-        "lon": 15.3131,
-        "sog": 0.0,
-        "distanceKm": 7.77,
-        "destination": "MISURATA",
-        "destinationClass": "To Misurata",
-        "eta": "03:30 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "MyShipTracking Light Anchorage"
-      }
-    ],
+    "active": [],
     "currentInPort": {
       "Misurata": [
         {
@@ -2219,6 +2174,50 @@
         "closedOn": "2026-08-18 10:25:20",
         "confidence": "High",
         "source": "MyShipTracking vesselonmap / vesseldestination"
+      },
+      {
+        "episodeId": "Misurata|613003584|20260818013912",
+        "port": "Misurata",
+        "vessel": "PRINCESS EVA",
+        "imo": "",
+        "mmsi": "613003584",
+        "firstSeen": "2026-08-18 1:39:12",
+        "lastSeen": "2026-08-19T04:40:24Z",
+        "waitingHours": 27.02,
+        "lat": 32.38608,
+        "lon": 15.3131,
+        "sog": 0.0,
+        "distanceKm": 7.77,
+        "destination": "MISURATA",
+        "destinationClass": "To Misurata",
+        "eta": "03:30 (UTC)",
+        "status": "Entered Port",
+        "enteredPortOn": "2026-08-18T22:18:51Z",
+        "closedOn": "2026-08-18T22:18:51Z",
+        "confidence": "High",
+        "source": "Light Anchorage Reconcile (MMSI)"
+      },
+      {
+        "episodeId": "Misurata|354486000|20260818013912",
+        "port": "Misurata",
+        "vessel": "AK PIONEER",
+        "imo": "",
+        "mmsi": "354486000",
+        "firstSeen": "2026-08-18 1:39:12",
+        "lastSeen": "2026-08-19T04:40:19Z",
+        "waitingHours": 27.02,
+        "lat": 32.37897,
+        "lon": 15.28814,
+        "sog": 0.1,
+        "distanceKm": 5.31,
+        "destination": "LY MRA",
+        "destinationClass": "To Misurata",
+        "eta": "2027-06-30 19:00 (UTC)",
+        "status": "Entered Port",
+        "enteredPortOn": "2026-08-19T01:28:34Z",
+        "closedOn": "2026-08-19T01:28:34Z",
+        "confidence": "High",
+        "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
     "lightPortSyncUpdatedAt": "2026-08-19T04:40:15.026681+00:00",
@@ -2254,7 +2253,7 @@
       }
     ]
   },
-  "anchorageUpdatedAt": "2026-08-19 06:40:29",
+  "anchorageUpdatedAt": "2026-08-19 09:01:45",
   "currentInPort": {
     "Misurata": [
       {
