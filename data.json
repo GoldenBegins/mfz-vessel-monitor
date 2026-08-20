@@ -3279,5 +3279,48 @@
         "anchorEpisodeId": "ANCH-BENGHAZI-9356684-20260819T012004Z"
       }
     ]
+  },
+  "portPressure": {
+    "updatedAt": "2026-08-20T07:20:26Z",
+    "periodStart": "2026-08-15",
+    "periodEnd": "2026-08-20",
+    "effectiveDays": 6,
+    "method": "Operational indicators from monitored Port Calls and Anchorage state. Port Stay is an observed-presence proxy, not berth-working or unloading time.",
+    "ports": {
+      "Misurata": {
+        "port": "Misurata",
+        "windowDays": 6,
+        "arrivals": 33,
+        "arrivalsPerDay": 5.5,
+        "closedCalls": 22,
+        "openCalls": 11,
+        "openShare": 0.33,
+        "avgPortStayProxyDays": 2.73,
+        "medianPortStayProxyDays": 2.0,
+        "anchorageActive": 1,
+        "currentInPort": 10,
+        "anchorageToInPortRatio": 0.1,
+        "avgAnchorageWaitHours": 21.1,
+        "pressureLevel": "Medium",
+        "likelyReason": "ضغط المخطاف منخفض حاليًا مقارنة بعدد السفن داخل الميناء."
+      },
+      "Benghazi": {
+        "port": "Benghazi",
+        "windowDays": 6,
+        "arrivals": 19,
+        "arrivalsPerDay": 3.17,
+        "closedCalls": 9,
+        "openCalls": 10,
+        "openShare": 0.53,
+        "avgPortStayProxyDays": 3.32,
+        "medianPortStayProxyDays": 3.0,
+        "anchorageActive": 16,
+        "currentInPort": 10,
+        "anchorageToInPortRatio": 1.6,
+        "avgAnchorageWaitHours": 10.5,
+        "pressureLevel": "High",
+        "likelyReason": "ضغط المخطاف مرتفع، لكن السجل الحالي لا يكفي لعزل السبب بثقة؛ يلزم تاريخ أطول."
+      }
+    }
   }
 }
