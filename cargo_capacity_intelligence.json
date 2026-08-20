@@ -1,14 +1,15 @@
 {
-  "version": "CARGO_CAPACITY_V2",
-  "updatedAt": "2026-08-20T12:10:21Z",
+  "version": "CARGO_CAPACITY_V5",
+  "updatedAt": "2026-08-20T12:16:02Z",
   "summary": {
     "dwtProfiles": 57,
     "fleetSampleN": 18,
     "fleetMedianTonsPerDwt": 0.6565,
     "fleetP25": 0.3947,
     "fleetP75": 0.911,
-    "commodityCalibrations": 3,
+    "commodityModelsUsable": 1,
     "exactVesselEstimates": 1,
+    "commodityEstimates": 0,
     "fleetRatioEstimates": 15,
     "unestimatedCalls": 0
   },
@@ -23,7 +24,7 @@
       "Min": 0.116,
       "Max": 1.1818,
       "Confidence": "Medium",
-      "Updated On": "2026-08-20T12:10:21Z"
+      "Updated On": "2026-08-20T12:16:02Z"
     },
     {
       "Level": "Commodity",
@@ -35,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-20T12:10:21Z"
+      "Updated On": "2026-08-20T12:16:02Z"
     },
     {
       "Level": "Commodity",
@@ -47,7 +48,7 @@
       "Min": 0.116,
       "Max": 0.9449,
       "Confidence": "Low",
-      "Updated On": "2026-08-20T12:10:21Z"
+      "Updated On": "2026-08-20T12:16:02Z"
     },
     {
       "Level": "Commodity",
@@ -59,7 +60,7 @@
       "Min": 0.6454,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-20T12:10:21Z"
+      "Updated On": "2026-08-20T12:16:02Z"
     }
   ],
   "rows": [
@@ -70,6 +71,7 @@
       "Vessel": "ABASHIE",
       "Vessel Type": "General Cargo",
       "DWT": 3028.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -79,7 +81,7 @@
       "High Estimate": 2758.47,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Benghazi",
@@ -88,6 +90,7 @@
       "Vessel": "GAHURA",
       "Vessel Type": "General Cargo",
       "DWT": 4175.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -97,7 +100,7 @@
       "High Estimate": 3803.37,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Benghazi",
@@ -106,6 +109,7 @@
       "Vessel": "NABIHA STAR",
       "Vessel Type": "General Cargo",
       "DWT": 5697.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -115,7 +119,7 @@
       "High Estimate": 5189.89,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Benghazi",
@@ -124,6 +128,7 @@
       "Vessel": "JELENA",
       "Vessel Type": "General Cargo",
       "DWT": 5700.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -133,7 +138,7 @@
       "High Estimate": 5192.62,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -142,6 +147,7 @@
       "Vessel": "BREB COUNTESS",
       "Vessel Type": "General Cargo",
       "DWT": 7811.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -151,7 +157,7 @@
       "High Estimate": 7115.71,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -160,6 +166,7 @@
       "Vessel": "HASAN G",
       "Vessel Type": "General Cargo",
       "DWT": 6830.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -169,7 +176,7 @@
       "High Estimate": 6222.04,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -178,6 +185,7 @@
       "Vessel": "ALEXANDRA A",
       "Vessel Type": "General Cargo",
       "DWT": 12099.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -187,7 +195,7 @@
       "High Estimate": 11022.02,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -196,6 +204,7 @@
       "Vessel": "ABDULRAHMAN KING",
       "Vessel Type": "General Cargo",
       "DWT": 2267.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -205,7 +214,7 @@
       "High Estimate": 2065.21,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -214,6 +223,7 @@
       "Vessel": "BFR",
       "Vessel Type": "General Cargo",
       "DWT": 8943.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -223,7 +233,7 @@
       "High Estimate": 8146.95,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -232,6 +242,7 @@
       "Vessel": "HOPE",
       "Vessel Type": "General Cargo",
       "DWT": 5150.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -241,7 +252,7 @@
       "High Estimate": 4691.58,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -250,6 +261,7 @@
       "Vessel": "AK PIONEER",
       "Vessel Type": "General Cargo",
       "DWT": 7224.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -259,7 +271,7 @@
       "High Estimate": 6580.96,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -268,6 +280,7 @@
       "Vessel": "MASTERY D",
       "Vessel Type": "General Cargo",
       "DWT": 10744.0,
+      "Commodity Used": "",
       "Method": "Exact vessel MFZ historical",
       "Historical Visits": 1,
       "Sample N": 1,
@@ -275,7 +288,7 @@
       "Estimated Cargo Tons": 1245.94,
       "Low Estimate": 1245.94,
       "High Estimate": 1245.94,
-      "Confidence": "Medium",
+      "Confidence": "Low",
       "Source": "MFZ Actual Cargo Calls exact IMO",
       "Notes": ""
     },
@@ -286,6 +299,7 @@
       "Vessel": "OSTERGOTLAND",
       "Vessel Type": "General Cargo",
       "DWT": 10758.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -295,7 +309,7 @@
       "High Estimate": 9800.39,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -304,6 +318,7 @@
       "Vessel": "PRINCESS EVA",
       "Vessel Type": "General Cargo",
       "DWT": 10561.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -313,7 +328,7 @@
       "High Estimate": 9620.92,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -322,6 +337,7 @@
       "Vessel": "COUSINS",
       "Vessel Type": "General Cargo",
       "DWT": 2185.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -331,7 +347,7 @@
       "High Estimate": 1990.5,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Misurata",
@@ -340,6 +356,7 @@
       "Vessel": "FROLAND",
       "Vessel Type": "General Cargo",
       "DWT": 9270.0,
+      "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
@@ -349,7 +366,8 @@
       "High Estimate": 8444.84,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
-      "Notes": "Planning proxy, not official tonnage."
+      "Notes": "Planning proxy, not official handled tonnage."
     }
-  ]
+  ],
+  "methodology": "Exact vessel first (1 visit Low, 2 Medium, 3+ High). Commodity ratio only when current commodity is known and commodity sample n>=5. Otherwise fleet ratio. P25-P75 range. Planning proxy only."
 }
