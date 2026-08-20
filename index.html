@@ -19,6 +19,7 @@
         <button class="nav" data-view="map">خريطة الموانئ</button>
         <button class="nav" data-view="interport">الرحلات بين الميناءين</button>
         <button class="nav" data-view="flexport">الجداول والخدمات الملاحية</button>
+        <button class="nav" data-view="pressure">ضغط وكفاءة الموانئ</button>
         <button class="nav" data-view="ports">مقارنة الموانئ</button>
         <button class="nav" data-view="cargo">TEU والبضائع</button>
         <button class="nav" data-view="review">مراجعة الهوية</button>
@@ -212,6 +213,15 @@
         </article>
       </section>
 
+      <section id="pressure" class="view">
+        <div class="pressure-hero">
+          <div><span class="kicker">Port Pressure &amp; Efficiency</span><h2>ضغط وكفاءة الموانئ</h2><p class="muted">مقارنة تشغيلية تساعد على تقدير هل تراكم السفن ناتج أكثر عن معدل الوصول أم مدة البقاء المرصودة أم الاثنين معًا.</p></div>
+          <span class="pill" id="pressurePeriod">—</span>
+        </div>
+        <div id="pressurePanels" class="pressure-grid"><article class="panel"><p class="muted">جاري تحميل المؤشرات...</p></article></div>
+        <p id="pressureMethod" class="pressure-note"></p>
+      </section>
+
       <section id="ports" class="view">
         <article class="panel">
           <div class="panel-head"><div><span class="kicker">Port Comparison</span><h2>Actual مصراتة مقابل Estimated بنغازي</h2></div></div>
@@ -233,5 +243,6 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="app.js?v=interport-20260819231654"></script>
   <script src="interport.js?v=1787176507"></script>
+  <script src="pressure.js?v=1787210421"></script>
 </body>
 </html>
