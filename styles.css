@@ -261,3 +261,9 @@
   main{padding-left:9px!important;padding-right:9px!important}
 }
 
+/* DESKTOP_GUARD_FOR_MOBILE_UX_V1 */
+#mobileUxRoot{display:none!important}
+@media(max-width:760px){
+  #mobileUxRoot{display:block!important}
+}
+
