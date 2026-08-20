@@ -25,3 +25,31 @@ async function load(){
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',load,{once:true});else load();
 })();
+
+/* DYNAMIC_NAV_HANDLER_V1 */
+document.addEventListener('click',function(e){
+  const b=e.target.closest&&e.target.closest('.nav[data-view]');
+  if(!b)return;
+  const id=b.dataset.view;
+  const view=document.getElementById(id);
+  if(!view)return;
+
+  document.querySelectorAll('.nav').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');
+
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active-view'));
+  view.classList.add('active-view');
+
+  const title=document.getElementById('pageTitle');
+  if(title)title.textContent=(b.textContent||'').trim();
+
+  if(id==='monthly-port-intelligence'){
+    const upd=document.getElementById('mpiUpd');
+    const top=document.querySelector('main');
+    if(top)top.scrollTo?top.scrollTo({top:0,behavior:'smooth'}):window.scrollTo(0,0);
+    if(upd&&upd.textContent==='—'){
+      setTimeout(()=>window.dispatchEvent(new Event('monthly-port-refresh')),20);
+    }
+  }
+});
+
