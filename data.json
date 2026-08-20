@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20 14:03:39",
+  "updatedAt": "2026-08-20 22:04:22",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 37,
@@ -96,12 +96,7 @@
     }
   ],
   "review": [],
-  "quality": [
-    {
-      "title": "High-priority data-quality checks",
-      "detail": "224 internal high-priority checks are recorded."
-    }
-  ],
+  "quality": [],
   "expectedArrivals": [
     {
       "port": "Benghazi",
