@@ -3390,45 +3390,43 @@
     ]
   },
   "portPressure": {
-    "updatedAt": "2026-08-20T07:41:10Z",
+    "version": "V2_PHASE_AWARE",
+    "updatedAt": "2026-08-20T07:49:16Z",
     "periodStart": "2026-08-15",
     "periodEnd": "2026-08-20",
     "effectiveDays": 6,
-    "method": "Operational indicators from monitored Port Calls and Anchorage state. Port Stay is an observed-presence proxy, not berth-working or unloading time.",
     "ports": {
       "Misurata": {
         "port": "Misurata",
-        "windowDays": 6,
         "arrivals": 33,
         "arrivalsPerDay": 5.5,
-        "closedCalls": 22,
-        "openCalls": 11,
-        "openShare": 0.33,
         "avgPortStayProxyDays": 2.73,
-        "medianPortStayProxyDays": 2.0,
-        "anchorageActive": 1,
         "currentInPort": 11,
-        "anchorageToInPortRatio": 0.09,
-        "avgAnchorageWaitHours": 21.1,
-        "pressureLevel": "Medium",
-        "likelyReason": "ضغط المخطاف منخفض حاليًا مقارنة بعدد السفن داخل الميناء."
+        "confirmedPrePort": 0,
+        "postPortActive": 1,
+        "unknownAnchorage": 0,
+        "confirmedQueueRatio": 0.0,
+        "potentialQueueRatio": 0.0,
+        "openCalls": 11,
+        "closedCalls": 22,
+        "pressureLevel": "Low",
+        "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
       },
       "Benghazi": {
         "port": "Benghazi",
-        "windowDays": 6,
         "arrivals": 19,
         "arrivalsPerDay": 3.17,
-        "closedCalls": 9,
-        "openCalls": 10,
-        "openShare": 0.53,
         "avgPortStayProxyDays": 3.32,
-        "medianPortStayProxyDays": 3.0,
-        "anchorageActive": 16,
         "currentInPort": 10,
-        "anchorageToInPortRatio": 1.6,
-        "avgAnchorageWaitHours": 10.5,
+        "confirmedPrePort": 0,
+        "postPortActive": 2,
+        "unknownAnchorage": 13,
+        "confirmedQueueRatio": 0.0,
+        "potentialQueueRatio": 1.3,
+        "openCalls": 10,
+        "closedCalls": 9,
         "pressureLevel": "High",
-        "likelyReason": "ضغط المخطاف مرتفع، لكن السجل الحالي لا يكفي لعزل السبب بثقة؛ يلزم تاريخ أطول."
+        "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
       }
     }
   }
