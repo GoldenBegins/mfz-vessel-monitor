@@ -24,6 +24,7 @@
         <button class="nav" data-view="cargo">TEU والبضائع</button>
         <button class="nav" data-view="review">مراجعة الهوية</button>
         <button class="nav" data-view="quality">جودة البيانات</button>
+        <button class="nav" data-view="monthly-port-intelligence">الملخص الشهري</button>
       </nav>
       <div class="side-note">نسخة عرض آمنة — لا تحتوي على مفاتيح Google أو بيانات MFZ الخام.</div>
     </aside>
@@ -238,6 +239,43 @@
       <section id="review" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Vessel Identity Check</span><h2>الحالات التي تحتاج مراجعة</h2></div><span class="pill warn" id="reviewCount">0</span></div><p class="muted">التحقق الخارجي يعمل آليًا، والحالات غير المحسومة تُوقف من المعايرة التاريخية دون إسقاط الزيارة الحية.</p><div class="table-wrap"><table><thead><tr><th>الاسم التاريخي</th><th>الاسم الحالي</th><th>IMO</th><th>Master MMSI</th><th>Observed MMSI</th><th>الحالة</th></tr></thead><tbody id="reviewRows"></tbody></table></div></article></section>
 
       <section id="quality" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Data Quality</span><h2>تنبيهات جودة البيانات</h2></div></div><div id="qualityList" class="quality-list"></div></article></section>
+    
+      <section id="monthly-port-intelligence" class="view">
+        <article class="panel">
+          <div class="panel-head">
+            <div>
+              <span class="kicker">Monthly Port Intelligence</span>
+              <h2>الملخص الشهري للميناءين</h2>
+            </div>
+            <span class="pill" id="mpiUpd">—</span>
+          </div>
+          <p class="muted">
+            Type Resolution يقيس اكتمال تصنيف أنواع السفن. Cargo DWT Coverage يقيس DWT داخل السفن المصنفة كبضائع فقط.
+            TEU هنا مؤشر سعة سفن الحاويات وليس مناولة فعلية، وأطنان General Cargo تقدير تخطيطي وليست بيانات رسمية.
+          </p>
+          <div class="cards" id="mpiCards"></div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>الشهر</th>
+                  <th>الميناء</th>
+                  <th>الزيارات</th>
+                  <th>Type Resolution</th>
+                  <th>Cargo DWT</th>
+                  <th>TEU Coverage</th>
+                  <th>GC Coverage</th>
+                  <th>TEU Proxy</th>
+                  <th>GC Tons</th>
+                  <th>الثقة</th>
+                </tr>
+              </thead>
+              <tbody id="mpiRows"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
     </main>
   </div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -248,6 +286,6 @@
   <script src="pressure_history.js?v=1787215980"></script>
   <script src="vessel_intelligence.js?v=1787221385"></script>
   <script src="cargo_capacity.js?v=1787224328"></script>
-  <script src="monthly_port_intelligence.js?v=1787228525"></script>
+  <script src="monthly_port_intelligence.js?v=1787229350"></script>
 </body>
 </html>
