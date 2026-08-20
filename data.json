@@ -1428,7 +1428,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-9211157-20260819T080044Z",
@@ -1450,7 +1454,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-9053907-20260819T080400Z",
@@ -1472,7 +1480,12 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Benghazi|9053907|2026-08-15"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9563885-20260819T083000Z",
@@ -1494,7 +1507,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-9005388-20260819T083227Z",
@@ -1516,7 +1533,12 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Benghazi|9005388|2026-08-17"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9315795-20260819T172730Z",
@@ -1538,7 +1560,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-511101983-20260820T012815Z",
@@ -1626,7 +1652,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-9232307-20260819T021332Z",
@@ -1648,7 +1678,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-9103362-20260820T093949Z",
@@ -1670,7 +1704,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Multi-source Anchorage Discovery (Shipnext; fresh timed)"
+        "source": "Multi-source Anchorage Discovery (Shipnext; fresh timed)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-9489986-20260819T083851Z",
@@ -1692,7 +1730,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-9108843-20260819T054221Z",
@@ -1714,7 +1756,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-9165798-20260819T090708Z",
@@ -1736,7 +1782,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-7808401-20260819T170852Z",
@@ -1758,7 +1808,11 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-MISURATA-9136852-20260819T073343Z",
@@ -1780,7 +1834,12 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Misurata|9136852|2026-08-15"
       }
     ],
     "currentInPort": {
@@ -2689,9 +2748,9 @@
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
-      "unknown": 10
+      "unknown": 11
     },
-    "phaseUpdatedAt": "2026-08-20T16:41:19Z"
+    "phaseUpdatedAt": "2026-08-20T19:41:20Z"
   },
   "anchorageUpdatedAt": "2026-08-20 21:41:15",
   "currentInPort": {
