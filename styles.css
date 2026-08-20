@@ -109,3 +109,32 @@
 .pressure-mini small{font-size:9px;color:#7e9bb1}.pressure-mini b{font-size:19px;margin:4px 0}.pressure-mini span{font-size:8px;color:#65849b}
 .pressure-reason{margin-top:12px;border-top:1px solid rgba(75,124,153,.2);padding-top:12px;color:#a8bdcb;font-size:11px;line-height:1.9}.pressure-note{margin-top:12px;font-size:10px;color:#6f879b}
 @media(max-width:1200px){.pressure-metrics{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:900px){.pressure-grid{grid-template-columns:1fr}.pressure-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.pressure-metrics{grid-template-columns:1fr}.pressure-hero{flex-direction:column;align-items:flex-start}}
+
+/* SIDEBAR_DYNAMIC_NAV_FIX_V1 */
+@media (min-width:901px){
+  .sidebar{
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+  }
+  .sidebar .brand{
+    flex:0 0 auto;
+  }
+  .sidebar nav{
+    flex:1 1 auto;
+    min-height:0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    padding-bottom:10px;
+    scrollbar-width:thin;
+  }
+  .side-note{
+    position:static;
+    flex:0 0 auto;
+    right:auto;
+    left:auto;
+    bottom:auto;
+    margin-top:10px;
+  }
+}
+
