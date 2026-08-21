@@ -1848,8 +1848,8 @@
           "destination": "Qasr Ahmed",
           "destinationClass": "To Misurata",
           "state": "In Port",
-          "geographicState": "PORT_AREA",
-          "confidence": "MEDIUM",
+          "geographicState": "PORT_AREA_STALE",
+          "confidence": "LOW",
           "source": "Shipnext"
         },
         {
@@ -2512,9 +2512,17 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-21T09:30:13.254298+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-21T10:00:12.446847+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
+    "potentialDepartures": [
+      {
+        "name": "CMA CGM NADOR",
+        "imo": "9396696",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "FLEXPORT"
+      }
+    ],
     "portStateReview": [
       {
         "name": "BENGHAZI",
@@ -2527,12 +2535,6 @@
         "imo": "9211157",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "CMA CGM NADOR",
-        "imo": "9396696",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -2542,7 +2544,7 @@
     },
     "phaseUpdatedAt": "2026-08-20T22:41:33Z"
   },
-  "anchorageUpdatedAt": "2026-08-21 11:30:48",
+  "anchorageUpdatedAt": "2026-08-21T10:00:12.446847+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -2569,8 +2571,8 @@
         "destination": "Qasr Ahmed",
         "destinationClass": "To Misurata",
         "state": "In Port",
-        "geographicState": "PORT_AREA",
-        "confidence": "MEDIUM",
+        "geographicState": "PORT_AREA_STALE",
+        "confidence": "LOW",
         "source": "Shipnext"
       },
       {
@@ -2941,7 +2943,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-21T09:30:13.254298+00:00",
+  "mapUpdatedAt": "2026-08-21T10:00:12.446847+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-20T22:41:20Z",
     "summary": {
