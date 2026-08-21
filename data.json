@@ -2178,19 +2178,19 @@
           "IMO": "9139646",
           "mmsi": "352002790",
           "MMSI": "352002790",
-          "lat": 32.111022,
-          "lng": 20.043117,
-          "lon": 20.043117,
-          "latitude": 32.111022,
-          "longitude": 20.043117,
+          "lat": 32.11101,
+          "lng": 20.043103,
+          "lon": 20.043103,
+          "latitude": 32.11101,
+          "longitude": 20.043103,
           "sog": null,
           "speed": null,
           "cog": 511.0,
           "heading": 511.0,
-          "updatedAt": "2026-08-21T21:25:16.674507+00:00",
-          "lastSeen": "2026-08-21T21:25:16.674507+00:00",
-          "observedAt": "2026-08-21T21:25:16.674507+00:00",
-          "distanceKm": 1.3887519861313542,
+          "updatedAt": "2026-08-21T21:55:21.473889+00:00",
+          "lastSeen": "2026-08-21T21:55:21.473889+00:00",
+          "observedAt": "2026-08-21T21:55:21.473889+00:00",
+          "distanceKm": 1.3869741363386037,
           "destination": "",
           "destinationClass": "To Benghazi",
           "state": "In Port",
@@ -2680,7 +2680,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-21T21:30:14.607665+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-21T22:00:11.198807+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -2763,7 +2763,7 @@
     ],
     "identityDedupConflicts": []
   },
-  "anchorageUpdatedAt": "2026-08-21 23:30:56",
+  "anchorageUpdatedAt": "2026-08-21T22:00:11.198807+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3252,19 +3252,19 @@
         "IMO": "9139646",
         "mmsi": "352002790",
         "MMSI": "352002790",
-        "lat": 32.111022,
-        "lng": 20.043117,
-        "lon": 20.043117,
-        "latitude": 32.111022,
-        "longitude": 20.043117,
+        "lat": 32.11101,
+        "lng": 20.043103,
+        "lon": 20.043103,
+        "latitude": 32.11101,
+        "longitude": 20.043103,
         "sog": null,
         "speed": null,
         "cog": 511.0,
         "heading": 511.0,
-        "updatedAt": "2026-08-21T21:25:16.674507+00:00",
-        "lastSeen": "2026-08-21T21:25:16.674507+00:00",
-        "observedAt": "2026-08-21T21:25:16.674507+00:00",
-        "distanceKm": 1.3887519861313542,
+        "updatedAt": "2026-08-21T21:55:21.473889+00:00",
+        "lastSeen": "2026-08-21T21:55:21.473889+00:00",
+        "observedAt": "2026-08-21T21:55:21.473889+00:00",
+        "distanceKm": 1.3869741363386037,
         "destination": "",
         "destinationClass": "To Benghazi",
         "state": "In Port",
@@ -3330,7 +3330,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-21T21:30:14.607665+00:00",
+  "mapUpdatedAt": "2026-08-21T22:00:11.198807+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-21T21:30:48Z",
     "summary": {
