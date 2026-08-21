@@ -12,8 +12,10 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout
+      - name: Checkout test branch
         uses: actions/checkout@v4
+        with:
+          ref: test/marinetraffic-playwright
 
       - name: Set up Python
         uses: actions/setup-python@v5
