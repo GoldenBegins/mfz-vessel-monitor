@@ -1388,11 +1388,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 12,
-        "avgWaitingHours": 29.52,
-        "medianWaitingHours": 26.04,
+        "active": 10,
+        "avgWaitingHours": 34.27,
+        "medianWaitingHours": 38.2,
         "longestWaitingHours": 59.94,
-        "destinationConfirmed": 11,
+        "destinationConfirmed": 9,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1473,10 +1473,10 @@
         "episodeId": "ANCH-BENGHAZI-314162000-20260820T013253Z",
         "port": "Benghazi",
         "vessel": "AMARA",
-        "imo": "",
+        "imo": "9489986",
         "mmsi": "314162000",
-        "firstSeen": "2026-08-20T01:32:53Z",
-        "lastSeen": "2026-08-20T01:32:53Z",
+        "firstSeen": "2026-08-19T08:38:51Z",
+        "lastSeen": "2026-08-20T02:44:47Z",
         "waitingHours": 42.46,
         "lat": 32.12088,
         "lon": 19.96842,
@@ -1489,16 +1489,17 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Multi-source Anchorage Discovery (MyShipTracking Bulk Map; fresh timed)"
+        "source": "Multi-source Anchorage Discovery (MyShipTracking Bulk Map; fresh timed)",
+        "identityDedupMerged": 2
       },
       {
         "episodeId": "ANCH-BENGHAZI-422032400-20260820T013712Z",
         "port": "Benghazi",
         "vessel": "ALVAN",
-        "imo": "",
+        "imo": "9165798",
         "mmsi": "422032400",
-        "firstSeen": "2026-08-20T01:37:12Z",
-        "lastSeen": "2026-08-20T01:37:12Z",
+        "firstSeen": "2026-08-19T09:07:08Z",
+        "lastSeen": "2026-08-20T15:49:08Z",
         "waitingHours": 42.39,
         "lat": 32.13115,
         "lon": 19.95792,
@@ -1511,7 +1512,8 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Multi-source Anchorage Discovery (MyShipTracking Bulk Map; fresh timed)"
+        "source": "Multi-source Anchorage Discovery (MyShipTracking Bulk Map; fresh timed)",
+        "identityDedupMerged": 2
       },
       {
         "episodeId": "ANCH-BENGHAZI-9103362-20260820T093949Z",
@@ -1580,28 +1582,6 @@
         "source": "Multi-source Anchorage Discovery (MyShipTracking Bulk Map; fresh timed)"
       },
       {
-        "episodeId": "ANCH-BENGHAZI-9489986-20260819T083851Z",
-        "port": "Benghazi",
-        "vessel": "AMARA",
-        "imo": "9489986",
-        "mmsi": "",
-        "firstSeen": "2026-08-19T08:38:51Z",
-        "lastSeen": "2026-08-20T02:44:47Z",
-        "waitingHours": 8.03,
-        "lat": 32.120902,
-        "lon": 19.968475,
-        "sog": 0.0,
-        "distanceKm": 6.84,
-        "destination": "Benghazi",
-        "destinationClass": "To Benghazi",
-        "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
         "episodeId": "ANCH-BENGHAZI-9108843-20260819T054221Z",
         "port": "Benghazi",
         "vessel": "ATTAHADDI 2",
@@ -1614,28 +1594,6 @@
         "lon": 19.987688,
         "sog": 0.0,
         "distanceKm": 6.46,
-        "destination": "Benghazi",
-        "destinationClass": "To Benghazi",
-        "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9165798-20260819T090708Z",
-        "port": "Benghazi",
-        "vessel": "ALVAN",
-        "imo": "9165798",
-        "mmsi": "",
-        "firstSeen": "2026-08-19T09:07:08Z",
-        "lastSeen": "2026-08-20T15:49:08Z",
-        "waitingHours": 3.52,
-        "lat": 32.13096,
-        "lon": 19.95791,
-        "sog": 0.4,
-        "distanceKm": 8.18,
         "destination": "Benghazi",
         "destinationClass": "To Benghazi",
         "eta": "",
@@ -2583,7 +2541,25 @@
         "imo": "9232307",
         "mmsi": ""
       }
-    ]
+    ],
+    "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
+    "identityDedupMergedGroups": [
+      {
+        "port": "Benghazi",
+        "vessel": "AMARA",
+        "records": 2,
+        "imo": "9489986",
+        "mmsi": "314162000"
+      },
+      {
+        "port": "Benghazi",
+        "vessel": "ALVAN",
+        "records": 2,
+        "imo": "9165798",
+        "mmsi": "422032400"
+      }
+    ],
+    "identityDedupConflicts": []
   },
   "anchorageUpdatedAt": "2026-08-21 22:05:53",
   "currentInPort": {
