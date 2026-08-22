@@ -1378,9 +1378,9 @@
     "summary": {
       "Misurata": {
         "active": 2,
-        "avgWaitingHours": 45.7,
-        "medianWaitingHours": 45.7,
-        "longestWaitingHours": 82.9,
+        "avgWaitingHours": 45.69,
+        "medianWaitingHours": 45.69,
+        "longestWaitingHours": 82.94,
         "destinationConfirmed": 2,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1388,11 +1388,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 11,
-        "avgWaitingHours": 35.0,
-        "medianWaitingHours": 19.1,
-        "longestWaitingHours": 82.0,
-        "destinationConfirmed": 11,
+        "active": 10,
+        "avgWaitingHours": 32.83,
+        "medianWaitingHours": 19.01,
+        "longestWaitingHours": 82.01,
+        "destinationConfirmed": 10,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1468,28 +1468,6 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Multi-source Anchorage Discovery (MyShipTracking Bulk Map; fresh timed)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9103362-20260820T093949Z",
-        "port": "Benghazi",
-        "vessel": "MEDKON SINOP",
-        "imo": "9103362",
-        "mmsi": "351808000",
-        "firstSeen": "2026-08-20T09:39:49Z",
-        "lastSeen": "2026-08-22T09:54:39Z",
-        "waitingHours": 56.84,
-        "lat": 32.12606,
-        "lon": 19.987027,
-        "sog": 0.0,
-        "distanceKm": 5.51,
-        "destination": "LYBEN",
-        "destinationClass": "To Benghazi",
-        "eta": "07:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-8355657-20260821T021849Z",
@@ -2899,13 +2877,13 @@
       "unknown": 7
     },
     "phaseUpdatedAt": "2026-08-22T16:42:12Z",
-    "exclusivityFilteredAt": "2026-08-22T13:01:02Z",
+    "exclusivityFilteredAt": "2026-08-22T18:30:57Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "T.ADALYN",
-        "imo": "",
-        "mmsi": "271046486"
+        "vessel": "MEDKON SINOP",
+        "imo": "9103362",
+        "mmsi": "351808000"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
