@@ -14,6 +14,18 @@ function ensure(){
  main.appendChild(s);
  const b=document.createElement('button');b.className='nav';b.dataset.view='monthly-port-intelligence';b.textContent='الملخص الشهري';nav.appendChild(b);
 }
+function syncOverview(latestRows){
+ const mis=latestRows.find(x=>x.Port==='Misurata');
+ const ben=latestRows.find(x=>x.Port==='Benghazi');
+ if(!mis||!ben)return;
+ const misCalls=C(mis),benCalls=C(ben);
+ const cards=document.querySelectorAll('#metricCards .metric');
+ if(cards[0]){const l=cards[0].querySelector('.label'),v=cards[0].querySelector('.value'),s=cards[0].querySelector('.sub');if(l)l.textContent='زيارات مصراتة التجارية';if(v)v.textContent=N(misCalls);if(s)s.textContent='Commercial calls';}
+ if(cards[1]){const l=cards[1].querySelector('.label'),v=cards[1].querySelector('.value'),s=cards[1].querySelector('.sub');if(l)l.textContent='زيارات بنغازي التجارية';if(v)v.textContent=N(benCalls);if(s)s.textContent='Commercial calls';}
+ const max=Math.max(misCalls,benCalls,1);
+ const bars=document.getElementById('portBars');
+ if(bars)bars.innerHTML=[['مصراتة',misCalls],['بنغازي',benCalls]].map(([n,v])=>`<div class="bar-item"><span>${n}</span><div class="bar-track"><div class="bar-fill" style="width:${v/max*100}%"></div></div><b>${N(v)}</b></div>`).join('');
+}
 async function load(){
  ensure();
  try{
@@ -22,6 +34,8 @@ async function load(){
   const rows=d.rows||[], latest=rows.map(x=>x.Month).sort().pop(), lr=rows.filter(x=>x.Month===latest);
   document.getElementById('mpiCards').innerHTML=lr.map(x=>`<div class="metric"><div class="label">${E(x.Port)} · ${E(x.Month)}</div><div class="value">${N(C(x))} زيارة تجارية</div><div class="muted">Type ${E(x['Type Resolution Coverage %'])}% · DWT ${E(x['Cargo DWT Coverage %'])}% · ${E(x['Data Confidence'])}</div></div>`).join('');
   document.getElementById('mpiRows').innerHTML=rows.slice().reverse().map(x=>`<tr><td>${E(x.Month)}</td><td><strong>${E(x.Port)}</strong></td><td>${N(C(x))}</td><td>${E(x['Type Resolution Coverage %'])}%</td><td>${E(x['Cargo DWT Coverage %'])}%</td><td>${E(x['Container TEU Coverage %'])}%</td><td>${E(x['General Cargo Estimate Coverage %'])}%</td><td>${N(x['Container TEU Capacity Proxy'])}</td><td>${N(x['General Cargo Estimated Tons'])}</td><td>${E(x['Data Confidence'])}</td></tr>`).join('')||'<tr><td colspan="10">لا توجد بيانات</td></tr>';
+  syncOverview(lr);
+  setTimeout(()=>syncOverview(lr),300);
  }catch(e){console.error(e)}
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',load,{once:true});else load();
