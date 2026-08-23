@@ -4089,7 +4089,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-08-23T16:43:37Z",
+    "updatedAt": "2026-08-23T16:43:51Z",
     "periodStart": "2026-08-17",
     "periodEnd": "2026-08-23",
     "effectiveDays": 7,
@@ -4101,7 +4101,7 @@
         "avgPortStayProxyDays": 2.76,
         "currentInPort": 15,
         "confirmedPrePort": 0,
-        "postPortActive": 0,
+        "postPortActive": 1,
         "unknownAnchorage": 4,
         "confirmedQueueRatio": 0.0,
         "potentialQueueRatio": 0.27,
@@ -4117,13 +4117,13 @@
         "avgPortStayProxyDays": 2.32,
         "currentInPort": 10,
         "confirmedPrePort": 0,
-        "postPortActive": 0,
-        "unknownAnchorage": 11,
+        "postPortActive": 3,
+        "unknownAnchorage": 8,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 1.1,
+        "potentialQueueRatio": 0.8,
         "openCalls": 7,
         "closedCalls": 12,
-        "pressureLevel": "High",
+        "pressureLevel": "Medium",
         "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
       }
     }
