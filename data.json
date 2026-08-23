@@ -1430,11 +1430,11 @@
     "updatedAt": "2026-08-23 22:30:48",
     "summary": {
       "Misurata": {
-        "active": 5,
-        "avgWaitingHours": 33.2,
-        "medianWaitingHours": 9.5,
-        "longestWaitingHours": 108.9,
-        "destinationConfirmed": 4,
+        "active": 4,
+        "avgWaitingHours": 40.57,
+        "medianWaitingHours": 21.98,
+        "longestWaitingHours": 108.94,
+        "destinationConfirmed": 3,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1442,9 +1442,9 @@
       },
       "Benghazi": {
         "active": 12,
-        "avgWaitingHours": 38.8,
-        "medianWaitingHours": 20.6,
-        "longestWaitingHours": 108.0,
+        "avgWaitingHours": 38.84,
+        "medianWaitingHours": 20.56,
+        "longestWaitingHours": 108.01,
         "destinationConfirmed": 10,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1807,28 +1807,6 @@
         "closedOn": "",
         "confidence": "High",
         "source": ""
-      },
-      {
-        "episodeId": "ANCH-MISURATA-9523237-20260823T163400Z",
-        "port": "Misurata",
-        "vessel": "SEYHAN IMAMOGLU",
-        "imo": "9523237",
-        "mmsi": "271052214",
-        "firstSeen": "2026-08-23T16:34:00+00:00",
-        "lastSeen": "2026-08-23T18:44:03Z",
-        "waitingHours": 3.94,
-        "lat": 32.378007,
-        "lon": 15.312827,
-        "sog": 0.0,
-        "distanceKm": 7.44,
-        "destination": "LYMRA<",
-        "destinationClass": "To Misurata",
-        "eta": "21:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       }
     ],
     "currentInPort": {
@@ -3147,13 +3125,13 @@
       "unknown": 12
     },
     "phaseUpdatedAt": "2026-08-23T19:43:50Z",
-    "exclusivityFilteredAt": "2026-08-22T18:30:57Z",
+    "exclusivityFilteredAt": "2026-08-23T20:30:51Z",
     "exclusivityRemoved": [
       {
-        "port": "Benghazi",
-        "vessel": "MEDKON SINOP",
-        "imo": "9103362",
-        "mmsi": "351808000"
+        "port": "Misurata",
+        "vessel": "SEYHAN IMAMOGLU",
+        "imo": "9523237",
+        "mmsi": "271052214"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
