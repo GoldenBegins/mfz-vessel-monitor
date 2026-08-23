@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-22 22:04:52",
+  "updatedAt": "2026-08-23 06:04:34",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 37,
-    "benghaziCalls": 22,
+    "misurataCalls": 46,
+    "benghaziCalls": 31,
     "misurataExcludedCalls": 5,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 6,
@@ -11,30 +11,30 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 7,
-    "unestimatedCalls": 15,
-    "coverage": 31.8,
-    "trustedVessels": 199,
+    "estimatedCalls": 12,
+    "unestimatedCalls": 19,
+    "coverage": 38.7,
+    "trustedVessels": 197,
     "identityReview": 0,
-    "estimatedTEU": 5758,
-    "estimatedGeneralCargoTons": 19063,
+    "estimatedTEU": 7703,
+    "estimatedGeneralCargoTons": 44245,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 6
+    "fallbackLowCalls": 9
   },
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 37,
-      "benghaziCalls": 22,
+      "misurataCalls": 46,
+      "benghaziCalls": 31,
       "misurataExcludedCalls": 5,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 5758,
-      "estimatedGeneralCargoTons": 19063,
-      "coverage": 31.8
+      "estimatedTEU": 7703,
+      "estimatedGeneralCargoTons": 44245,
+      "coverage": 38.7
     }
   ],
   "estimates": [
@@ -51,6 +51,14 @@
       "imo": "9053907",
       "type": "General Cargo",
       "estimate": "4,279 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MV ANA N",
+      "imo": "9416850",
+      "type": "General Cargo",
+      "estimate": "3,587 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -93,10 +101,47 @@
       "estimate": "5,842 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "ALEXANDRA A",
+      "imo": "9356684",
+      "type": "General Cargo",
+      "estimate": "12,400 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "KOSOVAK",
+      "imo": "9211157",
+      "type": "Container",
+      "estimate": "942 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "MEDKON LIA",
+      "imo": "9139646",
+      "type": "Container",
+      "estimate": "1,003 TEU",
+      "confidence": "Low",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "MEDKON SINOP",
+      "imo": "9103362",
+      "type": "General Cargo",
+      "estimate": "9,195 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
-  "quality": [],
+  "quality": [
+    {
+      "title": "High-priority data-quality checks",
+      "detail": "231 internal high-priority checks are recorded."
+    }
+  ],
   "expectedArrivals": [
     {
       "port": "Benghazi",
