@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-23 06:04:34",
+  "updatedAt": "2026-08-23 14:04:29",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 46,
-    "benghaziCalls": 31,
+    "misurataCalls": 47,
+    "benghaziCalls": 32,
     "misurataExcludedCalls": 5,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 6,
@@ -11,30 +11,30 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 12,
+    "estimatedCalls": 13,
     "unestimatedCalls": 19,
-    "coverage": 38.7,
-    "trustedVessels": 197,
+    "coverage": 40.6,
+    "trustedVessels": 200,
     "identityReview": 0,
-    "estimatedTEU": 7703,
+    "estimatedTEU": 10166,
     "estimatedGeneralCargoTons": 44245,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 9
+    "fallbackLowCalls": 10
   },
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 46,
-      "benghaziCalls": 31,
+      "misurataCalls": 47,
+      "benghaziCalls": 32,
       "misurataExcludedCalls": 5,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 7703,
+      "estimatedTEU": 10166,
       "estimatedGeneralCargoTons": 44245,
-      "coverage": 38.7
+      "coverage": 40.6
     }
   ],
   "estimates": [
@@ -133,13 +133,21 @@
       "estimate": "9,195 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "CMA CGM FORT STE MARIE",
+      "imo": "9261906",
+      "type": "Container",
+      "estimate": "2,463 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "231 internal high-priority checks are recorded."
+      "detail": "227 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
