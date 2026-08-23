@@ -3703,13 +3703,13 @@
   },
   "mapUpdatedAt": "2026-08-23T07:40:12.116693+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-08-23T07:30:48Z",
+    "updatedAt": "2026-08-23T07:42:01Z",
     "summary": {
       "confirmedTotal": 6,
-      "candidateTotal": 1,
+      "candidateTotal": 0,
       "misurataToBenghaziConfirmed": 4,
       "benghaziToMisurataConfirmed": 2,
-      "misurataToBenghaziCandidates": 1,
+      "misurataToBenghaziCandidates": 0,
       "benghaziToMisurataCandidates": 0
     },
     "rows": [
@@ -3756,26 +3756,6 @@
         "cycleDays": 3.0,
         "confidence": "High identity / Day-level timing",
         "voyageId": "9315795|Benghazi|9315795|2026-08-21|Misurata|9315795|2026-08-22"
-      },
-      {
-        "kind": "candidate",
-        "status": "Anchorage Candidate",
-        "imo": "9261906",
-        "mmsi": "215396000",
-        "vessel": "CMACGM FORT ST MARIE",
-        "type": "Container",
-        "originPort": "Misurata",
-        "destinationPort": "Benghazi",
-        "originFirstSeen": "2026-08-17",
-        "originLastSeen": "2026-08-20",
-        "originStayHours": 96.0,
-        "destinationAnchorageFirstSeen": "2026-08-21T23:23:51Z",
-        "destinationAnchorageLastSeen": "2026-08-22T16:59:51Z",
-        "destinationAnchorageHours": 32.11,
-        "seaTransitCalendarGapDays": 1,
-        "confidence": "Candidate — destination Port Call not confirmed yet",
-        "originCallId": "Misurata|9261906|2026-08-17",
-        "anchorEpisodeId": "ANCH-BENGHAZI-9261906-20260821T232351Z"
       },
       {
         "kind": "confirmed",
