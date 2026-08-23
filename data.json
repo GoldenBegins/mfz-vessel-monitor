@@ -1817,8 +1817,8 @@
           "destination": "Qasr Ahmed",
           "destinationClass": "To Misurata",
           "state": "In Port",
-          "geographicState": "PORT_AREA",
-          "confidence": "MEDIUM",
+          "geographicState": "PORT_AREA_STALE",
+          "confidence": "LOW",
           "source": "Shipnext"
         },
         {
@@ -1913,19 +1913,19 @@
           "IMO": "9947720",
           "mmsi": "249433000",
           "MMSI": "249433000",
-          "lat": 32.367553,
-          "lng": 15.218138,
-          "lon": 15.218138,
-          "latitude": 32.367553,
-          "longitude": 15.218138,
+          "lat": 32.367567,
+          "lng": 15.218133,
+          "lon": 15.218133,
+          "latitude": 32.367567,
+          "longitude": 15.218133,
           "sog": null,
           "speed": null,
           "cog": 89.0,
           "heading": 89.0,
-          "updatedAt": "2026-08-23T05:28:16.485709+00:00",
-          "lastSeen": "2026-08-23T05:28:16.485709+00:00",
-          "observedAt": "2026-08-23T05:28:16.485709+00:00",
-          "distanceKm": 2.038824602611038,
+          "updatedAt": "2026-08-23T05:58:18.279077+00:00",
+          "lastSeen": "2026-08-23T05:58:18.279077+00:00",
+          "observedAt": "2026-08-23T05:58:18.279077+00:00",
+          "distanceKm": 2.040000810996348,
           "destination": "",
           "destinationClass": "To Misurata",
           "state": "In Port",
@@ -2941,7 +2941,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-23T05:30:11.625138+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-23T06:00:11.248627+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
     "portStateReview": [
@@ -2986,7 +2986,7 @@
     ],
     "identityDedupConflicts": []
   },
-  "anchorageUpdatedAt": "2026-08-23 07:30:54",
+  "anchorageUpdatedAt": "2026-08-23T06:00:11.248627+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3069,8 +3069,8 @@
         "destination": "Qasr Ahmed",
         "destinationClass": "To Misurata",
         "state": "In Port",
-        "geographicState": "PORT_AREA",
-        "confidence": "MEDIUM",
+        "geographicState": "PORT_AREA_STALE",
+        "confidence": "LOW",
         "source": "Shipnext"
       },
       {
@@ -3165,19 +3165,19 @@
         "IMO": "9947720",
         "mmsi": "249433000",
         "MMSI": "249433000",
-        "lat": 32.367553,
-        "lng": 15.218138,
-        "lon": 15.218138,
-        "latitude": 32.367553,
-        "longitude": 15.218138,
+        "lat": 32.367567,
+        "lng": 15.218133,
+        "lon": 15.218133,
+        "latitude": 32.367567,
+        "longitude": 15.218133,
         "sog": null,
         "speed": null,
         "cog": 89.0,
         "heading": 89.0,
-        "updatedAt": "2026-08-23T05:28:16.485709+00:00",
-        "lastSeen": "2026-08-23T05:28:16.485709+00:00",
-        "observedAt": "2026-08-23T05:28:16.485709+00:00",
-        "distanceKm": 2.038824602611038,
+        "updatedAt": "2026-08-23T05:58:18.279077+00:00",
+        "lastSeen": "2026-08-23T05:58:18.279077+00:00",
+        "observedAt": "2026-08-23T05:58:18.279077+00:00",
+        "distanceKm": 2.040000810996348,
         "destination": "",
         "destinationClass": "To Misurata",
         "state": "In Port",
@@ -3637,7 +3637,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-23T05:30:11.625138+00:00",
+  "mapUpdatedAt": "2026-08-23T06:00:11.248627+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-23T05:30:46Z",
     "summary": {
