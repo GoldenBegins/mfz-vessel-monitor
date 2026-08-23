@@ -1818,19 +1818,19 @@
           "IMO": "9947720",
           "mmsi": "249433000",
           "MMSI": "249433000",
-          "lat": 32.367582,
-          "lng": 15.218147,
-          "lon": 15.218147,
-          "latitude": 32.367582,
-          "longitude": 15.218147,
+          "lat": 32.367573,
+          "lng": 15.218145,
+          "lon": 15.218145,
+          "latitude": 32.367573,
+          "longitude": 15.218145,
           "sog": null,
           "speed": null,
           "cog": 89.0,
           "heading": 89.0,
-          "updatedAt": "2026-08-22T23:58:16.559241+00:00",
-          "lastSeen": "2026-08-22T23:58:16.559241+00:00",
-          "observedAt": "2026-08-22T23:58:16.559241+00:00",
-          "distanceKm": 2.0396811225317255,
+          "updatedAt": "2026-08-23T00:28:13.686778+00:00",
+          "lastSeen": "2026-08-23T00:28:13.686778+00:00",
+          "observedAt": "2026-08-23T00:28:13.686778+00:00",
+          "distanceKm": 2.039349991280853,
           "destination": "",
           "destinationClass": "To Misurata",
           "state": "In Port",
@@ -2454,7 +2454,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-23T00:00:12.952531+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-23T00:30:11.705843+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -2500,7 +2500,7 @@
     ],
     "identityDedupConflicts": []
   },
-  "anchorageUpdatedAt": "2026-08-23 02:01:02",
+  "anchorageUpdatedAt": "2026-08-23T00:30:11.705843+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -2651,19 +2651,19 @@
         "IMO": "9947720",
         "mmsi": "249433000",
         "MMSI": "249433000",
-        "lat": 32.367582,
-        "lng": 15.218147,
-        "lon": 15.218147,
-        "latitude": 32.367582,
-        "longitude": 15.218147,
+        "lat": 32.367573,
+        "lng": 15.218145,
+        "lon": 15.218145,
+        "latitude": 32.367573,
+        "longitude": 15.218145,
         "sog": null,
         "speed": null,
         "cog": 89.0,
         "heading": 89.0,
-        "updatedAt": "2026-08-22T23:58:16.559241+00:00",
-        "lastSeen": "2026-08-22T23:58:16.559241+00:00",
-        "observedAt": "2026-08-22T23:58:16.559241+00:00",
-        "distanceKm": 2.0396811225317255,
+        "updatedAt": "2026-08-23T00:28:13.686778+00:00",
+        "lastSeen": "2026-08-23T00:28:13.686778+00:00",
+        "observedAt": "2026-08-23T00:28:13.686778+00:00",
+        "distanceKm": 2.039349991280853,
         "destination": "",
         "destinationClass": "To Misurata",
         "state": "In Port",
@@ -2731,7 +2731,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-23T00:00:12.952531+00:00",
+  "mapUpdatedAt": "2026-08-23T00:30:11.705843+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-23T00:00:55Z",
     "summary": {
