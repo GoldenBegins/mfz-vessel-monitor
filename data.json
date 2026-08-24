@@ -3164,7 +3164,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-24T18:30:12.229629+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-24T19:00:14.626148+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3204,20 +3204,8 @@
         "decision": "UNCONFIRMED"
       },
       {
-        "name": "T-MED",
-        "imo": "9163142",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
         "name": "JOLLY ARGENTO",
         "imo": "9467043",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "ELBELLA",
-        "imo": "9312640",
         "port": "Misurata",
         "decision": "ANCHORAGE"
       },
@@ -3277,7 +3265,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-24T18:30:46.410456+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-24 20:30:39",
+  "anchorageUpdatedAt": "2026-08-24T19:00:14.626148+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3914,7 +3902,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-24T18:30:12.229629+00:00",
+  "mapUpdatedAt": "2026-08-24T19:00:14.626148+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-24T18:30:32Z",
     "summary": {
