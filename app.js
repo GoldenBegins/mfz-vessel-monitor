@@ -208,9 +208,10 @@ function initOnePortMap(port,a){
   }
 
   L.circle(cfg.center,{radius:3200,color:'#44677e',weight:1,fill:false,dashArray:'3 7',opacity:.5}).addTo(map);
-  L.circle(cfg.center,{radius:15000,color:'#33536a',weight:1,fill:false,dashArray:'2 9',opacity:.25}).addTo(map);
+  const outerCircle=L.circle(cfg.center,{radius:15000,color:'#33536a',weight:1,fill:false,dashArray:'2 9',opacity:.25}).addTo(map);
 
-  const inPort=((a.currentInPort||{})[port]||[]).filter(r=>safeNum(r.lat)!==null&&safeNum(r.lon)!==null);
+  const inPortAll=((a.currentInPort||{})[port]||[]);
+  const inPort=inPortAll.filter(r=>safeNum(r.lat)!==null&&safeNum(r.lon)!==null);
   const waiting=(a.active||[]).filter(r=>r.port===port&&safeNum(r.lat)!==null&&safeNum(r.lon)!==null);
   const bounds=[];
 
@@ -235,10 +236,14 @@ function initOnePortMap(port,a){
   });
 
   const counter=document.getElementById(cfg.countId);
-  if(counter)counter.textContent=`${inPort.length} داخل · ${waiting.length} مخطاف`;
+  if(counter)counter.textContent=`${inPortAll.length} داخل · ${waiting.length} مخطاف`;
 
-  if(bounds.length){
-    try{map.fitBounds(bounds,{padding:[38,38],maxZoom:15})}catch(e){}
+  // Keep the port and its 15 km monitoring envelope as the map reference.
+  // Vessel positions must not change the map center/zoom.
+  try{
+    map.fitBounds(outerCircle.getBounds(),{padding:[24,24],maxZoom:13});
+  }catch(e){
+    map.setView(cfg.center,cfg.zoom);
   }
   setTimeout(()=>map.invalidateSize(),120);
 }
