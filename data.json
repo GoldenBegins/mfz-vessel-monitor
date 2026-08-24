@@ -3053,7 +3053,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-24T20:30:13.623437+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-24T21:00:21.167495+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3075,7 +3075,7 @@
         "imo": "9381809",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "REMAH",
@@ -3101,6 +3101,12 @@
     ],
     "portStateReview": [
       {
+        "name": "SEYHAN IMAMOGLU",
+        "imo": "9523237",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
         "name": "BENGHAZI",
         "imo": "9277840",
         "port": "Misurata",
@@ -3111,12 +3117,6 @@
         "imo": "9121869",
         "port": "Misurata",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3191,7 +3191,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-24T20:30:47.159411+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-24 22:30:40",
+  "anchorageUpdatedAt": "2026-08-24T21:00:21.167495+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3840,7 +3840,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-24T20:30:13.623437+00:00",
+  "mapUpdatedAt": "2026-08-24T21:00:21.167495+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-24T20:30:32Z",
     "summary": {
