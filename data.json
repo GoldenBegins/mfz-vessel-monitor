@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-24 06:07:20",
+  "updatedAt": "2026-08-24 22:05:13",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 49,
-    "benghaziCalls": 32,
+    "misurataCalls": 54,
+    "benghaziCalls": 36,
     "misurataExcludedCalls": 5,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 6,
@@ -11,30 +11,30 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 13,
-    "unestimatedCalls": 19,
-    "coverage": 40.6,
-    "trustedVessels": 200,
+    "estimatedCalls": 14,
+    "unestimatedCalls": 22,
+    "coverage": 38.9,
+    "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 10166,
-    "estimatedGeneralCargoTons": 44245,
+    "estimatedTEU": 10192,
+    "estimatedGeneralCargoTons": 52448,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 10
+    "fallbackLowCalls": 11
   },
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 49,
-      "benghaziCalls": 32,
+      "misurataCalls": 54,
+      "benghaziCalls": 36,
       "misurataExcludedCalls": 5,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 10166,
-      "estimatedGeneralCargoTons": 44245,
-      "coverage": 40.6
+      "estimatedTEU": 10192,
+      "estimatedGeneralCargoTons": 52448,
+      "coverage": 38.9
     }
   ],
   "estimates": [
@@ -66,7 +66,7 @@
       "vessel": "BUXLINK",
       "imo": "9235816",
       "type": "Container",
-      "estimate": "2,701 TEU",
+      "estimate": "2,712 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
@@ -90,7 +90,7 @@
       "vessel": "CMA CGM NADOR",
       "imo": "9396696",
       "type": "Container",
-      "estimate": "1,129 TEU",
+      "estimate": "1,134 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
@@ -138,16 +138,24 @@
       "vessel": "CMA CGM FORT STE MARIE",
       "imo": "9261906",
       "type": "Container",
-      "estimate": "2,463 TEU",
+      "estimate": "2,473 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "INDUSTRIAL DESTINY",
+      "imo": "9347839",
+      "type": "General Cargo",
+      "estimate": "8,203 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "227 internal high-priority checks are recorded."
+      "detail": "228 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
