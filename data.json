@@ -1427,7 +1427,7 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-24 10:30:56",
+    "updatedAt": "2026-08-24 10:33:58",
     "summary": {
       "Misurata": {
         "active": 5,
@@ -3140,9 +3140,28 @@
         "mmsi": "422032400"
       }
     ],
-    "identityDedupConflicts": []
+    "identityDedupConflicts": [],
+    "finalApproach": [
+      {
+        "port": "Misurata",
+        "vessel": "JOLLY ARGENTO",
+        "imo": "9467043",
+        "mmsi": "247487700",
+        "state": "FINAL_APPROACH",
+        "action": "FINAL_APPROACH_ONLY",
+        "reason": "VERY_FRESH_MOVING_POSITION_INSIDE_15KM",
+        "source": "Ships25",
+        "distanceKm": 8.64,
+        "sog": 2.2,
+        "destination": "MISURATA",
+        "observedAt": "2026-08-24 07:36:00+00:00",
+        "ageHours": 0.24,
+        "lat": 32.404415,
+        "lon": 15.31126
+      }
+    ]
   },
-  "anchorageUpdatedAt": "2026-08-24 10:30:56",
+  "anchorageUpdatedAt": "2026-08-24 10:33:58",
   "currentInPort": {
     "Misurata": [
       {
