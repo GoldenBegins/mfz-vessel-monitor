@@ -3570,7 +3570,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-08-24T03:00:49Z",
+    "updatedAt": "2026-08-24T03:30:54Z",
     "periodStart": "2026-08-17",
     "periodEnd": "2026-08-23",
     "effectiveDays": 7,
