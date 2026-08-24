@@ -2046,6 +2046,62 @@
           "geographicState": "PORT_AREA",
           "confidence": "MEDIUM",
           "source": "Shipnext"
+        },
+        {
+          "vessel": "ELBELLA",
+          "name": "ELBELLA",
+          "imo": "9312640",
+          "mmsi": "248422000",
+          "type": "Container",
+          "vesselType": "Container",
+          "flag": "",
+          "distanceKm": 1.978,
+          "sog": 0.0,
+          "observedAt": "2026-08-24T17:18:52+00:00",
+          "source": "Port Presence Layer / Ships25 direct AIS",
+          "presenceConfidence": "Fresh direct AIS"
+        },
+        {
+          "vessel": "HALIMA",
+          "name": "HALIMA",
+          "imo": "9121869",
+          "mmsi": "354380000",
+          "type": "Container",
+          "vesselType": "Container",
+          "flag": "",
+          "distanceKm": 1.362,
+          "sog": 0.0,
+          "observedAt": "2026-08-24T17:25:28+00:00",
+          "source": "Port Presence Layer / Ships25 direct AIS",
+          "presenceConfidence": "Fresh direct AIS"
+        },
+        {
+          "vessel": "JOLLY ARGENTO",
+          "name": "JOLLY ARGENTO",
+          "imo": "9467043",
+          "mmsi": "247487700",
+          "type": "Container",
+          "vesselType": "Container",
+          "flag": "",
+          "distanceKm": 1.92,
+          "sog": 0.0,
+          "observedAt": "2026-08-24T17:02:00+00:00",
+          "source": "Port Presence Layer / Ships25 direct AIS",
+          "presenceConfidence": "Fresh direct AIS"
+        },
+        {
+          "vessel": "T-MED",
+          "name": "T-MED",
+          "imo": "9163142",
+          "mmsi": "352001139",
+          "type": "General Cargo",
+          "vesselType": "General Cargo",
+          "flag": "PA",
+          "distanceKm": 1.473,
+          "sog": 0.0,
+          "observedAt": "2026-08-24T16:03:23+00:00",
+          "source": "Port Presence Layer / Ships25 direct AIS",
+          "presenceConfidence": "Fresh direct AIS"
         }
       ],
       "Benghazi": [
@@ -2300,6 +2356,20 @@
           "geographicState": "PORT_AREA",
           "confidence": "MEDIUM",
           "source": "Shipnext"
+        },
+        {
+          "vessel": "GOTHICA",
+          "name": "GOTHICA",
+          "imo": "7826867",
+          "mmsi": "352004499",
+          "type": "Vehicle/Ro-Ro",
+          "vesselType": "Vehicle/Ro-Ro",
+          "flag": "PA",
+          "distanceKm": 1.983,
+          "sog": 0.0,
+          "observedAt": "2026-08-24T17:24:25+00:00",
+          "source": "Port Presence Layer / Ships25 direct AIS",
+          "presenceConfidence": "Fresh direct AIS"
         }
       ]
     },
