@@ -1427,13 +1427,13 @@
     }
   ],
   "anchorage": {
-    "updatedAt": "2026-08-24 09:44:00",
+    "updatedAt": "2026-08-24 10:01:04",
     "summary": {
       "Misurata": {
         "active": 5,
-        "avgWaitingHours": 42.7,
-        "medianWaitingHours": 20.8,
-        "longestWaitingHours": 120.2,
+        "avgWaitingHours": 42.9,
+        "medianWaitingHours": 21.0,
+        "longestWaitingHours": 120.4,
         "destinationConfirmed": 4,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1442,9 +1442,9 @@
       },
       "Benghazi": {
         "active": 13,
-        "avgWaitingHours": 36.7,
-        "medianWaitingHours": 9.2,
-        "longestWaitingHours": 119.2,
+        "avgWaitingHours": 36.8,
+        "medianWaitingHours": 9.5,
+        "longestWaitingHours": 119.5,
         "destinationConfirmed": 11,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1464,23 +1464,19 @@
         "mmsi": "620800279",
         "firstSeen": "2026-08-19T08:30:00Z",
         "lastSeen": "2026-08-23T21:11:12Z",
-        "waitingHours": 119.22,
+        "waitingHours": 119.51,
         "lat": 32.130468,
         "lon": 19.99357,
         "sog": 0.1,
         "distanceKm": 5.3,
-        "destination": "Benghazi",
+        "destination": "BENGHAZI",
         "destinationClass": "To Benghazi",
         "eta": "09:26 (LT)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9005388-20260819T083227Z",
@@ -1490,24 +1486,19 @@
         "mmsi": "341168001",
         "firstSeen": "2026-08-19T08:32:27Z",
         "lastSeen": "2026-08-23T21:51:33Z",
-        "waitingHours": 119.18,
+        "waitingHours": 119.47,
         "lat": 32.119053,
         "lon": 19.976273,
         "sog": 0.0,
         "distanceKm": 6.08,
-        "destination": "Benghazi",
+        "destination": "LY BEN",
         "destinationClass": "To Benghazi",
         "eta": "12:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "POST_PORT",
-        "anchoragePhaseAr": "بعد مغادرة الميناء",
-        "anchoragePhaseConfidence": "High",
-        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
-        "anchoragePhaseCallId": "Benghazi|9005388|2026-08-17"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-422032400-20260820T013712Z",
@@ -1517,7 +1508,7 @@
         "mmsi": "422032400",
         "firstSeen": "2026-08-20T01:37:12Z",
         "lastSeen": "2026-08-20T01:37:12Z",
-        "waitingHours": 102.1,
+        "waitingHours": 102.39,
         "lat": 32.13115,
         "lon": 19.95792,
         "sog": 0.0,
@@ -1529,11 +1520,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Multi-source Anchorage Discovery (MyShipTracking Bulk Map; fresh timed)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Multi-source Anchorage Discovery (MyShipTracking Bulk Map; fresh timed)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9128154-20260821T233547Z",
@@ -1543,24 +1530,19 @@
         "mmsi": "630001132",
         "firstSeen": "2026-08-21T23:35:47Z",
         "lastSeen": "2026-08-23T23:40:42Z",
-        "waitingHours": 56.13,
+        "waitingHours": 56.41,
         "lat": 32.139633,
         "lon": 19.939968,
         "sog": 0.0,
         "distanceKm": 10.12,
-        "destination": "Benghazi",
+        "destination": "BENGHAZI",
         "destinationClass": "To Benghazi",
         "eta": "06:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "POST_PORT",
-        "anchoragePhaseAr": "بعد مغادرة الميناء",
-        "anchoragePhaseConfidence": "High",
-        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
-        "anchoragePhaseCallId": "Benghazi|9128154|2026-08-17"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-1017816-20260822T101847Z",
@@ -1570,23 +1552,19 @@
         "mmsi": "636025677",
         "firstSeen": "2026-08-22T10:18:47+00:00",
         "lastSeen": "2026-08-23T23:45:47Z",
-        "waitingHours": 45.41,
+        "waitingHours": 45.7,
         "lat": 32.138422,
         "lon": 19.974408,
         "sog": 0.0,
         "distanceKm": 7.27,
-        "destination": "Benghazi",
+        "destination": "BENGHAZI",
         "destinationClass": "To Benghazi",
         "eta": "05:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-636022659-20260823T193200Z",
@@ -1596,7 +1574,7 @@
         "mmsi": "636022659",
         "firstSeen": "2026-08-23T19:32:00+00:00",
         "lastSeen": "2026-08-23T19:32:00+00:00",
-        "waitingHours": 12.19,
+        "waitingHours": 12.48,
         "lat": 32.119148,
         "lon": 19.957611,
         "sog": 0.0,
@@ -1618,7 +1596,7 @@
         "mmsi": "255916080",
         "firstSeen": "2026-08-23T22:29:00+00:00",
         "lastSeen": "2026-08-23T22:29:00+00:00",
-        "waitingHours": 9.24,
+        "waitingHours": 9.53,
         "lat": 32.170132,
         "lon": 19.955549,
         "sog": 0.0,
@@ -1630,11 +1608,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": ""
       },
       {
         "episodeId": "ANCH-BENGHAZI-9108843-20260819T054221Z",
@@ -1656,11 +1630,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9165798-20260819T090708Z",
@@ -1682,11 +1652,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-7808401-20260819T170852Z",
@@ -1708,11 +1674,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-7826867-20260824T073200Z",
@@ -1722,7 +1684,7 @@
         "mmsi": "352004499",
         "firstSeen": "2026-08-24T07:32:00+00:00",
         "lastSeen": "2026-08-24T07:32:00+00:00",
-        "waitingHours": 0.19,
+        "waitingHours": 0.48,
         "lat": 32.123772,
         "lon": 19.94071,
         "sog": 0.0,
@@ -1734,11 +1696,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": ""
       },
       {
         "episodeId": "ANCH-BENGHAZI-9347839-20260822T203642Z",
@@ -1760,11 +1718,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-8003058-20260823T011703Z",
@@ -1786,11 +1740,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-MISURATA-9136852-20260819T073343Z",
@@ -1800,24 +1750,19 @@
         "mmsi": "620360000",
         "firstSeen": "2026-08-19T07:33:43Z",
         "lastSeen": "2026-08-24T06:05:45Z",
-        "waitingHours": 120.16,
+        "waitingHours": 120.44,
         "lat": 32.36711,
         "lon": 15.298352,
         "sog": 0.0,
         "distanceKm": 5.84,
-        "destination": "Qasr Ahmed",
+        "destination": "MUSRATA",
         "destinationClass": "To Misurata",
         "eta": "13:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "POST_PORT",
-        "anchoragePhaseAr": "بعد مغادرة الميناء",
-        "anchoragePhaseConfidence": "High",
-        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
-        "anchoragePhaseCallId": "Misurata|9136852|2026-08-15"
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-MISURATA-9224855-20260822T100500Z",
@@ -1827,7 +1772,7 @@
         "mmsi": "312494000",
         "firstSeen": "2026-08-22T10:05:00+00:00",
         "lastSeen": "2026-08-22T10:05:00+00:00",
-        "waitingHours": 45.64,
+        "waitingHours": 45.93,
         "lat": 32.377773,
         "lon": 15.287931,
         "sog": 0.1,
@@ -1839,11 +1784,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": ""
       },
       {
         "episodeId": "ANCH-MISURATA-354380000-20260823T105755Z",
@@ -1853,7 +1794,7 @@
         "mmsi": "354380000",
         "firstSeen": "2026-08-23T10:57:55+00:00",
         "lastSeen": "2026-08-23T10:57:55+00:00",
-        "waitingHours": 20.76,
+        "waitingHours": 21.04,
         "lat": 32.3827,
         "lon": 15.32196,
         "sog": 0.2,
@@ -1865,11 +1806,7 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": ""
       },
       {
         "episodeId": "ANCH-MISURATA-9163142-20260823T110728Z",
@@ -1879,23 +1816,19 @@
         "mmsi": "352001139",
         "firstSeen": "2026-08-23T11:07:28+00:00",
         "lastSeen": "2026-08-23T21:22:23Z",
-        "waitingHours": 20.6,
+        "waitingHours": 20.89,
         "lat": 32.373798,
         "lon": 15.307122,
         "sog": 0.0,
         "distanceKm": 6.8,
-        "destination": "Qasr Ahmed",
+        "destination": "MISURATA",
         "destinationClass": "To Misurata",
         "eta": "",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-MISURATA-9277474-20260824T013600Z",
@@ -1905,23 +1838,19 @@
         "mmsi": "352004571",
         "firstSeen": "2026-08-24T01:36:00+00:00",
         "lastSeen": "2026-08-24T06:18:02Z",
-        "waitingHours": 6.13,
+        "waitingHours": 6.41,
         "lat": 32.39215,
         "lon": 15.29485,
         "sog": 0.0,
         "distanceKm": 6.59,
-        "destination": "Qasr Ahmed",
+        "destination": "MISURATA",
         "destinationClass": "To Misurata",
         "eta": "",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)",
-        "anchoragePhase": "UNKNOWN",
-        "anchoragePhaseAr": "غير محسوم",
-        "anchoragePhaseConfidence": "Low",
-        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
+        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       }
     ],
     "currentInPort": {
@@ -3213,7 +3142,7 @@
     ],
     "identityDedupConflicts": []
   },
-  "anchorageUpdatedAt": "2026-08-24T08:00:18.188474+00:00",
+  "anchorageUpdatedAt": "2026-08-24 10:01:04",
   "currentInPort": {
     "Misurata": [
       {
