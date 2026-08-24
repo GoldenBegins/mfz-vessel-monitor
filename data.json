@@ -2472,6 +2472,20 @@
           "geographicState": "PORT_AREA_STALE",
           "confidence": "LOW",
           "source": "Shipnext"
+        },
+        {
+          "vessel": "STAR C",
+          "name": "STAR C",
+          "imo": "9411135",
+          "mmsi": "636022659",
+          "type": "",
+          "vesselType": "",
+          "flag": "",
+          "distanceKm": 2.303,
+          "sog": 0.0,
+          "observedAt": "2026-08-24T10:10:00+00:00",
+          "source": "Port Presence Layer / Ships25 direct AIS",
+          "presenceConfidence": "Fresh direct AIS"
         }
       ]
     },
