@@ -3088,7 +3088,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-24T19:40:12.643091+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-24T20:00:13.372019+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3104,6 +3104,13 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "AGREEMENT"
       },
       {
         "name": "MERNA 2",
@@ -3122,8 +3129,8 @@
     ],
     "portStateReview": [
       {
-        "name": "BURHAN DIZMAN",
-        "imo": "9381809",
+        "name": "REMAH",
+        "imo": "9947720",
         "port": "Misurata",
         "decision": "NEAR_PORT"
       },
@@ -3230,7 +3237,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-24T19:42:47.580858+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-24 21:42:43",
+  "anchorageUpdatedAt": "2026-08-24T20:00:13.372019+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3879,7 +3886,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-24T19:40:12.643091+00:00",
+  "mapUpdatedAt": "2026-08-24T20:00:13.372019+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-24T19:42:34Z",
     "summary": {
