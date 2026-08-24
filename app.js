@@ -39,6 +39,35 @@ function renderCurrentInPort(a){
   $('#benInPortRows').innerHTML=ben.map(row).join('')||'<tr><td colspan="7">لا توجد سفن مؤكدة جغرافيًا داخل الميناء في آخر رصد</td></tr>';
 }
 
+
+function renderFinalApproach(a){
+  const all=Array.isArray(a.finalApproach)?a.finalApproach:[];
+  const mis=all.filter(r=>r.port==='Misurata');
+  const ben=all.filter(r=>r.port==='Benghazi');
+
+  const row=r=>`<tr>
+    <td><div class="vessel-name">${r.vessel||'—'}</div></td>
+    <td><span class="identity-main">${r.imo||'—'}</span><small class="cell-sub">MMSI ${r.mmsi||'—'}</small></td>
+    <td><strong>${Number(r.distanceKm||0).toFixed(1)}</strong><small class="cell-sub">كم</small></td>
+    <td>${Number(r.sog||0).toFixed(1)}</td>
+    <td><span class="dest-chip">اقتراب نهائي</span><small class="cell-sub">${r.destination||'—'}</small></td>
+    <td><span class="date-cell">${anchorageDate(r.observedAt||'')}</span></td>
+    <td>${r.source||'—'}</td>
+  </tr>`;
+
+  $('#misFinalApproachCount').textContent=`${mis.length} في الاقتراب`;
+  $('#benFinalApproachCount').textContent=`${ben.length} في الاقتراب`;
+
+  $('#misFinalApproachRows').innerHTML=
+    mis.map(row).join('')||
+    '<tr><td colspan="7">لا توجد سفن في الاقتراب النهائي حاليًا</td></tr>';
+
+  $('#benFinalApproachRows').innerHTML=
+    ben.map(row).join('')||
+    '<tr><td colspan="7">لا توجد سفن في الاقتراب النهائي حاليًا</td></tr>';
+}
+
+
 function renderAnchorage(d){
   const a=d.anchorage||{};
   const sm=a.summary||{};
@@ -48,6 +77,7 @@ function renderAnchorage(d){
   const misRows=active.filter(r=>r.port==='Misurata');
   const benRows=active.filter(r=>r.port==='Benghazi');
   renderCurrentInPort(a);
+  renderFinalApproach(a);
 
   const total=(mis.active||0)+(ben.active||0);
   const allWait=active.map(r=>Number(r.waitingHours||0));
