@@ -1809,28 +1809,6 @@
         "source": ""
       },
       {
-        "episodeId": "ANCH-MISURATA-9163142-20260823T110728Z",
-        "port": "Misurata",
-        "vessel": "T-MED",
-        "imo": "9163142",
-        "mmsi": "352001139",
-        "firstSeen": "2026-08-23T11:07:28+00:00",
-        "lastSeen": "2026-08-23T23:55:23Z",
-        "waitingHours": 23.88,
-        "lat": 32.373765,
-        "lon": 15.307415,
-        "sog": 0.0,
-        "distanceKm": 6.83,
-        "destination": "Qasr Ahmed",
-        "destinationClass": "To Misurata",
-        "eta": "13:10 (LT)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
         "episodeId": "ANCH-MISURATA-9277474-20260824T013600Z",
         "port": "Misurata",
         "vessel": "PURE MERCY",
