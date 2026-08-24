@@ -3096,7 +3096,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-24T20:00:13.372019+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-24T20:30:13.623437+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3118,7 +3118,14 @@
         "imo": "9381809",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
+      },
+      {
+        "name": "REMAH",
+        "imo": "9947720",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "FLEXPORT"
       },
       {
         "name": "MERNA 2",
@@ -3137,22 +3144,10 @@
     ],
     "portStateReview": [
       {
-        "name": "REMAH",
-        "imo": "9947720",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
         "name": "BENGHAZI",
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "JOLLY ARGENTO",
-        "imo": "9467043",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
       },
       {
         "name": "HALIMA",
@@ -3163,12 +3158,6 @@
       {
         "name": "GOTHICA",
         "imo": "7826867",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "REVALA",
-        "imo": "1097438",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
@@ -3245,7 +3234,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-24T20:00:31.857758+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-24T20:00:13.372019+00:00",
+  "anchorageUpdatedAt": "2026-08-24T20:30:13.623437+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3894,7 +3883,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-24T20:00:13.372019+00:00",
+  "mapUpdatedAt": "2026-08-24T20:30:13.623437+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-24T19:42:34Z",
     "summary": {
