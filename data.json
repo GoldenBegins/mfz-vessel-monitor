@@ -2945,7 +2945,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-24T17:03:57.715674+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-24T17:59:37.408992+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -2963,6 +2963,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "MERNA 2",
+        "imo": "9165310",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "T.ADALYN",
         "imo": "9830305",
         "port": "Benghazi",
@@ -2971,18 +2978,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "SEA ENDURANCE",
-        "imo": "9516179",
-        "port": "Misurata",
-        "decision": "PORT_AREA_STALE"
-      },
-      {
-        "name": "MERNA 2",
-        "imo": "9165310",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3005,7 +3000,7 @@
         "name": "ELBELLA",
         "imo": "9312640",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
+        "decision": "ANCHORAGE"
       },
       {
         "name": "HALIMA",
@@ -3063,7 +3058,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-24T17:58:35.155815+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-24T17:03:57.715674+00:00",
+  "anchorageUpdatedAt": "2026-08-24T17:59:37.408992+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3700,7 +3695,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-24T17:03:57.715674+00:00",
+  "mapUpdatedAt": "2026-08-24T17:59:37.408992+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-24T11:00:49Z",
     "summary": {
