@@ -3133,7 +3133,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-24T19:00:14.626148+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-24T19:30:17.805070+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3167,6 +3167,12 @@
     ],
     "portStateReview": [
       {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
         "name": "BENGHAZI",
         "imo": "9277840",
         "port": "Misurata",
@@ -3188,13 +3194,13 @@
         "name": "GOTHICA",
         "imo": "7826867",
         "port": "Benghazi",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       },
       {
         "name": "REVALA",
         "imo": "1097438",
         "port": "Benghazi",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3234,7 +3240,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-24T19:01:48.013682+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-24 21:00:41",
+  "anchorageUpdatedAt": "2026-08-24T19:30:17.805070+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3883,7 +3889,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-24T19:00:14.626148+00:00",
+  "mapUpdatedAt": "2026-08-24T19:30:17.805070+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-24T19:00:33Z",
     "summary": {
