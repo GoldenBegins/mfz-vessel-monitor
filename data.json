@@ -3745,16 +3745,36 @@
   },
   "mapUpdatedAt": "2026-08-24T07:40:14.167802+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-08-24T07:30:46Z",
+    "updatedAt": "2026-08-24T07:43:52Z",
     "summary": {
       "confirmedTotal": 7,
-      "candidateTotal": 0,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 5,
       "benghaziToMisurataConfirmed": 2,
-      "misurataToBenghaziCandidates": 0,
+      "misurataToBenghaziCandidates": 1,
       "benghaziToMisurataCandidates": 0
     },
     "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "7826867",
+        "mmsi": "352004499",
+        "vessel": "GOTHICA",
+        "type": "Vehicle/Ro-Ro",
+        "originPort": "Misurata",
+        "destinationPort": "Benghazi",
+        "originFirstSeen": "2026-08-22",
+        "originLastSeen": "2026-08-23",
+        "originStayHours": 48.0,
+        "destinationAnchorageFirstSeen": "2026-08-24T07:32:00+00:00",
+        "destinationAnchorageLastSeen": "2026-08-24T07:32:00+00:00",
+        "destinationAnchorageHours": 0.19,
+        "seaTransitCalendarGapDays": 1,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Misurata|7826867|2026-08-22",
+        "anchorEpisodeId": "ANCH-BENGHAZI-7826867-20260824T073200Z"
+      },
       {
         "kind": "confirmed",
         "status": "Confirmed",
