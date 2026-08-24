@@ -3053,7 +3053,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-24T21:00:21.167495+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-24T21:30:17.544758+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3117,6 +3117,12 @@
         "imo": "9121869",
         "port": "Misurata",
         "decision": "ANCHORAGE"
+      },
+      {
+        "name": "ANKA DREAM",
+        "imo": "9195470",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3191,7 +3197,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-24T21:01:05.055905+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-24 23:00:58",
+  "anchorageUpdatedAt": "2026-08-24T21:30:17.544758+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3840,7 +3846,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-24T21:00:21.167495+00:00",
+  "mapUpdatedAt": "2026-08-24T21:30:17.544758+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-24T21:00:49Z",
     "summary": {
