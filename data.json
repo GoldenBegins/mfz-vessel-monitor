@@ -3157,7 +3157,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T19:30:15.352319+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T19:40:15.076888+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3194,6 +3194,13 @@
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "REVALA",
+        "imo": "1097438",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
@@ -3207,12 +3214,6 @@
         "name": "BREB COURTESY",
         "imo": "9421130",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "REVALA",
-        "imo": "1097438",
-        "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
     ],
@@ -3288,7 +3289,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T19:30:49.710255+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 21:30:41",
+  "anchorageUpdatedAt": "2026-08-25T19:40:15.076888+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3894,7 +3895,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T19:30:15.352319+00:00",
+  "mapUpdatedAt": "2026-08-25T19:40:15.076888+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T19:30:33Z",
     "summary": {
