@@ -3862,16 +3862,36 @@
   },
   "mapUpdatedAt": "2026-08-25T13:40:14.626685+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-08-25T13:30:36Z",
+    "updatedAt": "2026-08-25T13:43:01Z",
     "summary": {
       "confirmedTotal": 9,
-      "candidateTotal": 0,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 7,
       "benghaziToMisurataConfirmed": 2,
-      "misurataToBenghaziCandidates": 0,
+      "misurataToBenghaziCandidates": 1,
       "benghaziToMisurataCandidates": 0
     },
     "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9165310",
+        "mmsi": "352005226",
+        "vessel": "MERNA 2",
+        "type": "Vehicle/Ro-Ro",
+        "originPort": "Misurata",
+        "destinationPort": "Benghazi",
+        "originFirstSeen": "2026-08-22",
+        "originLastSeen": "2026-08-24",
+        "originStayHours": 72.0,
+        "destinationAnchorageFirstSeen": "2026-08-25T13:28:13+00:00",
+        "destinationAnchorageLastSeen": "2026-08-25T13:28:13+00:00",
+        "destinationAnchorageHours": 0.24,
+        "seaTransitCalendarGapDays": 1,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Misurata|9165310|2026-08-22",
+        "anchorEpisodeId": "ANCH-BENGHAZI-9165310-20260825T132813Z"
+      },
       {
         "kind": "confirmed",
         "status": "Confirmed",
