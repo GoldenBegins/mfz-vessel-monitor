@@ -3170,7 +3170,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T08:00:16.360005+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T08:30:13.365800+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3187,12 +3187,6 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "PACIFIC DALIAN",
-        "imo": "9339090",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3267,7 +3261,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T08:00:50.834853+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 10:00:44",
+  "anchorageUpdatedAt": "2026-08-25T08:30:13.365800+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3961,7 +3955,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T08:00:16.360005+00:00",
+  "mapUpdatedAt": "2026-08-25T08:30:13.365800+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T08:00:36Z",
     "summary": {
