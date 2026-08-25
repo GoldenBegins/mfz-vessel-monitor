@@ -3122,7 +3122,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T14:30:15.800360+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T15:00:17.378831+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3153,6 +3153,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "LYNN",
+        "imo": "9295531",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3227,7 +3233,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T14:30:59.869341+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 16:30:50",
+  "anchorageUpdatedAt": "2026-08-25T15:00:17.378831+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3816,7 +3822,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T14:30:15.800360+00:00",
+  "mapUpdatedAt": "2026-08-25T15:00:17.378831+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T14:30:41Z",
     "summary": {
