@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-25 06:07:49",
+  "updatedAt": "2026-08-25 14:06:10",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 54,
-    "benghaziCalls": 38,
+    "misurataCalls": 57,
+    "benghaziCalls": 39,
     "misurataExcludedCalls": 5,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 6,
@@ -12,8 +12,8 @@
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
     "estimatedCalls": 16,
-    "unestimatedCalls": 22,
-    "coverage": 42.1,
+    "unestimatedCalls": 23,
+    "coverage": 41.0,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 11143,
@@ -24,8 +24,8 @@
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 54,
-      "benghaziCalls": 38,
+      "misurataCalls": 57,
+      "benghaziCalls": 39,
       "misurataExcludedCalls": 5,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -34,7 +34,7 @@
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 11143,
       "estimatedGeneralCargoTons": 56854,
-      "coverage": 42.1
+      "coverage": 41.0
     }
   ],
   "estimates": [
@@ -164,7 +164,7 @@
       "type": "Container",
       "estimate": "951 TEU",
       "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Flexport Atlas]"
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
