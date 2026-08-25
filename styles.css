@@ -267,3 +267,18 @@
   #mobileUxRoot{display:block!important}
 }
 
+/* DEPARTURE_PENDING_UI_V1 */
+.departure-chip{
+  display:inline-block;margin-inline-start:7px;
+  border:1px solid rgba(242,184,75,.55);
+  background:rgba(242,184,75,.12);color:#ffd47a;
+  border-radius:999px;padding:3px 7px;font-size:9px;font-weight:700;white-space:nowrap;
+}
+.departure-status{
+  display:inline-block;border:1px solid rgba(242,184,75,.45);
+  background:rgba(242,184,75,.10);color:#ffd47a;
+  border-radius:999px;padding:4px 7px;font-size:9px;white-space:nowrap;
+}
+.departure-pending-row{
+  background:linear-gradient(90deg,rgba(242,184,75,.035),transparent 38%);
+}
