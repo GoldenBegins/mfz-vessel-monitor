@@ -1,6 +1,6 @@
 {
   "version": "VESSEL_INTELLIGENCE_V1",
-  "updatedAt": "2026-08-25T20:10:16Z",
+  "updatedAt": "2026-08-25T20:18:38Z",
   "summary": {
     "vessels": 97,
     "dwtKnown": 77,
@@ -11,7 +11,9 @@
     "flexportExactImoProfiles": 20,
     "shipnextCachedProfiles": 0,
     "shipnextCacheFilesScanned": 21,
-    "etaAccuracyRecords": 41
+    "etaAccuracyRecords": 41,
+    "agencyVessels": 57,
+    "libyaAgents": 33
   },
   "vessels": [
     {
@@ -47,7 +49,14 @@
       "Avg Anchorage Hours": 71.69,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "1031305",
@@ -82,7 +91,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "جرمة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "20/08/2026 - 16:05",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "1066013",
@@ -117,7 +133,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "1085681",
@@ -152,7 +175,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "1097438",
@@ -187,7 +217,14 @@
       "Avg Anchorage Hours": 24.52,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "1112850",
@@ -222,7 +259,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-24T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "بحار العالم",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "21/08/2026 - 17:35",
+      "Last Agent Departure": "24/08/2026 - 14:55",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "7211907",
@@ -257,7 +301,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-17T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "ليبيا امان",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "17/08/2026 - 06:55",
+      "Last Agent Departure": "18/08/2026 - 00:55",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "7808401",
@@ -292,7 +343,14 @@
       "Avg Anchorage Hours": 2.53,
       "Last Observed Port": "",
       "Last Observed On": "",
-      "Sources": ""
+      "Sources": "",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "7826867",
@@ -327,7 +385,14 @@
       "Avg Anchorage Hours": 10.6,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-24T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة افاق",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "22/08/2026 - 19:15",
+      "Last Agent Departure": "23/08/2026 - 14:00",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 3
     },
     {
       "IMO": "8003058",
@@ -362,7 +427,14 @@
       "Avg Anchorage Hours": 0.0,
       "Last Observed Port": "",
       "Last Observed On": "",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "8207410",
@@ -397,7 +469,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "8355657",
@@ -432,7 +511,14 @@
       "Avg Anchorage Hours": 69.19,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-20T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "8356974",
@@ -467,7 +553,14 @@
       "Avg Anchorage Hours": 3.6,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "8517592",
@@ -502,7 +595,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "8609917",
@@ -537,7 +637,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة البحارة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "17/08/2026 - 21:35",
+      "Last Agent Departure": "24/08/2026 - 23:55",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9005388",
@@ -572,7 +679,14 @@
       "Avg Anchorage Hours": 155.46,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-19T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9053907",
@@ -607,7 +721,14 @@
       "Avg Anchorage Hours": 62.61,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-16T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9103362",
@@ -642,7 +763,14 @@
       "Avg Anchorage Hours": 57.34,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-23T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9103386",
@@ -677,7 +805,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-18T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الممتاز",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "16/08/2026 - 16:51",
+      "Last Agent Departure": "18/08/2026 - 23:22",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9108843",
@@ -712,7 +847,14 @@
       "Avg Anchorage Hours": 6.94,
       "Last Observed Port": "",
       "Last Observed On": "",
-      "Sources": ""
+      "Sources": "",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9109861",
@@ -747,7 +889,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الامواج الليبية",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "18/08/2026 - 16:45",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9121869",
@@ -782,7 +931,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "أعالي المتوسط",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "24/08/2026 - 18:50",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9128154",
@@ -817,7 +973,14 @@
       "Avg Anchorage Hours": 32.91,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-21T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9134701",
@@ -852,7 +1015,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-18T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "شركة دليل",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "10/08/2026 - 22:45",
+      "Last Agent Departure": "12/08/2026 - 18:55",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9136852",
@@ -887,7 +1057,14 @@
       "Avg Anchorage Hours": 156.44,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-18T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الريادة الشامخة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Anchorage",
+      "Last Agent Arrival": "18/08/2026 - 20:00",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9136876",
@@ -922,7 +1099,14 @@
       "Avg Anchorage Hours": 21.47,
       "Last Observed Port": "",
       "Last Observed On": "",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة دلتا الشمال",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Anchorage",
+      "Last Agent Arrival": "24/08/2026 - 23:00",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9139646",
@@ -957,7 +1141,14 @@
       "Avg Anchorage Hours": 42.02,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-22T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "انوار المحيط",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "17/08/2026 - 19:50",
+      "Last Agent Departure": "19/08/2026 - 01:21",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9142629",
@@ -992,7 +1183,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-16T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الشيمة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "13/08/2026 - 12:54",
+      "Last Agent Departure": "16/08/2026 - 14:30",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9159737",
@@ -1027,7 +1225,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-18T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "أعالي البحار HIGH SEAS",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "19/07/2026 - 01:55",
+      "Last Agent Departure": "20/08/2026 - 22:10",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9160920",
@@ -1062,7 +1267,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-16T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "مديترينيان",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "15/08/2026 - 14:25",
+      "Last Agent Departure": "16/08/2026 - 20:30",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9161156",
@@ -1097,7 +1309,14 @@
       "Avg Anchorage Hours": 9.69,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-20T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة البحارة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "19/08/2026 - 21:45",
+      "Last Agent Departure": "20/08/2026 - 21:25",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9163142",
@@ -1132,7 +1351,14 @@
       "Avg Anchorage Hours": 31.01,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "المرسى العالمية",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "24/08/2026 - 13:48",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9165310",
@@ -1167,7 +1393,14 @@
       "Avg Anchorage Hours": 6.54,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-24T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "كفالوس KFALUOS",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "22/08/2026 - 13:15",
+      "Last Agent Departure": "24/08/2026 - 17:40",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9165798",
@@ -1202,7 +1435,14 @@
       "Avg Anchorage Hours": 3.52,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "عبر المدن",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Expected",
+      "Last Agent Arrival": "23/08/2026",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9175494",
@@ -1237,7 +1477,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "",
       "Last Observed On": "",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "ليبومار",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "08/08/2026 - 11:30",
+      "Last Agent Departure": "09/08/2026 - 14:30",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9176125",
@@ -1272,7 +1519,14 @@
       "Avg Anchorage Hours": 15.16,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-23T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة الافق البحري",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "15/08/2026 - 23:18",
+      "Last Agent Departure": "16/08/2026 - 22:27",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9187344",
@@ -1307,7 +1561,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-18T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "شركة البحرين",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "16/08/2026 - 02:35",
+      "Last Agent Departure": "18/08/2026 - 10:40",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9189718",
@@ -1342,7 +1603,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة البحارة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "18/08/2026 - 22:45",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9195470",
@@ -1377,7 +1645,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9211157",
@@ -1412,7 +1687,14 @@
       "Avg Anchorage Hours": 59.99,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-22T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "شركة دليل",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "15/08/2026 - 21:55",
+      "Last Agent Departure": "17/08/2026 - 20:50",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9216353",
@@ -1447,7 +1729,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9218208",
@@ -1482,7 +1771,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-16T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة البحارة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "10/08/2026 - 16:25",
+      "Last Agent Departure": "17/08/2026 - 02:10",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9223813",
@@ -1517,7 +1813,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-16T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "فروة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "11/08/2026 - 04:50",
+      "Last Agent Departure": "16/08/2026 - 18:10",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9224855",
@@ -1552,7 +1855,14 @@
       "Avg Anchorage Hours": 81.92,
       "Last Observed Port": "",
       "Last Observed On": "",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الشيمة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Anchorage",
+      "Last Agent Arrival": "22/08/2026 - 01:50",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9229697",
@@ -1587,7 +1897,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "فروة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "17/08/2026 - 01:40",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9232307",
@@ -1622,7 +1939,14 @@
       "Avg Anchorage Hours": 10.42,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9235816",
@@ -1657,7 +1981,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-19T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "أمواج ليبيا",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "12/08/2026 - 07:20",
+      "Last Agent Departure": "15/08/2026 - 02:20",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9242302",
@@ -1692,7 +2023,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9247572",
@@ -1727,7 +2065,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-22T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الفلك المشحون",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "21/08/2026 - 23:26",
+      "Last Agent Departure": "22/08/2026 - 17:25",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9252773",
@@ -1762,7 +2107,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-23T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "شركة دليل",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "23/08/2026 - 09:42",
+      "Last Agent Departure": "23/08/2026 - 21:15",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9261906",
@@ -1797,7 +2149,14 @@
       "Avg Anchorage Hours": 32.3,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "أمواج ليبيا",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "17/08/2026 - 22:40",
+      "Last Agent Departure": "20/08/2026 - 20:30",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9277474",
@@ -1832,7 +2191,14 @@
       "Avg Anchorage Hours": 42.41,
       "Last Observed Port": "",
       "Last Observed On": "",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الافق اللامع",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Anchorage",
+      "Last Agent Arrival": "24/08/2026 - 00:40",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9277840",
@@ -1867,7 +2233,14 @@
       "Avg Anchorage Hours": 0.0,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "جرمة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "14/02/2023 - 19:40",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9278911",
@@ -1902,7 +2275,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-16T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9293882",
@@ -1937,7 +2317,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الشيمة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "12/08/2026 - 22:30",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9295531",
@@ -1972,7 +2359,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9301201",
@@ -2007,7 +2401,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-19T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "شركة دليل",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "18/08/2026 - 16:56",
+      "Last Agent Departure": "19/08/2026 - 22:40",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9308625",
@@ -2042,7 +2443,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-15T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "مديترينيان",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Expected",
+      "Last Agent Arrival": "26/08/2026",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 4
     },
     {
       "IMO": "9312640",
@@ -2077,7 +2485,14 @@
       "Avg Anchorage Hours": 4.45,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "أمواج ليبيا",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "24/08/2026 - 18:22",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9313228",
@@ -2112,7 +2527,14 @@
       "Avg Anchorage Hours": 2.97,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9315795",
@@ -2147,7 +2569,14 @@
       "Avg Anchorage Hours": 50.55,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-24T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة امير البحر",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "22/08/2026 - 22:35",
+      "Last Agent Departure": "24/08/2026 - 11:33",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9338589",
@@ -2182,7 +2611,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-19T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الشيمة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "15/08/2026 - 21:00",
+      "Last Agent Departure": "19/08/2026 - 15:58",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9339090",
@@ -2217,7 +2653,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9347839",
@@ -2252,7 +2695,14 @@
       "Avg Anchorage Hours": 0.0,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9348637",
@@ -2287,7 +2737,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-20T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "أمواج ليبيا",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "20/08/2026 - 03:00",
+      "Last Agent Departure": "21/08/2026 - 01:55",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9356684",
@@ -2322,7 +2779,14 @@
       "Avg Anchorage Hours": 66.67,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-22T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "اساس ليبيا",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "16/08/2026 - 16:50",
+      "Last Agent Departure": "17/08/2026 - 18:46",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9366469",
@@ -2357,7 +2821,14 @@
       "Avg Anchorage Hours": 5.92,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9369069",
@@ -2392,7 +2863,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-20T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة البحارة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "18/08/2026 - 02:00",
+      "Last Agent Departure": "20/08/2026 - 07:10",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9370719",
@@ -2427,7 +2905,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-23T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة البدر",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "22/08/2026 - 02:00",
+      "Last Agent Departure": "23/08/2026 - 11:24",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9381809",
@@ -2462,7 +2947,14 @@
       "Avg Anchorage Hours": 3.44,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-24T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "أعالي المتوسط",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "23/08/2026 - 16:15",
+      "Last Agent Departure": "24/08/2026 - 20:55",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 2
     },
     {
       "IMO": "9396696",
@@ -2497,7 +2989,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-21T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9396749",
@@ -2532,7 +3031,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9411135",
@@ -2567,7 +3073,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9416850",
@@ -2602,7 +3115,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-15T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9421130",
@@ -2637,7 +3157,14 @@
       "Avg Anchorage Hours": 8.47,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الكناري",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Anchorage",
+      "Last Agent Arrival": "25/08/2026 - 08:00",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9421166",
@@ -2672,7 +3199,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-16T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الكناري",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "14/08/2026 - 15:40",
+      "Last Agent Departure": "16/08/2026 - 15:25",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9433559",
@@ -2707,7 +3241,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-15T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "فروة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "11/08/2026 - 23:40",
+      "Last Agent Departure": "15/08/2026 - 15:45",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9457749",
@@ -2742,7 +3283,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-18T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة المباشر",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "10/08/2026 - 21:16",
+      "Last Agent Departure": "12/08/2026 - 16:03",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9467043",
@@ -2777,7 +3325,14 @@
       "Avg Anchorage Hours": 7.47,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "طرابلس",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "23/08/2026 - 23:38",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9468530",
@@ -2812,7 +3367,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-22T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9474656",
@@ -2847,7 +3409,14 @@
       "Avg Anchorage Hours": 0.0,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة الركيزة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Berthed",
+      "Last Agent Arrival": "03/08/2026 - 18:15",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9482029",
@@ -2882,7 +3451,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-19T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "فروة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "13/08/2026 - 11:59",
+      "Last Agent Departure": "20/08/2026 - 00:20",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9489986",
@@ -2917,7 +3493,14 @@
       "Avg Anchorage Hours": 8.03,
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9505584",
@@ -2952,7 +3535,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-20T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الكناري",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "19/08/2026 - 22:30",
+      "Last Agent Departure": "20/08/2026 - 23:50",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9516179",
@@ -2987,7 +3577,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-24T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الكناري",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "22/08/2026 - 03:45",
+      "Last Agent Departure": "24/08/2026 - 13:56",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9519042",
@@ -3022,7 +3619,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-19T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9523237",
@@ -3057,7 +3661,14 @@
       "Avg Anchorage Hours": 4.44,
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-24T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "الريادة الشامخة",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "23/08/2026 - 22:30",
+      "Last Agent Departure": "24/08/2026 - 22:25",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9528718",
@@ -3092,7 +3703,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-17T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "شركة استار",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "16/08/2026 - 07:00",
+      "Last Agent Departure": "17/08/2026 - 11:00",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 1
     },
     {
       "IMO": "9563885",
@@ -3127,7 +3745,14 @@
       "Avg Anchorage Hours": 155.51,
       "Last Observed Port": "",
       "Last Observed On": "",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9593086",
@@ -3162,7 +3787,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9601417",
@@ -3197,7 +3829,14 @@
       "Avg Anchorage Hours": 4.11,
       "Last Observed Port": "",
       "Last Observed On": "",
-      "Sources": ""
+      "Sources": "",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9635626",
@@ -3232,7 +3871,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-21T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9643659",
@@ -3267,7 +3913,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-19T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9800829",
@@ -3302,7 +3955,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-20T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9830305",
@@ -3337,7 +3997,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
       "Last Observed On": "2026-08-24T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     },
     {
       "IMO": "9947720",
@@ -3372,7 +4039,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-24T00:00:00Z",
-      "Sources": "Vessel Master + Flexport Atlas exact IMO"
+      "Sources": "Vessel Master + Flexport Atlas exact IMO",
+      "Last Known Libya Agent": "شركة البحرين",
+      "Last Agent Port": "Misurata",
+      "Last Agent Stage": "Departed",
+      "Last Agent Arrival": "21/08/2026 - 14:30",
+      "Last Agent Departure": "24/08/2026 - 21:30",
+      "Last Agent Verified On": "2026-08-25T10:48:36Z",
+      "Agency Records Count": 3
     },
     {
       "IMO": "9977086",
@@ -3407,7 +4081,14 @@
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
       "Last Observed On": "2026-08-25T00:00:00Z",
-      "Sources": "Vessel Master"
+      "Sources": "Vessel Master",
+      "Last Known Libya Agent": "",
+      "Last Agent Port": "",
+      "Last Agent Stage": "",
+      "Last Agent Arrival": "",
+      "Last Agent Departure": "",
+      "Last Agent Verified On": "",
+      "Agency Records Count": 0
     }
   ],
   "etaAccuracy": [
@@ -3420,7 +4101,7 @@
       "ETA Error Hours": 69.4,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3431,7 +4112,7 @@
       "ETA Error Hours": 3.7,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3442,7 +4123,7 @@
       "ETA Error Hours": -6.92,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3453,7 +4134,7 @@
       "ETA Error Hours": 39.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3464,7 +4145,7 @@
       "ETA Error Hours": 26.5,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3475,7 +4156,7 @@
       "ETA Error Hours": -20.37,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3486,7 +4167,7 @@
       "ETA Error Hours": 59.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3497,7 +4178,7 @@
       "ETA Error Hours": 29.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3508,7 +4189,7 @@
       "ETA Error Hours": 1.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3519,7 +4200,7 @@
       "ETA Error Hours": -17.0,
       "Source": "Flexport Atlas",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3530,7 +4211,7 @@
       "ETA Error Hours": 33.92,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3541,7 +4222,7 @@
       "ETA Error Hours": 53.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3552,7 +4233,7 @@
       "ETA Error Hours": -227.5,
       "Source": "Flexport Atlas",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3563,7 +4244,7 @@
       "ETA Error Hours": 128.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3574,7 +4255,7 @@
       "ETA Error Hours": -9.62,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Benghazi",
@@ -3585,7 +4266,7 @@
       "ETA Error Hours": 0.03,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3596,7 +4277,7 @@
       "ETA Error Hours": 38.58,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3607,7 +4288,7 @@
       "ETA Error Hours": -160.43,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3618,7 +4299,7 @@
       "ETA Error Hours": 16.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3629,7 +4310,7 @@
       "ETA Error Hours": -16.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3640,7 +4321,7 @@
       "ETA Error Hours": -11.28,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3651,7 +4332,7 @@
       "ETA Error Hours": 12.07,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3662,7 +4343,7 @@
       "ETA Error Hours": -11.53,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3673,7 +4354,7 @@
       "ETA Error Hours": -94.82,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3684,7 +4365,7 @@
       "ETA Error Hours": -7.48,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3695,7 +4376,7 @@
       "ETA Error Hours": -7.52,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3706,7 +4387,7 @@
       "ETA Error Hours": 5.63,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3717,7 +4398,7 @@
       "ETA Error Hours": -5.13,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3728,7 +4409,7 @@
       "ETA Error Hours": -15.72,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3739,7 +4420,7 @@
       "ETA Error Hours": -19.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3750,7 +4431,7 @@
       "ETA Error Hours": -273.8,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197 + Flexport Atlas",
       "Status": "Planned / Expected",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3761,7 +4442,7 @@
       "ETA Error Hours": -13.0,
       "Source": "Flexport Atlas",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3772,7 +4453,7 @@
       "ETA Error Hours": -5.97,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3783,7 +4464,7 @@
       "ETA Error Hours": -0.02,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3794,7 +4475,7 @@
       "ETA Error Hours": -0.2,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3805,7 +4486,7 @@
       "ETA Error Hours": -14.02,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3816,7 +4497,7 @@
       "ETA Error Hours": -6.43,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3827,7 +4508,7 @@
       "ETA Error Hours": -7.48,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3838,7 +4519,7 @@
       "ETA Error Hours": -1.3,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3849,7 +4530,7 @@
       "ETA Error Hours": -15.13,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     },
     {
       "Port": "Misurata",
@@ -3860,7 +4541,7 @@
       "ETA Error Hours": -22.63,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-08-25T20:10:15Z"
+      "Calculated On": "2026-08-25T20:18:36Z"
     }
   ]
 }
