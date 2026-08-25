@@ -3059,7 +3059,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T16:30:14.767427+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T16:40:16.592212+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3092,6 +3092,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "HALIMA",
+        "imo": "9121869",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3142,7 +3148,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T16:30:48.333336+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 18:30:41",
+  "anchorageUpdatedAt": "2026-08-25T16:40:16.592212+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3703,7 +3709,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T16:30:14.767427+00:00",
+  "mapUpdatedAt": "2026-08-25T16:40:16.592212+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T16:30:33Z",
     "summary": {
