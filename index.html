@@ -67,246 +67,39 @@
             <span>متوقعة</span><i>←</i><span class="current">المخطاف</span><i>←</i><span>داخل الميناء</span><i>←</i><span>غادرت</span>
           </div>
         </div>
-
         <div class="cards" id="anchorageCards"></div>
-
         <div class="grid two">
-          <article class="panel anchorage-port-panel">
-            <div class="panel-head">
-              <div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div>
-              <span class="pill anchor-pill" id="misAnchorageCount">0 في المخطاف</span>
-            </div>
-            <div class="anchorage-mini" id="misAnchorageStats"></div>
-            <div class="table-wrap">
-              <table>
-                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>الانتظار</th><th>أول رصد</th><th>الثقة</th></tr></thead>
-                <tbody id="misAnchorageRows"></tbody>
-              </table>
-            </div>
-          </article>
-
-          <article class="panel anchorage-port-panel">
-            <div class="panel-head">
-              <div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div>
-              <span class="pill anchor-pill" id="benAnchorageCount">0 في المخطاف</span>
-            </div>
-            <div class="anchorage-mini" id="benAnchorageStats"></div>
-            <div class="table-wrap">
-              <table>
-                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>الانتظار</th><th>أول رصد</th><th>الثقة</th></tr></thead>
-                <tbody id="benAnchorageRows"></tbody>
-              </table>
-            </div>
-          </article>
+          <article class="panel anchorage-port-panel"><div class="panel-head"><div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div><span class="pill anchor-pill" id="misAnchorageCount">0 في المخطاف</span></div><div class="anchorage-mini" id="misAnchorageStats"></div><div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>الانتظار</th><th>أول رصد</th><th>الثقة</th></tr></thead><tbody id="misAnchorageRows"></tbody></table></div></article>
+          <article class="panel anchorage-port-panel"><div class="panel-head"><div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div><span class="pill anchor-pill" id="benAnchorageCount">0 في المخطاف</span></div><div class="anchorage-mini" id="benAnchorageStats"></div><div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>الانتظار</th><th>أول رصد</th><th>الثقة</th></tr></thead><tbody id="benAnchorageRows"></tbody></table></div></article>
         </div>
-
-        <div class="current-port-heading">
-          <div>
-            <span class="kicker">Final Approach</span>
-            <h2>السفن في الاقتراب النهائي</h2>
-            <p class="muted">سفن داخل النطاق الخارجي للميناء وما زالت تتحرك. لا تُحتسب ضمن عدد السفن في المخطاف أو مؤشرات زمن الانتظار.</p>
-          </div>
-        </div>
-
+        <div class="current-port-heading"><div><span class="kicker">Final Approach</span><h2>السفن في الاقتراب النهائي</h2><p class="muted">سفن داخل النطاق الخارجي للميناء وما زالت تتحرك. لا تُحتسب ضمن عدد السفن في المخطاف أو مؤشرات زمن الانتظار.</p></div></div>
         <div class="grid two current-port-grid final-approach-grid">
-          <article class="panel current-port-panel">
-            <div class="panel-head">
-              <div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div>
-              <span class="pill anchor-pill" id="misFinalApproachCount">0 في الاقتراب</span>
-            </div>
-            <div class="table-wrap">
-              <table>
-                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>آخر رصد</th><th>المصدر</th></tr></thead>
-                <tbody id="misFinalApproachRows"></tbody>
-              </table>
-            </div>
-          </article>
-
-          <article class="panel current-port-panel">
-            <div class="panel-head">
-              <div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div>
-              <span class="pill anchor-pill" id="benFinalApproachCount">0 في الاقتراب</span>
-            </div>
-            <div class="table-wrap">
-              <table>
-                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>آخر رصد</th><th>المصدر</th></tr></thead>
-                <tbody id="benFinalApproachRows"></tbody>
-              </table>
-            </div>
-          </article>
+          <article class="panel current-port-panel"><div class="panel-head"><div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div><span class="pill anchor-pill" id="misFinalApproachCount">0 في الاقتراب</span></div><div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>آخر رصد</th><th>المصدر</th></tr></thead><tbody id="misFinalApproachRows"></tbody></table></div></article>
+          <article class="panel current-port-panel"><div class="panel-head"><div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div><span class="pill anchor-pill" id="benFinalApproachCount">0 في الاقتراب</span></div><div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>المسافة</th><th>SOG</th><th>الوجهة</th><th>آخر رصد</th><th>المصدر</th></tr></thead><tbody id="benFinalApproachRows"></tbody></table></div></article>
         </div>
-
-        <div class="current-port-heading">
-          <div>
-            <span class="kicker">Live Port Status</span>
-            <h2>السفن الموجودة حاليًا داخل الميناء</h2>
-            <p class="muted">تعرض الجداول أحدث السفن التي أكدها الرصد الجغرافي داخل نطاق كل ميناء.</p>
-          </div>
-        </div>
-
+        <div class="current-port-heading"><div><span class="kicker">Live Port Status</span><h2>السفن الموجودة حاليًا داخل الميناء</h2><p class="muted">تعرض الجداول أحدث السفن التي أكدها الرصد الجغرافي داخل نطاق كل ميناء.</p></div></div>
         <div class="grid two current-port-grid">
-          <article class="panel current-port-panel">
-            <div class="panel-head">
-              <div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div>
-              <span class="pill inport-pill" id="misInPortCount">0 داخل الميناء</span>
-            </div>
-            <div class="table-wrap">
-              <table>
-                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>SOG</th><th>المسافة</th><th>الوجهة</th><th>آخر رصد</th><th>الثقة</th></tr></thead>
-                <tbody id="misInPortRows"></tbody>
-              </table>
-            </div>
-          </article>
-
-          <article class="panel current-port-panel">
-            <div class="panel-head">
-              <div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div>
-              <span class="pill inport-pill" id="benInPortCount">0 داخل الميناء</span>
-            </div>
-            <div class="table-wrap">
-              <table>
-                <thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>SOG</th><th>المسافة</th><th>الوجهة</th><th>آخر رصد</th><th>الثقة</th></tr></thead>
-                <tbody id="benInPortRows"></tbody>
-              </table>
-            </div>
-          </article>
+          <article class="panel current-port-panel"><div class="panel-head"><div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div><span class="pill inport-pill" id="misInPortCount">0 داخل الميناء</span></div><div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>SOG</th><th>المسافة</th><th>الوجهة</th><th>آخر رصد</th><th>الثقة</th></tr></thead><tbody id="misInPortRows"></tbody></table></div></article>
+          <article class="panel current-port-panel"><div class="panel-head"><div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div><span class="pill inport-pill" id="benInPortCount">0 داخل الميناء</span></div><div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO / MMSI</th><th>SOG</th><th>المسافة</th><th>الوجهة</th><th>آخر رصد</th><th>الثقة</th></tr></thead><tbody id="benInPortRows"></tbody></table></div></article>
         </div>
-
-        <article class="panel">
-          <div class="panel-head">
-            <div><span class="kicker">Waiting History</span><h2>آخر فترات الانتظار المكتملة</h2></div>
-            <span class="pill" id="anchorageUpdated">—</span>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead><tr><th>الميناء</th><th>السفينة</th><th>مدة الانتظار</th><th>الوجهة</th><th>الحالة النهائية</th><th>دخل الميناء</th></tr></thead>
-              <tbody id="anchorageHistoryRows"></tbody>
-            </table>
-          </div>
-        </article>
+        <article class="panel"><div class="panel-head"><div><span class="kicker">Waiting History</span><h2>آخر فترات الانتظار المكتملة</h2></div><span class="pill" id="anchorageUpdated">—</span></div><div class="table-wrap"><table><thead><tr><th>الميناء</th><th>السفينة</th><th>مدة الانتظار</th><th>الوجهة</th><th>الحالة النهائية</th><th>دخل الميناء</th></tr></thead><tbody id="anchorageHistoryRows"></tbody></table></div></article>
       </section>
 
-      <section id="map" class="view">
-        <div class="map-hero">
-          <div>
-            <span class="kicker">Live Vessel Map</span>
-            <h2>الخريطة التفاعلية للميناءين</h2>
-            <p class="muted">مواضع السفن مأخوذة من أحدث رصد متاح، ورمز السفينة يدور حسب COG عندما تكون قيمة الاتجاه متاحة.</p>
-          </div>
-          <div class="map-legend">
-            <span><i class="legend-ship inport"></i> داخل الميناء</span>
-            <span><i class="legend-ship anchorage"></i> في المخطاف</span>
-            <span><i class="legend-line operational"></i> رصيف / Terminal</span>
-            <span><i class="legend-line outer"></i> حدود Shipnext</span>
-          </div>
-        </div>
+      <section id="map" class="view"><div class="map-hero"><div><span class="kicker">Live Vessel Map</span><h2>الخريطة التفاعلية للميناءين</h2><p class="muted">مواضع السفن مأخوذة من أحدث رصد متاح، ورمز السفينة يدور حسب COG عندما تكون قيمة الاتجاه متاحة.</p></div><div class="map-legend"><span><i class="legend-ship inport"></i> داخل الميناء</span><span><i class="legend-ship anchorage"></i> في المخطاف</span><span><i class="legend-line operational"></i> رصيف / Terminal</span><span><i class="legend-line outer"></i> حدود Shipnext</span></div></div><div class="grid two port-map-grid"><article class="panel port-map-panel"><div class="panel-head"><div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div><span class="pill" id="misMapCount">—</span></div><div id="misurataMap" class="port-map"></div></article><article class="panel port-map-panel"><div class="panel-head"><div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div><span class="pill" id="benMapCount">—</span></div><div id="benghaziMap" class="port-map"></div></article></div><p class="map-footnote">الخريطة أداة متابعة بصرية وليست بديلًا عن بيانات AIS الرسمية أو تعليمات سلطات الميناء.</p></section>
 
-        <div class="grid two port-map-grid">
-          <article class="panel port-map-panel">
-            <div class="panel-head">
-              <div><span class="kicker">LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div>
-              <span class="pill" id="misMapCount">—</span>
-            </div>
-            <div id="misurataMap" class="port-map"></div>
-          </article>
+      <section id="interport" class="view"><div class="interport-hero"><div><span class="kicker">Inter-Port Vessel Movement</span><h2>الرحلات بين مصراتة وبنغازي</h2><p class="muted">الرحلة المؤكدة تتطلب Port Call في كلا الميناءين بنفس IMO. الظهور في المخطاف فقط يُعرض كمرشح ولا يُحسب رحلة مؤكدة.</p></div><span class="pill" id="interportUpdated">—</span></div><div class="interport-cards"><article class="panel interport-stat"><span>مصراتة → بنغازي</span><strong id="m2bConfirmed">0</strong><small id="m2bCandidates">0 مرشح</small></article><article class="panel interport-stat"><span>بنغازي → مصراتة</span><strong id="b2mConfirmed">0</strong><small id="b2mCandidates">0 مرشح</small></article><article class="panel interport-stat"><span>الرحلات المؤكدة</span><strong id="interportConfirmedTotal">0</strong><small>نفس IMO + Port Call في الميناءين</small></article><article class="panel interport-stat candidate-card"><span>قيد التأكيد</span><strong id="interportCandidateTotal">0</strong><small>زيارة سابقة + موجود بالمخطاف الآن</small></article></div><article class="panel"><div class="panel-head"><div><span class="kicker">Voyage Timeline</span><h2>حركة السفن بين الميناءين</h2></div></div><div class="table-wrap"><table class="interport-table"><thead><tr><th>السفينة</th><th>الاتجاه</th><th>الحالة</th><th>آخر ظهور بالميناء الأول</th><th>الوصول/المخطاف بالميناء الثاني</th><th>الفاصل الزمني</th><th>انتظار المخطاف</th><th>مدة البقاء بالميناء</th></tr></thead><tbody id="interportRows"><tr><td colspan="8" class="muted">لا توجد رحلات مؤكدة أو مرشحة بعد.</td></tr></tbody></table></div><p class="interport-note">مدة البقاء بالميناء هي Port Stay Proxy مبنية على أيام الرصد، وليست زمن تفريغ فعلي.</p></article></section>
 
-          <article class="panel port-map-panel">
-            <div class="panel-head">
-              <div><span class="kicker">LYBEN</span><h2>ميناء بنغازي</h2></div>
-              <span class="pill" id="benMapCount">—</span>
-            </div>
-            <div id="benghaziMap" class="port-map"></div>
-          </article>
-        </div>
-        <p class="map-footnote">الخريطة أداة متابعة بصرية وليست بديلًا عن بيانات AIS الرسمية أو تعليمات سلطات الميناء.</p>
-      </section>
+      <section id="flexport" class="view"><div class="cards" id="flexportCards"></div><div class="grid two"><article class="panel"><div class="panel-head"><div><span class="kicker">Flexport Atlas · LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div></div><div id="flexMisSummary" class="quality-list"></div></article><article class="panel"><div class="panel-head"><div><span class="kicker">Flexport Atlas · LYBEN</span><h2>ميناء بنغازي</h2></div></div><div id="flexBenSummary" class="quality-list"></div></article></div><article class="panel"><div class="panel-head"><div><span class="kicker">Flexport Vessel Enrichment</span><h2>بيانات السفن والوجهات والخدمات</h2></div></div><p class="muted">هذه البيانات تستخدم للإثراء والتحقق: السعة التصميمية TEU وDWT والوجهة وETA والخدمة. لا تعتبر Scheduled Vessel Calls زيارات فعلية حتى يؤكدها الرصد الحي.</p><div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>TEU</th><th>الوجهة</th><th>ETA</th><th>الخدمة</th><th>الرحلة</th></tr></thead><tbody id="flexVesselRows"></tbody></table></div></article></section>
 
-      <section id="interport" class="view">
-        <div class="interport-hero"><div><span class="kicker">Inter-Port Vessel Movement</span><h2>الرحلات بين مصراتة وبنغازي</h2><p class="muted">الرحلة المؤكدة تتطلب Port Call في كلا الميناءين بنفس IMO. الظهور في المخطاف فقط يُعرض كمرشح ولا يُحسب رحلة مؤكدة.</p></div><span class="pill" id="interportUpdated">—</span></div>
-        <div class="interport-cards">
-          <article class="panel interport-stat"><span>مصراتة → بنغازي</span><strong id="m2bConfirmed">0</strong><small id="m2bCandidates">0 مرشح</small></article>
-          <article class="panel interport-stat"><span>بنغازي → مصراتة</span><strong id="b2mConfirmed">0</strong><small id="b2mCandidates">0 مرشح</small></article>
-          <article class="panel interport-stat"><span>الرحلات المؤكدة</span><strong id="interportConfirmedTotal">0</strong><small>نفس IMO + Port Call في الميناءين</small></article>
-          <article class="panel interport-stat candidate-card"><span>قيد التأكيد</span><strong id="interportCandidateTotal">0</strong><small>زيارة سابقة + موجود بالمخطاف الآن</small></article>
-        </div>
-        <article class="panel"><div class="panel-head"><div><span class="kicker">Voyage Timeline</span><h2>حركة السفن بين الميناءين</h2></div></div><div class="table-wrap"><table class="interport-table"><thead><tr><th>السفينة</th><th>الاتجاه</th><th>الحالة</th><th>آخر ظهور بالميناء الأول</th><th>الوصول/المخطاف بالميناء الثاني</th><th>الفاصل الزمني</th><th>انتظار المخطاف</th><th>مدة البقاء بالميناء</th></tr></thead><tbody id="interportRows"><tr><td colspan="8" class="muted">لا توجد رحلات مؤكدة أو مرشحة بعد.</td></tr></tbody></table></div><p class="interport-note">مدة البقاء بالميناء هي Port Stay Proxy مبنية على أيام الرصد، وليست زمن تفريغ فعلي.</p></article>
-      </section>
+      <section id="pressure" class="view"><div class="pressure-hero"><div><span class="kicker">Port Pressure &amp; Efficiency</span><h2>ضغط وكفاءة الموانئ</h2><p class="muted">مقارنة تشغيلية تساعد على تقدير هل تراكم السفن ناتج أكثر عن معدل الوصول أم مدة البقاء المرصودة أم الاثنين معًا.</p></div><span class="pill" id="pressurePeriod">—</span></div><div id="pressurePanels" class="pressure-grid"><article class="panel"><p class="muted">جاري تحميل المؤشرات...</p></article></div><p id="pressureMethod" class="pressure-note"></p></section>
 
-      <section id="flexport" class="view">
-        <div class="cards" id="flexportCards"></div>
-        <div class="grid two">
-          <article class="panel"><div class="panel-head"><div><span class="kicker">Flexport Atlas · LYMRA</span><h2>ميناء المنطقة الحرة بمصراتة</h2></div></div><div id="flexMisSummary" class="quality-list"></div></article>
-          <article class="panel"><div class="panel-head"><div><span class="kicker">Flexport Atlas · LYBEN</span><h2>ميناء بنغازي</h2></div></div><div id="flexBenSummary" class="quality-list"></div></article>
-        </div>
-        <article class="panel">
-          <div class="panel-head"><div><span class="kicker">Flexport Vessel Enrichment</span><h2>بيانات السفن والوجهات والخدمات</h2></div></div>
-          <p class="muted">هذه البيانات تستخدم للإثراء والتحقق: السعة التصميمية TEU وDWT والوجهة وETA والخدمة. لا تعتبر Scheduled Vessel Calls زيارات فعلية حتى يؤكدها الرصد الحي.</p>
-          <div class="table-wrap"><table><thead><tr><th>السفينة</th><th>IMO</th><th>النوع</th><th>DWT</th><th>TEU</th><th>الوجهة</th><th>ETA</th><th>الخدمة</th><th>الرحلة</th></tr></thead><tbody id="flexVesselRows"></tbody></table></div>
-        </article>
-      </section>
+      <section id="ports" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Port Comparison</span><h2>Actual مصراتة مقابل Estimated بنغازي</h2></div></div><p class="muted">Fishing / tug / local craft المؤكدة يدويًا تبقى في الرصد الخام، لكنها لا تدخل في أرقام الحركة التجارية أدناه.</p><div class="table-wrap"><table><thead><tr><th>الفترة</th><th>زيارات مصراتة التجارية</th><th>مستبعد مصراتة</th><th>زيارات بنغازي التجارية</th><th>مستبعد بنغازي</th><th>TEU مصراتة فعلي</th><th>TEU بنغازي تقديري</th><th>بضائع عامة مصراتة فعلي</th><th>بضائع عامة بنغازي تقديري</th><th>التغطية</th></tr></thead><tbody id="comparisonRows"></tbody></table></div></article></section>
 
-      <section id="pressure" class="view">
-        <div class="pressure-hero">
-          <div><span class="kicker">Port Pressure &amp; Efficiency</span><h2>ضغط وكفاءة الموانئ</h2><p class="muted">مقارنة تشغيلية تساعد على تقدير هل تراكم السفن ناتج أكثر عن معدل الوصول أم مدة البقاء المرصودة أم الاثنين معًا.</p></div>
-          <span class="pill" id="pressurePeriod">—</span>
-        </div>
-        <div id="pressurePanels" class="pressure-grid"><article class="panel"><p class="muted">جاري تحميل المؤشرات...</p></article></div>
-        <p id="pressureMethod" class="pressure-note"></p>
-      </section>
-
-      <section id="ports" class="view">
-        <article class="panel">
-          <div class="panel-head"><div><span class="kicker">Port Comparison</span><h2>Actual مصراتة مقابل Estimated بنغازي</h2></div></div>
-          <p class="muted">Fishing / tug / local craft المؤكدة يدويًا تبقى في الرصد الخام، لكنها لا تدخل في أرقام الحركة التجارية أدناه.</p>
-          <div class="table-wrap"><table><thead><tr><th>الفترة</th><th>زيارات مصراتة التجارية</th><th>مستبعد مصراتة</th><th>زيارات بنغازي التجارية</th><th>مستبعد بنغازي</th><th>TEU مصراتة فعلي</th><th>TEU بنغازي تقديري</th><th>بضائع عامة مصراتة فعلي</th><th>بضائع عامة بنغازي تقديري</th><th>التغطية</th></tr></thead><tbody id="comparisonRows"></tbody></table></div>
-        </article>
-      </section>
-
-      <section id="cargo" class="view">
-        <div class="cards" id="cargoCards"></div>
-        <article class="panel"><div class="panel-head"><div><span class="kicker">منهجية التقدير</span><h2>سُلّم الأولوية</h2></div></div><ol class="steps"><li><b>نفس IMO + تاريخ MFZ موثوق</b><span>يستخدم Median للمناولة الفعلية التاريخية.</span></li><li><b>Fallback بالسعة</b><span>TEU Capacity × معامل مناولة MFZ للحاويات.</span></li><li><b>Fallback بـ DWT</b><span>DWT × معامل الاستفادة التاريخي للبضائع العامة.</span></li><li><b>غير مقدّر</b><span>الزيارة التجارية تظل محسوبة حتى عند نقص بيانات الحمولة.</span></li></ol></article>
-      </section>
+      <section id="cargo" class="view"><div class="cards" id="cargoCards"></div><article class="panel"><div class="panel-head"><div><span class="kicker">منهجية التقدير</span><h2>سُلّم الأولوية</h2></div></div><ol class="steps"><li><b>نفس IMO + تاريخ MFZ موثوق</b><span>يستخدم Median للمناولة الفعلية التاريخية.</span></li><li><b>Fallback بالسعة</b><span>TEU Capacity × معامل مناولة MFZ للحاويات.</span></li><li><b>Fallback بـ DWT</b><span>DWT × معامل الاستفادة التاريخي للبضائع العامة.</span></li><li><b>غير مقدّر</b><span>الزيارة التجارية تظل محسوبة حتى عند نقص بيانات الحمولة.</span></li></ol></article></section>
 
       <section id="review" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Vessel Identity Check</span><h2>الحالات التي تحتاج مراجعة</h2></div><span class="pill warn" id="reviewCount">0</span></div><p class="muted">التحقق الخارجي يعمل آليًا، والحالات غير المحسومة تُوقف من المعايرة التاريخية دون إسقاط الزيارة الحية.</p><div class="table-wrap"><table><thead><tr><th>الاسم التاريخي</th><th>الاسم الحالي</th><th>IMO</th><th>Master MMSI</th><th>Observed MMSI</th><th>الحالة</th></tr></thead><tbody id="reviewRows"></tbody></table></div></article></section>
-
       <section id="quality" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Data Quality</span><h2>تنبيهات جودة البيانات</h2></div></div><div id="qualityList" class="quality-list"></div></article></section>
-    
-      <section id="monthly-port-intelligence" class="view">
-        <article class="panel">
-          <div class="panel-head">
-            <div>
-              <span class="kicker">Monthly Port Intelligence</span>
-              <h2>الملخص الشهري للميناءين</h2>
-            </div>
-            <span class="pill" id="mpiUpd">—</span>
-          </div>
-          <p class="muted">
-            Type Resolution يقيس اكتمال تصنيف أنواع السفن. Cargo DWT Coverage يقيس DWT داخل السفن المصنفة كبضائع فقط.
-            TEU هنا مؤشر سعة سفن الحاويات وليس مناولة فعلية، وأطنان General Cargo تقدير تخطيطي وليست بيانات رسمية.
-          </p>
-          <div class="cards" id="mpiCards"></div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>الشهر</th>
-                  <th>الميناء</th>
-                  <th>الزيارات</th>
-                  <th>Type Resolution</th>
-                  <th>Cargo DWT</th>
-                  <th>TEU Coverage</th>
-                  <th>GC Coverage</th>
-                  <th>TEU Proxy</th>
-                  <th>GC Tons</th>
-                  <th>الثقة</th>
-                </tr>
-              </thead>
-              <tbody id="mpiRows"></tbody>
-            </table>
-          </div>
-        </article>
-      </section>
-
+      <section id="monthly-port-intelligence" class="view"><article class="panel"><div class="panel-head"><div><span class="kicker">Monthly Port Intelligence</span><h2>الملخص الشهري للميناءين</h2></div><span class="pill" id="mpiUpd">—</span></div><p class="muted">Type Resolution يقيس اكتمال تصنيف أنواع السفن. Cargo DWT Coverage يقيس DWT داخل السفن المصنفة كبضائع فقط. TEU هنا مؤشر سعة سفن الحاويات وليس مناولة فعلية، وأطنان General Cargo تقدير تخطيطي وليست بيانات رسمية.</p><div class="cards" id="mpiCards"></div><div class="table-wrap"><table><thead><tr><th>الشهر</th><th>الميناء</th><th>الزيارات</th><th>Type Resolution</th><th>Cargo DWT</th><th>TEU Coverage</th><th>GC Coverage</th><th>TEU Proxy</th><th>GC Tons</th><th>الثقة</th></tr></thead><tbody id="mpiRows"></tbody></table></div></article></section>
     </main>
   </div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -315,7 +108,7 @@
   <script src="pressure.js?v=1787210421"></script>
   <script src="anchorage_phase_ui.js?v=phase-layout-1787238583"></script>
   <script src="pressure_history.js?v=1787215980"></script>
-  <script src="vessel_intelligence.js?v=shipping-lines-20260825-2127"></script>
+  <script src="vessel_intelligence.js?v=libya-agents-20260825-2200"></script>
   <script src="cargo_capacity.js?v=1787224328"></script>
   <script src="monthly_port_intelligence.js?v=nav-1787237828"></script>
   <script src="mobile_ux.js?v=1787238984"></script>
