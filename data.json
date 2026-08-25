@@ -3181,7 +3181,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T09:00:15.032629+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T09:30:14.085589+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3198,6 +3198,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "KAPTAN AYTAC A",
+        "imo": "9242302",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3272,7 +3278,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T09:01:03.007385+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 11:00:56",
+  "anchorageUpdatedAt": "2026-08-25T09:30:14.085589+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3966,7 +3972,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T09:00:15.032629+00:00",
+  "mapUpdatedAt": "2026-08-25T09:30:14.085589+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T09:00:45Z",
     "summary": {
