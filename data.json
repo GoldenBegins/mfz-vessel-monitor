@@ -3227,7 +3227,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T13:40:14.626685+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T14:00:17.449340+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3249,6 +3249,12 @@
         "name": "MALAK M",
         "imo": "9216353",
         "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "CMACGM FORT ST MARIE",
+        "imo": "9261906",
+        "port": "Benghazi",
         "decision": "NEAR_PORT"
       },
       {
@@ -3330,7 +3336,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T13:43:15.088314+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 15:43:10",
+  "anchorageUpdatedAt": "2026-08-25T14:00:17.449340+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3968,7 +3974,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T13:40:14.626685+00:00",
+  "mapUpdatedAt": "2026-08-25T14:00:17.449340+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T13:43:01Z",
     "summary": {
