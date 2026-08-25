@@ -3250,7 +3250,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T19:40:15.076888+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T20:00:15.566859+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3302,12 +3302,6 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "BREB COURTESY",
-        "imo": "9421130",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3347,7 +3341,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T19:42:58.890559+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 21:42:52",
+  "anchorageUpdatedAt": "2026-08-25T20:00:15.566859+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3953,7 +3947,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T19:40:15.076888+00:00",
+  "mapUpdatedAt": "2026-08-25T20:00:15.566859+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T19:42:44Z",
     "summary": {
