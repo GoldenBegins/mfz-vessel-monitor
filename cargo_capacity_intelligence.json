@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-08-24T20:10:21Z",
+  "updatedAt": "2026-08-25T04:10:21Z",
   "summary": {
-    "dwtProfiles": 74,
+    "dwtProfiles": 77,
     "fleetSampleN": 19,
     "fleetMedianTonsPerDwt": 0.6454,
     "fleetP25": 0.4238,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 2,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 23,
+    "fleetRatioEstimates": 24,
     "unestimatedCalls": 4
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.116,
       "Max": 1.1818,
       "Confidence": "Medium",
-      "Updated On": "2026-08-24T20:10:21Z"
+      "Updated On": "2026-08-25T04:10:21Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-24T20:10:21Z"
+      "Updated On": "2026-08-25T04:10:21Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.116,
       "Max": 0.9449,
       "Confidence": "Medium",
-      "Updated On": "2026-08-24T20:10:21Z"
+      "Updated On": "2026-08-25T04:10:21Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.6454,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-24T20:10:21Z"
+      "Updated On": "2026-08-25T04:10:21Z"
     }
   ],
   "rows": [
@@ -272,6 +272,25 @@
       "Confidence": "High",
       "Source": "MFZ Actual Cargo Calls exact IMO",
       "Notes": ""
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9195470|2026-08-24",
+      "IMO": "9195470",
+      "Vessel": "ANKA DREAM",
+      "Vessel Type": "General Cargo",
+      "DWT": 4299.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 19,
+      "Median Tons/DWT": 0.6454,
+      "Estimated Cargo Tons": 2774.6,
+      "Low Estimate": 1822.03,
+      "High Estimate": 3770.61,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=19",
+      "Notes": "Planning proxy, not official handled tonnage."
     },
     {
       "Port": "Benghazi",
