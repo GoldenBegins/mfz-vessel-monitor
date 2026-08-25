@@ -3110,19 +3110,12 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T12:00:22.366204+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T12:30:14.550336+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "HOPE",
         "imo": "8609917",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MALAK M",
-        "imo": "9216353",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3134,6 +3127,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "MALAK M",
+        "imo": "9216353",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "ERGUN GUNER",
@@ -3197,7 +3196,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T12:00:42.146596+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25T12:00:22.366204+00:00",
+  "anchorageUpdatedAt": "2026-08-25T12:30:14.550336+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3820,7 +3819,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T12:00:22.366204+00:00",
+  "mapUpdatedAt": "2026-08-25T12:30:14.550336+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T11:30:36Z",
     "summary": {
