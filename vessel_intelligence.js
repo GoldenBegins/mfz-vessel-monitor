@@ -21,6 +21,14 @@ function ensure(){
   main.appendChild(s);
   const b=document.createElement('button');
   b.className='nav';b.dataset.view='vessel-intelligence';b.textContent='السفن والخطوط الملاحية';nav.appendChild(b);
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('.nav').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active-view'));
+    s.classList.add('active-view');
+    const title=document.getElementById('pageTitle');if(title)title.textContent=b.textContent;
+    const updated=document.getElementById('updatedAt');if(updated)updated.textContent=LAST_UPDATED;
+  });
 }
 function nonempty(v){return String(v||'').trim()}
 function counts(){
