@@ -3111,12 +3111,19 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T10:00:14.964838+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T10:30:15.683439+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "HOPE",
         "imo": "8609917",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MALAK M",
+        "imo": "9216353",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3208,7 +3215,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T10:15:56.622095+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 12:00:44",
+  "anchorageUpdatedAt": "2026-08-25T10:30:15.683439+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3844,7 +3851,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T10:00:14.964838+00:00",
+  "mapUpdatedAt": "2026-08-25T10:30:15.683439+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T10:00:36Z",
     "summary": {
