@@ -3177,7 +3177,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T09:30:14.085589+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T10:00:14.964838+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3196,10 +3196,10 @@
         "decision": "UNCONFIRMED"
       },
       {
-        "name": "KAPTAN AYTAC A",
-        "imo": "9242302",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
+        "name": "ERGUN GUNER",
+        "imo": "1017816",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3274,7 +3274,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T09:30:58.692844+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 11:30:45",
+  "anchorageUpdatedAt": "2026-08-25T10:00:14.964838+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3998,7 +3998,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T09:30:14.085589+00:00",
+  "mapUpdatedAt": "2026-08-25T10:00:14.964838+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T09:30:36Z",
     "summary": {
