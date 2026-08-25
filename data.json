@@ -3238,60 +3238,10 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T22:30:16.663271+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T22:40:10.990751+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "HOPE",
-        "imo": "8609917",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "HALIMA",
-        "imo": "9121869",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "CMACGM FORT ST MARIE",
-        "imo": "9261906",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "FLEXPORT"
-      },
-      {
-        "name": "LYNN",
-        "imo": "9295531",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "FLEXPORT"
-      },
-      {
-        "name": "ANKA DREAM",
-        "imo": "9195470",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "REVALA",
-        "imo": "1097438",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "BENGHAZI",
-        "imo": "9277840",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3329,7 +3279,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T22:31:09.367397+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-26 00:30:57",
+  "anchorageUpdatedAt": "2026-08-25T22:40:10.990751+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3935,7 +3885,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T22:30:16.663271+00:00",
+  "mapUpdatedAt": "2026-08-25T22:40:10.990751+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T22:30:47Z",
     "summary": {
