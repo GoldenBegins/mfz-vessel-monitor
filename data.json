@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-08-25 14:06:10",
+  "updatedAt": "2026-08-25 22:05:40",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 57,
-    "benghaziCalls": 39,
-    "misurataExcludedCalls": 5,
+    "misurataCalls": 59,
+    "benghaziCalls": 42,
+    "misurataExcludedCalls": 6,
     "benghaziExcludedCalls": 1,
-    "excludedCalls": 6,
+    "excludedCalls": 7,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 16,
+    "estimatedCalls": 19,
     "unestimatedCalls": 23,
-    "coverage": 41.0,
+    "coverage": 45.2,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 11143,
-    "estimatedGeneralCargoTons": 56854,
+    "estimatedTEU": 14863,
+    "estimatedGeneralCargoTons": 80305,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 13
+    "fallbackLowCalls": 15
   },
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 57,
-      "benghaziCalls": 39,
-      "misurataExcludedCalls": 5,
+      "misurataCalls": 59,
+      "benghaziCalls": 42,
+      "misurataExcludedCalls": 6,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 11143,
-      "estimatedGeneralCargoTons": 56854,
-      "coverage": 41.0
+      "estimatedTEU": 14863,
+      "estimatedGeneralCargoTons": 80305,
+      "coverage": 45.2
     }
   ],
   "estimates": [
@@ -159,10 +159,34 @@
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
     {
+      "vessel": "ALVAN",
+      "imo": "9165798",
+      "type": "General Cargo",
+      "estimate": "23,451 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
       "vessel": "LYNN",
       "imo": "9295531",
       "type": "Container",
       "estimate": "951 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "MEDKON ANKA",
+      "imo": "9366469",
+      "type": "Container",
+      "estimate": "1,928 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "MSC VULCANO II",
+      "imo": "9313228",
+      "type": "Container",
+      "estimate": "1,792 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
