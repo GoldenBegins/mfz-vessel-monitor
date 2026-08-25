@@ -1455,9 +1455,9 @@
     "summary": {
       "Misurata": {
         "active": 5,
-        "avgWaitingHours": 59.8,
-        "medianWaitingHours": 39.9,
-        "longestWaitingHours": 153.9,
+        "avgWaitingHours": 59.84,
+        "medianWaitingHours": 39.91,
+        "longestWaitingHours": 153.94,
         "destinationConfirmed": 5,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1465,11 +1465,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 10,
-        "avgWaitingHours": 54.4,
-        "medianWaitingHours": 4.0,
-        "longestWaitingHours": 153.0,
-        "destinationConfirmed": 5,
+        "active": 9,
+        "avgWaitingHours": 45.36,
+        "medianWaitingHours": 3.92,
+        "longestWaitingHours": 153.01,
+        "destinationConfirmed": 7,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1523,28 +1523,6 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-422032400-20260820T013712Z",
-        "port": "Benghazi",
-        "vessel": "ALVAN",
-        "imo": "9165798",
-        "mmsi": "422032400",
-        "firstSeen": "2026-08-20T01:37:12Z",
-        "lastSeen": "2026-08-20T01:37:12Z",
-        "waitingHours": 135.89,
-        "lat": 32.13115,
-        "lon": 19.95792,
-        "sog": 0.0,
-        "distanceKm": 8.19,
-        "destination": "LY-BEN",
-        "destinationClass": "Other Port",
-        "eta": "2027-07-21 19:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Multi-source Anchorage Discovery (MyShipTracking Bulk Map; fresh timed)"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9128154-20260821T233547Z",
@@ -3220,7 +3198,7 @@
       "unknown": 8
     },
     "phaseUpdatedAt": "2026-08-25T16:43:16Z",
-    "exclusivityFilteredAt": "2026-08-25T17:00:44Z",
+    "exclusivityFilteredAt": "2026-08-25T17:30:45Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
