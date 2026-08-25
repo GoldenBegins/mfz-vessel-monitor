@@ -24,17 +24,23 @@ function renderCurrentInPort(a){
   const cp=a.currentInPort||{};
   const mis=cp.Misurata||[];
   const ben=cp.Benghazi||[];
-  const row=r=>`<tr>
-    <td><strong>${r.vessel||'—'}</strong></td>
+  // DEPARTURE_PENDING_UI_V1
+  const departureChip=r=>r.departurePending
+    ?`<span class="departure-chip">بدأت المغادرة</span>`
+    :'';
+  const row=r=>`<tr class="${r.departurePending?'departure-pending-row':''}">
+    <td><strong>${r.vessel||'—'}</strong>${departureChip(r)}</td>
     <td>${r.imo||r.mmsi||'—'}${r.imo&&r.mmsi?`<small class="cell-sub">MMSI ${r.mmsi}</small>`:''}</td>
     <td>${Number(r.sog||0).toFixed(1)}</td>
     <td>${Number(r.distanceKm||0).toFixed(1)} كم</td>
     <td><span class="dest-chip">${destinationArabic(r.destinationClass)}</span><small class="cell-sub">${r.destination||'—'}</small></td>
-    <td>${anchorageDate(r.observedAt||'')}</td>
-    <td>${badge(r.confidence||'Medium')}</td>
+    <td>${anchorageDate(r.departureObservedAt||r.observedAt||'')}</td>
+    <td>${r.departurePending?'<span class="departure-status">قيد تأكيد الخروج</span>':badge(r.confidence||'Medium')}</td>
   </tr>`;
-  $('#misInPortCount').textContent=`${mis.length} داخل الميناء`;
-  $('#benInPortCount').textContent=`${ben.length} داخل الميناء`;
+  const misLeaving=mis.filter(r=>r.departurePending).length;
+  const benLeaving=ben.filter(r=>r.departurePending).length;
+  $('#misInPortCount').textContent=`${mis.length} داخل الميناء${misLeaving?` · ${misLeaving} بدأت المغادرة`:''}`;
+  $('#benInPortCount').textContent=`${ben.length} داخل الميناء${benLeaving?` · ${benLeaving} بدأت المغادرة`:''}`;
   $('#misInPortRows').innerHTML=mis.map(row).join('')||'<tr><td colspan="7">لا توجد سفن مؤكدة جغرافيًا داخل الميناء في آخر رصد</td></tr>';
   $('#benInPortRows').innerHTML=ben.map(row).join('')||'<tr><td colspan="7">لا توجد سفن مؤكدة جغرافيًا داخل الميناء في آخر رصد</td></tr>';
 }
@@ -217,11 +223,12 @@ function initOnePortMap(port,a){
 
   inPort.forEach(r=>{
     const lat=safeNum(r.lat),lon=safeNum(r.lon);
+    const leaving=Boolean(r.departurePending);
     const marker=L.marker([lat,lon],{
-      icon:shipSvgIcon('#63d69b',r.cog),
+      icon:shipSvgIcon(leaving?'#f2b84b':'#63d69b',r.cog),
       title:r.vessel||''
     }).addTo(map);
-    marker.bindPopup(popupHtml(r,'داخل الميناء'));
+    marker.bindPopup(popupHtml(r,leaving?'بدأت المغادرة · قيد التأكيد':'داخل الميناء'));
     bounds.push([lat,lon]);
   });
 
@@ -236,7 +243,8 @@ function initOnePortMap(port,a){
   });
 
   const counter=document.getElementById(cfg.countId);
-  if(counter)counter.textContent=`${inPortAll.length} داخل · ${waiting.length} مخطاف`;
+  const leavingCount=inPortAll.filter(r=>r.departurePending).length;
+  if(counter)counter.textContent=`${inPortAll.length} داخل${leavingCount?` · ${leavingCount} مغادرة`:''} · ${waiting.length} مخطاف`;
 
   // Keep the port and its 15 km monitoring envelope as the map reference.
   // Vessel positions must not change the map center/zoom.
