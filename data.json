@@ -3143,17 +3143,18 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-25T03:30:11.943351+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-25T04:00:13.598651+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
-    "portStateReview": [
+    "potentialDepartures": [
       {
         "name": "HOPE",
         "imo": "8609917",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3191,7 +3192,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-25T03:30:44.281473+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-25 05:30:37",
+  "anchorageUpdatedAt": "2026-08-25T04:00:13.598651+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3885,7 +3886,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-25T03:30:11.943351+00:00",
+  "mapUpdatedAt": "2026-08-25T04:00:13.598651+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-25T03:30:30Z",
     "summary": {
