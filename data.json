@@ -3301,7 +3301,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-26T21:00:18.949867+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-26T21:30:17.805500+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3309,7 +3309,7 @@
         "imo": "9467043",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
       },
       {
         "name": "AK PIONEER",
@@ -3348,6 +3348,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "ELBELLA",
+        "imo": "9312640",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3433,7 +3439,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-26T21:01:13.661285+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-26 23:01:06",
+  "anchorageUpdatedAt": "2026-08-26T21:30:17.805500+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3970,7 +3976,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-26T21:00:18.949867+00:00",
+  "mapUpdatedAt": "2026-08-26T21:30:17.805500+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-26T21:00:56Z",
     "summary": {
