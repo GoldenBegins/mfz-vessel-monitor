@@ -3358,7 +3358,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-26T18:00:16.406284+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-26T18:30:17.034355+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3367,6 +3367,13 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "AGREEMENT"
+      },
+      {
+        "name": "AK PIONEER",
+        "imo": "9189718",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       },
       {
         "name": "STAR C",
@@ -3434,7 +3441,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-26T18:00:51.861818+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-26 20:00:45",
+  "anchorageUpdatedAt": "2026-08-26T18:30:17.034355+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4014,7 +4021,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-26T18:00:16.406284+00:00",
+  "mapUpdatedAt": "2026-08-26T18:30:17.034355+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-26T18:00:37Z",
     "summary": {
