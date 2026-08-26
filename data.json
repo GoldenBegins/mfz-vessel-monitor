@@ -3320,7 +3320,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-26T20:30:20.262444+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-26T21:00:18.949867+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3328,12 +3328,26 @@
         "imo": "9467043",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "AK PIONEER",
         "imo": "9189718",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "BREB COURTESY",
+        "imo": "9421130",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "NOURAN ED",
+        "imo": "8356974",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3354,20 +3368,14 @@
     ],
     "portStateReview": [
       {
-        "name": "BREB COURTESY",
-        "imo": "9421130",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
         "name": "BENGHAZI",
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
       },
       {
-        "name": "NOURAN ED",
-        "imo": "8356974",
+        "name": "ALVAN",
+        "imo": "9165798",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
@@ -3444,7 +3452,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-26T20:31:13.745706+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-26 22:31:06",
+  "anchorageUpdatedAt": "2026-08-26T21:00:18.949867+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4000,7 +4008,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-26T20:30:20.262444+00:00",
+  "mapUpdatedAt": "2026-08-26T21:00:18.949867+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-26T20:30:55Z",
     "summary": {
