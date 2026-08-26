@@ -1478,11 +1478,11 @@
     "updatedAt": "2026-08-26 18:44:06",
     "summary": {
       "Misurata": {
-        "active": 5,
-        "avgWaitingHours": 77.2,
-        "medianWaitingHours": 63.1,
-        "longestWaitingHours": 177.2,
-        "destinationConfirmed": 5,
+        "active": 4,
+        "avgWaitingHours": 52.15,
+        "medianWaitingHours": 52.66,
+        "longestWaitingHours": 102.64,
+        "destinationConfirmed": 4,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1490,10 +1490,10 @@
       },
       "Benghazi": {
         "active": 7,
-        "avgWaitingHours": 34.3,
-        "medianWaitingHours": 9.1,
-        "longestWaitingHours": 176.2,
-        "destinationConfirmed": 5,
+        "avgWaitingHours": 34.27,
+        "medianWaitingHours": 9.08,
+        "longestWaitingHours": 176.19,
+        "destinationConfirmed": 6,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1657,28 +1657,6 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-MISURATA-9136852-20260819T073343Z",
-        "port": "Misurata",
-        "vessel": "HASAN G",
-        "imo": "9136852",
-        "mmsi": "620360000",
-        "firstSeen": "2026-08-19T07:33:43Z",
-        "lastSeen": "2026-08-26T15:21:44Z",
-        "waitingHours": 177.16,
-        "lat": 32.36666667,
-        "lon": 15.25666667,
-        "sog": 2.0,
-        "distanceKm": 2.06,
-        "destination": "MUSRATA",
-        "destinationClass": "To Misurata",
-        "eta": "13:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage correction v1 — fresh public AIS (Shipnext)"
       },
       {
         "episodeId": "ANCH-MISURATA-9224855-20260822T100500Z",
@@ -3414,13 +3392,13 @@
       "unknown": 9
     },
     "phaseUpdatedAt": "2026-08-26T13:43:16Z",
-    "exclusivityFilteredAt": "2026-08-25T22:31:04Z",
+    "exclusivityFilteredAt": "2026-08-26T16:44:09Z",
     "exclusivityRemoved": [
       {
-        "port": "Benghazi",
-        "vessel": "ALVAN",
-        "imo": "9165798",
-        "mmsi": "422032400"
+        "port": "Misurata",
+        "vessel": "HASAN G",
+        "imo": "9136852",
+        "mmsi": "620360000"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
