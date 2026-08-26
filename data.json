@@ -3344,7 +3344,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-26T16:00:18.421241+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-26T16:30:19.316786+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3353,6 +3353,13 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "FLEXPORT"
+      },
+      {
+        "name": "STAR C",
+        "imo": "9411135",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       },
       {
         "name": "ANKA DREAM",
@@ -3374,12 +3381,6 @@
         "imo": "8356974",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "STAR C",
-        "imo": "9411135",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3419,7 +3420,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-26T16:16:30.013942+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-26 18:01:03",
+  "anchorageUpdatedAt": "2026-08-26T16:30:19.316786+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4046,7 +4047,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-26T16:00:18.421241+00:00",
+  "mapUpdatedAt": "2026-08-26T16:30:19.316786+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-26T16:00:53Z",
     "summary": {
