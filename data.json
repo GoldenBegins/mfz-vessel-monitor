@@ -3318,7 +3318,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-26T20:00:21.376275+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-26T20:30:20.262444+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3326,7 +3326,7 @@
         "imo": "9467043",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
       },
       {
         "name": "AK PIONEER",
@@ -3367,7 +3367,7 @@
         "name": "NOURAN ED",
         "imo": "8356974",
         "port": "Benghazi",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3442,7 +3442,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-26T20:00:33.402872+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-26T20:00:21.376275+00:00",
+  "anchorageUpdatedAt": "2026-08-26T20:30:20.262444+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3994,7 +3994,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-26T20:00:21.376275+00:00",
+  "mapUpdatedAt": "2026-08-26T20:30:20.262444+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-26T19:42:32Z",
     "summary": {
