@@ -3282,7 +3282,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-26T21:30:17.805500+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-26T22:00:16.136223+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3298,6 +3298,13 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ELBELLA",
+        "imo": "9312640",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "FLEXPORT"
       },
       {
         "name": "BREB COURTESY",
@@ -3330,12 +3337,6 @@
     ],
     "portStateReview": [
       {
-        "name": "ELBELLA",
-        "imo": "9312640",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
         "name": "BENGHAZI",
         "imo": "9277840",
         "port": "Misurata",
@@ -3345,7 +3346,7 @@
         "name": "ALVAN",
         "imo": "9165798",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3420,7 +3421,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-26T21:30:52.801879+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-26 23:30:46",
+  "anchorageUpdatedAt": "2026-08-26T22:00:16.136223+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3938,7 +3939,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-26T21:30:17.805500+00:00",
+  "mapUpdatedAt": "2026-08-26T22:00:16.136223+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-26T21:30:39Z",
     "summary": {
