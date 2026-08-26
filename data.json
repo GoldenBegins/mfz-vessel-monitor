@@ -3318,7 +3318,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-26T19:40:16.218316+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-26T20:00:21.376275+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3326,7 +3326,7 @@
         "imo": "9467043",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "AK PIONEER",
@@ -3442,7 +3442,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-26T19:42:44.993910+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-26 21:42:40",
+  "anchorageUpdatedAt": "2026-08-26T20:00:21.376275+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3994,7 +3994,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-26T19:40:16.218316+00:00",
+  "mapUpdatedAt": "2026-08-26T20:00:21.376275+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-26T19:42:32Z",
     "summary": {
