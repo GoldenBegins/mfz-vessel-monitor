@@ -3315,7 +3315,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-26T15:00:17.757694+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-26T15:30:21.022188+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3344,7 +3344,7 @@
         "name": "NOURAN ED",
         "imo": "8356974",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3384,7 +3384,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-26T15:00:55.188722+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-26 17:00:48",
+  "anchorageUpdatedAt": "2026-08-26T15:30:21.022188+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4003,7 +4003,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-26T15:00:17.757694+00:00",
+  "mapUpdatedAt": "2026-08-26T15:30:21.022188+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-26T15:00:40Z",
     "summary": {
