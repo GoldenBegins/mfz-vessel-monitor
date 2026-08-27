@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-26 22:06:58",
+  "updatedAt": "2026-08-27 06:07:00",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 62,
-    "benghaziCalls": 43,
+    "misurataCalls": 64,
+    "benghaziCalls": 46,
     "misurataExcludedCalls": 6,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 7,
@@ -11,21 +11,21 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 19,
-    "unestimatedCalls": 24,
-    "coverage": 44.2,
+    "estimatedCalls": 20,
+    "unestimatedCalls": 26,
+    "coverage": 43.5,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 14898,
-    "estimatedGeneralCargoTons": 80305,
+    "estimatedGeneralCargoTons": 88217,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 15
+    "fallbackLowCalls": 16
   },
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 62,
-      "benghaziCalls": 43,
+      "misurataCalls": 64,
+      "benghaziCalls": 46,
       "misurataExcludedCalls": 6,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -33,8 +33,8 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 14898,
-      "estimatedGeneralCargoTons": 80305,
-      "coverage": 44.2
+      "estimatedGeneralCargoTons": 88217,
+      "coverage": 43.5
     }
   ],
   "estimates": [
@@ -189,6 +189,14 @@
       "estimate": "1,799 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "BURHAN DIZMAN",
+      "imo": "9381809",
+      "type": "General Cargo",
+      "estimate": "7,912 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
