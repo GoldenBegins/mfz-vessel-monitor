@@ -3466,7 +3466,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-27T16:00:22.058706+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-27T16:30:18.967474+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3485,6 +3485,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "KAPTAN AYTAC A",
+        "imo": "9242302",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3552,7 +3558,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-27T16:01:09.700343+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-27 18:01:02",
+  "anchorageUpdatedAt": "2026-08-27T16:30:18.967474+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4098,7 +4104,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-27T16:00:22.058706+00:00",
+  "mapUpdatedAt": "2026-08-27T16:30:18.967474+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-27T16:00:52Z",
     "summary": {
