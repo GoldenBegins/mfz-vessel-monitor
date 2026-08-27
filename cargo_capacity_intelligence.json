@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-08-27T04:10:30Z",
+  "updatedAt": "2026-08-27T12:10:40Z",
   "summary": {
-    "dwtProfiles": 91,
+    "dwtProfiles": 94,
     "fleetSampleN": 21,
     "fleetMedianTonsPerDwt": 0.6028,
     "fleetP25": 0.2873,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 2,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 26,
+    "fleetRatioEstimates": 27,
     "unestimatedCalls": 4
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.116,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-08-27T04:10:30Z"
+      "Updated On": "2026-08-27T12:10:40Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-27T04:10:30Z"
+      "Updated On": "2026-08-27T12:10:40Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.116,
       "Max": 0.9449,
       "Confidence": "Medium",
-      "Updated On": "2026-08-27T04:10:30Z"
+      "Updated On": "2026-08-27T12:10:40Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-27T04:10:30Z"
+      "Updated On": "2026-08-27T12:10:40Z"
     }
   ],
   "rows": [
@@ -668,6 +668,25 @@
       "Estimated Cargo Tons": 4117.23,
       "Low Estimate": 1962.53,
       "High Estimate": 5527.51,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=21",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9159000|2026-08-27",
+      "IMO": "9159000",
+      "Vessel": "SEAHORSE",
+      "Vessel Type": "General Cargo",
+      "DWT": 8474.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 21,
+      "Median Tons/DWT": 0.6028,
+      "Estimated Cargo Tons": 5108.26,
+      "Low Estimate": 2434.92,
+      "High Estimate": 6858.0,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=21",
       "Notes": "Planning proxy, not official handled tonnage."
