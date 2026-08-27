@@ -3496,7 +3496,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-27T22:00:21.546532+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-27T22:30:20.372780+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3536,6 +3536,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "K-RIVER",
+        "imo": "9138355",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3580,7 +3586,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-27T22:01:10.044971+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-28 00:01:03",
+  "anchorageUpdatedAt": "2026-08-27T22:30:20.372780+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4100,7 +4106,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-27T22:00:21.546532+00:00",
+  "mapUpdatedAt": "2026-08-27T22:30:20.372780+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-27T22:00:52Z",
     "summary": {
