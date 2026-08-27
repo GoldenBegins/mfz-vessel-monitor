@@ -3520,7 +3520,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-27T13:00:22.004564+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-27T13:30:22.261526+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3529,15 +3529,16 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
+      },
       {
         "name": "MALAK M",
         "imo": "9216353",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
+        "decision": "AWAY",
+        "winner": "FLEXPORT"
+      }
+    ],
+    "portStateReview": [
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3582,7 +3583,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-27T13:01:00.712794+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-27 15:00:54",
+  "anchorageUpdatedAt": "2026-08-27T13:30:22.261526+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4185,7 +4186,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-27T13:00:22.004564+00:00",
+  "mapUpdatedAt": "2026-08-27T13:30:22.261526+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-27T13:00:46Z",
     "summary": {
