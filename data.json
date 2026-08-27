@@ -3479,7 +3479,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-27T19:30:19.254386+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-27T19:40:19.496214+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3509,6 +3509,13 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "FLEXPORT"
+      },
+      {
+        "name": "MERNA 2",
+        "imo": "9165310",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
@@ -3579,7 +3586,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-27T19:30:56.048040+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-27 21:30:49",
+  "anchorageUpdatedAt": "2026-08-27T19:40:19.496214+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4095,7 +4102,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-27T19:30:19.254386+00:00",
+  "mapUpdatedAt": "2026-08-27T19:40:19.496214+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-27T19:30:40Z",
     "summary": {
