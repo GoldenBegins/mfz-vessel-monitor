@@ -3498,7 +3498,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-27T17:30:22.207352+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-27T18:00:27.574727+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3520,16 +3520,17 @@
         "imo": "9216353",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
-      }
-    ],
-    "portStateReview": [
+        "winner": "AGREEMENT"
+      },
       {
         "name": "MSC LUNA F",
         "imo": "9308625",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
+        "decision": "AWAY",
+        "winner": "FLEXPORT"
+      }
+    ],
+    "portStateReview": [
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3597,7 +3598,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-27T17:31:00.935606+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-27 19:30:54",
+  "anchorageUpdatedAt": "2026-08-27T18:00:27.574727+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4132,7 +4133,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-27T17:30:22.207352+00:00",
+  "mapUpdatedAt": "2026-08-27T18:00:27.574727+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-27T17:30:46Z",
     "summary": {
