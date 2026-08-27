@@ -3490,9 +3490,17 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-27T23:00:14.434868+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-27T23:30:19.981179+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
+    "potentialDepartures": [
+      {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "FLEXPORT"
+      }
+    ],
     "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
@@ -3531,7 +3539,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-27T23:01:07.672029+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-28 01:01:00",
+  "anchorageUpdatedAt": "2026-08-27T23:30:19.981179+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4036,7 +4044,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-27T23:00:14.434868+00:00",
+  "mapUpdatedAt": "2026-08-27T23:30:19.981179+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-27T23:00:45Z",
     "summary": {
