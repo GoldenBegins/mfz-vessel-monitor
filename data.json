@@ -4080,16 +4080,36 @@
   },
   "mapUpdatedAt": "2026-08-27T10:40:18.279033+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-08-27T10:30:39Z",
+    "updatedAt": "2026-08-27T10:42:59Z",
     "summary": {
       "confirmedTotal": 12,
-      "candidateTotal": 0,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 9,
       "benghaziToMisurataConfirmed": 3,
       "misurataToBenghaziCandidates": 0,
-      "benghaziToMisurataCandidates": 0
+      "benghaziToMisurataCandidates": 1
     },
     "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9176125",
+        "mmsi": "642122143",
+        "vessel": "DERNA",
+        "type": "Liquid Bulk",
+        "originPort": "Benghazi",
+        "destinationPort": "Misurata",
+        "originFirstSeen": "2026-08-22",
+        "originLastSeen": "2026-08-23",
+        "originStayHours": 48.0,
+        "destinationAnchorageFirstSeen": "2026-08-27T10:30:05+00:00",
+        "destinationAnchorageLastSeen": "2026-08-27T10:30:05+00:00",
+        "destinationAnchorageHours": 0.21,
+        "seaTransitCalendarGapDays": 4,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Benghazi|9176125|2026-08-22",
+        "anchorEpisodeId": "ANCH-MISURATA-9176125-20260827T103005Z"
+      },
       {
         "kind": "confirmed",
         "status": "Confirmed",
