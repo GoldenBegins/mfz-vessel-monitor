@@ -51,12 +51,29 @@ function renderFinalApproach(a){
   const mis=all.filter(r=>r.port==='Misurata');
   const ben=all.filter(r=>r.port==='Benghazi');
 
+  // FINAL_APPROACH_DESTINATION_CONFLICT_UI_V1_20260827
+  const portArabic=p=>p==='Misurata'?'مصراتة':p==='Benghazi'?'بنغازي':(p||'—');
+  const destinationCell=r=>{
+    const raw=r.declaredDestination||r.destination||'—';
+    const approach=portArabic(r.geographicApproachPort||r.port);
+    if(r.destinationConflict){
+      return `<span class="dest-chip">اقتراب نهائي إلى ${approach}</span>`+
+        `<small class="cell-sub">الوجهة المعلنة: ${raw} · متعارضة مع الموقع الحالي</small>`;
+    }
+    if(r.destinationClass==='To Misurata'||r.destinationClass==='To Benghazi'){
+      return `<span class="dest-chip">اقتراب نهائي إلى ${approach}</span>`+
+        `<small class="cell-sub">الوجهة المعلنة: ${raw}</small>`;
+    }
+    return `<span class="dest-chip">اقتراب نهائي إلى ${approach}</span>`+
+      `<small class="cell-sub">الوجهة المعلنة غير مؤكدة${raw&&raw!=='—'?`: ${raw}`:''}</small>`;
+  };
+
   const row=r=>`<tr>
     <td><div class="vessel-name">${r.vessel||'—'}</div></td>
     <td><span class="identity-main">${r.imo||'—'}</span><small class="cell-sub">MMSI ${r.mmsi||'—'}</small></td>
     <td><strong>${Number(r.distanceKm||0).toFixed(1)}</strong><small class="cell-sub">كم</small></td>
     <td>${Number(r.sog||0).toFixed(1)}</td>
-    <td><span class="dest-chip">اقتراب نهائي</span><small class="cell-sub">${r.destination||'—'}</small></td>
+    <td>${destinationCell(r)}</td>
     <td><span class="date-cell">${anchorageDate(r.observedAt||'')}</span></td>
     <td>${r.source||'—'}</td>
   </tr>`;
