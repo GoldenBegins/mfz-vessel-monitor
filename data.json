@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-27 06:07:00",
+  "updatedAt": "2026-08-27 14:05:23",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 64,
+    "misurataCalls": 65,
     "benghaziCalls": 46,
     "misurataExcludedCalls": 6,
     "benghaziExcludedCalls": 1,
@@ -16,7 +16,7 @@
     "coverage": 43.5,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 14898,
+    "estimatedTEU": 15280,
     "estimatedGeneralCargoTons": 88217,
     "historicalHighMediumCalls": 0,
     "fallbackLowCalls": 16
@@ -24,7 +24,7 @@
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 64,
+      "misurataCalls": 65,
       "benghaziCalls": 46,
       "misurataExcludedCalls": 6,
       "benghaziExcludedCalls": 1,
@@ -32,7 +32,7 @@
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 14898,
+      "estimatedTEU": 15280,
       "estimatedGeneralCargoTons": 88217,
       "coverage": 43.5
     }
@@ -66,7 +66,7 @@
       "vessel": "BUXLINK",
       "imo": "9235816",
       "type": "Container",
-      "estimate": "2,722 TEU",
+      "estimate": "2,836 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
@@ -90,7 +90,7 @@
       "vessel": "CMA CGM NADOR",
       "imo": "9396696",
       "type": "Container",
-      "estimate": "1,138 TEU",
+      "estimate": "1,186 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
@@ -138,7 +138,7 @@
       "vessel": "CMACGM FORT ST MARIE",
       "imo": "9261906",
       "type": "Container",
-      "estimate": "2,483 TEU",
+      "estimate": "2,587 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
@@ -170,7 +170,7 @@
       "vessel": "LYNN",
       "imo": "9295531",
       "type": "Container",
-      "estimate": "955 TEU",
+      "estimate": "995 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
@@ -186,7 +186,7 @@
       "vessel": "MSC VULCANO II",
       "imo": "9313228",
       "type": "Container",
-      "estimate": "1,799 TEU",
+      "estimate": "1,875 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
