@@ -3456,7 +3456,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-28T22:00:19.174764+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-28T22:30:16.644095+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3471,7 +3471,7 @@
         "imo": "9318761",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "KORSARO",
@@ -3492,7 +3492,7 @@
         "imo": "9381809",
         "port": "Benghazi",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
       },
       {
         "name": "MEDKON ANKA",
@@ -3554,7 +3554,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-28T22:01:00.672320+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29 00:00:47",
+  "anchorageUpdatedAt": "2026-08-28T22:30:16.644095+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4014,7 +4014,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-28T22:00:19.174764+00:00",
+  "mapUpdatedAt": "2026-08-28T22:30:16.644095+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-28T22:00:39Z",
     "summary": {
