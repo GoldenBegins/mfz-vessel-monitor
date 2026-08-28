@@ -4037,16 +4037,36 @@
   },
   "mapUpdatedAt": "2026-08-28T19:40:16.000195+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-08-28T19:30:43Z",
+    "updatedAt": "2026-08-28T19:43:40Z",
     "summary": {
       "confirmedTotal": 13,
-      "candidateTotal": 0,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 9,
       "benghaziToMisurataConfirmed": 4,
-      "misurataToBenghaziCandidates": 0,
+      "misurataToBenghaziCandidates": 1,
       "benghaziToMisurataCandidates": 0
     },
     "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9242302",
+        "mmsi": "271044301",
+        "vessel": "KAPTAN AYTAC A",
+        "type": "Container",
+        "originPort": "Misurata",
+        "destinationPort": "Benghazi",
+        "originFirstSeen": "2026-08-25",
+        "originLastSeen": "2026-08-27",
+        "originStayHours": 72.0,
+        "destinationAnchorageFirstSeen": "2026-08-28T19:18:00+00:00",
+        "destinationAnchorageLastSeen": "2026-08-28T19:18:00+00:00",
+        "destinationAnchorageHours": 0.42,
+        "seaTransitCalendarGapDays": 1,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Misurata|9242302|2026-08-25",
+        "anchorEpisodeId": "ANCH-BENGHAZI-9242302-20260828T191800Z"
+      },
       {
         "kind": "confirmed",
         "status": "Confirmed",
