@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-27 14:05:23",
+  "updatedAt": "2026-08-28 06:07:22",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 65,
-    "benghaziCalls": 46,
+    "misurataCalls": 67,
+    "benghaziCalls": 47,
     "misurataExcludedCalls": 6,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 7,
@@ -11,30 +11,30 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 20,
+    "estimatedCalls": 21,
     "unestimatedCalls": 26,
-    "coverage": 43.5,
+    "coverage": 44.7,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 15280,
+    "estimatedTEU": 18149,
     "estimatedGeneralCargoTons": 88217,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 16
+    "fallbackLowCalls": 17
   },
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 65,
-      "benghaziCalls": 46,
+      "misurataCalls": 67,
+      "benghaziCalls": 47,
       "misurataExcludedCalls": 6,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 15280,
+      "estimatedTEU": 18149,
       "estimatedGeneralCargoTons": 88217,
-      "coverage": 43.5
+      "coverage": 44.7
     }
   ],
   "estimates": [
@@ -197,6 +197,14 @@
       "estimate": "7,912 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "NIKOLAS",
+      "imo": "9203526",
+      "type": "Container",
+      "estimate": "2,869 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
