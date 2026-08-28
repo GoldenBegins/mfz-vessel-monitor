@@ -3488,7 +3488,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-28T17:30:17.855065+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-28T18:00:18.516928+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3496,7 +3496,7 @@
         "imo": "9295531",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "RMS ROSE",
@@ -3508,6 +3508,13 @@
       {
         "name": "KORSARO",
         "imo": "9373137",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "PRINCESS EVA",
+        "imo": "9109861",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3528,12 +3535,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "PRINCESS EVA",
-        "imo": "9109861",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3578,7 +3579,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-28T17:30:56.458806+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-28 19:30:49",
+  "anchorageUpdatedAt": "2026-08-28T18:00:18.516928+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4070,7 +4071,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-28T17:30:17.855065+00:00",
+  "mapUpdatedAt": "2026-08-28T18:00:18.516928+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-28T17:30:41Z",
     "summary": {
