@@ -3484,7 +3484,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-28T17:00:16.869711+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-28T17:30:17.855065+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3524,6 +3524,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "PRINCESS EVA",
+        "imo": "9109861",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3568,7 +3574,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-28T17:00:59.826479+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-28 19:00:48",
+  "anchorageUpdatedAt": "2026-08-28T17:30:17.855065+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4056,7 +4062,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-28T17:00:16.869711+00:00",
+  "mapUpdatedAt": "2026-08-28T17:30:17.855065+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-28T17:00:38Z",
     "summary": {
