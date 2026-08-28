@@ -3478,67 +3478,10 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-28T22:30:16.644095+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-28T22:40:09.463687+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "LYNN",
-        "imo": "9295531",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "FLEXPORT"
-      },
-      {
-        "name": "RMS ROSE",
-        "imo": "9318761",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "AGREEMENT"
-      },
-      {
-        "name": "KORSARO",
-        "imo": "9373137",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "PRINCESS EVA",
-        "imo": "9109861",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "BURHAN DIZMAN",
-        "imo": "9381809",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "FLEXPORT"
-      },
-      {
-        "name": "MEDKON ANKA",
-        "imo": "9366469",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "FLEXPORT"
-      },
-      {
-        "name": "SKY",
-        "imo": "9232307",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "BENGHAZI",
-        "imo": "9277840",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 1,
@@ -3576,7 +3519,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-28T22:30:56.164984+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29 00:30:47",
+  "anchorageUpdatedAt": "2026-08-28T22:40:09.463687+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4036,7 +3979,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-28T22:30:16.644095+00:00",
+  "mapUpdatedAt": "2026-08-28T22:40:09.463687+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-28T22:30:39Z",
     "summary": {
