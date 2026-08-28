@@ -3488,7 +3488,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-28T18:00:18.516928+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-28T18:30:17.719617+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3496,14 +3496,14 @@
         "imo": "9295531",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
       },
       {
         "name": "RMS ROSE",
         "imo": "9318761",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "KORSARO",
@@ -3579,7 +3579,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-28T18:00:56.510789+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-28 20:00:47",
+  "anchorageUpdatedAt": "2026-08-28T18:30:17.719617+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4071,7 +4071,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-28T18:00:18.516928+00:00",
+  "mapUpdatedAt": "2026-08-28T18:30:17.719617+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-28T18:00:38Z",
     "summary": {
