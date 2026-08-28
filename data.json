@@ -3430,9 +3430,16 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-28T01:00:13.756869+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-28T01:30:14.338002+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "LYNN",
+        "imo": "9295531",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "FLEXPORT"
+      },
       {
         "name": "RMS ROSE",
         "imo": "9318761",
@@ -3449,12 +3456,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "LYNN",
-        "imo": "9295531",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "SKY",
         "imo": "9232307",
@@ -3499,7 +3500,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-28T01:00:53.849773+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-28 03:00:41",
+  "anchorageUpdatedAt": "2026-08-28T01:30:14.338002+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3954,7 +3955,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-28T01:00:13.756869+00:00",
+  "mapUpdatedAt": "2026-08-28T01:30:14.338002+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-28T01:00:33Z",
     "summary": {
