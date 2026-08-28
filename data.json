@@ -3464,7 +3464,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-28T21:00:19.542368+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-28T21:30:21.422280+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3472,14 +3472,14 @@
         "imo": "9295531",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "RMS ROSE",
         "imo": "9318761",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "KORSARO",
@@ -3500,14 +3500,14 @@
         "imo": "9381809",
         "port": "Benghazi",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
       },
       {
         "name": "MEDKON ANKA",
         "imo": "9366469",
         "port": "Benghazi",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
       },
       {
         "name": "SKY",
@@ -3562,7 +3562,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-28T21:00:59.994326+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-28 23:00:49",
+  "anchorageUpdatedAt": "2026-08-28T21:30:21.422280+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4007,7 +4007,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-28T21:00:19.542368+00:00",
+  "mapUpdatedAt": "2026-08-28T21:30:21.422280+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-28T21:00:41Z",
     "summary": {
