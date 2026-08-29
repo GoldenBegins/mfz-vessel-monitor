@@ -3640,7 +3640,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-29T18:00:17.672298+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-29T18:30:15.584647+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3653,6 +3653,13 @@
       {
         "name": "FANTASIA",
         "imo": "9378371",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "LEPTIS STAR",
+        "imo": "8517592",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3716,7 +3723,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-29T18:01:10.230807+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29 20:01:00",
+  "anchorageUpdatedAt": "2026-08-29T18:30:15.584647+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4133,7 +4140,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-29T18:00:17.672298+00:00",
+  "mapUpdatedAt": "2026-08-29T18:30:15.584647+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-29T18:00:50Z",
     "summary": {
