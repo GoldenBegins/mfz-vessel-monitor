@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-29 06:07:03",
+  "updatedAt": "2026-08-29 14:06:58",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 72,
-    "benghaziCalls": 50,
+    "benghaziCalls": 53,
     "misurataExcludedCalls": 6,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 7,
@@ -11,30 +11,30 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 23,
-    "unestimatedCalls": 27,
-    "coverage": 46.0,
+    "estimatedCalls": 25,
+    "unestimatedCalls": 28,
+    "coverage": 47.2,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 19145,
-    "estimatedGeneralCargoTons": 94646,
+    "estimatedTEU": 20461,
+    "estimatedGeneralCargoTons": 100488,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 18
+    "fallbackLowCalls": 20
   },
   "comparison": [
     {
       "period": "2026-08",
       "misurataCalls": 72,
-      "benghaziCalls": 50,
+      "benghaziCalls": 53,
       "misurataExcludedCalls": 6,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 19145,
-      "estimatedGeneralCargoTons": 94646,
-      "coverage": 46.0
+      "estimatedTEU": 20461,
+      "estimatedGeneralCargoTons": 100488,
+      "coverage": 47.2
     }
   ],
   "estimates": [
@@ -219,6 +219,22 @@
       "imo": "9203526",
       "type": "Container",
       "estimate": "2,869 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "JELENA",
+      "imo": "9519042",
+      "type": "General Cargo",
+      "estimate": "5,842 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "KAPTAN AYTAC A",
+      "imo": "9242302",
+      "type": "Container",
+      "estimate": "1,316 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
