@@ -3640,7 +3640,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-29T17:30:16.140060+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-29T18:00:17.672298+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3671,6 +3671,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "MERNA 1",
+        "imo": "8716954",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3710,7 +3716,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-29T17:31:01.597928+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29 19:30:55",
+  "anchorageUpdatedAt": "2026-08-29T18:00:17.672298+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4127,7 +4133,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-29T17:30:16.140060+00:00",
+  "mapUpdatedAt": "2026-08-29T18:00:17.672298+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-29T17:30:47Z",
     "summary": {
