@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-08-29T04:10:29Z",
+  "updatedAt": "2026-08-29T12:10:24Z",
   "summary": {
-    "dwtProfiles": 96,
+    "dwtProfiles": 98,
     "fleetSampleN": 22,
     "fleetMedianTonsPerDwt": 0.6241,
     "fleetP25": 0.3069,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 2,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 28,
+    "fleetRatioEstimates": 30,
     "unestimatedCalls": 4
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.116,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-08-29T04:10:29Z"
+      "Updated On": "2026-08-29T12:10:24Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-29T04:10:29Z"
+      "Updated On": "2026-08-29T12:10:24Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.116,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-08-29T04:10:29Z"
+      "Updated On": "2026-08-29T12:10:24Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-29T04:10:29Z"
+      "Updated On": "2026-08-29T12:10:24Z"
     }
   ],
   "rows": [
@@ -364,6 +364,25 @@
       "Estimated Cargo Tons": 3915.05,
       "Low Estimate": 1925.11,
       "High Estimate": 5714.62,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=22",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9519042|2026-08-29",
+      "IMO": "9519042",
+      "Vessel": "JELENA",
+      "Vessel Type": "General Cargo",
+      "DWT": 5700.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 22,
+      "Median Tons/DWT": 0.6241,
+      "Estimated Cargo Tons": 3557.43,
+      "Low Estimate": 1749.26,
+      "High Estimate": 5192.62,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=22",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -706,6 +725,25 @@
       "Estimated Cargo Tons": 5288.72,
       "Low Estimate": 2600.57,
       "High Estimate": 7719.7,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=22",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9008134|2026-08-28",
+      "IMO": "9008134",
+      "Vessel": "PARESA",
+      "Vessel Type": "General Cargo",
+      "DWT": 6912.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 22,
+      "Median Tons/DWT": 0.6241,
+      "Estimated Cargo Tons": 4313.86,
+      "Low Estimate": 2121.21,
+      "High Estimate": 6296.74,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=22",
       "Notes": "Planning proxy, not official handled tonnage."
