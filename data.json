@@ -3540,10 +3540,17 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-29T04:00:25.197376+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-29T04:30:15.685616+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "BENGHAZI",
+        "imo": "9277840",
+        "port": "Misurata",
+        "decision": "UNCONFIRMED"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 1,
@@ -3581,7 +3588,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-29T04:00:41.887285+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29T04:00:25.197376+00:00",
+  "anchorageUpdatedAt": "2026-08-29T04:30:15.685616+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4026,7 +4033,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-29T04:00:25.197376+00:00",
+  "mapUpdatedAt": "2026-08-29T04:30:15.685616+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-29T03:30:51Z",
     "summary": {
