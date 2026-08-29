@@ -3616,7 +3616,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-29T21:30:19.655302+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-29T22:00:17.917642+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3648,6 +3648,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "MEDKON LUNA",
+        "imo": "9341976",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "FLEXPORT"
+      },
+      {
         "name": "JELENA",
         "imo": "9519042",
         "port": "Benghazi",
@@ -3661,12 +3668,6 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "MEDKON LUNA",
-        "imo": "9341976",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "MERNA 1",
@@ -3712,7 +3713,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-29T21:30:58.085416+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29 23:30:51",
+  "anchorageUpdatedAt": "2026-08-29T22:00:17.917642+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4105,7 +4106,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-29T21:30:19.655302+00:00",
+  "mapUpdatedAt": "2026-08-29T22:00:17.917642+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-29T21:30:43Z",
     "summary": {
