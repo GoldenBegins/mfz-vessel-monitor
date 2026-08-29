@@ -3589,7 +3589,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-29T22:00:17.917642+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-29T22:30:12.631023+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3598,55 +3598,20 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
-      },
-      {
-        "name": "FANTASIA",
-        "imo": "9378371",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LEPTIS STAR",
-        "imo": "8517592",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "AMARA",
-        "imo": "9489986",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MEDKON LUNA",
-        "imo": "9341976",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "FLEXPORT"
-      },
-      {
-        "name": "JELENA",
-        "imo": "9519042",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
+      {
+        "name": "T-MED",
+        "imo": "9163142",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "MERNA 1",
-        "imo": "8716954",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3686,7 +3651,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-29T22:01:09.897927+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 00:00:55",
+  "anchorageUpdatedAt": "2026-08-29T22:30:12.631023+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4098,7 +4063,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-29T22:00:17.917642+00:00",
+  "mapUpdatedAt": "2026-08-29T22:30:12.631023+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-29T22:00:46Z",
     "summary": {
