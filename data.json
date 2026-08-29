@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-28 22:06:59",
+  "updatedAt": "2026-08-29 06:07:03",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 71,
-    "benghaziCalls": 49,
+    "misurataCalls": 72,
+    "benghaziCalls": 50,
     "misurataExcludedCalls": 6,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 7,
@@ -11,12 +11,12 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 22,
+    "estimatedCalls": 23,
     "unestimatedCalls": 27,
-    "coverage": 44.9,
+    "coverage": 46.0,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 18149,
+    "estimatedTEU": 19145,
     "estimatedGeneralCargoTons": 94646,
     "historicalHighMediumCalls": 0,
     "fallbackLowCalls": 18
@@ -24,17 +24,17 @@
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 71,
-      "benghaziCalls": 49,
+      "misurataCalls": 72,
+      "benghaziCalls": 50,
       "misurataExcludedCalls": 6,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 18149,
+      "estimatedTEU": 19145,
       "estimatedGeneralCargoTons": 94646,
-      "coverage": 44.9
+      "coverage": 46.0
     }
   ],
   "estimates": [
@@ -197,6 +197,14 @@
       "estimate": "7,912 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MEDKON LUNA",
+      "imo": "9341976",
+      "type": "Container",
+      "estimate": "996 TEU",
+      "confidence": "Low",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     },
     {
       "vessel": "MONIF",
