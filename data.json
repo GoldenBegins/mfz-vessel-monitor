@@ -3582,7 +3582,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-29T08:00:13.691130+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-29T08:30:14.567010+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
     "portStateReview": [
@@ -3591,6 +3591,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "FANTASIA",
+        "imo": "9378371",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3653,7 +3659,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-29T08:00:59.752359+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29 10:00:42",
+  "anchorageUpdatedAt": "2026-08-29T08:30:14.567010+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4117,7 +4123,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-29T08:00:13.691130+00:00",
+  "mapUpdatedAt": "2026-08-29T08:30:14.567010+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-29T08:00:34Z",
     "summary": {
