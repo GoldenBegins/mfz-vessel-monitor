@@ -3630,7 +3630,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-29T12:30:13.721258+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-29T13:00:14.307552+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3642,6 +3642,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "TURKELI",
+        "imo": "9396749",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3686,7 +3692,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-29T12:31:03.849067+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29 14:30:41",
+  "anchorageUpdatedAt": "2026-08-29T13:00:14.307552+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4161,7 +4167,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-29T12:30:13.721258+00:00",
+  "mapUpdatedAt": "2026-08-29T13:00:14.307552+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-29T12:30:33Z",
     "summary": {
