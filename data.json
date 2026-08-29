@@ -3649,7 +3649,7 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-29T16:00:16.953122+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-29T16:30:14.325030+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3665,6 +3665,13 @@
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JELENA",
+        "imo": "9519042",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
@@ -3673,12 +3680,6 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "JELENA",
-        "imo": "9519042",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3718,7 +3719,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-29T16:00:59.151387+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29 18:00:47",
+  "anchorageUpdatedAt": "2026-08-29T16:30:14.325030+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4154,7 +4155,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-29T16:00:16.953122+00:00",
+  "mapUpdatedAt": "2026-08-29T16:30:14.325030+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-29T16:00:39Z",
     "summary": {
