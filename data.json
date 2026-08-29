@@ -3634,9 +3634,16 @@
         "source": "Light Anchorage Reconcile (MMSI)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-29T13:00:14.307552+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-29T13:30:19.828507+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "TURKELI",
+        "imo": "9396749",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "FANTASIA",
         "imo": "9378371",
@@ -3646,12 +3653,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "TURKELI",
-        "imo": "9396749",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3696,7 +3697,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-29T13:01:04.168738+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-29 15:00:54",
+  "anchorageUpdatedAt": "2026-08-29T13:30:19.828507+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4175,7 +4176,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-29T13:00:14.307552+00:00",
+  "mapUpdatedAt": "2026-08-29T13:30:19.828507+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-29T13:00:45Z",
     "summary": {
