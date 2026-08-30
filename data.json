@@ -3567,7 +3567,7 @@
         "source": "MyShipTracking vesselonmap / vesseldestination"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T14:00:15.502349+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T15:00:15.189291+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3585,6 +3585,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "NIKOLAS",
+        "imo": "9203526",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "FLEXPORT"
+      },
+      {
         "name": "ST GEORGE",
         "imo": "9412775",
         "port": "Benghazi",
@@ -3598,12 +3605,6 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "NIKOLAS",
-        "imo": "9203526",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3688,7 +3689,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T14:33:03.406262+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 16:00:47",
+  "anchorageUpdatedAt": "2026-08-30T15:00:15.189291+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4032,7 +4033,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T14:00:15.502349+00:00",
+  "mapUpdatedAt": "2026-08-30T15:00:15.189291+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T14:00:39Z",
     "summary": {
