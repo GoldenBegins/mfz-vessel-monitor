@@ -3540,7 +3540,7 @@
         "source": "MyShipTracking vesselonmap / vesseldestination"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T15:30:14.746961+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T16:00:14.589950+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3578,6 +3578,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "VENTO DI BORA",
+        "imo": "9950064",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3640,7 +3646,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T15:31:04.252992+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 17:30:49",
+  "anchorageUpdatedAt": "2026-08-30T16:00:14.589950+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3980,7 +3986,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T15:30:14.746961+00:00",
+  "mapUpdatedAt": "2026-08-30T16:00:14.589950+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T15:30:41Z",
     "summary": {
