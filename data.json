@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-30 14:03:42",
+  "updatedAt": "2026-08-30 22:06:04",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 69,
-    "benghaziCalls": 56,
+    "misurataCalls": 73,
+    "benghaziCalls": 57,
     "misurataExcludedCalls": 9,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 10,
@@ -11,41 +11,33 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 26,
+    "estimatedCalls": 27,
     "unestimatedCalls": 30,
-    "coverage": 46.4,
+    "coverage": 47.4,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 20461,
+    "estimatedTEU": 21647,
     "estimatedGeneralCargoTons": 111085,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 21
+    "fallbackLowCalls": 22
   },
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 69,
-      "benghaziCalls": 56,
+      "misurataCalls": 73,
+      "benghaziCalls": 57,
       "misurataExcludedCalls": 9,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 20461,
+      "estimatedTEU": 21647,
       "estimatedGeneralCargoTons": 111085,
-      "coverage": 46.4
+      "coverage": 47.4
     }
   ],
   "estimates": [
-    {
-      "vessel": "GAHURA",
-      "imo": "9053907",
-      "type": "General Cargo",
-      "estimate": "4,279 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "MV ANA N",
       "imo": "9416850",
@@ -237,6 +229,14 @@
       "estimate": "10,597 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "CMA CGM NADOR",
+      "imo": "9396696",
+      "type": "Container",
+      "estimate": "1,186 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
