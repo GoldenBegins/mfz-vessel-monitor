@@ -3605,7 +3605,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T16:40:13.497628+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T17:00:13.099616+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3627,7 +3627,7 @@
         "imo": "9203526",
         "port": "Benghazi",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "ST GEORGE",
@@ -3705,7 +3705,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T16:43:31.229177+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 18:43:27",
+  "anchorageUpdatedAt": "2026-08-30T17:00:13.099616+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4105,7 +4105,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T16:40:13.497628+00:00",
+  "mapUpdatedAt": "2026-08-30T17:00:13.099616+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T16:43:18Z",
     "summary": {
