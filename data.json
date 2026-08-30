@@ -3594,13 +3594,27 @@
         "source": "MyShipTracking vesselonmap / vesseldestination"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T12:00:13.929330+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T12:30:14.075715+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "HAJH AMINA",
         "imo": "9046356",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JINANAH",
+        "imo": "9395343",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ST GEORGE",
+        "imo": "9412775",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       }
@@ -3613,14 +3627,8 @@
         "decision": "UNCONFIRMED"
       },
       {
-        "name": "JINANAH",
-        "imo": "9395343",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "ST GEORGE",
-        "imo": "9412775",
+        "name": "KORSARO",
+        "imo": "9373137",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
@@ -3707,7 +3715,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T12:01:11.391125+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 14:00:53",
+  "anchorageUpdatedAt": "2026-08-30T12:30:14.075715+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4032,7 +4040,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T12:00:13.929330+00:00",
+  "mapUpdatedAt": "2026-08-30T12:30:14.075715+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T12:00:44Z",
     "summary": {
