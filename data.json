@@ -3591,7 +3591,7 @@
         "source": "MyShipTracking vesselonmap / vesseldestination"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T07:30:10.645074+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T07:40:13.188731+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3647,7 +3647,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T07:30:55.822497+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 09:30:39",
+  "anchorageUpdatedAt": "2026-08-30T07:40:13.188731+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4002,7 +4002,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T07:30:10.645074+00:00",
+  "mapUpdatedAt": "2026-08-30T07:40:13.188731+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T07:30:31Z",
     "summary": {
