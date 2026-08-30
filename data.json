@@ -3515,7 +3515,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T18:30:14.638068+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T19:00:16.972473+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3544,7 +3544,7 @@
         "imo": "9203526",
         "port": "Benghazi",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "ST GEORGE",
@@ -3555,6 +3555,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "BUERGENSTOCK",
+        "imo": "1031305",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3622,7 +3628,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T18:30:56.782105+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 20:30:44",
+  "anchorageUpdatedAt": "2026-08-30T19:00:16.972473+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3983,7 +3989,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T18:30:14.638068+00:00",
+  "mapUpdatedAt": "2026-08-30T19:00:16.972473+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T18:30:35Z",
     "summary": {
