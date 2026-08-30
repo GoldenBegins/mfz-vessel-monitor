@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-08-30 06:06:01",
+  "updatedAt": "2026-08-30 08:56:34",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 72,
+    "misurataCalls": 71,
     "benghaziCalls": 55,
-    "misurataExcludedCalls": 6,
+    "misurataExcludedCalls": 8,
     "benghaziExcludedCalls": 1,
-    "excludedCalls": 7,
+    "excludedCalls": 9,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
@@ -24,9 +24,9 @@
   "comparison": [
     {
       "period": "2026-08",
-      "misurataCalls": 72,
+      "misurataCalls": 71,
       "benghaziCalls": 55,
-      "misurataExcludedCalls": 6,
+      "misurataExcludedCalls": 8,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
