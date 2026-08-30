@@ -3547,7 +3547,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T18:00:15.189613+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T18:30:14.638068+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3565,11 +3565,18 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "KAPTAN AYTAC A",
+        "imo": "9242302",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "AGREEMENT"
+      },
+      {
         "name": "NIKOLAS",
         "imo": "9203526",
         "port": "Benghazi",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
       },
       {
         "name": "ST GEORGE",
@@ -3585,12 +3592,6 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "KAPTAN AYTAC A",
-        "imo": "9242302",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3653,7 +3654,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T18:01:08.259163+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 20:00:50",
+  "anchorageUpdatedAt": "2026-08-30T18:30:14.638068+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4046,7 +4047,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T18:00:15.189613+00:00",
+  "mapUpdatedAt": "2026-08-30T18:30:14.638068+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T18:00:40Z",
     "summary": {
