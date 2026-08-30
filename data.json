@@ -4416,23 +4416,23 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-08-30T07:00:34Z",
+    "updatedAt": "2026-08-30T07:30:35Z",
     "periodStart": "2026-08-24",
     "periodEnd": "2026-08-30",
     "effectiveDays": 7,
     "ports": {
       "Misurata": {
         "port": "Misurata",
-        "arrivals": 23,
-        "arrivalsPerDay": 3.29,
-        "avgPortStayProxyDays": 2.61,
-        "currentInPort": 10,
+        "arrivals": 22,
+        "arrivalsPerDay": 3.14,
+        "avgPortStayProxyDays": 2.59,
+        "currentInPort": 9,
         "confirmedPrePort": 0,
         "postPortActive": 0,
         "unknownAnchorage": 6,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.6,
-        "openCalls": 7,
+        "potentialQueueRatio": 0.67,
+        "openCalls": 6,
         "closedCalls": 16,
         "pressureLevel": "Medium",
         "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
@@ -4445,12 +4445,12 @@
         "currentInPort": 10,
         "confirmedPrePort": 0,
         "postPortActive": 0,
-        "unknownAnchorage": 9,
+        "unknownAnchorage": 10,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.9,
+        "potentialQueueRatio": 1.0,
         "openCalls": 8,
         "closedCalls": 14,
-        "pressureLevel": "Medium",
+        "pressureLevel": "High",
         "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
       }
     }
