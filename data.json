@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-29 22:05:28",
+  "updatedAt": "2026-08-30 06:06:01",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 72,
-    "benghaziCalls": 53,
+    "benghaziCalls": 55,
     "misurataExcludedCalls": 6,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 7,
@@ -11,21 +11,21 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 25,
-    "unestimatedCalls": 28,
-    "coverage": 47.2,
+    "estimatedCalls": 26,
+    "unestimatedCalls": 29,
+    "coverage": 47.3,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 20461,
-    "estimatedGeneralCargoTons": 100488,
+    "estimatedGeneralCargoTons": 111085,
     "historicalHighMediumCalls": 0,
-    "fallbackLowCalls": 20
+    "fallbackLowCalls": 21
   },
   "comparison": [
     {
       "period": "2026-08",
       "misurataCalls": 72,
-      "benghaziCalls": 53,
+      "benghaziCalls": 55,
       "misurataExcludedCalls": 6,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -33,19 +33,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 20461,
-      "estimatedGeneralCargoTons": 100488,
-      "coverage": 47.2
+      "estimatedGeneralCargoTons": 111085,
+      "coverage": 47.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "ABASHIE",
-      "imo": "8207410",
-      "type": "General Cargo",
-      "estimate": "3,103 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "GAHURA",
       "imo": "9053907",
@@ -237,6 +229,14 @@
       "estimate": "1,316 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "BBC EAGLE",
+      "imo": "9407574",
+      "type": "General Cargo",
+      "estimate": "10,597 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
