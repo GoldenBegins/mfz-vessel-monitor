@@ -3496,7 +3496,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T19:00:16.972473+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T19:30:15.312605+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3518,7 +3518,7 @@
         "imo": "9242302",
         "port": "Benghazi",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
       },
       {
         "name": "NIKOLAS",
@@ -3536,6 +3536,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "ATHENA",
+        "imo": "9187344",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BUERGENSTOCK",
         "imo": "1031305",
@@ -3609,7 +3615,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T19:01:06.038276+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 21:00:51",
+  "anchorageUpdatedAt": "2026-08-30T19:30:15.312605+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3951,7 +3957,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T19:00:16.972473+00:00",
+  "mapUpdatedAt": "2026-08-30T19:30:15.312605+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T19:00:43Z",
     "summary": {
