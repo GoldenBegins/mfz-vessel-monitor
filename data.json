@@ -3632,7 +3632,7 @@
         "source": "MyShipTracking vesselonmap / vesseldestination"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T11:00:13.870823+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T11:30:15.524793+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3649,6 +3649,18 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "JINANAH",
+        "imo": "9395343",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "ST GEORGE",
+        "imo": "9412775",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3733,7 +3745,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T11:00:59.293251+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 13:00:42",
+  "anchorageUpdatedAt": "2026-08-30T11:30:15.524793+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4096,7 +4108,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T11:00:13.870823+00:00",
+  "mapUpdatedAt": "2026-08-30T11:30:15.524793+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T11:00:35Z",
     "summary": {
