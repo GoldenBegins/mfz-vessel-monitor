@@ -3612,15 +3612,27 @@
         "source": "MyShipTracking vesselonmap / vesseldestination"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T06:00:15.694234+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T06:30:14.936639+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
     "portStateReview": [
+      {
+        "name": "HAJH AMINA",
+        "imo": "9046356",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "LIBERTAS H",
+        "imo": "9388388",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3683,7 +3695,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T06:01:10.224673+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 08:00:59",
+  "anchorageUpdatedAt": "2026-08-30T06:30:14.936639+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4072,7 +4084,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T06:00:15.694234+00:00",
+  "mapUpdatedAt": "2026-08-30T06:30:14.936639+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T06:00:47Z",
     "summary": {
