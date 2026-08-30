@@ -3654,7 +3654,7 @@
         "source": "MyShipTracking vesselonmap / vesseldestination"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-30T13:40:19.466983+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-30T14:00:15.502349+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3685,6 +3685,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "NIKOLAS",
+        "imo": "9203526",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3769,7 +3775,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-30T13:43:44.882852+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-30 15:43:40",
+  "anchorageUpdatedAt": "2026-08-30T14:00:15.502349+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4109,7 +4115,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-30T13:40:19.466983+00:00",
+  "mapUpdatedAt": "2026-08-30T14:00:15.502349+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-30T13:43:31Z",
     "summary": {
