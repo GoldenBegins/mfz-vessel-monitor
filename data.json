@@ -3848,14 +3848,14 @@
   },
   "mapUpdatedAt": "2026-08-31T01:00:13.068434+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-08-31T00:30:32Z",
+    "updatedAt": "2026-08-31T01:00:32Z",
     "summary": {
       "confirmedTotal": 16,
-      "candidateTotal": 1,
+      "candidateTotal": 0,
       "misurataToBenghaziConfirmed": 11,
       "benghaziToMisurataConfirmed": 5,
       "misurataToBenghaziCandidates": 0,
-      "benghaziToMisurataCandidates": 1
+      "benghaziToMisurataCandidates": 0
     },
     "rows": [
       {
@@ -3901,26 +3901,6 @@
         "cycleDays": 14.0,
         "confidence": "High identity / Day-level timing",
         "voyageId": "9005388|Benghazi|9005388|2026-08-17|Misurata|9005388|2026-08-30"
-      },
-      {
-        "kind": "candidate",
-        "status": "Anchorage Candidate",
-        "imo": "9232307",
-        "mmsi": "511101983",
-        "vessel": "SKY",
-        "type": "General Cargo",
-        "originPort": "Benghazi",
-        "destinationPort": "Misurata",
-        "originFirstSeen": "2026-08-21",
-        "originLastSeen": "2026-08-28",
-        "originStayHours": 192.0,
-        "destinationAnchorageFirstSeen": "2026-08-29T10:36:00+00:00",
-        "destinationAnchorageLastSeen": "2026-08-30T22:42:46Z",
-        "destinationAnchorageHours": 37.91,
-        "seaTransitCalendarGapDays": 1,
-        "confidence": "Candidate — destination Port Call not confirmed yet",
-        "originCallId": "Benghazi|9232307|2026-08-21",
-        "anchorEpisodeId": "ANCH-MISURATA-9232307-20260829T103600Z"
       },
       {
         "kind": "confirmed",
