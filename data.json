@@ -3480,7 +3480,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-31T21:00:16.964348+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-31T21:30:21.261632+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3517,6 +3517,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "MEDKON M",
+        "imo": "9314545",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3556,7 +3562,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-31T21:01:20.951948+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-31 23:00:51",
+  "anchorageUpdatedAt": "2026-08-31T21:30:21.261632+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3928,7 +3934,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-31T21:00:16.964348+00:00",
+  "mapUpdatedAt": "2026-08-31T21:30:21.261632+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-31T21:00:43Z",
     "summary": {
