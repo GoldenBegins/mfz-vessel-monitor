@@ -4274,16 +4274,16 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-08-31T11:30:40Z",
-    "periodStart": "2026-08-24",
-    "periodEnd": "2026-08-30",
+    "updatedAt": "2026-08-31T12:30:42Z",
+    "periodStart": "2026-08-25",
+    "periodEnd": "2026-08-31",
     "effectiveDays": 7,
     "ports": {
       "Misurata": {
         "port": "Misurata",
         "arrivals": 26,
         "arrivalsPerDay": 3.71,
-        "avgPortStayProxyDays": 2.35,
+        "avgPortStayProxyDays": 2.19,
         "currentInPort": 11,
         "confirmedPrePort": 0,
         "postPortActive": 0,
@@ -4297,17 +4297,17 @@
       },
       "Benghazi": {
         "port": "Benghazi",
-        "arrivals": 24,
-        "arrivalsPerDay": 3.43,
-        "avgPortStayProxyDays": 2.46,
+        "arrivals": 20,
+        "arrivalsPerDay": 2.86,
+        "avgPortStayProxyDays": 2.5,
         "currentInPort": 8,
         "confirmedPrePort": 0,
         "postPortActive": 0,
         "unknownAnchorage": 6,
         "confirmedQueueRatio": 0.0,
         "potentialQueueRatio": 0.75,
-        "openCalls": 10,
-        "closedCalls": 14,
+        "openCalls": 5,
+        "closedCalls": 15,
         "pressureLevel": "Medium",
         "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
       }
