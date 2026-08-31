@@ -3465,52 +3465,10 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-31T22:30:14.892564+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-31T22:40:10.216743+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "DERNA",
-        "imo": "9176125",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MEDKON M",
-        "imo": "9314545",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "BBC EAGLE",
-        "imo": "9407574",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "FLEXPORT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "SKY",
-        "imo": "9232307",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "BENGHAZI",
-        "imo": "9277840",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3548,7 +3506,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-31T22:31:03.261009+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-01 00:30:42",
+  "anchorageUpdatedAt": "2026-08-31T22:40:10.216743+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3905,7 +3863,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-31T22:30:14.892564+00:00",
+  "mapUpdatedAt": "2026-08-31T22:40:10.216743+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-31T22:30:34Z",
     "summary": {
