@@ -4214,7 +4214,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-08-31T00:30:37Z",
+    "updatedAt": "2026-08-31T01:00:36Z",
     "periodStart": "2026-08-24",
     "periodEnd": "2026-08-30",
     "effectiveDays": 7,
@@ -4224,16 +4224,16 @@
         "arrivals": 26,
         "arrivalsPerDay": 3.71,
         "avgPortStayProxyDays": 2.35,
-        "currentInPort": 9,
+        "currentInPort": 10,
         "confirmedPrePort": 0,
         "postPortActive": 0,
-        "unknownAnchorage": 4,
+        "unknownAnchorage": 3,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.44,
+        "potentialQueueRatio": 0.3,
         "openCalls": 10,
         "closedCalls": 16,
-        "pressureLevel": "Medium",
-        "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
+        "pressureLevel": "Low",
+        "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
       },
       "Benghazi": {
         "port": "Benghazi",
