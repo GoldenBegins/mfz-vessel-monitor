@@ -3434,13 +3434,20 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-31T13:30:17.387280+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-31T13:40:15.533247+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "DERNA",
         "imo": "9176125",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "BBC EAGLE",
+        "imo": "9407574",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3520,7 +3527,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-31T13:31:27.244745+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-31 15:31:01",
+  "anchorageUpdatedAt": "2026-08-31T13:40:15.533247+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3892,7 +3899,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-31T13:30:17.387280+00:00",
+  "mapUpdatedAt": "2026-08-31T13:40:15.533247+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-31T13:30:50Z",
     "summary": {
