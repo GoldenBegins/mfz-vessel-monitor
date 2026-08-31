@@ -3419,9 +3419,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-31T11:00:13.617226+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-31T11:30:14.320948+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "DERNA",
+        "imo": "9176125",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
@@ -3430,14 +3437,7 @@
         "winner": "FLEXPORT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "DERNA",
-        "imo": "9176125",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 2,
@@ -3498,7 +3498,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-31T11:01:02.213879+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-31 13:00:48",
+  "anchorageUpdatedAt": "2026-08-31T11:30:14.320948+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3855,7 +3855,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-31T11:00:13.617226+00:00",
+  "mapUpdatedAt": "2026-08-31T11:30:14.320948+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-31T11:00:39Z",
     "summary": {
