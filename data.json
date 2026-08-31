@@ -3432,7 +3432,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-31T15:30:14.756654+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-31T16:00:17.083215+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3458,6 +3458,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "SKY",
+        "imo": "9232307",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3502,7 +3508,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-31T15:31:02.245143+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-31 17:30:45",
+  "anchorageUpdatedAt": "2026-08-31T16:00:17.083215+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3859,7 +3865,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-31T15:30:14.756654+00:00",
+  "mapUpdatedAt": "2026-08-31T16:00:17.083215+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-31T15:30:37Z",
     "summary": {
