@@ -3484,12 +3484,19 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-31T21:30:21.261632+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-31T22:00:16.191249+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "DERNA",
         "imo": "9176125",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MEDKON M",
+        "imo": "9314545",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3521,12 +3528,6 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "MEDKON M",
-        "imo": "9314545",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3566,7 +3567,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-31T21:31:09.458299+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-31 23:31:01",
+  "anchorageUpdatedAt": "2026-08-31T22:00:16.191249+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3942,7 +3943,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-31T21:30:21.261632+00:00",
+  "mapUpdatedAt": "2026-08-31T22:00:16.191249+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-31T21:30:52Z",
     "summary": {
