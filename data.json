@@ -3457,7 +3457,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-08-31T10:00:14.660329+00:00",
+    "lightPortSyncUpdatedAt": "2026-08-31T10:30:14.829391+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3468,7 +3468,14 @@
         "winner": "FLEXPORT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "DERNA",
+        "imo": "9176125",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 2,
@@ -3529,7 +3536,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-08-31T10:01:04.073843+00:00"
   },
-  "anchorageUpdatedAt": "2026-08-31 12:00:57",
+  "anchorageUpdatedAt": "2026-08-31T10:30:14.829391+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3901,7 +3908,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-08-31T10:00:14.660329+00:00",
+  "mapUpdatedAt": "2026-08-31T10:30:14.829391+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-08-31T10:00:46Z",
     "summary": {
