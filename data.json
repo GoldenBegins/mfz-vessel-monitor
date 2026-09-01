@@ -3475,7 +3475,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-01T11:30:16.995347+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-01T12:00:20.129749+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3504,7 +3504,7 @@
         "imo": "9863895",
         "port": "Benghazi",
         "decision": "AWAY",
-        "winner": "AGREEMENT"
+        "winner": "FLEXPORT"
       }
     ],
     "portStateReview": [
@@ -3597,7 +3597,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-01T11:31:23.416591+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-01 13:31:01",
+  "anchorageUpdatedAt": "2026-09-01T12:00:20.129749+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3973,7 +3973,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-01T11:30:16.995347+00:00",
+  "mapUpdatedAt": "2026-09-01T12:00:20.129749+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-01T11:30:51Z",
     "summary": {
