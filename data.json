@@ -3445,7 +3445,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-01T10:30:15.670862+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-01T10:40:13.987691+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3467,7 +3467,7 @@
         "imo": "9863895",
         "port": "Benghazi",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       }
     ],
     "portStateReview": [
@@ -3476,6 +3476,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "KORSARO",
+        "imo": "9373137",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3538,7 +3544,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-01T10:31:04.759903+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-01 12:30:46",
+  "anchorageUpdatedAt": "2026-09-01T10:40:13.987691+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3884,7 +3890,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-01T10:30:15.670862+00:00",
+  "mapUpdatedAt": "2026-09-01T10:40:13.987691+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-01T10:30:37Z",
     "summary": {
