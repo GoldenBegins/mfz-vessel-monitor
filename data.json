@@ -4382,7 +4382,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-09-01T11:30:56Z",
+    "updatedAt": "2026-09-01T12:01:52Z",
     "periodStart": "2026-08-26",
     "periodEnd": "2026-09-01",
     "effectiveDays": 7,
@@ -4405,18 +4405,18 @@
       },
       "Benghazi": {
         "port": "Benghazi",
-        "arrivals": 15,
-        "arrivalsPerDay": 2.14,
-        "avgPortStayProxyDays": 2.67,
-        "currentInPort": 8,
+        "arrivals": 17,
+        "arrivalsPerDay": 2.43,
+        "avgPortStayProxyDays": 2.47,
+        "currentInPort": 7,
         "confirmedPrePort": 0,
         "postPortActive": 0,
-        "unknownAnchorage": 6,
+        "unknownAnchorage": 7,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.75,
-        "openCalls": 4,
+        "potentialQueueRatio": 1.0,
+        "openCalls": 6,
         "closedCalls": 11,
-        "pressureLevel": "Medium",
+        "pressureLevel": "High",
         "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
       }
     }
