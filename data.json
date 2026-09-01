@@ -3476,80 +3476,10 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-01T22:30:10.576920+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-01T22:40:08.258158+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "OCEAN TRADER",
-        "imo": "9349461",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "PARESA",
-        "imo": "9008134",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "VENTO DI BORA",
-        "imo": "9950064",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "CMA CGM NADOR",
-        "imo": "9396696",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "KORSARO",
-        "imo": "9373137",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MONIF",
-        "imo": "9008146",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "KRITI SAILOR",
-        "imo": "9335135",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "BENGHAZI",
-        "imo": "9277840",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 2,
@@ -3587,7 +3517,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-01T22:30:55.924368+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-02 00:30:38",
+  "anchorageUpdatedAt": "2026-09-01T22:40:08.258158+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3918,7 +3848,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-01T22:30:10.576920+00:00",
+  "mapUpdatedAt": "2026-09-01T22:40:08.258158+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-01T22:30:31Z",
     "summary": {
