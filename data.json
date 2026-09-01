@@ -3506,7 +3506,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-01T14:00:10.887741+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-01T14:30:13.989566+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3544,6 +3544,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "CMA CGM NADOR",
+        "imo": "9396696",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3583,7 +3589,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-01T14:01:09.313590+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-01 16:00:45",
+  "anchorageUpdatedAt": "2026-09-01T14:30:13.989566+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3944,7 +3950,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-01T14:00:10.887741+00:00",
+  "mapUpdatedAt": "2026-09-01T14:30:13.989566+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-01T14:00:35Z",
     "summary": {
