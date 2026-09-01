@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-01 14:05:52",
+  "updatedAt": "2026-09-01 22:05:49",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 1,
-    "benghaziCalls": 2,
+    "benghaziCalls": 3,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 27,
+    "estimatedCalls": 28,
     "unestimatedCalls": 0,
-    "coverage": 1350.0,
+    "coverage": 933.3,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 21647,
+    "estimatedTEU": 23858,
     "estimatedGeneralCargoTons": 111085,
     "historicalHighMediumCalls": 3,
-    "fallbackLowCalls": 22
+    "fallbackLowCalls": 23
   },
   "comparison": [
     {
@@ -39,27 +39,19 @@
     {
       "period": "2026-09",
       "misurataCalls": 1,
-      "benghaziCalls": 2,
+      "benghaziCalls": 3,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 21647,
+      "estimatedTEU": 23858,
       "estimatedGeneralCargoTons": 111085,
-      "coverage": 1350.0
+      "coverage": 933.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "MV ANA N",
-      "imo": "9416850",
-      "type": "General Cargo",
-      "estimate": "3,587 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "BUXLINK",
       "imo": "9235816",
@@ -249,6 +241,14 @@
       "imo": "9396696",
       "type": "Container",
       "estimate": "1,186 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "VENTO DI BORA",
+      "imo": "9950064",
+      "type": "Container",
+      "estimate": "2,211 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
