@@ -3502,9 +3502,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-01T17:00:12.305628+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-01T17:30:12.247014+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "OCEAN TRADER",
+        "imo": "9349461",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "PARESA",
         "imo": "9008134",
@@ -3549,6 +3556,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "KRITI SAILOR",
+        "imo": "9335135",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3616,7 +3629,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-01T17:01:09.270967+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-01 19:00:45",
+  "anchorageUpdatedAt": "2026-09-01T17:30:12.247014+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3973,7 +3986,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-01T17:00:12.305628+00:00",
+  "mapUpdatedAt": "2026-09-01T17:30:12.247014+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-01T17:00:35Z",
     "summary": {
