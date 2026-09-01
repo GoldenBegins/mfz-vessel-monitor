@@ -3469,7 +3469,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-01T12:00:20.129749+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-01T12:30:16.752450+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3477,7 +3477,7 @@
         "imo": "9950064",
         "port": "Misurata",
         "decision": "AWAY",
-        "winner": "FLEXPORT"
+        "winner": "AGREEMENT"
       },
       {
         "name": "KORSARO",
@@ -3591,7 +3591,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-01T12:02:04.538168+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-01 14:01:57",
+  "anchorageUpdatedAt": "2026-09-01T12:30:16.752450+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3948,7 +3948,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-01T12:00:20.129749+00:00",
+  "mapUpdatedAt": "2026-09-01T12:30:16.752450+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-01T12:01:48Z",
     "summary": {
