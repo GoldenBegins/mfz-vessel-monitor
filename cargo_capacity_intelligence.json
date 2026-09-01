@@ -1,6 +1,6 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-08-31T20:10:22Z",
+  "updatedAt": "2026-09-01T04:10:30Z",
   "summary": {
     "dwtProfiles": 106,
     "fleetSampleN": 22,
@@ -8,7 +8,7 @@
     "fleetP25": 0.3069,
     "fleetP75": 0.911,
     "commodityModelsUsable": 1,
-    "exactVesselEstimates": 2,
+    "exactVesselEstimates": 3,
     "commodityEstimates": 0,
     "fleetRatioEstimates": 36,
     "unestimatedCalls": 5
@@ -24,7 +24,7 @@
       "Min": 0.116,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-08-31T20:10:22Z"
+      "Updated On": "2026-09-01T04:10:30Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-31T20:10:22Z"
+      "Updated On": "2026-09-01T04:10:30Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.116,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-08-31T20:10:22Z"
+      "Updated On": "2026-09-01T04:10:30Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-08-31T20:10:22Z"
+      "Updated On": "2026-09-01T04:10:30Z"
     }
   ],
   "rows": [
@@ -880,6 +880,25 @@
       "Confidence": "Unresolved",
       "Source": "",
       "Notes": "Insufficient calibration or DWT."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9103362|2026-09-01",
+      "IMO": "9103362",
+      "Vessel": "MEDKON SINOP",
+      "Vessel Type": "General Cargo",
+      "DWT": 8972.0,
+      "Commodity Used": "",
+      "Method": "Exact vessel MFZ historical",
+      "Historical Visits": 3,
+      "Sample N": 3,
+      "Median Tons/DWT": "",
+      "Estimated Cargo Tons": 5790.59,
+      "Low Estimate": 4053.78,
+      "High Estimate": 5890.47,
+      "Confidence": "High",
+      "Source": "MFZ Actual Cargo Calls exact IMO",
+      "Notes": ""
     }
   ],
   "methodology": "Exact vessel first (1 visit Low, 2 Medium, 3+ High). Commodity ratio only when current commodity is known and commodity sample n>=5. Otherwise fleet ratio. P25-P75 range. Planning proxy only."
