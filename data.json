@@ -3472,9 +3472,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-01T15:30:10.801316+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-01T16:00:12.542753+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "PARESA",
+        "imo": "9008134",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "VENTO DI BORA",
         "imo": "9950064",
@@ -3556,7 +3563,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-01T15:30:56.084783+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-01 17:30:43",
+  "anchorageUpdatedAt": "2026-09-01T16:00:12.542753+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3883,7 +3890,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-01T15:30:10.801316+00:00",
+  "mapUpdatedAt": "2026-09-01T16:00:12.542753+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-01T15:30:34Z",
     "summary": {
