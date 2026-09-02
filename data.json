@@ -1551,11 +1551,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 10,
-        "avgWaitingHours": 39.3,
-        "medianWaitingHours": 5.5,
+        "active": 9,
+        "avgWaitingHours": 35.39,
+        "medianWaitingHours": 2.53,
         "longestWaitingHours": 155.5,
-        "destinationConfirmed": 5,
+        "destinationConfirmed": 4,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1604,28 +1604,6 @@
         "destination": "Benghazi",
         "destinationClass": "To Benghazi",
         "eta": "10:50 (LT)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9004499-20260830T073000Z",
-        "port": "Benghazi",
-        "vessel": "CINDY",
-        "imo": "9004499",
-        "mmsi": "630001216",
-        "firstSeen": "2026-08-30T07:30:00+00:00",
-        "lastSeen": "2026-09-02T07:36:57Z",
-        "waitingHours": 74.51,
-        "lat": 32.165753,
-        "lon": 19.970122,
-        "sog": 0.4,
-        "distanceKm": 9.64,
-        "destination": "BENGHAZI",
-        "destinationClass": "To Benghazi",
-        "eta": "09:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
@@ -3530,13 +3508,13 @@
       "unknown": 10
     },
     "phaseUpdatedAt": "2026-09-02T07:43:16Z",
-    "exclusivityFilteredAt": "2026-08-26T16:44:09Z",
+    "exclusivityFilteredAt": "2026-09-02T10:01:14Z",
     "exclusivityRemoved": [
       {
-        "port": "Misurata",
-        "vessel": "HASAN G",
-        "imo": "9136852",
-        "mmsi": "620360000"
+        "port": "Benghazi",
+        "vessel": "CINDY",
+        "imo": "9004499",
+        "mmsi": "630001216"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
