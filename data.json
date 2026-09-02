@@ -3441,7 +3441,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-02T17:30:10.037685+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-02T18:00:11.575527+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3461,6 +3461,13 @@
       {
         "name": "KARAM K",
         "imo": "9563885",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "VENTO DI BORA",
+        "imo": "9950064",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3530,7 +3537,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-02T17:31:01.362176+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-02 19:30:42",
+  "anchorageUpdatedAt": "2026-09-02T18:00:11.575527+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3895,7 +3902,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-02T17:30:10.037685+00:00",
+  "mapUpdatedAt": "2026-09-02T18:00:11.575527+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-02T17:30:33Z",
     "summary": {
