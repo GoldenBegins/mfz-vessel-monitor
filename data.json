@@ -3441,16 +3441,9 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-02T18:00:11.575527+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-02T18:30:12.797067+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "KRITI SAILOR",
-        "imo": "9335135",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "MEDKON SINOP",
         "imo": "9103362",
@@ -3481,6 +3474,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "KRITI SAILOR",
+        "imo": "9335135",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
       {
         "name": "BENGHAZI",
         "imo": "9277840",
@@ -3537,7 +3536,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-02T18:01:00.723464+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-02 20:00:44",
+  "anchorageUpdatedAt": "2026-09-02T18:30:12.797067+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3902,7 +3901,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-02T18:00:11.575527+00:00",
+  "mapUpdatedAt": "2026-09-02T18:30:12.797067+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-02T18:00:35Z",
     "summary": {
