@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-02 09:50:58",
+  "updatedAt": "2026-09-02 14:06:51",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 1,
-    "benghaziCalls": 5,
+    "benghaziCalls": 7,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -12,8 +12,8 @@
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
     "estimatedCalls": 1,
-    "unestimatedCalls": 4,
-    "coverage": 20.0,
+    "unestimatedCalls": 6,
+    "coverage": 14.3,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 2211,
@@ -39,7 +39,7 @@
     {
       "period": "2026-09",
       "misurataCalls": 1,
-      "benghaziCalls": 5,
+      "benghaziCalls": 7,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -48,7 +48,7 @@
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 2211,
       "estimatedGeneralCargoTons": 111085,
-      "coverage": 20.0
+      "coverage": 14.3
     }
   ],
   "estimates": [
