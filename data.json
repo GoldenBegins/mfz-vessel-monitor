@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02 06:05:36",
+  "updatedAt": "2026-09-02 09:50:58",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 28,
-    "unestimatedCalls": 0,
-    "coverage": 560.0,
+    "estimatedCalls": 1,
+    "unestimatedCalls": 4,
+    "coverage": 20.0,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 23858,
+    "estimatedTEU": 2211,
     "estimatedGeneralCargoTons": 111085,
-    "historicalHighMediumCalls": 3,
-    "fallbackLowCalls": 23
+    "historicalHighMediumCalls": 0,
+    "fallbackLowCalls": 1
   },
   "comparison": [
     {
@@ -46,9 +46,9 @@
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 23858,
+      "estimatedTEU": 2211,
       "estimatedGeneralCargoTons": 111085,
-      "coverage": 560.0
+      "coverage": 20.0
     }
   ],
   "estimates": [
