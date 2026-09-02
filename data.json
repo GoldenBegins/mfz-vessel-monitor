@@ -3464,7 +3464,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-02T21:30:11.196117+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-02T22:00:13.039256+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3508,6 +3508,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "MONIF",
+        "imo": "9008146",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "GUO MING HAI",
@@ -3565,7 +3571,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-02T21:30:58.461732+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-02 23:30:39",
+  "anchorageUpdatedAt": "2026-09-02T22:00:13.039256+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3907,7 +3913,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-02T21:30:11.196117+00:00",
+  "mapUpdatedAt": "2026-09-02T22:00:13.039256+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-02T21:30:30Z",
     "summary": {
