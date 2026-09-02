@@ -3858,16 +3858,36 @@
   },
   "mapUpdatedAt": "2026-09-02T10:40:10.272297+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-02T10:30:35Z",
+    "updatedAt": "2026-09-02T10:43:04Z",
     "summary": {
       "confirmedTotal": 20,
-      "candidateTotal": 0,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 12,
       "benghaziToMisurataConfirmed": 8,
       "misurataToBenghaziCandidates": 0,
-      "benghaziToMisurataCandidates": 0
+      "benghaziToMisurataCandidates": 1
     },
     "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9008146",
+        "mmsi": "511100492",
+        "vessel": "MONIF",
+        "type": "General Cargo",
+        "originPort": "Benghazi",
+        "destinationPort": "Misurata",
+        "originFirstSeen": "2026-08-28",
+        "originLastSeen": "2026-09-01",
+        "originStayHours": 120.0,
+        "destinationAnchorageFirstSeen": "2026-09-02T10:35:00+00:00",
+        "destinationAnchorageLastSeen": "2026-09-02T10:35:00+00:00",
+        "destinationAnchorageHours": 0.13,
+        "seaTransitCalendarGapDays": 1,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Benghazi|9008146|2026-08-28",
+        "anchorEpisodeId": "ANCH-MISURATA-9008146-20260902T103500Z"
+      },
       {
         "kind": "confirmed",
         "status": "Confirmed",
