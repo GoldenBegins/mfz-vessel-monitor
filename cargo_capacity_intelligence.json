@@ -1,6 +1,6 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-09-02T12:10:29Z",
+  "updatedAt": "2026-09-02T20:10:29Z",
   "summary": {
     "dwtProfiles": 110,
     "fleetSampleN": 22,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 3,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 36,
+    "fleetRatioEstimates": 39,
     "unestimatedCalls": 5
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.116,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-09-02T12:10:29Z"
+      "Updated On": "2026-09-02T20:10:29Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-02T12:10:29Z"
+      "Updated On": "2026-09-02T20:10:29Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.116,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-09-02T12:10:29Z"
+      "Updated On": "2026-09-02T20:10:29Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-02T12:10:29Z"
+      "Updated On": "2026-09-02T20:10:29Z"
     }
   ],
   "rows": [
@@ -402,6 +402,44 @@
       "Estimated Cargo Tons": 6453.31,
       "Low Estimate": 3173.22,
       "High Estimate": 9419.6,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=22",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9004499|2026-09-02",
+      "IMO": "9004499",
+      "Vessel": "CINDY",
+      "Vessel Type": "General Cargo",
+      "DWT": 9597.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 22,
+      "Median Tons/DWT": 0.6241,
+      "Estimated Cargo Tons": 5989.6,
+      "Low Estimate": 2945.2,
+      "High Estimate": 8742.73,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=22",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|8105404|2026-09-02",
+      "IMO": "8105404",
+      "Vessel": "FALCON-EG",
+      "Vessel Type": "General Cargo",
+      "DWT": 8214.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 22,
+      "Median Tons/DWT": 0.6241,
+      "Estimated Cargo Tons": 5126.45,
+      "Low Estimate": 2520.78,
+      "High Estimate": 7482.84,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=22",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -899,6 +937,25 @@
       "Confidence": "High",
       "Source": "MFZ Actual Cargo Calls exact IMO",
       "Notes": ""
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9008146|2026-09-02",
+      "IMO": "9008146",
+      "Vessel": "MONIF",
+      "Vessel Type": "General Cargo",
+      "DWT": 6273.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 22,
+      "Median Tons/DWT": 0.6241,
+      "Estimated Cargo Tons": 3915.05,
+      "Low Estimate": 1925.11,
+      "High Estimate": 5714.62,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=22",
+      "Notes": "Planning proxy, not official handled tonnage."
     }
   ],
   "methodology": "Exact vessel first (1 visit Low, 2 Medium, 3+ High). Commodity ratio only when current commodity is known and commodity sample n>=5. Otherwise fleet ratio. P25-P75 range. Planning proxy only."
