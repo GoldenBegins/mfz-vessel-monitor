@@ -3507,7 +3507,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-02T20:00:11.500664+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-02T20:30:11.443711+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3563,6 +3563,12 @@
         "imo": "1112836",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "FERESA",
+        "imo": "1054931",
+        "port": "Benghazi",
+        "decision": "UNCONFIRMED"
       }
     ],
     "phaseSummary": {
@@ -3602,7 +3608,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-02T20:00:35.708289+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-02T20:00:11.500664+00:00",
+  "anchorageUpdatedAt": "2026-09-02T20:30:11.443711+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3944,7 +3950,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-02T20:00:11.500664+00:00",
+  "mapUpdatedAt": "2026-09-02T20:30:11.443711+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-02T19:43:27Z",
     "summary": {
