@@ -3469,9 +3469,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-03T21:00:17.456243+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-03T22:00:24.824915+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "GOTHICA",
+        "imo": "7826867",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "NIKOLAS",
         "imo": "9203526",
@@ -3482,6 +3489,13 @@
       {
         "name": "PARIAN TRADER",
         "imo": "1056006",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "NABIHA STAR",
+        "imo": "9005388",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3514,12 +3528,6 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "NABIHA STAR",
-        "imo": "9005388",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "FERESA",
@@ -3571,7 +3579,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-03T21:31:09.243115+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-03 23:00:50",
+  "anchorageUpdatedAt": "2026-09-03T22:00:24.824915+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3895,7 +3903,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-03T21:00:17.456243+00:00",
+  "mapUpdatedAt": "2026-09-03T22:00:24.824915+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-03T21:00:41Z",
     "summary": {
