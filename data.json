@@ -1800,6 +1800,66 @@
     "currentInPort": {
       "Misurata": [
         {
+          "source": "Shipnext",
+          "vessel": "MALAK M",
+          "name": "MALAK M",
+          "imo": "9216353",
+          "mmsi": "",
+          "lat": 32.37066333333333,
+          "lon": 15.221196666666666,
+          "state": "In Port",
+          "distanceKm": 2.009,
+          "sog": 2.5,
+          "observedAt": "2026-09-03T07:11:11+00:00",
+          "confidence": "Medium",
+          "port": "Misurata"
+        },
+        {
+          "source": "Port Presence",
+          "vessel": "GOTHICA",
+          "name": "GOTHICA",
+          "imo": "7826867",
+          "mmsi": "352004499",
+          "lat": 32.342793,
+          "lon": 15.239509,
+          "state": "In Port",
+          "distanceKm": 1.764,
+          "sog": 0.0,
+          "observedAt": "2026-09-03T09:35:00+00:00",
+          "confidence": "Medium",
+          "port": "Misurata"
+        },
+        {
+          "source": "Shipnext",
+          "vessel": "NABIHA STAR",
+          "name": "NABIHA STAR",
+          "imo": "9005388",
+          "mmsi": "341168001",
+          "lat": 32.368835000000004,
+          "lon": 15.223535,
+          "state": "In Port",
+          "distanceKm": 1.709,
+          "sog": 0.0,
+          "observedAt": "2026-09-03T07:22:56+00:00",
+          "confidence": "Medium",
+          "port": "Misurata"
+        },
+        {
+          "source": "Ships25",
+          "vessel": "BENGHAZI",
+          "name": "BENGHAZI",
+          "imo": "9277840",
+          "mmsi": "",
+          "lat": 32.370434,
+          "lon": 15.214717,
+          "state": "In Port",
+          "distanceKm": 2.479,
+          "sog": 0.0,
+          "observedAt": "2026-09-03T07:33:00+00:00",
+          "confidence": "Medium",
+          "port": "Misurata"
+        },
+        {
           "port": "Misurata",
           "vessel": "MOONLIT",
           "name": "MOONLIT",
@@ -1828,21 +1888,6 @@
           "source": "Port Presence"
         },
         {
-          "source": "Port Presence",
-          "vessel": "GOTHICA",
-          "name": "GOTHICA",
-          "imo": "7826867",
-          "mmsi": "352004499",
-          "lat": 32.342793,
-          "lon": 15.239509,
-          "state": "In Port",
-          "distanceKm": 1.764,
-          "sog": 0.0,
-          "observedAt": "2026-09-03T09:35:00+00:00",
-          "confidence": "Medium",
-          "port": "Misurata"
-        },
-        {
           "source": "Shipnext",
           "vessel": "JAOHAR RANIM",
           "name": "JAOHAR RANIM",
@@ -1854,21 +1899,6 @@
           "distanceKm": 1.857,
           "sog": 0.0,
           "observedAt": "2026-09-02T23:35:21+00:00",
-          "confidence": "Medium",
-          "port": "Misurata"
-        },
-        {
-          "source": "Shipnext",
-          "vessel": "NABIHA STAR",
-          "name": "NABIHA STAR",
-          "imo": "9005388",
-          "mmsi": "341168001",
-          "lat": 32.368835000000004,
-          "lon": 15.223535,
-          "state": "In Port",
-          "distanceKm": 1.709,
-          "sog": 0.0,
-          "observedAt": "2026-09-03T07:22:56+00:00",
           "confidence": "Medium",
           "port": "Misurata"
         },
@@ -1889,21 +1919,6 @@
         },
         {
           "source": "Shipnext",
-          "vessel": "MALAK M",
-          "name": "MALAK M",
-          "imo": "9216353",
-          "mmsi": "",
-          "lat": 32.37066333333333,
-          "lon": 15.221196666666666,
-          "state": "In Port",
-          "distanceKm": 2.009,
-          "sog": 2.5,
-          "observedAt": "2026-09-03T07:11:11+00:00",
-          "confidence": "Medium",
-          "port": "Misurata"
-        },
-        {
-          "source": "Shipnext",
           "vessel": "T-MED",
           "name": "T-MED",
           "imo": "9163142",
@@ -1914,21 +1929,6 @@
           "distanceKm": 1.819,
           "sog": 0.0,
           "observedAt": "2026-09-03T07:11:36+00:00",
-          "confidence": "Medium",
-          "port": "Misurata"
-        },
-        {
-          "source": "Ships25",
-          "vessel": "BENGHAZI",
-          "name": "BENGHAZI",
-          "imo": "9277840",
-          "mmsi": "",
-          "lat": 32.370434,
-          "lon": 15.214717,
-          "state": "In Port",
-          "distanceKm": 2.479,
-          "sog": 0.0,
-          "observedAt": "2026-09-03T07:33:00+00:00",
           "confidence": "Medium",
           "port": "Misurata"
         },
@@ -1963,6 +1963,21 @@
       ],
       "Benghazi": [
         {
+          "source": "Port Presence",
+          "vessel": "CINDY",
+          "name": "CINDY",
+          "imo": "9004499",
+          "mmsi": "630001216",
+          "lat": 32.115841,
+          "lon": 20.046394,
+          "state": "In Port",
+          "distanceKm": 2.006,
+          "sog": 0.0,
+          "observedAt": "2026-09-03T08:54:23+00:00",
+          "confidence": "Medium",
+          "port": "Benghazi"
+        },
+        {
           "source": "Shipnext",
           "vessel": "FALCON-EG",
           "name": "FALCON-EG",
@@ -1974,6 +1989,21 @@
           "distanceKm": 2.714,
           "sog": 0.0,
           "observedAt": "2026-09-03T06:44:00+00:00",
+          "confidence": "Medium",
+          "port": "Benghazi"
+        },
+        {
+          "source": "Ships25",
+          "vessel": "ZIYA SEMRAN",
+          "name": "ZIYA SEMRAN",
+          "imo": "9863895",
+          "mmsi": "",
+          "lat": 32.113907,
+          "lon": 20.036489,
+          "state": "In Port",
+          "distanceKm": 1.568,
+          "sog": 0.0,
+          "observedAt": "2026-09-03T07:38:23+00:00",
           "confidence": "Medium",
           "port": "Benghazi"
         },
@@ -2004,21 +2034,6 @@
           "geographicState": "PORT_AREA",
           "confidence": "Medium",
           "source": "Port Presence"
-        },
-        {
-          "source": "Ships25",
-          "vessel": "ZIYA SEMRAN",
-          "name": "ZIYA SEMRAN",
-          "imo": "9863895",
-          "mmsi": "",
-          "lat": 32.113907,
-          "lon": 20.036489,
-          "state": "In Port",
-          "distanceKm": 1.568,
-          "sog": 0.0,
-          "observedAt": "2026-09-03T07:38:23+00:00",
-          "confidence": "Medium",
-          "port": "Benghazi"
         },
         {
           "port": "Benghazi",
@@ -2090,21 +2105,6 @@
           "geographicState": "PORT_AREA",
           "confidence": "Medium",
           "source": "Shipnext"
-        },
-        {
-          "source": "Port Presence",
-          "vessel": "CINDY",
-          "name": "CINDY",
-          "imo": "9004499",
-          "mmsi": "630001216",
-          "lat": 32.115841,
-          "lon": 20.046394,
-          "state": "In Port",
-          "distanceKm": 2.006,
-          "sog": 0.0,
-          "observedAt": "2026-09-03T08:54:23+00:00",
-          "confidence": "Medium",
-          "port": "Benghazi"
         }
       ]
     },
@@ -3544,11 +3544,71 @@
       }
     ],
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
-    "liveStateResolverUpdatedAt": "2026-09-03T10:30:44.567619+00:00"
+    "liveStateResolverUpdatedAt": "2026-09-03T10:30:47.019383+00:00"
   },
   "anchorageUpdatedAt": "2026-09-03 12:30:40",
   "currentInPort": {
     "Misurata": [
+      {
+        "source": "Shipnext",
+        "vessel": "MALAK M",
+        "name": "MALAK M",
+        "imo": "9216353",
+        "mmsi": "",
+        "lat": 32.37066333333333,
+        "lon": 15.221196666666666,
+        "state": "In Port",
+        "distanceKm": 2.009,
+        "sog": 2.5,
+        "observedAt": "2026-09-03T07:11:11+00:00",
+        "confidence": "Medium",
+        "port": "Misurata"
+      },
+      {
+        "source": "Port Presence",
+        "vessel": "GOTHICA",
+        "name": "GOTHICA",
+        "imo": "7826867",
+        "mmsi": "352004499",
+        "lat": 32.342793,
+        "lon": 15.239509,
+        "state": "In Port",
+        "distanceKm": 1.764,
+        "sog": 0.0,
+        "observedAt": "2026-09-03T09:35:00+00:00",
+        "confidence": "Medium",
+        "port": "Misurata"
+      },
+      {
+        "source": "Shipnext",
+        "vessel": "NABIHA STAR",
+        "name": "NABIHA STAR",
+        "imo": "9005388",
+        "mmsi": "341168001",
+        "lat": 32.368835000000004,
+        "lon": 15.223535,
+        "state": "In Port",
+        "distanceKm": 1.709,
+        "sog": 0.0,
+        "observedAt": "2026-09-03T07:22:56+00:00",
+        "confidence": "Medium",
+        "port": "Misurata"
+      },
+      {
+        "source": "Ships25",
+        "vessel": "BENGHAZI",
+        "name": "BENGHAZI",
+        "imo": "9277840",
+        "mmsi": "",
+        "lat": 32.370434,
+        "lon": 15.214717,
+        "state": "In Port",
+        "distanceKm": 2.479,
+        "sog": 0.0,
+        "observedAt": "2026-09-03T07:33:00+00:00",
+        "confidence": "Medium",
+        "port": "Misurata"
+      },
       {
         "port": "Misurata",
         "vessel": "MOONLIT",
@@ -3578,21 +3638,6 @@
         "source": "Port Presence"
       },
       {
-        "source": "Port Presence",
-        "vessel": "GOTHICA",
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "mmsi": "352004499",
-        "lat": 32.342793,
-        "lon": 15.239509,
-        "state": "In Port",
-        "distanceKm": 1.764,
-        "sog": 0.0,
-        "observedAt": "2026-09-03T09:35:00+00:00",
-        "confidence": "Medium",
-        "port": "Misurata"
-      },
-      {
         "source": "Shipnext",
         "vessel": "JAOHAR RANIM",
         "name": "JAOHAR RANIM",
@@ -3604,21 +3649,6 @@
         "distanceKm": 1.857,
         "sog": 0.0,
         "observedAt": "2026-09-02T23:35:21+00:00",
-        "confidence": "Medium",
-        "port": "Misurata"
-      },
-      {
-        "source": "Shipnext",
-        "vessel": "NABIHA STAR",
-        "name": "NABIHA STAR",
-        "imo": "9005388",
-        "mmsi": "341168001",
-        "lat": 32.368835000000004,
-        "lon": 15.223535,
-        "state": "In Port",
-        "distanceKm": 1.709,
-        "sog": 0.0,
-        "observedAt": "2026-09-03T07:22:56+00:00",
         "confidence": "Medium",
         "port": "Misurata"
       },
@@ -3639,21 +3669,6 @@
       },
       {
         "source": "Shipnext",
-        "vessel": "MALAK M",
-        "name": "MALAK M",
-        "imo": "9216353",
-        "mmsi": "",
-        "lat": 32.37066333333333,
-        "lon": 15.221196666666666,
-        "state": "In Port",
-        "distanceKm": 2.009,
-        "sog": 2.5,
-        "observedAt": "2026-09-03T07:11:11+00:00",
-        "confidence": "Medium",
-        "port": "Misurata"
-      },
-      {
-        "source": "Shipnext",
         "vessel": "T-MED",
         "name": "T-MED",
         "imo": "9163142",
@@ -3664,21 +3679,6 @@
         "distanceKm": 1.819,
         "sog": 0.0,
         "observedAt": "2026-09-03T07:11:36+00:00",
-        "confidence": "Medium",
-        "port": "Misurata"
-      },
-      {
-        "source": "Ships25",
-        "vessel": "BENGHAZI",
-        "name": "BENGHAZI",
-        "imo": "9277840",
-        "mmsi": "",
-        "lat": 32.370434,
-        "lon": 15.214717,
-        "state": "In Port",
-        "distanceKm": 2.479,
-        "sog": 0.0,
-        "observedAt": "2026-09-03T07:33:00+00:00",
         "confidence": "Medium",
         "port": "Misurata"
       },
@@ -3713,6 +3713,21 @@
     ],
     "Benghazi": [
       {
+        "source": "Port Presence",
+        "vessel": "CINDY",
+        "name": "CINDY",
+        "imo": "9004499",
+        "mmsi": "630001216",
+        "lat": 32.115841,
+        "lon": 20.046394,
+        "state": "In Port",
+        "distanceKm": 2.006,
+        "sog": 0.0,
+        "observedAt": "2026-09-03T08:54:23+00:00",
+        "confidence": "Medium",
+        "port": "Benghazi"
+      },
+      {
         "source": "Shipnext",
         "vessel": "FALCON-EG",
         "name": "FALCON-EG",
@@ -3724,6 +3739,21 @@
         "distanceKm": 2.714,
         "sog": 0.0,
         "observedAt": "2026-09-03T06:44:00+00:00",
+        "confidence": "Medium",
+        "port": "Benghazi"
+      },
+      {
+        "source": "Ships25",
+        "vessel": "ZIYA SEMRAN",
+        "name": "ZIYA SEMRAN",
+        "imo": "9863895",
+        "mmsi": "",
+        "lat": 32.113907,
+        "lon": 20.036489,
+        "state": "In Port",
+        "distanceKm": 1.568,
+        "sog": 0.0,
+        "observedAt": "2026-09-03T07:38:23+00:00",
         "confidence": "Medium",
         "port": "Benghazi"
       },
@@ -3754,21 +3784,6 @@
         "geographicState": "PORT_AREA",
         "confidence": "Medium",
         "source": "Port Presence"
-      },
-      {
-        "source": "Ships25",
-        "vessel": "ZIYA SEMRAN",
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "mmsi": "",
-        "lat": 32.113907,
-        "lon": 20.036489,
-        "state": "In Port",
-        "distanceKm": 1.568,
-        "sog": 0.0,
-        "observedAt": "2026-09-03T07:38:23+00:00",
-        "confidence": "Medium",
-        "port": "Benghazi"
       },
       {
         "port": "Benghazi",
@@ -3840,21 +3855,6 @@
         "geographicState": "PORT_AREA",
         "confidence": "Medium",
         "source": "Shipnext"
-      },
-      {
-        "source": "Port Presence",
-        "vessel": "CINDY",
-        "name": "CINDY",
-        "imo": "9004499",
-        "mmsi": "630001216",
-        "lat": 32.115841,
-        "lon": 20.046394,
-        "state": "In Port",
-        "distanceKm": 2.006,
-        "sog": 0.0,
-        "observedAt": "2026-09-03T08:54:23+00:00",
-        "confidence": "Medium",
-        "port": "Benghazi"
       }
     ]
   },
