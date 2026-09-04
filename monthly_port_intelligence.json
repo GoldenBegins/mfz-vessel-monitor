@@ -1,6 +1,6 @@
 {
   "version": "MONTHLY_PORT_INTELLIGENCE_V2",
-  "updatedAt": "2026-09-03T20:10:31Z",
+  "updatedAt": "2026-09-04T04:10:41Z",
   "definitions": {
     "typeResolutionCoverage": "Resolved vessel type calls / all port calls.",
     "cargoDwtCoverage": "Known DWT / classified cargo-relevant calls only.",
@@ -40,12 +40,12 @@
       "Cargo DWT Coverage %": 84.6,
       "All Non-Excluded Calls with DWT": 45,
       "All Non-Excluded DWT Coverage %": 83.3,
-      "Avg Port Stay Proxy Days": 4.56,
+      "Avg Port Stay Proxy Days": 4.66,
       "Avg Anchorage Hours": 36.46,
       "Calls with Anchorage": 37,
       "Data Confidence": "Medium",
       "Coverage Note": "2 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-09-03T20:10:31Z"
+      "Updated On": "2026-09-04T04:10:41Z"
     },
     {
       "Month": "2026-08",
@@ -61,8 +61,8 @@
       "Vehicle/Ro-Ro Calls": 4,
       "Unknown Type Calls": 5,
       "Excluded Calls": 11,
-      "Open Calls": 14,
-      "Closed Calls": 74,
+      "Open Calls": 12,
+      "Closed Calls": 76,
       "Container TEU Capacity Proxy": 33291.0,
       "Container Calls with TEU": 23,
       "Container TEU Coverage %": 100.0,
@@ -77,12 +77,12 @@
       "Cargo DWT Coverage %": 94.4,
       "All Non-Excluded Calls with DWT": 70,
       "All Non-Excluded DWT Coverage %": 90.9,
-      "Avg Port Stay Proxy Days": 4.85,
+      "Avg Port Stay Proxy Days": 4.99,
       "Avg Anchorage Hours": 21.84,
       "Calls with Anchorage": 83,
       "Data Confidence": "Medium",
       "Coverage Note": "5 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-09-03T20:10:31Z"
+      "Updated On": "2026-09-04T04:10:41Z"
     },
     {
       "Month": "2026-09",
@@ -98,8 +98,8 @@
       "Vehicle/Ro-Ro Calls": 1,
       "Unknown Type Calls": 4,
       "Excluded Calls": 0,
-      "Open Calls": 7,
-      "Closed Calls": 3,
+      "Open Calls": 5,
+      "Closed Calls": 5,
       "Container TEU Capacity Proxy": 1932.0,
       "Container Calls with TEU": 1,
       "Container TEU Coverage %": 50.0,
@@ -114,12 +114,12 @@
       "Cargo DWT Coverage %": 100.0,
       "All Non-Excluded Calls with DWT": 6,
       "All Non-Excluded DWT Coverage %": 60.0,
-      "Avg Port Stay Proxy Days": 1.8,
+      "Avg Port Stay Proxy Days": 2.3,
       "Avg Anchorage Hours": 41.82,
       "Calls with Anchorage": 9,
       "Data Confidence": "Low",
       "Coverage Note": "4 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-09-03T20:10:31Z"
+      "Updated On": "2026-09-04T04:10:41Z"
     },
     {
       "Month": "2026-09",
@@ -135,8 +135,8 @@
       "Vehicle/Ro-Ro Calls": 1,
       "Unknown Type Calls": 0,
       "Excluded Calls": 0,
-      "Open Calls": 2,
-      "Closed Calls": 2,
+      "Open Calls": 1,
+      "Closed Calls": 3,
       "Container TEU Capacity Proxy": 1216.0,
       "Container Calls with TEU": 1,
       "Container TEU Coverage %": 100.0,
@@ -151,12 +151,12 @@
       "Cargo DWT Coverage %": 100.0,
       "All Non-Excluded Calls with DWT": 4,
       "All Non-Excluded DWT Coverage %": 100.0,
-      "Avg Port Stay Proxy Days": 1.5,
+      "Avg Port Stay Proxy Days": 1.75,
       "Avg Anchorage Hours": 2.52,
       "Calls with Anchorage": 2,
       "Data Confidence": "High",
       "Coverage Note": "No unknown-type calls in this month/port.",
-      "Updated On": "2026-09-03T20:10:31Z"
+      "Updated On": "2026-09-04T04:10:41Z"
     }
   ],
   "comparison": [
@@ -187,7 +187,7 @@
       "Benghazi Cargo Estimate Coverage %": 77.8,
       "Misurata Data Confidence": "Medium",
       "Benghazi Data Confidence": "Medium",
-      "Updated On": "2026-09-03T20:10:31Z"
+      "Updated On": "2026-09-04T04:10:41Z"
     },
     {
       "Month": "2026-09",
@@ -216,7 +216,7 @@
       "Benghazi Cargo Estimate Coverage %": 100.0,
       "Misurata Data Confidence": "High",
       "Benghazi Data Confidence": "Low",
-      "Updated On": "2026-09-03T20:10:31Z"
+      "Updated On": "2026-09-04T04:10:41Z"
     }
   ]
 }
