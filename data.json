@@ -3456,51 +3456,10 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-04T22:30:12.503003+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-04T22:40:08.332287+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "PARIAN TRADER",
-        "imo": "1056006",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "SARIYAH",
-        "imo": "9858773",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "BENGHAZI",
-        "imo": "9277840",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "FERESA",
-        "imo": "1054931",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "GUO MING HAI",
-        "imo": "1112836",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 1,
@@ -3561,7 +3520,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-04T22:30:59.339401+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-05 00:30:44",
+  "anchorageUpdatedAt": "2026-09-04T22:40:08.332287+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3941,7 +3900,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-04T22:30:12.503003+00:00",
+  "mapUpdatedAt": "2026-09-04T22:40:08.332287+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-04T22:30:35Z",
     "summary": {
