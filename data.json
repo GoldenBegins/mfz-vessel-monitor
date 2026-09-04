@@ -3518,7 +3518,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-04T15:30:11.750624+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-04T16:00:11.627501+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3593,7 +3593,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-04T15:31:00.365449+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-04 17:30:53",
+  "anchorageUpdatedAt": "2026-09-04T16:00:11.627501+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3943,7 +3943,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-04T15:30:11.750624+00:00",
+  "mapUpdatedAt": "2026-09-04T16:00:11.627501+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-04T15:30:44Z",
     "summary": {
