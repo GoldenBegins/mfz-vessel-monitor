@@ -3495,13 +3495,20 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-04T18:00:17.451797+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-04T18:30:15.763560+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "PARIAN TRADER",
         "imo": "1056006",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "SARIYAH",
+        "imo": "9858773",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3519,12 +3526,6 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "SARIYAH",
-        "imo": "9858773",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "FERESA",
@@ -3599,7 +3600,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-04T18:01:25.143553+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-04 20:01:18",
+  "anchorageUpdatedAt": "2026-09-04T18:30:15.763560+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3949,7 +3950,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-04T18:00:17.451797+00:00",
+  "mapUpdatedAt": "2026-09-04T18:30:15.763560+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-04T18:01:05Z",
     "summary": {
