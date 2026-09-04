@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-04 06:05:42",
+  "updatedAt": "2026-09-04 14:07:15",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 4,
-    "benghaziCalls": 10,
+    "misurataCalls": 6,
+    "benghaziCalls": 11,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,14 +11,14 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 3,
+    "estimatedCalls": 4,
     "unestimatedCalls": 7,
-    "coverage": 30.0,
+    "coverage": 36.4,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 2211,
+    "estimatedTEU": 4139,
     "estimatedGeneralCargoTons": 18254,
-    "historicalHighMediumCalls": 0,
+    "historicalHighMediumCalls": 1,
     "fallbackLowCalls": 3
   },
   "comparison": [
@@ -38,28 +38,20 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 4,
-      "benghaziCalls": 10,
+      "misurataCalls": 6,
+      "benghaziCalls": 11,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 2211,
+      "estimatedTEU": 4139,
       "estimatedGeneralCargoTons": 18254,
-      "coverage": 30.0
+      "coverage": 36.4
     }
   ],
   "estimates": [
-    {
-      "vessel": "NABIHA STAR",
-      "imo": "9005388",
-      "type": "General Cargo",
-      "estimate": "5,839 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "CMA CGM NADOR",
       "imo": "9396696",
@@ -251,13 +243,21 @@
       "estimate": "8,418 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MEDKON ANKA",
+      "imo": "9366469",
+      "type": "Container",
+      "estimate": "1,928 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "5 internal high-priority checks are recorded."
+      "detail": "229 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
