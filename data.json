@@ -3807,16 +3807,36 @@
   },
   "mapUpdatedAt": "2026-09-04T07:40:08.832040+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-04T07:30:34Z",
+    "updatedAt": "2026-09-04T07:43:13Z",
     "summary": {
       "confirmedTotal": 23,
-      "candidateTotal": 0,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 12,
       "benghaziToMisurataConfirmed": 11,
       "misurataToBenghaziCandidates": 0,
-      "benghaziToMisurataCandidates": 0
+      "benghaziToMisurataCandidates": 1
     },
     "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9381809",
+        "mmsi": "314707000",
+        "vessel": "BURHAN DIZMAN",
+        "type": "General Cargo",
+        "originPort": "Benghazi",
+        "destinationPort": "Misurata",
+        "originFirstSeen": "2026-08-27",
+        "originLastSeen": "2026-08-28",
+        "originStayHours": 48.0,
+        "destinationAnchorageFirstSeen": "2026-09-04T07:11:00+00:00",
+        "destinationAnchorageLastSeen": "2026-09-04T07:11:00+00:00",
+        "destinationAnchorageHours": 0.53,
+        "seaTransitCalendarGapDays": 7,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Benghazi|9381809|2026-08-27",
+        "anchorEpisodeId": "ANCH-MISURATA-9381809-20260904T071100Z"
+      },
       {
         "kind": "confirmed",
         "status": "Confirmed",
