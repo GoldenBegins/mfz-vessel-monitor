@@ -3955,7 +3955,7 @@
   },
   "mapUpdatedAt": "2026-09-05T01:40:09.227481+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-05T01:30:32Z",
+    "updatedAt": "2026-09-05T01:43:08Z",
     "summary": {
       "confirmedTotal": 24,
       "candidateTotal": 0,
@@ -3981,7 +3981,7 @@
         "destinationFirstSeen": "2026-09-04",
         "destinationLastSeen": "2026-09-04",
         "destinationStayHours": 24.0,
-        "destinationAnchorageHours": null,
+        "destinationAnchorageHours": 15.43,
         "seaTransitCalendarGapDays": 7.0,
         "cycleDays": 9.0,
         "confidence": "High identity / Day-level timing",
