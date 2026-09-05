@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-09-04T20:10:24Z",
+  "updatedAt": "2026-09-05T04:10:21Z",
   "summary": {
-    "dwtProfiles": 117,
+    "dwtProfiles": 119,
     "fleetSampleN": 23,
     "fleetMedianTonsPerDwt": 0.6028,
     "fleetP25": 0.2728,
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-09-04T20:10:24Z"
+      "Updated On": "2026-09-05T04:10:21Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-04T20:10:24Z"
+      "Updated On": "2026-09-05T04:10:21Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-09-04T20:10:24Z"
+      "Updated On": "2026-09-05T04:10:21Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-04T20:10:24Z"
+      "Updated On": "2026-09-05T04:10:21Z"
     }
   ],
   "rows": [
@@ -70,15 +70,15 @@
       "IMO": "8207410",
       "Vessel": "ABASHIE",
       "Vessel Type": "General Cargo",
-      "DWT": 3028.0,
+      "DWT": 2610.0,
       "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 23,
       "Median Tons/DWT": 0.6028,
-      "Estimated Cargo Tons": 1825.33,
-      "Low Estimate": 826.02,
-      "High Estimate": 2655.83,
+      "Estimated Cargo Tons": 1573.35,
+      "Low Estimate": 711.99,
+      "High Estimate": 2289.21,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
