@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-05 06:03:50",
+  "updatedAt": "2026-09-05 14:05:38",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 9,
-    "benghaziCalls": 12,
+    "misurataCalls": 13,
+    "benghaziCalls": 14,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 4,
-    "unestimatedCalls": 8,
-    "coverage": 33.3,
+    "estimatedCalls": 5,
+    "unestimatedCalls": 9,
+    "coverage": 35.7,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 4139,
-    "estimatedGeneralCargoTons": 18254,
+    "estimatedGeneralCargoTons": 23633,
     "historicalHighMediumCalls": 1,
-    "fallbackLowCalls": 3
+    "fallbackLowCalls": 4
   },
   "comparison": [
     {
@@ -38,8 +38,8 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 9,
-      "benghaziCalls": 12,
+      "misurataCalls": 13,
+      "benghaziCalls": 14,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -47,19 +47,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 4139,
-      "estimatedGeneralCargoTons": 18254,
-      "coverage": 33.3
+      "estimatedGeneralCargoTons": 23633,
+      "coverage": 35.7
     }
   ],
   "estimates": [
-    {
-      "vessel": "CMA CGM NADOR",
-      "imo": "9396696",
-      "type": "Container",
-      "estimate": "1,186 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "JELENA",
       "imo": "9519042",
@@ -251,6 +243,14 @@
       "estimate": "1,928 TEU",
       "confidence": "Medium",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "OCEAN LEGEND A",
+      "imo": "9083225",
+      "type": "General Cargo",
+      "estimate": "5,379 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
