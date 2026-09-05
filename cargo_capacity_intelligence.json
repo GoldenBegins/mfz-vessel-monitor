@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-09-05T04:10:21Z",
+  "updatedAt": "2026-09-05T12:10:37Z",
   "summary": {
-    "dwtProfiles": 119,
+    "dwtProfiles": 120,
     "fleetSampleN": 23,
     "fleetMedianTonsPerDwt": 0.6028,
     "fleetP25": 0.2728,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 3,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 41,
+    "fleetRatioEstimates": 42,
     "unestimatedCalls": 5
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-09-05T04:10:21Z"
+      "Updated On": "2026-09-05T12:10:37Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-05T04:10:21Z"
+      "Updated On": "2026-09-05T12:10:37Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-09-05T04:10:21Z"
+      "Updated On": "2026-09-05T12:10:37Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-05T04:10:21Z"
+      "Updated On": "2026-09-05T12:10:37Z"
     }
   ],
   "rows": [
@@ -70,15 +70,15 @@
       "IMO": "8207410",
       "Vessel": "ABASHIE",
       "Vessel Type": "General Cargo",
-      "DWT": 2610.0,
+      "DWT": 3028.0,
       "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 23,
       "Median Tons/DWT": 0.6028,
-      "Estimated Cargo Tons": 1573.35,
-      "Low Estimate": 711.99,
-      "High Estimate": 2289.21,
+      "Estimated Cargo Tons": 1825.33,
+      "Low Estimate": 826.02,
+      "High Estimate": 2655.83,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -440,6 +440,25 @@
       "Estimated Cargo Tons": 4951.53,
       "Low Estimate": 2240.72,
       "High Estimate": 7204.42,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=23",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9083225|2026-09-04",
+      "IMO": "9083225",
+      "Vessel": "OCEAN LEGEND A",
+      "Vessel Type": "General Cargo",
+      "DWT": 5248.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 23,
+      "Median Tons/DWT": 0.6028,
+      "Estimated Cargo Tons": 3163.58,
+      "Low Estimate": 1431.62,
+      "High Estimate": 4602.97,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
