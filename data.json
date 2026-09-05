@@ -4565,7 +4565,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-09-05T01:43:11Z",
+    "updatedAt": "2026-09-05T01:43:29Z",
     "periodStart": "2026-08-29",
     "periodEnd": "2026-09-04",
     "effectiveDays": 7,
@@ -4593,7 +4593,7 @@
         "avgPortStayProxyDays": 2.11,
         "currentInPort": 8,
         "confirmedPrePort": 0,
-        "postPortActive": 0,
+        "postPortActive": 1,
         "unknownAnchorage": 5,
         "confirmedQueueRatio": 0.0,
         "potentialQueueRatio": 0.62,
