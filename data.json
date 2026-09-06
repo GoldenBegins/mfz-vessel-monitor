@@ -3551,9 +3551,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-06T02:30:11.876973+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-06T03:00:09.833516+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "MSC ERMINIA III",
         "imo": "9246346",
@@ -3614,7 +3621,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-06T02:31:01.886948+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-06 04:30:43",
+  "anchorageUpdatedAt": "2026-09-06T03:00:09.833516+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4043,7 +4050,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-06T02:30:11.876973+00:00",
+  "mapUpdatedAt": "2026-09-06T03:00:09.833516+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-06T02:30:35Z",
     "summary": {
