@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-06 14:06:40",
+  "updatedAt": "2026-09-06 22:08:38",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 17,
-    "benghaziCalls": 17,
+    "benghaziCalls": 19,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 5,
+    "estimatedCalls": 7,
     "unestimatedCalls": 12,
-    "coverage": 29.4,
+    "coverage": 36.8,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 4139,
-    "estimatedGeneralCargoTons": 23633,
+    "estimatedGeneralCargoTons": 31677,
     "historicalHighMediumCalls": 1,
-    "fallbackLowCalls": 4
+    "fallbackLowCalls": 6
   },
   "comparison": [
     {
@@ -39,7 +39,7 @@
     {
       "period": "2026-09",
       "misurataCalls": 17,
-      "benghaziCalls": 17,
+      "benghaziCalls": 19,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -47,27 +47,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 4139,
-      "estimatedGeneralCargoTons": 23633,
-      "coverage": 29.4
+      "estimatedGeneralCargoTons": 31677,
+      "coverage": 36.8
     }
   ],
   "estimates": [
-    {
-      "vessel": "JELENA",
-      "imo": "9519042",
-      "type": "General Cargo",
-      "estimate": "5,842 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "ALEXANDRA A",
-      "imo": "9356684",
-      "type": "General Cargo",
-      "estimate": "12,400 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "KOSOVAK",
       "imo": "9211157",
@@ -249,6 +233,22 @@
       "imo": "9083225",
       "type": "General Cargo",
       "estimate": "5,379 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "ANKA DREAM",
+      "imo": "9195470",
+      "type": "General Cargo",
+      "estimate": "4,406 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "ITIDAL",
+      "imo": "8003058",
+      "type": "General Cargo",
+      "estimate": "3,638 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     }
