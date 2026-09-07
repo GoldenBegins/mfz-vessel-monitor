@@ -3507,7 +3507,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-07T00:30:09.407961+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-07T01:00:10.143613+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3523,6 +3523,12 @@
         "name": "REMAH",
         "imo": "9947720",
         "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "NIKOLAOS C",
+        "imo": "9339650",
+        "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
     ],
@@ -3563,7 +3569,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-07T00:31:02.887508+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-07 02:30:47",
+  "anchorageUpdatedAt": "2026-09-07T01:00:10.143613+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3994,7 +4000,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-07T00:30:09.407961+00:00",
+  "mapUpdatedAt": "2026-09-07T01:00:10.143613+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-07T00:30:37Z",
     "summary": {
