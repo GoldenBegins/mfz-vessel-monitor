@@ -3528,30 +3528,9 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-07T22:30:11.757760+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-07T22:40:12.117039+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "REMAH",
-        "imo": "9947720",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "T-MED",
-        "imo": "9163142",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ANKA DREAM",
-        "imo": "9195470",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "BURHAN DIZMAN",
         "imo": "9381809",
@@ -3589,12 +3568,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "BENGHAZI",
-        "imo": "9277840",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
       {
         "name": "BODY",
         "imo": "7808401",
@@ -3651,7 +3624,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-07T22:30:59.567290+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-08 00:30:42",
+  "anchorageUpdatedAt": "2026-09-07T22:40:12.117039+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4011,7 +3984,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-07T22:30:11.757760+00:00",
+  "mapUpdatedAt": "2026-09-07T22:40:12.117039+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-07T22:30:34Z",
     "summary": {
