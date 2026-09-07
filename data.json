@@ -3448,7 +3448,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-07T04:30:10.201631+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-07T04:40:12.091863+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3479,6 +3479,12 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "CINDY",
+        "imo": "9004499",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3563,7 +3569,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-07T04:31:01.672872+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-07 06:30:42",
+  "anchorageUpdatedAt": "2026-09-07T04:40:12.091863+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3945,7 +3951,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-07T04:30:10.201631+00:00",
+  "mapUpdatedAt": "2026-09-07T04:40:12.091863+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-07T04:30:34Z",
     "summary": {
