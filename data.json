@@ -4613,7 +4613,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-09-07T20:30:43Z",
+    "updatedAt": "2026-09-07T21:01:08Z",
     "periodStart": "2026-09-01",
     "periodEnd": "2026-09-07",
     "effectiveDays": 7,
@@ -4625,10 +4625,10 @@
         "avgPortStayProxyDays": 2.35,
         "currentInPort": 11,
         "confirmedPrePort": 0,
-        "postPortActive": 1,
-        "unknownAnchorage": 5,
+        "postPortActive": 0,
+        "unknownAnchorage": 6,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.45,
+        "potentialQueueRatio": 0.55,
         "openCalls": 6,
         "closedCalls": 11,
         "pressureLevel": "Medium",
@@ -4641,14 +4641,14 @@
         "avgPortStayProxyDays": 2.5,
         "currentInPort": 9,
         "confirmedPrePort": 0,
-        "postPortActive": 4,
-        "unknownAnchorage": 2,
+        "postPortActive": 0,
+        "unknownAnchorage": 6,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.22,
+        "potentialQueueRatio": 0.67,
         "openCalls": 10,
         "closedCalls": 12,
-        "pressureLevel": "Low",
-        "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
+        "pressureLevel": "Medium",
+        "likelyReason": "السبب المرجح: معدل وصول أعلى؛ ضغط طلب محتمل."
       }
     }
   }
