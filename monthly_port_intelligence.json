@@ -1,6 +1,6 @@
 {
   "version": "MONTHLY_PORT_INTELLIGENCE_V2",
-  "updatedAt": "2026-09-07T04:10:35Z",
+  "updatedAt": "2026-09-07T12:10:29Z",
   "definitions": {
     "typeResolutionCoverage": "Resolved vessel type calls / all port calls.",
     "cargoDwtCoverage": "Known DWT / classified cargo-relevant calls only.",
@@ -45,7 +45,7 @@
       "Calls with Anchorage": 37,
       "Data Confidence": "Medium",
       "Coverage Note": "3 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-09-07T04:10:35Z"
+      "Updated On": "2026-09-07T12:10:29Z"
     },
     {
       "Month": "2026-08",
@@ -78,11 +78,11 @@
       "All Non-Excluded Calls with DWT": 70,
       "All Non-Excluded DWT Coverage %": 90.9,
       "Avg Port Stay Proxy Days": 5.35,
-      "Avg Anchorage Hours": 19.35,
+      "Avg Anchorage Hours": 20.05,
       "Calls with Anchorage": 86,
       "Data Confidence": "Medium",
       "Coverage Note": "5 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-09-07T04:10:35Z"
+      "Updated On": "2026-09-07T12:10:29Z"
     },
     {
       "Month": "2026-09",
@@ -119,7 +119,7 @@
       "Calls with Anchorage": 19,
       "Data Confidence": "Low",
       "Coverage Note": "5 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-09-07T04:10:35Z"
+      "Updated On": "2026-09-07T12:10:29Z"
     },
     {
       "Month": "2026-09",
@@ -152,11 +152,11 @@
       "All Non-Excluded Calls with DWT": 14,
       "All Non-Excluded DWT Coverage %": 82.4,
       "Avg Port Stay Proxy Days": 2.35,
-      "Avg Anchorage Hours": 13.05,
-      "Calls with Anchorage": 13,
+      "Avg Anchorage Hours": 11.61,
+      "Calls with Anchorage": 15,
       "Data Confidence": "Low",
       "Coverage Note": "4 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-09-07T04:10:35Z"
+      "Updated On": "2026-09-07T12:10:29Z"
     }
   ],
   "comparison": [
@@ -187,7 +187,7 @@
       "Benghazi Cargo Estimate Coverage %": 77.8,
       "Misurata Data Confidence": "Medium",
       "Benghazi Data Confidence": "Medium",
-      "Updated On": "2026-09-07T04:10:35Z"
+      "Updated On": "2026-09-07T12:10:29Z"
     },
     {
       "Month": "2026-09",
@@ -216,7 +216,7 @@
       "Benghazi Cargo Estimate Coverage %": 100.0,
       "Misurata Data Confidence": "Low",
       "Benghazi Data Confidence": "Low",
-      "Updated On": "2026-09-07T04:10:35Z"
+      "Updated On": "2026-09-07T12:10:29Z"
     }
   ]
 }
