@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-06 22:08:38",
+  "updatedAt": "2026-09-07 06:05:31",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 17,
-    "benghaziCalls": 19,
+    "benghaziCalls": 21,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 7,
-    "unestimatedCalls": 12,
-    "coverage": 36.8,
+    "estimatedCalls": 8,
+    "unestimatedCalls": 13,
+    "coverage": 38.1,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 4139,
-    "estimatedGeneralCargoTons": 31677,
+    "estimatedGeneralCargoTons": 39589,
     "historicalHighMediumCalls": 1,
-    "fallbackLowCalls": 6
+    "fallbackLowCalls": 7
   },
   "comparison": [
     {
@@ -39,7 +39,7 @@
     {
       "period": "2026-09",
       "misurataCalls": 17,
-      "benghaziCalls": 19,
+      "benghaziCalls": 21,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -47,19 +47,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 4139,
-      "estimatedGeneralCargoTons": 31677,
-      "coverage": 36.8
+      "estimatedGeneralCargoTons": 39589,
+      "coverage": 38.1
     }
   ],
   "estimates": [
-    {
-      "vessel": "KOSOVAK",
-      "imo": "9211157",
-      "type": "Container",
-      "estimate": "942 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "MEDKON LIA",
       "imo": "9139646",
@@ -249,6 +241,14 @@
       "imo": "8003058",
       "type": "General Cargo",
       "estimate": "3,638 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "BURHAN DIZMAN",
+      "imo": "9381809",
+      "type": "General Cargo",
+      "estimate": "7,912 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     }
