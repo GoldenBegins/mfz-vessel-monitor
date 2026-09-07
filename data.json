@@ -3584,7 +3584,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-07T19:40:11.819697+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-07T20:00:16.081057+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3614,6 +3614,13 @@
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ZEFIREA",
+        "imo": "9607643",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
@@ -3622,6 +3629,18 @@
         "imo": "9277840",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "BODY",
+        "imo": "7808401",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "OCEAN LEGEND A",
@@ -3673,7 +3692,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-07T19:43:29.718879+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-07 21:43:25",
+  "anchorageUpdatedAt": "2026-09-07T20:00:16.081057+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4036,7 +4055,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-07T19:40:11.819697+00:00",
+  "mapUpdatedAt": "2026-09-07T20:00:16.081057+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-07T19:43:17Z",
     "summary": {
