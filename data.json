@@ -4064,14 +4064,14 @@
   },
   "mapUpdatedAt": "2026-09-08T17:00:11.269905+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-08T16:43:13Z",
+    "updatedAt": "2026-09-08T17:00:35Z",
     "summary": {
       "confirmedTotal": 27,
-      "candidateTotal": 1,
+      "candidateTotal": 0,
       "misurataToBenghaziConfirmed": 13,
       "benghaziToMisurataConfirmed": 14,
       "misurataToBenghaziCandidates": 0,
-      "benghaziToMisurataCandidates": 1
+      "benghaziToMisurataCandidates": 0
     },
     "rows": [
       {
@@ -4139,26 +4139,6 @@
         "cycleDays": 2.0,
         "confidence": "High identity / Day-level timing",
         "voyageId": "9195470|Benghazi|9195470|2026-09-06|Misurata|9195470|2026-09-07"
-      },
-      {
-        "kind": "candidate",
-        "status": "Anchorage Candidate",
-        "imo": "9211157",
-        "mmsi": "271047045",
-        "vessel": "KOSOVAK",
-        "type": "Container",
-        "originPort": "Benghazi",
-        "destinationPort": "Misurata",
-        "originFirstSeen": "2026-08-21",
-        "originLastSeen": "2026-08-22",
-        "originStayHours": 48.0,
-        "destinationAnchorageFirstSeen": "2026-09-05T10:35:00+00:00",
-        "destinationAnchorageLastSeen": "2026-09-08T12:47:37Z",
-        "destinationAnchorageHours": 78.13,
-        "seaTransitCalendarGapDays": 14,
-        "confidence": "Candidate — destination Port Call not confirmed yet",
-        "originCallId": "Benghazi|9211157|2026-08-21",
-        "anchorEpisodeId": "ANCH-MISURATA-9211157-20260905T103500Z"
       },
       {
         "kind": "confirmed",
