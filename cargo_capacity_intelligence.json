@@ -1,6 +1,6 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-09-08T20:10:25Z",
+  "updatedAt": "2026-09-09T04:10:29Z",
   "summary": {
     "dwtProfiles": 128,
     "fleetSampleN": 23,
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-09-08T20:10:25Z"
+      "Updated On": "2026-09-09T04:10:29Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-08T20:10:25Z"
+      "Updated On": "2026-09-09T04:10:29Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-09-08T20:10:25Z"
+      "Updated On": "2026-09-09T04:10:29Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-08T20:10:25Z"
+      "Updated On": "2026-09-09T04:10:29Z"
     }
   ],
   "rows": [
