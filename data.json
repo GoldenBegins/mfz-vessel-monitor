@@ -4720,7 +4720,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-09-09T19:30:43Z",
+    "updatedAt": "2026-09-09T19:43:43Z",
     "periodStart": "2026-09-03",
     "periodEnd": "2026-09-09",
     "effectiveDays": 7,
@@ -4730,16 +4730,16 @@
         "arrivals": 22,
         "arrivalsPerDay": 3.14,
         "avgPortStayProxyDays": 2.45,
-        "currentInPort": 13,
+        "currentInPort": 12,
         "confirmedPrePort": 0,
         "postPortActive": 0,
         "unknownAnchorage": 5,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.38,
+        "potentialQueueRatio": 0.42,
         "openCalls": 9,
         "closedCalls": 13,
-        "pressureLevel": "Low",
-        "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
+        "pressureLevel": "Medium",
+        "likelyReason": "السبب المرجح: معدل وصول أعلى؛ ضغط طلب محتمل."
       },
       "Benghazi": {
         "port": "Benghazi",
