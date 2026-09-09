@@ -3531,9 +3531,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-09T02:30:13.590735+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-09T03:00:11.258819+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "MERNA 1",
+        "imo": "8716954",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "PARPALI",
         "imo": "9134701",
@@ -3549,14 +3556,7 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "MERNA 1",
-        "imo": "8716954",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3594,7 +3594,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-09T02:30:58.664568+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-09 04:30:52",
+  "anchorageUpdatedAt": "2026-09-09T03:00:11.258819+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3957,7 +3957,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-09T02:30:13.590735+00:00",
+  "mapUpdatedAt": "2026-09-09T03:00:11.258819+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-09T02:30:42Z",
     "summary": {
