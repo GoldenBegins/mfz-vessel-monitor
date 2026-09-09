@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-09 06:06:40",
+  "updatedAt": "2026-09-09 14:07:15",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 24,
-    "benghaziCalls": 24,
+    "misurataCalls": 25,
+    "benghaziCalls": 25,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,12 +11,12 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 9,
+    "estimatedCalls": 10,
     "unestimatedCalls": 15,
-    "coverage": 37.5,
+    "coverage": 40.0,
     "trustedVessels": 200,
     "identityReview": 0,
-    "estimatedTEU": 4139,
+    "estimatedTEU": 5142,
     "estimatedGeneralCargoTons": 45431,
     "historicalHighMediumCalls": 1,
     "fallbackLowCalls": 8
@@ -38,28 +38,20 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 24,
-      "benghaziCalls": 24,
+      "misurataCalls": 25,
+      "benghaziCalls": 25,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 4139,
+      "estimatedTEU": 5142,
       "estimatedGeneralCargoTons": 45431,
-      "coverage": 37.5
+      "coverage": 40.0
     }
   ],
   "estimates": [
-    {
-      "vessel": "MEDKON SINOP",
-      "imo": "9103362",
-      "type": "General Cargo",
-      "estimate": "9,195 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "CMACGM FORT ST MARIE",
       "imo": "9261906",
@@ -251,6 +243,14 @@
       "estimate": "5,842 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MEDKON LIA",
+      "imo": "9139646",
+      "type": "Container",
+      "estimate": "1,003 TEU",
+      "confidence": "Low",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
