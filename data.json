@@ -3600,9 +3600,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-09T20:00:11.488376+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-09T20:30:11.171080+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "AMIR JOY",
+        "imo": "9205706",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "MERNA 1",
         "imo": "8716954",
@@ -3626,12 +3633,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "AMIR JOY",
-        "imo": "9205706",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "JAOHAR RANIM",
         "imo": "9136876",
@@ -3705,7 +3706,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-09T20:00:33.534870+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-09T20:00:11.488376+00:00",
+  "anchorageUpdatedAt": "2026-09-09T20:30:11.171080+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4113,7 +4114,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-09T20:00:11.488376+00:00",
+  "mapUpdatedAt": "2026-09-09T20:30:11.171080+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-09T19:43:39Z",
     "summary": {
