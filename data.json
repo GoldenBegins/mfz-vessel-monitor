@@ -3507,7 +3507,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-10T13:00:13.498364+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-10T13:30:12.978895+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3530,15 +3530,16 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
+      },
       {
         "name": "ITIDAL",
         "imo": "8003058",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
+    "portStateReview": [
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3606,7 +3607,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-10T13:01:31.819094+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-10 15:01:24",
+  "anchorageUpdatedAt": "2026-09-10T13:30:12.978895+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4014,7 +4015,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-10T13:00:13.498364+00:00",
+  "mapUpdatedAt": "2026-09-10T13:30:12.978895+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-10T13:01:17Z",
     "summary": {
