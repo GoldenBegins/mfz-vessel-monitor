@@ -3424,7 +3424,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-10T17:00:09.873835+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-10T17:30:13.009280+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3466,6 +3466,13 @@
         "name": "SSF LILY",
         "imo": "9318266",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JIAXIN",
+        "imo": "9427897",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3529,7 +3536,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-10T17:00:50.466274+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-10 19:00:43",
+  "anchorageUpdatedAt": "2026-09-10T17:30:13.009280+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3877,7 +3884,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-10T17:00:09.873835+00:00",
+  "mapUpdatedAt": "2026-09-10T17:30:13.009280+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-10T17:00:34Z",
     "summary": {
