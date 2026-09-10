@@ -3439,12 +3439,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-10T15:30:11.165438+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-10T16:00:19.654591+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "MERNA 2",
         "imo": "9165310",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "VIKING ORCA",
+        "imo": "9555254",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3486,12 +3493,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "VIKING ORCA",
-        "imo": "9555254",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3559,7 +3560,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-10T15:30:49.567153+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-10 17:30:42",
+  "anchorageUpdatedAt": "2026-09-10T16:00:19.654591+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3945,7 +3946,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-10T15:30:11.165438+00:00",
+  "mapUpdatedAt": "2026-09-10T16:00:19.654591+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-10T15:30:35Z",
     "summary": {
