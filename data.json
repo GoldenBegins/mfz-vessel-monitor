@@ -3422,88 +3422,10 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-10T22:30:16.315685+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-10T22:40:12.715924+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MERNA 2",
-        "imo": "9165310",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "VIKING ORCA",
-        "imo": "9555254",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "XING SHUN 25",
-        "imo": "8591794",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LIDER TRABZON",
-        "imo": "9006112",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MSC NINA F",
-        "imo": "9308584",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "SSF LILY",
-        "imo": "9318266",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "JIAXIN",
-        "imo": "9427897",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ARCHANGELOS MICHAEL",
-        "imo": "9747340",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ITIDAL",
-        "imo": "8003058",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "VESTSKJAER",
-        "imo": "8504155",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 4,
@@ -3541,7 +3463,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-10T22:31:03.645595+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-11 00:30:56",
+  "anchorageUpdatedAt": "2026-09-10T22:40:12.715924+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3874,7 +3796,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-10T22:30:16.315685+00:00",
+  "mapUpdatedAt": "2026-09-10T22:40:12.715924+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-10T22:30:47Z",
     "summary": {
