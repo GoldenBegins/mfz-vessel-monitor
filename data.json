@@ -3798,16 +3798,36 @@
   },
   "mapUpdatedAt": "2026-09-10T22:40:12.715924+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-10T22:30:47Z",
+    "updatedAt": "2026-09-10T22:43:43Z",
     "summary": {
       "confirmedTotal": 31,
-      "candidateTotal": 0,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 15,
       "benghaziToMisurataConfirmed": 16,
       "misurataToBenghaziCandidates": 0,
-      "benghaziToMisurataCandidates": 0
+      "benghaziToMisurataCandidates": 1
     },
     "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9139646",
+        "mmsi": "352002790",
+        "vessel": "MEDKON LIA",
+        "type": "Container",
+        "originPort": "Benghazi",
+        "destinationPort": "Misurata",
+        "originFirstSeen": "2026-09-09",
+        "originLastSeen": "2026-09-09",
+        "originStayHours": 24.0,
+        "destinationAnchorageFirstSeen": "2026-09-10T22:37:00+00:00",
+        "destinationAnchorageLastSeen": "2026-09-10T22:37:00+00:00",
+        "destinationAnchorageHours": 0.11,
+        "seaTransitCalendarGapDays": 1,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Benghazi|9139646|2026-09-09",
+        "anchorEpisodeId": "ANCH-MISURATA-9139646-20260910T223700Z"
+      },
       {
         "kind": "confirmed",
         "status": "Confirmed",
