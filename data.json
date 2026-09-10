@@ -3515,12 +3515,19 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-10T01:00:09.693675+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-10T01:30:11.117138+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "MERNA 2",
         "imo": "9165310",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "SSF LILY",
+        "imo": "9318266",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3564,7 +3571,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-10T01:00:57.552098+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-10 03:00:42",
+  "anchorageUpdatedAt": "2026-09-10T01:30:11.117138+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3957,7 +3964,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-10T01:00:09.693675+00:00",
+  "mapUpdatedAt": "2026-09-10T01:30:11.117138+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-10T01:00:33Z",
     "summary": {
