@@ -1540,11 +1540,11 @@
     "updatedAt": "2026-09-11 01:30:41",
     "summary": {
       "Misurata": {
-        "active": 3,
-        "avgWaitingHours": 191.9,
-        "medianWaitingHours": 144.9,
+        "active": 2,
+        "avgWaitingHours": 287.39,
+        "medianWaitingHours": 287.39,
         "longestWaitingHours": 429.9,
-        "destinationConfirmed": 3,
+        "destinationConfirmed": 2,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1552,8 +1552,8 @@
       },
       "Benghazi": {
         "active": 7,
-        "avgWaitingHours": 89.8,
-        "medianWaitingHours": 24.9,
+        "avgWaitingHours": 89.83,
+        "medianWaitingHours": 24.92,
         "longestWaitingHours": 361.0,
         "destinationConfirmed": 3,
         "destinationUncertain": 0,
@@ -1763,28 +1763,6 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-MISURATA-9139646-20260910T223700Z",
-        "port": "Misurata",
-        "vessel": "MEDKON LIA",
-        "imo": "9139646",
-        "mmsi": "352002790",
-        "firstSeen": "2026-09-10T22:37:00+00:00",
-        "lastSeen": "2026-09-10T22:37:00+00:00",
-        "waitingHours": 0.89,
-        "lat": 32.365288,
-        "lon": 15.256045,
-        "sog": 1.1,
-        "distanceKm": 1.94,
-        "destination": "LYMRA",
-        "destinationClass": "To Misurata",
-        "eta": "21:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": ""
       }
     ],
     "currentInPort": {
@@ -3474,13 +3452,13 @@
       "unknown": 4
     },
     "phaseUpdatedAt": "2026-09-10T22:44:01Z",
-    "exclusivityFilteredAt": "2026-09-02T10:01:14Z",
+    "exclusivityFilteredAt": "2026-09-10T23:30:44Z",
     "exclusivityRemoved": [
       {
-        "port": "Benghazi",
-        "vessel": "CINDY",
-        "imo": "9004499",
-        "mmsi": "630001216"
+        "port": "Misurata",
+        "vessel": "MEDKON LIA",
+        "imo": "9139646",
+        "mmsi": "352002790"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
