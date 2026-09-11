@@ -3559,7 +3559,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-11T10:40:45.469458+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-11T11:00:30.641035+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3592,6 +3592,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "AMERAY",
+        "imo": "9224855",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3636,7 +3642,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-11T10:48:44.306136+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-11 12:48:00",
+  "anchorageUpdatedAt": "2026-09-11T11:00:30.641035+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3973,7 +3979,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-11T10:40:45.469458+00:00",
+  "mapUpdatedAt": "2026-09-11T11:00:30.641035+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-11T10:47:27Z",
     "summary": {
