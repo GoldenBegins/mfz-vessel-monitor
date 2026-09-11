@@ -3893,16 +3893,36 @@
   },
   "mapUpdatedAt": "2026-09-11T07:40:12.246321+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-11T07:30:56Z",
+    "updatedAt": "2026-09-11T07:44:18Z",
     "summary": {
       "confirmedTotal": 32,
-      "candidateTotal": 1,
+      "candidateTotal": 2,
       "misurataToBenghaziConfirmed": 15,
       "benghaziToMisurataConfirmed": 17,
-      "misurataToBenghaziCandidates": 0,
+      "misurataToBenghaziCandidates": 1,
       "benghaziToMisurataCandidates": 1
     },
     "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9295531",
+        "mmsi": "314093000",
+        "vessel": "LYNN",
+        "type": "Container",
+        "originPort": "Misurata",
+        "destinationPort": "Benghazi",
+        "originFirstSeen": "2026-08-26",
+        "originLastSeen": "2026-08-28",
+        "originStayHours": 72.0,
+        "destinationAnchorageFirstSeen": "2026-09-11T07:37:00+00:00",
+        "destinationAnchorageLastSeen": "2026-09-11T07:37:00+00:00",
+        "destinationAnchorageHours": 0.11,
+        "seaTransitCalendarGapDays": 14,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Misurata|9295531|2026-08-26",
+        "anchorEpisodeId": "ANCH-BENGHAZI-9295531-20260911T073700Z"
+      },
       {
         "kind": "candidate",
         "status": "Anchorage Candidate",
@@ -3917,7 +3937,7 @@
         "originStayHours": 96.0,
         "destinationAnchorageFirstSeen": "2026-09-11T01:38:00+00:00",
         "destinationAnchorageLastSeen": "2026-09-11T07:28:00Z",
-        "destinationAnchorageHours": 5.88,
+        "destinationAnchorageHours": 6.1,
         "seaTransitCalendarGapDays": 4,
         "confidence": "Candidate — destination Port Call not confirmed yet",
         "originCallId": "Benghazi|9339650|2026-09-04",
