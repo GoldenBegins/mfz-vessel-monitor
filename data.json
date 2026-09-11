@@ -3559,7 +3559,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-11T11:00:30.641035+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-11T11:30:31.387521+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3572,13 +3572,6 @@
       {
         "name": "FALCON-EG",
         "imo": "8105404",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "PARPALI",
-        "imo": "9134701",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3597,6 +3590,12 @@
         "imo": "9224855",
         "port": "Misurata",
         "decision": "NEAR_PORT"
+      },
+      {
+        "name": "PARPALI",
+        "imo": "9134701",
+        "port": "Benghazi",
+        "decision": "UNCONFIRMED"
       },
       {
         "name": "VESTSKJAER",
@@ -3642,7 +3641,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-11T11:01:41.540740+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-11T11:00:30.641035+00:00",
+  "anchorageUpdatedAt": "2026-09-11T11:30:31.387521+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3979,7 +3978,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-11T11:00:30.641035+00:00",
+  "mapUpdatedAt": "2026-09-11T11:30:31.387521+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-11T10:47:27Z",
     "summary": {
