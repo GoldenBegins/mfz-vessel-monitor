@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-09-10 22:05:37",
+  "updatedAt": "2026-09-11 06:05:39",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 27,
-    "benghaziCalls": 26,
+    "misurataCalls": 35,
+    "benghaziCalls": 28,
     "misurataExcludedCalls": 0,
-    "benghaziExcludedCalls": 0,
-    "excludedCalls": 0,
+    "benghaziExcludedCalls": 1,
+    "excludedCalls": 1,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 10,
-    "unestimatedCalls": 16,
-    "coverage": 38.5,
-    "trustedVessels": 201,
+    "estimatedCalls": 11,
+    "unestimatedCalls": 17,
+    "coverage": 39.3,
+    "trustedVessels": 198,
     "identityReview": 0,
-    "estimatedTEU": 5142,
+    "estimatedTEU": 6521,
     "estimatedGeneralCargoTons": 45431,
-    "historicalHighMediumCalls": 1,
+    "historicalHighMediumCalls": 2,
     "fallbackLowCalls": 8
   },
   "comparison": [
@@ -38,28 +38,20 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 27,
-      "benghaziCalls": 26,
+      "misurataCalls": 35,
+      "benghaziCalls": 28,
       "misurataExcludedCalls": 0,
-      "benghaziExcludedCalls": 0,
+      "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 5142,
+      "estimatedTEU": 6521,
       "estimatedGeneralCargoTons": 45431,
-      "coverage": 38.5
+      "coverage": 39.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "CMACGM FORT ST MARIE",
-      "imo": "9261906",
-      "type": "Container",
-      "estimate": "2,587 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "ANKA DREAM",
       "imo": "9195470",
@@ -251,13 +243,21 @@
       "estimate": "1,003 TEU",
       "confidence": "Low",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "PARPALI",
+      "imo": "9134701",
+      "type": "Container",
+      "estimate": "1,379 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "5 internal high-priority checks are recorded."
+      "detail": "235 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
