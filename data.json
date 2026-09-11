@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-11 06:05:39",
+  "updatedAt": "2026-09-11 14:11:26",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 35,
+    "misurataCalls": 36,
     "benghaziCalls": 28,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
@@ -14,7 +14,7 @@
     "estimatedCalls": 11,
     "unestimatedCalls": 17,
     "coverage": 39.3,
-    "trustedVessels": 198,
+    "trustedVessels": 197,
     "identityReview": 0,
     "estimatedTEU": 6521,
     "estimatedGeneralCargoTons": 45431,
@@ -38,7 +38,7 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 35,
+      "misurataCalls": 36,
       "benghaziCalls": 28,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
@@ -257,7 +257,7 @@
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "235 internal high-priority checks are recorded."
+      "detail": "236 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
