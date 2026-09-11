@@ -3501,9 +3501,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-11T13:00:48.708599+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-11T13:31:02.291769+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "AMERAY",
+        "imo": "9224855",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "KOSOVAK",
         "imo": "9211157",
@@ -3534,12 +3541,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "AMERAY",
-        "imo": "9224855",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3584,7 +3585,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-11T13:03:53.773866+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-11 15:02:33",
+  "anchorageUpdatedAt": "2026-09-11T13:31:02.291769+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3917,7 +3918,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-11T13:00:48.708599+00:00",
+  "mapUpdatedAt": "2026-09-11T13:31:02.291769+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-11T12:32:16Z",
     "summary": {
