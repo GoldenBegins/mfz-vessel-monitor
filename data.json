@@ -1540,10 +1540,10 @@
     "updatedAt": "2026-09-12 11:00:53",
     "summary": {
       "Misurata": {
-        "active": 6,
-        "avgWaitingHours": 40.7,
-        "medianWaitingHours": 15.1,
-        "longestWaitingHours": 178.4,
+        "active": 5,
+        "avgWaitingHours": 48.87,
+        "medianWaitingHours": 25.49,
+        "longestWaitingHours": 178.38,
         "destinationConfirmed": 5,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1552,8 +1552,8 @@
       },
       "Benghazi": {
         "active": 11,
-        "avgWaitingHours": 62.7,
-        "medianWaitingHours": 16.4,
+        "avgWaitingHours": 62.71,
+        "medianWaitingHours": 16.44,
         "longestWaitingHours": 394.5,
         "destinationConfirmed": 8,
         "destinationUncertain": 0,
@@ -1911,28 +1911,6 @@
         "distanceKm": 5.87,
         "destination": "Qasr Ahmed",
         "destinationClass": "To Misurata",
-        "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-MISURATA-9016155-20260911T102229Z",
-        "port": "Misurata",
-        "vessel": "AMIR BEY",
-        "imo": "9016155",
-        "mmsi": "677096200",
-        "firstSeen": "2026-09-11T10:22:29+00:00",
-        "lastSeen": "2026-09-12T06:01:29Z",
-        "waitingHours": 0.0,
-        "lat": 32.366977,
-        "lon": 15.287603,
-        "sog": 0.1,
-        "distanceKm": 4.84,
-        "destination": "Qasr Ahmed",
-        "destinationClass": "UNKNOWN/OTHER",
         "eta": "",
         "status": "Anchorage",
         "enteredPortOn": "",
@@ -3626,13 +3604,13 @@
       "unknown": 8
     },
     "phaseUpdatedAt": "2026-09-12T07:43:43Z",
-    "exclusivityFilteredAt": "2026-09-10T23:30:44Z",
+    "exclusivityFilteredAt": "2026-09-12T09:00:56Z",
     "exclusivityRemoved": [
       {
         "port": "Misurata",
-        "vessel": "MEDKON LIA",
-        "imo": "9139646",
-        "mmsi": "352002790"
+        "vessel": "AMIR BEY",
+        "imo": "9016155",
+        "mmsi": "677096200"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
