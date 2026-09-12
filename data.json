@@ -3602,9 +3602,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-12T15:00:11.307701+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-12T15:30:18.835947+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "MSC NORDIC F",
+        "imo": "9448671",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
@@ -3614,12 +3621,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "MSC NORDIC F",
-        "imo": "9448671",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3664,7 +3665,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-12T15:00:55.710105+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-12 17:00:49",
+  "anchorageUpdatedAt": "2026-09-12T15:30:18.835947+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4029,7 +4030,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-12T15:00:11.307701+00:00",
+  "mapUpdatedAt": "2026-09-12T15:30:18.835947+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-12T15:00:41Z",
     "summary": {
