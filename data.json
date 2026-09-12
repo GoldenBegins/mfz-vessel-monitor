@@ -3647,39 +3647,10 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-12T22:30:10.878530+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-12T22:40:07.398128+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "MSC NORDIC F",
-        "imo": "9448671",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MEDKON M",
-        "imo": "9314545",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "VESTSKJAER",
-        "imo": "8504155",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 6,
@@ -3717,7 +3688,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-12T22:30:51.546640+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-13 00:30:45",
+  "anchorageUpdatedAt": "2026-09-12T22:40:07.398128+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4127,7 +4098,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-12T22:30:10.878530+00:00",
+  "mapUpdatedAt": "2026-09-12T22:40:07.398128+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-12T22:30:37Z",
     "summary": {
