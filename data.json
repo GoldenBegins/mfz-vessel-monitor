@@ -1540,11 +1540,11 @@
     "updatedAt": "2026-09-12 13:30:43",
     "summary": {
       "Misurata": {
-        "active": 5,
-        "avgWaitingHours": 51.4,
-        "medianWaitingHours": 28.0,
-        "longestWaitingHours": 180.9,
-        "destinationConfirmed": 5,
+        "active": 4,
+        "avgWaitingHours": 57.21,
+        "medianWaitingHours": 20.54,
+        "longestWaitingHours": 180.88,
+        "destinationConfirmed": 4,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1552,8 +1552,8 @@
       },
       "Benghazi": {
         "active": 11,
-        "avgWaitingHours": 65.0,
-        "medianWaitingHours": 18.9,
+        "avgWaitingHours": 64.99,
+        "medianWaitingHours": 18.94,
         "longestWaitingHours": 397.0,
         "destinationConfirmed": 8,
         "destinationUncertain": 0,
@@ -1846,28 +1846,6 @@
         "destination": "MISURATA",
         "destinationClass": "To Misurata",
         "eta": "06:01 (LT)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-MISURATA-9232307-20260911T073104Z",
-        "port": "Misurata",
-        "vessel": "SKY",
-        "imo": "9232307",
-        "mmsi": "511101983",
-        "firstSeen": "2026-09-11T07:31:04+00:00",
-        "lastSeen": "2026-09-12T09:31:01Z",
-        "waitingHours": 27.99,
-        "lat": 32.386733,
-        "lon": 15.305533,
-        "sog": 0.1,
-        "distanceKm": 7.16,
-        "destination": "MISURATA",
-        "destinationClass": "To Misurata",
-        "eta": "",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
@@ -3619,13 +3597,13 @@
       "unknown": 8
     },
     "phaseUpdatedAt": "2026-09-12T10:44:00Z",
-    "exclusivityFilteredAt": "2026-09-12T09:00:56Z",
+    "exclusivityFilteredAt": "2026-09-12T11:30:46Z",
     "exclusivityRemoved": [
       {
         "port": "Misurata",
-        "vessel": "AMIR BEY",
-        "imo": "9016155",
-        "mmsi": "677096200"
+        "vessel": "SKY",
+        "imo": "9232307",
+        "mmsi": "511101983"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
