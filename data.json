@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-12 14:06:50",
+  "updatedAt": "2026-09-12 22:06:23",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 41,
-    "benghaziCalls": 31,
+    "misurataCalls": 42,
+    "benghaziCalls": 34,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,14 +11,14 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 12,
-    "unestimatedCalls": 19,
-    "coverage": 38.7,
+    "estimatedCalls": 13,
+    "unestimatedCalls": 21,
+    "coverage": 38.2,
     "trustedVessels": 197,
     "identityReview": 0,
-    "estimatedTEU": 8449,
+    "estimatedTEU": 9391,
     "estimatedGeneralCargoTons": 45431,
-    "historicalHighMediumCalls": 3,
+    "historicalHighMediumCalls": 4,
     "fallbackLowCalls": 8
   },
   "comparison": [
@@ -38,28 +38,20 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 41,
-      "benghaziCalls": 31,
+      "misurataCalls": 42,
+      "benghaziCalls": 34,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 8449,
+      "estimatedTEU": 9391,
       "estimatedGeneralCargoTons": 45431,
-      "coverage": 38.7
+      "coverage": 38.2
     }
   ],
   "estimates": [
-    {
-      "vessel": "INDUSTRIAL DESTINY",
-      "imo": "9347839",
-      "type": "General Cargo",
-      "estimate": "8,203 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "ALVAN",
       "imo": "9165798",
@@ -241,6 +233,14 @@
       "imo": "9134701",
       "type": "Container",
       "estimate": "1,379 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "KOSOVAK",
+      "imo": "9211157",
+      "type": "Container",
+      "estimate": "942 TEU",
       "confidence": "High",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
     },
