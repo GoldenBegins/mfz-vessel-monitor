@@ -4140,7 +4140,7 @@
   },
   "mapUpdatedAt": "2026-09-13T08:00:09.844124+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-13T07:43:29Z",
+    "updatedAt": "2026-09-13T08:00:34Z",
     "summary": {
       "confirmedTotal": 38,
       "candidateTotal": 2,
@@ -4208,7 +4208,7 @@
         "originStayHours": 72.0,
         "destinationAnchorageFirstSeen": "2026-09-11T07:37:00+00:00",
         "destinationAnchorageLastSeen": "2026-09-13T07:31:51Z",
-        "destinationAnchorageHours": 48.1,
+        "destinationAnchorageHours": 48.39,
         "seaTransitCalendarGapDays": 14,
         "confidence": "Candidate — destination Port Call not confirmed yet",
         "originCallId": "Misurata|9295531|2026-08-26",
@@ -4228,7 +4228,7 @@
         "originStayHours": 96.0,
         "destinationAnchorageFirstSeen": "2026-09-11T01:38:00+00:00",
         "destinationAnchorageLastSeen": "2026-09-13T07:38:08Z",
-        "destinationAnchorageHours": 54.09,
+        "destinationAnchorageHours": 54.37,
         "seaTransitCalendarGapDays": 4,
         "confidence": "Candidate — destination Port Call not confirmed yet",
         "originCallId": "Benghazi|9339650|2026-09-04",
