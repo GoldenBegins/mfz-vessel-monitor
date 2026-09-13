@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-13 06:06:30",
+  "updatedAt": "2026-09-13 14:06:02",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 44,
-    "benghaziCalls": 35,
+    "misurataCalls": 45,
+    "benghaziCalls": 37,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 13,
+    "estimatedCalls": 15,
     "unestimatedCalls": 22,
-    "coverage": 37.1,
+    "coverage": 40.5,
     "trustedVessels": 197,
     "identityReview": 0,
-    "estimatedTEU": 9391,
-    "estimatedGeneralCargoTons": 45431,
+    "estimatedTEU": 10386,
+    "estimatedGeneralCargoTons": 50101,
     "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 8
+    "fallbackLowCalls": 10
   },
   "comparison": [
     {
@@ -38,36 +38,20 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 44,
-      "benghaziCalls": 35,
+      "misurataCalls": 45,
+      "benghaziCalls": 37,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 9391,
-      "estimatedGeneralCargoTons": 45431,
-      "coverage": 37.1
+      "estimatedTEU": 10386,
+      "estimatedGeneralCargoTons": 50101,
+      "coverage": 40.5
     }
   ],
   "estimates": [
-    {
-      "vessel": "ALVAN",
-      "imo": "9165798",
-      "type": "General Cargo",
-      "estimate": "23,451 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "LYNN",
-      "imo": "9295531",
-      "type": "Container",
-      "estimate": "995 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "MEDKON ANKA",
       "imo": "9366469",
@@ -251,6 +235,22 @@
       "estimate": "1,928 TEU",
       "confidence": "Medium",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "CELINE",
+      "imo": "9139323",
+      "type": "General Cargo",
+      "estimate": "4,670 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "LYNN",
+      "imo": "9295531",
+      "type": "Container",
+      "estimate": "995 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
