@@ -3601,10 +3601,17 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-13T00:30:10.077669+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-13T01:00:12.101303+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "MEDKON LIA",
+        "imo": "9139646",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 6,
@@ -3665,7 +3672,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-13T00:30:50.829439+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-13 02:30:43",
+  "anchorageUpdatedAt": "2026-09-13T01:00:12.101303+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4075,7 +4082,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-13T00:30:10.077669+00:00",
+  "mapUpdatedAt": "2026-09-13T01:00:12.101303+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-13T00:30:34Z",
     "summary": {
