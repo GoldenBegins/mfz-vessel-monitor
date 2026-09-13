@@ -3601,7 +3601,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-13T04:00:12.055655+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-13T04:30:12.824287+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3617,9 +3617,23 @@
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ZIYA SEMRAN",
+        "imo": "9863895",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "VESTSKJAER",
+        "imo": "8504155",
+        "port": "Benghazi",
+        "decision": "UNCONFIRMED"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 5,
@@ -3657,7 +3671,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-13T04:00:36.165554+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-13T04:00:12.055655+00:00",
+  "anchorageUpdatedAt": "2026-09-13T04:30:12.824287+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4067,7 +4081,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-13T04:00:12.055655+00:00",
+  "mapUpdatedAt": "2026-09-13T04:30:12.824287+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-13T03:30:47Z",
     "summary": {
