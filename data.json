@@ -3591,71 +3591,10 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-13T22:30:16.328215+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-13T22:40:08.815235+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "ION M",
-        "imo": "9864344",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MEDKON LIA",
-        "imo": "9139646",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "CINZIA A",
-        "imo": "9226516",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LYNN",
-        "imo": "9295531",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "PORTARIA",
-        "imo": "9464326",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "AMIR BEY",
-        "imo": "9016155",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "ORIENTAL",
-        "imo": "9085077",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "VESTSKJAER",
-        "imo": "8504155",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 5,
@@ -3693,7 +3632,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-13T22:30:57.791893+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-14 00:30:51",
+  "anchorageUpdatedAt": "2026-09-13T22:40:08.815235+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4103,7 +4042,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-13T22:30:16.328215+00:00",
+  "mapUpdatedAt": "2026-09-13T22:40:08.815235+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-13T22:30:43Z",
     "summary": {
