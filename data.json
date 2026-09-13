@@ -4927,7 +4927,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-09-13T13:43:44Z",
+    "updatedAt": "2026-09-13T14:30:46Z",
     "periodStart": "2026-09-07",
     "periodEnd": "2026-09-13",
     "effectiveDays": 7,
@@ -4955,14 +4955,14 @@
         "avgPortStayProxyDays": 1.94,
         "currentInPort": 13,
         "confirmedPrePort": 0,
-        "postPortActive": 4,
-        "unknownAnchorage": 4,
+        "postPortActive": 0,
+        "unknownAnchorage": 8,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.31,
+        "potentialQueueRatio": 0.62,
         "openCalls": 10,
         "closedCalls": 7,
-        "pressureLevel": "Low",
-        "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
+        "pressureLevel": "Medium",
+        "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
       }
     }
   }
