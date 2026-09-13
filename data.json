@@ -1540,11 +1540,11 @@
     "updatedAt": "2026-09-13 19:30:40",
     "summary": {
       "Misurata": {
-        "active": 2,
-        "avgWaitingHours": 124.0,
-        "medianWaitingHours": 124.0,
-        "longestWaitingHours": 210.9,
-        "destinationConfirmed": 2,
+        "active": 1,
+        "avgWaitingHours": 210.88,
+        "medianWaitingHours": 210.88,
+        "longestWaitingHours": 210.88,
+        "destinationConfirmed": 1,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1552,8 +1552,8 @@
       },
       "Benghazi": {
         "active": 9,
-        "avgWaitingHours": 90.2,
-        "medianWaitingHours": 34.4,
+        "avgWaitingHours": 90.24,
+        "medianWaitingHours": 34.35,
         "longestWaitingHours": 427.0,
         "destinationConfirmed": 6,
         "destinationUncertain": 0,
@@ -1785,28 +1785,6 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-MISURATA-9085077-20260912T041732Z",
-        "port": "Misurata",
-        "vessel": "ORIENTAL",
-        "imo": "9085077",
-        "mmsi": "620999052",
-        "firstSeen": "2026-09-12T04:17:32+00:00",
-        "lastSeen": "2026-09-12T04:17:32+00:00",
-        "waitingHours": 37.21,
-        "lat": 32.391094,
-        "lon": 15.282512,
-        "sog": 0.1,
-        "distanceKm": 5.6,
-        "destination": "LY MRA",
-        "destinationClass": "To Misurata",
-        "eta": "01:30 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": ""
       }
     ],
     "currentInPort": {
@@ -3636,13 +3614,13 @@
       "unknown": 6
     },
     "phaseUpdatedAt": "2026-09-13T16:43:51Z",
-    "exclusivityFilteredAt": "2026-09-13T08:30:46Z",
+    "exclusivityFilteredAt": "2026-09-13T17:30:43Z",
     "exclusivityRemoved": [
       {
-        "port": "Benghazi",
-        "vessel": "LYNN",
-        "imo": "9295531",
-        "mmsi": "314093000"
+        "port": "Misurata",
+        "vessel": "ORIENTAL",
+        "imo": "9085077",
+        "mmsi": "620999052"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
