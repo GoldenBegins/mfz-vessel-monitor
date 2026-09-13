@@ -4070,7 +4070,7 @@
   },
   "mapUpdatedAt": "2026-09-13T15:30:18.356687+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-13T14:30:42Z",
+    "updatedAt": "2026-09-13T15:30:49Z",
     "summary": {
       "confirmedTotal": 38,
       "candidateTotal": 1,
@@ -4138,7 +4138,7 @@
         "originStayHours": 96.0,
         "destinationAnchorageFirstSeen": "2026-09-11T01:38:00+00:00",
         "destinationAnchorageLastSeen": "2026-09-13T12:04:28Z",
-        "destinationAnchorageHours": 60.87,
+        "destinationAnchorageHours": 61.87,
         "seaTransitCalendarGapDays": 4,
         "confidence": "Candidate — destination Port Call not confirmed yet",
         "originCallId": "Benghazi|9339650|2026-09-04",
