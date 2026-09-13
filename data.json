@@ -4183,12 +4183,12 @@
   },
   "mapUpdatedAt": "2026-09-13T20:30:11.924368+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-13T19:43:30Z",
+    "updatedAt": "2026-09-13T20:30:39Z",
     "summary": {
-      "confirmedTotal": 38,
+      "confirmedTotal": 39,
       "candidateTotal": 0,
       "misurataToBenghaziConfirmed": 19,
-      "benghaziToMisurataConfirmed": 19,
+      "benghaziToMisurataConfirmed": 20,
       "misurataToBenghaziCandidates": 0,
       "benghaziToMisurataCandidates": 0
     },
@@ -4214,6 +4214,28 @@
         "cycleDays": 12.0,
         "confidence": "High identity / Day-level timing",
         "voyageId": "8105404|Benghazi|8105404|2026-09-02|Misurata|8105404|2026-09-13"
+      },
+      {
+        "kind": "confirmed",
+        "status": "Confirmed",
+        "imo": "9339650",
+        "mmsi": "636023975",
+        "vessel": "NIKOLAOS C",
+        "type": "Liquid Bulk",
+        "originPort": "Benghazi",
+        "destinationPort": "Misurata",
+        "originFirstSeen": "2026-09-04",
+        "originLastSeen": "2026-09-07",
+        "originStayHours": 96.0,
+        "originAnchorageHours": 186.18,
+        "destinationFirstSeen": "2026-09-13",
+        "destinationLastSeen": "2026-09-13",
+        "destinationStayHours": 24.0,
+        "destinationAnchorageHours": null,
+        "seaTransitCalendarGapDays": 6.0,
+        "cycleDays": 10.0,
+        "confidence": "High identity / Day-level timing",
+        "voyageId": "9339650|Benghazi|9339650|2026-09-04|Misurata|9339650|2026-09-13"
       },
       {
         "kind": "confirmed",
