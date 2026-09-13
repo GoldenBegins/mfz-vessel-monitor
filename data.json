@@ -5055,23 +5055,23 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-09-13T19:43:50Z",
+    "updatedAt": "2026-09-13T20:30:43Z",
     "periodStart": "2026-09-07",
     "periodEnd": "2026-09-13",
     "effectiveDays": 7,
     "ports": {
       "Misurata": {
         "port": "Misurata",
-        "arrivals": 28,
-        "arrivalsPerDay": 4.0,
-        "avgPortStayProxyDays": 2.5,
+        "arrivals": 30,
+        "arrivalsPerDay": 4.29,
+        "avgPortStayProxyDays": 2.4,
         "currentInPort": 13,
         "confirmedPrePort": 0,
         "postPortActive": 1,
         "unknownAnchorage": 1,
         "confirmedQueueRatio": 0.0,
         "potentialQueueRatio": 0.08,
-        "openCalls": 14,
+        "openCalls": 16,
         "closedCalls": 14,
         "pressureLevel": "Low",
         "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
