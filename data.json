@@ -3484,75 +3484,10 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-14T22:30:10.229628+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-14T22:40:08.427640+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "DEPE",
-        "imo": "9186405",
-        "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LYNN",
-        "imo": "9295531",
-        "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "port": "Benghazi",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "ORIENTAL",
-        "imo": "9085077",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "SKY",
-        "imo": "9232307",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "AMIR BEY",
-        "imo": "9016155",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "LILA",
-        "imo": "9278923",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "VESTSKJAER",
-        "imo": "8504155",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "RAVEN",
-        "imo": "9165059",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "SEA WAVE 4",
-        "imo": "9125152",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 6,
@@ -3590,7 +3525,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-14T22:30:48.983180+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-15 00:30:42",
+  "anchorageUpdatedAt": "2026-09-14T22:40:08.427640+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3929,7 +3864,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-14T22:30:10.229628+00:00",
+  "mapUpdatedAt": "2026-09-14T22:40:08.427640+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-14T22:30:34Z",
     "summary": {
