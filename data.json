@@ -3528,12 +3528,19 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-14T20:00:11.290435+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-14T20:30:15.868822+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "DEPE",
         "imo": "9186405",
+        "port": "Misurata",
+        "decision": "AWAY_STALE",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "LYNN",
+        "imo": "9295531",
         "port": "Misurata",
         "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
@@ -3562,6 +3569,12 @@
       {
         "name": "AMIR BEY",
         "imo": "9016155",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "LILA",
+        "imo": "9278923",
         "port": "Misurata",
         "decision": "ANCHORAGE"
       },
@@ -3644,7 +3657,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-14T20:00:35.536021+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-14T20:00:11.290435+00:00",
+  "anchorageUpdatedAt": "2026-09-14T20:30:15.868822+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3964,7 +3977,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-14T20:00:11.290435+00:00",
+  "mapUpdatedAt": "2026-09-14T20:30:15.868822+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-14T19:43:13Z",
     "summary": {
