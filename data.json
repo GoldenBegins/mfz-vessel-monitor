@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-14 14:03:56",
+  "updatedAt": "2026-09-14 22:07:24",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 45,
-    "benghaziCalls": 37,
+    "misurataCalls": 51,
+    "benghaziCalls": 39,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 15,
+    "estimatedCalls": 17,
     "unestimatedCalls": 22,
-    "coverage": 40.5,
-    "trustedVessels": 197,
+    "coverage": 43.6,
+    "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 10386,
-    "estimatedGeneralCargoTons": 50101,
+    "estimatedGeneralCargoTons": 65144,
     "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 10
+    "fallbackLowCalls": 12
   },
   "comparison": [
     {
@@ -38,8 +38,8 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 45,
-      "benghaziCalls": 37,
+      "misurataCalls": 51,
+      "benghaziCalls": 39,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -47,27 +47,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 10386,
-      "estimatedGeneralCargoTons": 50101,
-      "coverage": 40.5
+      "estimatedGeneralCargoTons": 65144,
+      "coverage": 43.6
     }
   ],
   "estimates": [
-    {
-      "vessel": "MEDKON ANKA",
-      "imo": "9366469",
-      "type": "Container",
-      "estimate": "1,928 TEU",
-      "confidence": "Medium",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
-    {
-      "vessel": "MSC VULCANO II",
-      "imo": "9313228",
-      "type": "Container",
-      "estimate": "1,875 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "BURHAN DIZMAN",
       "imo": "9381809",
@@ -251,13 +235,29 @@
       "estimate": "995 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "RAVEN",
+      "imo": "9165059",
+      "type": "General Cargo",
+      "estimate": "9,891 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "SEA WAVE 4",
+      "imo": "9125152",
+      "type": "General Cargo",
+      "estimate": "5,152 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "6 internal high-priority checks are recorded."
+      "detail": "235 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
