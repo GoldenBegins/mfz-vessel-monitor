@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 2,
-        "avgWaitingHours": 20.5,
-        "medianWaitingHours": 20.5,
-        "longestWaitingHours": 40.9,
+        "avgWaitingHours": 20.47,
+        "medianWaitingHours": 20.47,
+        "longestWaitingHours": 40.94,
         "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,11 +1551,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 12,
-        "avgWaitingHours": 94.3,
-        "medianWaitingHours": 57.5,
+        "active": 11,
+        "avgWaitingHours": 95.88,
+        "medianWaitingHours": 43.96,
         "longestWaitingHours": 470.0,
-        "destinationConfirmed": 8,
+        "destinationConfirmed": 7,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1626,28 +1626,6 @@
         "destination": "TRMER>EGALY",
         "destinationClass": "Other Port",
         "eta": "08:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9387138-20260912T070900Z",
-        "port": "Benghazi",
-        "vessel": "SEAWAYS MIRAGE",
-        "imo": "9387138",
-        "mmsi": "538011209",
-        "firstSeen": "2026-09-12T07:09:00+00:00",
-        "lastSeen": "2026-09-14T23:31:30Z",
-        "waitingHours": 77.36,
-        "lat": 32.166833,
-        "lon": 19.9515,
-        "sog": 0.7,
-        "distanceKm": 10.95,
-        "destination": "LYBEN",
-        "destinationClass": "To Benghazi",
-        "eta": "06:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
@@ -3593,13 +3571,13 @@
       "unknown": 5
     },
     "phaseUpdatedAt": "2026-09-15T10:44:24Z",
-    "exclusivityFilteredAt": "2026-09-14T11:31:08Z",
+    "exclusivityFilteredAt": "2026-09-15T12:30:55Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "RAVEN",
-        "imo": "9165059",
-        "mmsi": "577669000"
+        "vessel": "SEAWAYS MIRAGE",
+        "imo": "9387138",
+        "mmsi": "538011209"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
