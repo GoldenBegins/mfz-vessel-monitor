@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14 22:07:24",
+  "updatedAt": "2026-09-15 06:05:29",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 51,
@@ -14,7 +14,7 @@
     "estimatedCalls": 17,
     "unestimatedCalls": 22,
     "coverage": 43.6,
-    "trustedVessels": 199,
+    "trustedVessels": 198,
     "identityReview": 0,
     "estimatedTEU": 10386,
     "estimatedGeneralCargoTons": 65144,
@@ -257,7 +257,7 @@
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "235 internal high-priority checks are recorded."
+      "detail": "236 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
