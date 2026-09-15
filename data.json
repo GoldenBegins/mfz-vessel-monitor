@@ -3479,9 +3479,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-15T21:00:10.766762+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-15T21:30:19.940266+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "APL SAIPAN",
+        "imo": "9239850",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
@@ -3492,16 +3499,16 @@
     ],
     "portStateReview": [
       {
+        "name": "JIAXIN",
+        "imo": "9427897",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
         "name": "ORIENTAL",
         "imo": "9085077",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "APL SAIPAN",
-        "imo": "9239850",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "AMIR BEY",
@@ -3582,7 +3589,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-15T21:00:51.790595+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-15 23:00:45",
+  "anchorageUpdatedAt": "2026-09-15T21:30:19.940266+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3962,7 +3969,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-15T21:00:10.766762+00:00",
+  "mapUpdatedAt": "2026-09-15T21:30:19.940266+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-15T21:00:36Z",
     "summary": {
