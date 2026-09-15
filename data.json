@@ -3541,7 +3541,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-15T06:30:11.649934+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-15T07:00:13.920441+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3558,12 +3558,6 @@
         "imo": "9085077",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "SKY",
-        "imo": "9232307",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "AMIR BEY",
@@ -3615,7 +3609,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-15T06:31:08.646504+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-15 08:31:02",
+  "anchorageUpdatedAt": "2026-09-15T07:00:13.920441+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3965,7 +3959,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-15T06:30:11.649934+00:00",
+  "mapUpdatedAt": "2026-09-15T07:00:13.920441+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-15T06:30:52Z",
     "summary": {
