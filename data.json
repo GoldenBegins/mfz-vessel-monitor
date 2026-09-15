@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 2,
-        "avgWaitingHours": 23.2,
-        "medianWaitingHours": 23.2,
-        "longestWaitingHours": 46.4,
+        "avgWaitingHours": 23.22,
+        "medianWaitingHours": 23.22,
+        "longestWaitingHours": 46.44,
         "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,11 +1551,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 11,
-        "avgWaitingHours": 100.9,
-        "medianWaitingHours": 49.5,
-        "longestWaitingHours": 475.5,
-        "destinationConfirmed": 7,
+        "active": 10,
+        "avgWaitingHours": 103.32,
+        "medianWaitingHours": 38.91,
+        "longestWaitingHours": 475.51,
+        "destinationConfirmed": 6,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1653,28 +1653,6 @@
         "closedOn": "",
         "confidence": "Medium",
         "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-1054931-20260912T133200Z",
-        "port": "Benghazi",
-        "vessel": "FERESA",
-        "imo": "1054931",
-        "mmsi": "253000150",
-        "firstSeen": "2026-09-12T13:32:00+00:00",
-        "lastSeen": "2026-09-12T13:32:00+00:00",
-        "waitingHours": 76.47,
-        "lat": 32.142315,
-        "lon": 19.969919,
-        "sog": 0.6,
-        "distanceKm": 7.86,
-        "destination": "GR AGT>LY BEN",
-        "destinationClass": "To Benghazi",
-        "eta": "18:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": ""
       },
       {
         "episodeId": "ANCH-BENGHAZI-9113850-20260913T163300Z",
@@ -3599,13 +3577,13 @@
       "unknown": 4
     },
     "phaseUpdatedAt": "2026-09-15T16:44:31Z",
-    "exclusivityFilteredAt": "2026-09-15T12:30:55Z",
+    "exclusivityFilteredAt": "2026-09-15T18:00:56Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "SEAWAYS MIRAGE",
-        "imo": "9387138",
-        "mmsi": "538011209"
+        "vessel": "FERESA",
+        "imo": "1054931",
+        "mmsi": "253000150"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
