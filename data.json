@@ -3560,9 +3560,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-16T12:00:12.419753+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-16T12:30:10.980784+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "NIKOLAOS C",
+        "imo": "9339650",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
@@ -3572,12 +3579,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "NIKOLAOS C",
-        "imo": "9339650",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "ORIENTAL",
         "imo": "9085077",
@@ -3607,6 +3608,12 @@
         "imo": "9549310",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
+      },
+      {
+        "name": "APL SAIPAN",
+        "imo": "9239850",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3646,7 +3653,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-16T12:00:41.019136+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-16T12:00:12.419753+00:00",
+  "anchorageUpdatedAt": "2026-09-16T12:30:10.980784+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4015,7 +4022,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-16T12:00:12.419753+00:00",
+  "mapUpdatedAt": "2026-09-16T12:30:10.980784+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-16T11:30:39Z",
     "summary": {
