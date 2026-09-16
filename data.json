@@ -3560,12 +3560,19 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-16T17:30:10.968322+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-16T18:00:11.464988+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "NIKOLAOS C",
         "imo": "9339650",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "LYNN",
+        "imo": "9295531",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3579,12 +3586,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "LYNN",
-        "imo": "9295531",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "ORIENTAL",
         "imo": "9085077",
@@ -3653,7 +3654,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-16T17:31:05.428735+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-16 19:30:58",
+  "anchorageUpdatedAt": "2026-09-16T18:00:11.464988+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4022,7 +4023,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-16T17:30:10.968322+00:00",
+  "mapUpdatedAt": "2026-09-16T18:00:11.464988+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-16T17:30:48Z",
     "summary": {
