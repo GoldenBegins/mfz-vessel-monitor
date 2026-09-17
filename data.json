@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 3,
-        "avgWaitingHours": 7.3,
+        "avgWaitingHours": 7.31,
         "medianWaitingHours": 0.0,
-        "longestWaitingHours": 21.9,
+        "longestWaitingHours": 21.94,
         "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,10 +1551,10 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 11,
-        "avgWaitingHours": 88.1,
-        "medianWaitingHours": 42.9,
-        "longestWaitingHours": 523.0,
+        "active": 10,
+        "avgWaitingHours": 96.81,
+        "medianWaitingHours": 54.91,
+        "longestWaitingHours": 523.01,
         "destinationConfirmed": 5,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1719,28 +1719,6 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9381809-20260917T161557Z",
-        "port": "Benghazi",
-        "vessel": "BURHAN DIZMAN",
-        "imo": "9381809",
-        "mmsi": "314707000",
-        "firstSeen": "2026-09-17T16:15:57+00:00",
-        "lastSeen": "2026-09-17T16:15:57+00:00",
-        "waitingHours": 1.24,
-        "lat": 32.10622167,
-        "lon": 20.00338167,
-        "sog": 0.7,
-        "distanceKm": 3.21,
-        "destination": "BENGHAZI",
-        "destinationClass": "To Benghazi",
-        "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": ""
       },
       {
         "episodeId": "ANCH-BENGHAZI-9004499-20260917T163624Z",
@@ -3703,13 +3681,13 @@
       "unknown": 5
     },
     "phaseUpdatedAt": "2026-09-17T16:43:52Z",
-    "exclusivityFilteredAt": "2026-09-17T16:30:57Z",
+    "exclusivityFilteredAt": "2026-09-17T17:30:58Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "JELENA",
-        "imo": "9519042",
-        "mmsi": "236751000"
+        "vessel": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "mmsi": "314707000"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
