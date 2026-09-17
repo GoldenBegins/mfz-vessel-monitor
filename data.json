@@ -3559,12 +3559,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-17T18:00:12.431719+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-17T18:30:13.261876+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "AMIR BEY",
         "imo": "9016155",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "LIBERTAS H",
+        "imo": "9388388",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3597,12 +3604,6 @@
         "imo": "9085077",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "LIBERTAS H",
-        "imo": "9388388",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "FERESA",
@@ -3660,7 +3661,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-17T18:00:58.660252+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-17 20:00:51",
+  "anchorageUpdatedAt": "2026-09-17T18:30:13.261876+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4074,7 +4075,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-17T18:00:12.431719+00:00",
+  "mapUpdatedAt": "2026-09-17T18:30:13.261876+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-17T18:00:43Z",
     "summary": {
