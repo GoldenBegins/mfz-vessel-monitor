@@ -1,16 +1,16 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-09-17T04:10:33Z",
+  "updatedAt": "2026-09-17T12:10:22Z",
   "summary": {
-    "dwtProfiles": 135,
+    "dwtProfiles": 136,
     "fleetSampleN": 17,
     "fleetMedianTonsPerDwt": 0.4996,
     "fleetP25": 0.2402,
     "fleetP75": 0.9449,
     "commodityModelsUsable": 1,
-    "exactVesselEstimates": 3,
+    "exactVesselEstimates": 4,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 55,
+    "fleetRatioEstimates": 56,
     "unestimatedCalls": 6
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "Medium",
-      "Updated On": "2026-09-17T04:10:33Z"
+      "Updated On": "2026-09-17T12:10:22Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-17T04:10:33Z"
+      "Updated On": "2026-09-17T12:10:22Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Low",
-      "Updated On": "2026-09-17T04:10:33Z"
+      "Updated On": "2026-09-17T12:10:22Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-17T04:10:33Z"
+      "Updated On": "2026-09-17T12:10:22Z"
     }
   ],
   "rows": [
@@ -1279,6 +1279,44 @@
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=17",
       "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9388388|2026-09-17",
+      "IMO": "9388388",
+      "Vessel": "LIBERTAS H",
+      "Vessel Type": "General Cargo",
+      "DWT": 8716.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 17,
+      "Median Tons/DWT": 0.4996,
+      "Estimated Cargo Tons": 4354.32,
+      "Low Estimate": 2093.39,
+      "High Estimate": 8235.59,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=17",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9301201|2026-09-17",
+      "IMO": "9301201",
+      "Vessel": "MASTERY D",
+      "Vessel Type": "General Cargo",
+      "DWT": 10744.0,
+      "Commodity Used": "",
+      "Method": "Exact vessel MFZ historical",
+      "Historical Visits": 1,
+      "Sample N": 1,
+      "Median Tons/DWT": "",
+      "Estimated Cargo Tons": 1245.94,
+      "Low Estimate": 1245.94,
+      "High Estimate": 1245.94,
+      "Confidence": "Low",
+      "Source": "MFZ Actual Cargo Calls exact IMO",
+      "Notes": ""
     }
   ],
   "methodology": "Exact vessel first (1 visit Low, 2 Medium, 3+ High). Commodity ratio only when current commodity is known and commodity sample n>=5. Otherwise fleet ratio. P25-P75 range. Planning proxy only."
