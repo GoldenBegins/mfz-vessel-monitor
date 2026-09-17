@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 2,
-        "avgWaitingHours": 10.5,
-        "medianWaitingHours": 10.5,
-        "longestWaitingHours": 20.9,
+        "avgWaitingHours": 10.47,
+        "medianWaitingHours": 10.47,
+        "longestWaitingHours": 20.94,
         "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,9 +1551,9 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 12,
-        "avgWaitingHours": 103.6,
-        "medianWaitingHours": 53.9,
+        "active": 11,
+        "avgWaitingHours": 112.15,
+        "medianWaitingHours": 65.92,
         "longestWaitingHours": 522.0,
         "destinationConfirmed": 5,
         "destinationUncertain": 0,
@@ -1758,28 +1758,6 @@
         "destination": "LIBYA FOR ORDERS",
         "destinationClass": "Other Port",
         "eta": "00:01 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9519042-20260917T070646Z",
-        "port": "Benghazi",
-        "vessel": "JELENA",
-        "imo": "9519042",
-        "mmsi": "236751000",
-        "firstSeen": "2026-09-17T07:06:46+00:00",
-        "lastSeen": "2026-09-17T13:48:31Z",
-        "waitingHours": 9.39,
-        "lat": 32.141067,
-        "lon": 19.9449,
-        "sog": 0.1,
-        "distanceKm": 9.78,
-        "destination": "LYBEN",
-        "destinationClass": "To Benghazi",
-        "eta": "06:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
@@ -3643,13 +3621,13 @@
       "unknown": 6
     },
     "phaseUpdatedAt": "2026-09-17T10:45:07Z",
-    "exclusivityFilteredAt": "2026-09-17T10:00:59Z",
+    "exclusivityFilteredAt": "2026-09-17T16:30:57Z",
     "exclusivityRemoved": [
       {
-        "port": "Misurata",
-        "vessel": "LADY DIVINA",
-        "imo": "9354052",
-        "mmsi": "268252204"
+        "port": "Benghazi",
+        "vessel": "JELENA",
+        "imo": "9519042",
+        "mmsi": "236751000"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
