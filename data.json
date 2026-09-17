@@ -3617,7 +3617,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-17T20:00:21.237014+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-17T20:30:10.402943+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3662,6 +3662,12 @@
         "imo": "9085077",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "SEA WAVE 4",
+        "imo": "9125152",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
       },
       {
         "name": "FERESA",
@@ -3719,7 +3725,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-17T20:00:47.489993+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-17T20:00:21.237014+00:00",
+  "anchorageUpdatedAt": "2026-09-17T20:30:10.402943+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4114,7 +4120,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-17T20:00:21.237014+00:00",
+  "mapUpdatedAt": "2026-09-17T20:30:10.402943+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-17T19:43:56Z",
     "summary": {
