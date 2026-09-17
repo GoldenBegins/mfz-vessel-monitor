@@ -3563,7 +3563,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-17T17:00:10.630520+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-17T17:30:16.111153+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3601,6 +3601,12 @@
         "imo": "9085077",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "LIBERTAS H",
+        "imo": "9388388",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "FERESA",
@@ -3658,7 +3664,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-17T17:00:52.096884+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-17 19:00:45",
+  "anchorageUpdatedAt": "2026-09-17T17:30:16.111153+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4076,7 +4082,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-17T17:00:10.630520+00:00",
+  "mapUpdatedAt": "2026-09-17T17:30:16.111153+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-17T16:43:35Z",
     "summary": {
