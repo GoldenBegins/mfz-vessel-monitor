@@ -3525,13 +3525,20 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-17T16:30:12.540671+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-17T16:40:12.177403+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "AMIR BEY",
         "imo": "9016155",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "SEAWAYS MIRAGE",
+        "imo": "9387138",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3556,12 +3563,6 @@
         "imo": "9085077",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "SEAWAYS MIRAGE",
-        "imo": "9387138",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "FERESA",
@@ -3642,7 +3643,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-17T16:31:02.054702+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-17 18:30:53",
+  "anchorageUpdatedAt": "2026-09-17T16:40:12.177403+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4022,7 +4023,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-17T16:30:12.540671+00:00",
+  "mapUpdatedAt": "2026-09-17T16:40:12.177403+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-17T16:30:44Z",
     "summary": {
