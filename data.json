@@ -3632,7 +3632,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-18T19:40:10.691116+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-18T20:00:13.728125+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3677,12 +3677,6 @@
         "imo": "9085077",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "RAVEN",
-        "imo": "9165059",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "FERESA",
@@ -3740,7 +3734,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-18T19:43:41.895222+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-18 21:43:37",
+  "anchorageUpdatedAt": "2026-09-18T20:00:13.728125+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4120,7 +4114,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-18T19:40:10.691116+00:00",
+  "mapUpdatedAt": "2026-09-18T20:00:13.728125+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-18T19:43:29Z",
     "summary": {
