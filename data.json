@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-17 22:06:03",
+  "updatedAt": "2026-09-18 06:06:02",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 57,
-    "benghaziCalls": 45,
+    "misurataCalls": 58,
+    "benghaziCalls": 48,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 19,
+    "estimatedCalls": 22,
     "unestimatedCalls": 26,
-    "coverage": 42.2,
-    "trustedVessels": 198,
+    "coverage": 45.8,
+    "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 15097,
-    "estimatedGeneralCargoTons": 65144,
+    "estimatedTEU": 16879,
+    "estimatedGeneralCargoTons": 78898,
     "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 14
+    "fallbackLowCalls": 16
   },
   "comparison": [
     {
@@ -38,44 +38,20 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 57,
-      "benghaziCalls": 45,
+      "misurataCalls": 58,
+      "benghaziCalls": 48,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 15097,
-      "estimatedGeneralCargoTons": 65144,
-      "coverage": 42.2
+      "estimatedTEU": 16879,
+      "estimatedGeneralCargoTons": 78898,
+      "coverage": 45.8
     }
   ],
   "estimates": [
-    {
-      "vessel": "MONIF",
-      "imo": "9008146",
-      "type": "General Cargo",
-      "estimate": "6,429 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "NIKOLAS",
-      "imo": "9203526",
-      "type": "Container",
-      "estimate": "2,869 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
-    {
-      "vessel": "JELENA",
-      "imo": "9519042",
-      "type": "General Cargo",
-      "estimate": "5,842 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "KAPTAN AYTAC A",
       "imo": "9242302",
@@ -251,13 +227,37 @@
       "estimate": "1,875 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "BURHAN DIZMAN",
+      "imo": "9381809",
+      "type": "General Cargo",
+      "estimate": "7,912 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "CONTSHIP ACE",
+      "imo": "9348637",
+      "type": "Container",
+      "estimate": "1,782 TEU",
+      "confidence": "Low",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "JELENA",
+      "imo": "9519042",
+      "type": "General Cargo",
+      "estimate": "5,842 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "6 internal high-priority checks are recorded."
+      "detail": "235 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
