@@ -3546,7 +3546,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-18T02:30:13.123649+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-18T03:00:16.929859+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
     "portStateReview": [
@@ -3554,6 +3554,12 @@
         "name": "ORIENTAL",
         "imo": "9085077",
         "port": "Misurata",
+        "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "FERESA",
+        "imo": "1054931",
+        "port": "Benghazi",
         "decision": "UNCONFIRMED"
       }
     ],
@@ -3617,7 +3623,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-18T02:31:16.255895+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-18 04:31:09",
+  "anchorageUpdatedAt": "2026-09-18T03:00:16.929859+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3982,7 +3988,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-18T02:30:13.123649+00:00",
+  "mapUpdatedAt": "2026-09-18T03:00:16.929859+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-18T02:30:58Z",
     "summary": {
