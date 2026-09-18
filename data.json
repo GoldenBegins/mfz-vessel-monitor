@@ -3571,9 +3571,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-18T19:30:12.478942+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-18T19:40:10.691116+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "STAR CLAUDINE",
+        "imo": "9444534",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "MASTERY D",
         "imo": "9301201",
@@ -3611,9 +3618,9 @@
         "decision": "UNCONFIRMED"
       },
       {
-        "name": "STAR CLAUDINE",
-        "imo": "9444534",
-        "port": "Misurata",
+        "name": "RAVEN",
+        "imo": "9165059",
+        "port": "Benghazi",
         "decision": "NEAR_PORT"
       },
       {
@@ -3672,7 +3679,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-18T19:30:58.194962+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-18 21:30:49",
+  "anchorageUpdatedAt": "2026-09-18T19:40:10.691116+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4052,7 +4059,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-18T19:30:12.478942+00:00",
+  "mapUpdatedAt": "2026-09-18T19:40:10.691116+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-18T19:30:42Z",
     "summary": {
