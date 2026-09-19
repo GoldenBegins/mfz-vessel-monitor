@@ -3564,7 +3564,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-19T14:00:10.375916+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-19T14:30:12.702336+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3614,12 +3614,6 @@
         "imo": "9549310",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "LYDIA KA",
-        "imo": "9314844",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3659,7 +3653,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-19T14:01:42.184184+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-19 16:01:10",
+  "anchorageUpdatedAt": "2026-09-19T14:30:12.702336+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4032,7 +4026,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-19T14:00:10.375916+00:00",
+  "mapUpdatedAt": "2026-09-19T14:30:12.702336+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-19T13:43:35Z",
     "summary": {
