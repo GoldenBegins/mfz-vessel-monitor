@@ -3545,7 +3545,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-19T15:30:11.878466+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-19T16:00:10.602526+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3577,6 +3577,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "KRITI SAILOR",
+        "imo": "9335135",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
         "port": "Benghazi",
@@ -3585,12 +3592,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "KRITI SAILOR",
-        "imo": "9335135",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3641,7 +3642,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-19T15:30:52.385921+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-19 17:30:45",
+  "anchorageUpdatedAt": "2026-09-19T16:00:10.602526+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3995,7 +3996,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-19T15:30:11.878466+00:00",
+  "mapUpdatedAt": "2026-09-19T16:00:10.602526+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-19T14:30:51Z",
     "summary": {
