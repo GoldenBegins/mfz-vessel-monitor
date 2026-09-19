@@ -3545,9 +3545,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-19T14:30:12.702336+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-19T15:00:12.376207+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "XING SHUN 25",
+        "imo": "8591794",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "AMIR BEY",
         "imo": "9016155",
@@ -3634,7 +3641,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-19T14:31:40.430961+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-19 16:31:17",
+  "anchorageUpdatedAt": "2026-09-19T15:00:12.376207+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3988,7 +3995,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-19T14:30:12.702336+00:00",
+  "mapUpdatedAt": "2026-09-19T15:00:12.376207+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-19T14:30:51Z",
     "summary": {
