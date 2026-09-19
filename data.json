@@ -3545,13 +3545,21 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-19T00:00:09.820246+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-19T00:30:10.946652+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
-    "portStateReview": [
+    "potentialDepartures": [
       {
         "name": "GOTHICA",
         "imo": "7826867",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
+    "portStateReview": [
+      {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
@@ -3593,7 +3601,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-19T00:00:49.047111+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-19 02:00:42",
+  "anchorageUpdatedAt": "2026-09-19T00:30:10.946652+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3947,7 +3955,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-19T00:00:09.820246+00:00",
+  "mapUpdatedAt": "2026-09-19T00:30:10.946652+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-18T23:00:37Z",
     "summary": {
