@@ -3539,12 +3539,12 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-20T18:30:11.317275+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-20T19:00:11.009307+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
-        "name": "PORTARIA",
-        "imo": "9464326",
+        "name": "SKY",
+        "imo": "9232307",
         "port": "Misurata",
         "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
@@ -3557,27 +3557,21 @@
         "winner": "SHIPNEXT"
       },
       {
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "port": "Benghazi",
+        "name": "MSC NORDIC F",
+        "imo": "9448671",
+        "port": "Misurata",
         "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
       },
       {
-        "name": "ANKA DREAM",
-        "imo": "9195470",
+        "name": "ZIYA SEMRAN",
+        "imo": "9863895",
         "port": "Benghazi",
         "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
-      {
-        "name": "SKY",
-        "imo": "9232307",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3589,6 +3583,12 @@
         "imo": "9549310",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
+      },
+      {
+        "name": "ANKA DREAM",
+        "imo": "9195470",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3628,7 +3628,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-20T18:30:59.412281+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-20 20:30:52",
+  "anchorageUpdatedAt": "2026-09-20T19:00:11.009307+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4022,7 +4022,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-20T18:30:11.317275+00:00",
+  "mapUpdatedAt": "2026-09-20T19:00:11.009307+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-20T18:30:44Z",
     "summary": {
