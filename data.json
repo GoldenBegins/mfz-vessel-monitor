@@ -3993,36 +3993,16 @@
   },
   "mapUpdatedAt": "2026-09-20T11:00:11.534827+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-20T10:43:23Z",
+    "updatedAt": "2026-09-20T11:00:38Z",
     "summary": {
       "confirmedTotal": 45,
-      "candidateTotal": 2,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 21,
       "benghaziToMisurataConfirmed": 24,
-      "misurataToBenghaziCandidates": 2,
+      "misurataToBenghaziCandidates": 1,
       "benghaziToMisurataCandidates": 0
     },
     "rows": [
-      {
-        "kind": "candidate",
-        "status": "Anchorage Candidate",
-        "imo": "9195470",
-        "mmsi": "314205000",
-        "vessel": "ANKA DREAM",
-        "type": "General Cargo",
-        "originPort": "Misurata",
-        "destinationPort": "Benghazi",
-        "originFirstSeen": "2026-09-07",
-        "originLastSeen": "2026-09-07",
-        "originStayHours": 24.0,
-        "destinationAnchorageFirstSeen": "2026-09-19T22:31:00+00:00",
-        "destinationAnchorageLastSeen": "2026-09-19T22:31:00+00:00",
-        "destinationAnchorageHours": 12.2,
-        "seaTransitCalendarGapDays": 12,
-        "confidence": "Candidate — destination Port Call not confirmed yet",
-        "originCallId": "Misurata|9195470|2026-09-07",
-        "anchorEpisodeId": "ANCH-BENGHAZI-9195470-20260919T223100Z"
-      },
       {
         "kind": "confirmed",
         "status": "Confirmed",
@@ -4147,7 +4127,7 @@
         "originStayHours": 24.0,
         "destinationAnchorageFirstSeen": "2026-09-14T22:35:00+00:00",
         "destinationAnchorageLastSeen": "2026-09-19T17:59:11Z",
-        "destinationAnchorageHours": 132.13,
+        "destinationAnchorageHours": 132.42,
         "seaTransitCalendarGapDays": 12,
         "confidence": "Candidate — destination Port Call not confirmed yet",
         "originCallId": "Misurata|9008146|2026-09-02",
