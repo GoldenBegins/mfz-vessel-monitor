@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-20 06:06:31",
+  "updatedAt": "2026-09-20 14:19:40",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 62,
-    "benghaziCalls": 50,
+    "misurataCalls": 64,
+    "benghaziCalls": 53,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 22,
-    "unestimatedCalls": 28,
-    "coverage": 44.0,
-    "trustedVessels": 198,
+    "estimatedCalls": 24,
+    "unestimatedCalls": 29,
+    "coverage": 45.3,
+    "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 16879,
-    "estimatedGeneralCargoTons": 78898,
+    "estimatedTEU": 18195,
+    "estimatedGeneralCargoTons": 83304,
     "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 16
+    "fallbackLowCalls": 18
   },
   "comparison": [
     {
@@ -38,36 +38,20 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 62,
-      "benghaziCalls": 50,
+      "misurataCalls": 64,
+      "benghaziCalls": 53,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 16879,
-      "estimatedGeneralCargoTons": 78898,
-      "coverage": 44.0
+      "estimatedTEU": 18195,
+      "estimatedGeneralCargoTons": 83304,
+      "coverage": 45.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "KAPTAN AYTAC A",
-      "imo": "9242302",
-      "type": "Container",
-      "estimate": "1,316 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
-    {
-      "vessel": "BBC EAGLE",
-      "imo": "9407574",
-      "type": "General Cargo",
-      "estimate": "10,597 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "CMA CGM NADOR",
       "imo": "9396696",
@@ -251,13 +235,29 @@
       "estimate": "5,842 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "KAPTAN AYTAC A",
+      "imo": "9242302",
+      "type": "Container",
+      "estimate": "1,316 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "ANKA DREAM",
+      "imo": "9195470",
+      "type": "General Cargo",
+      "estimate": "4,406 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "6 internal high-priority checks are recorded."
+      "detail": "235 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
