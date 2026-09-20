@@ -3562,7 +3562,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-20T04:30:10.904779+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-20T04:40:09.525937+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3576,7 +3576,7 @@
         "name": "AMIR BEY",
         "imo": "9016155",
         "port": "Misurata",
-        "decision": "AWAY",
+        "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
       },
       {
@@ -3638,7 +3638,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-20T04:30:48.863967+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-20 06:30:42",
+  "anchorageUpdatedAt": "2026-09-20T04:40:09.525937+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3996,7 +3996,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-20T04:30:10.904779+00:00",
+  "mapUpdatedAt": "2026-09-20T04:40:09.525937+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-20T03:00:36Z",
     "summary": {
