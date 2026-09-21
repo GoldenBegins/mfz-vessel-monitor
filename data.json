@@ -3658,16 +3658,9 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-21T09:30:11.238039+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-21T11:00:13.293119+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "REMAH",
-        "imo": "9947720",
-        "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "ELBELLA",
         "imo": "9312640",
@@ -3698,6 +3691,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "REMAH",
+        "imo": "9947720",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3748,7 +3747,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-21T09:31:04.836265+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-21 11:30:57",
+  "anchorageUpdatedAt": "2026-09-21T11:00:13.293119+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4169,7 +4168,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-21T09:30:11.238039+00:00",
+  "mapUpdatedAt": "2026-09-21T11:00:13.293119+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-21T09:30:49Z",
     "summary": {
