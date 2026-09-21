@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-21 06:05:23",
+  "updatedAt": "2026-09-21 14:07:15",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 67,
-    "benghaziCalls": 53,
+    "benghaziCalls": 54,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,14 +11,14 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 24,
+    "estimatedCalls": 25,
     "unestimatedCalls": 29,
-    "coverage": 45.3,
+    "coverage": 46.3,
     "trustedVessels": 198,
     "identityReview": 0,
-    "estimatedTEU": 18195,
+    "estimatedTEU": 20123,
     "estimatedGeneralCargoTons": 83304,
-    "historicalHighMediumCalls": 4,
+    "historicalHighMediumCalls": 5,
     "fallbackLowCalls": 18
   },
   "comparison": [
@@ -39,27 +39,19 @@
     {
       "period": "2026-09",
       "misurataCalls": 67,
-      "benghaziCalls": 53,
+      "benghaziCalls": 54,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 18195,
+      "estimatedTEU": 20123,
       "estimatedGeneralCargoTons": 83304,
-      "coverage": 45.3
+      "coverage": 46.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "CMA CGM NADOR",
-      "imo": "9396696",
-      "type": "Container",
-      "estimate": "1,186 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "VENTO DI BORA",
       "imo": "9950064",
@@ -251,6 +243,14 @@
       "estimate": "4,406 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MEDKON ANKA",
+      "imo": "9366469",
+      "type": "Container",
+      "estimate": "1,928 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
