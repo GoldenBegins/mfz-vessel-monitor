@@ -3654,7 +3654,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-21T17:00:11.390407+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-21T17:30:11.320933+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3686,14 +3686,14 @@
         "decision": "ANCHORAGE"
       },
       {
-        "name": "MEDKON ANKA",
-        "imo": "9366469",
+        "name": "XING SHUN 25",
+        "imo": "8591794",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
       },
       {
-        "name": "XING SHUN 25",
-        "imo": "8591794",
+        "name": "CMACGM FORTSTE MARIE",
+        "imo": "9261906",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
       }
@@ -3735,7 +3735,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-21T17:00:57.178819+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-21 19:00:49",
+  "anchorageUpdatedAt": "2026-09-21T17:30:11.320933+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4152,7 +4152,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-21T17:00:11.390407+00:00",
+  "mapUpdatedAt": "2026-09-21T17:30:11.320933+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-21T17:00:41Z",
     "summary": {
