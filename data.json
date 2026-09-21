@@ -3616,7 +3616,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-21T14:00:10.916566+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-21T14:30:10.497687+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3630,7 +3630,7 @@
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
         "port": "Benghazi",
-        "decision": "AWAY_STALE",
+        "decision": "AWAY",
         "winner": "SHIPNEXT"
       }
     ],
@@ -3650,6 +3650,12 @@
       {
         "name": "MEDKON ANKA",
         "imo": "9366469",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "XING SHUN 25",
+        "imo": "8591794",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
       }
@@ -3714,7 +3720,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-21T14:01:05.306542+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-21 16:00:58",
+  "anchorageUpdatedAt": "2026-09-21T14:30:10.497687+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4139,7 +4145,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-21T14:00:10.916566+00:00",
+  "mapUpdatedAt": "2026-09-21T14:30:10.497687+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-21T14:00:49Z",
     "summary": {
