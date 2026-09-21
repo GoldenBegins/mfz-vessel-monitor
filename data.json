@@ -3589,7 +3589,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-21T22:00:18.775236+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-21T22:30:10.804757+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3630,12 +3630,6 @@
       {
         "name": "SNP PAZAR",
         "imo": "9549310",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "CMACGM FORTSTE MARIE",
-        "imo": "9261906",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       },
@@ -3683,7 +3677,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-21T22:01:13.967092+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-22 00:01:05",
+  "anchorageUpdatedAt": "2026-09-21T22:30:10.804757+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4081,7 +4075,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-21T22:00:18.775236+00:00",
+  "mapUpdatedAt": "2026-09-21T22:30:10.804757+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-21T22:00:56Z",
     "summary": {
