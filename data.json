@@ -3692,7 +3692,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-21T19:40:10.603483+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-21T20:00:10.523851+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3708,15 +3708,16 @@
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
+      },
       {
         "name": "LYDIA KA",
         "imo": "9314844",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
+    "portStateReview": [
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3779,7 +3780,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-21T19:43:51.906320+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-21 21:43:46",
+  "anchorageUpdatedAt": "2026-09-21T20:00:10.523851+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4196,7 +4197,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-21T19:40:10.603483+00:00",
+  "mapUpdatedAt": "2026-09-21T20:00:10.523851+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-21T19:43:37Z",
     "summary": {
