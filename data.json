@@ -3589,7 +3589,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-21T21:30:11.383620+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-21T22:00:18.775236+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3637,6 +3637,12 @@
         "name": "CMACGM FORTSTE MARIE",
         "imo": "9261906",
         "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "MONIF",
+        "imo": "9008146",
+        "port": "Benghazi",
         "decision": "ANCHORAGE"
       }
     ],
@@ -3677,7 +3683,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-21T21:30:59.796735+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-21 23:30:50",
+  "anchorageUpdatedAt": "2026-09-21T22:00:18.775236+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4075,7 +4081,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-21T21:30:11.383620+00:00",
+  "mapUpdatedAt": "2026-09-21T22:00:18.775236+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-21T21:30:42Z",
     "summary": {
