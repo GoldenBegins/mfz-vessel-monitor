@@ -1540,10 +1540,10 @@
     "updatedAt": "2026-09-22 01:01:02",
     "summary": {
       "Misurata": {
-        "active": 6,
-        "avgWaitingHours": 37.9,
-        "medianWaitingHours": 21.7,
-        "longestWaitingHours": 123.4,
+        "active": 5,
+        "avgWaitingHours": 42.35,
+        "medianWaitingHours": 27.47,
+        "longestWaitingHours": 123.44,
         "destinationConfirmed": 1,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1552,7 +1552,7 @@
       },
       "Benghazi": {
         "active": 11,
-        "avgWaitingHours": 152.0,
+        "avgWaitingHours": 152.03,
         "medianWaitingHours": 102.4,
         "longestWaitingHours": 624.5,
         "destinationConfirmed": 6,
@@ -1868,28 +1868,6 @@
         "destination": "Qasr Ahmed",
         "destinationClass": "MATCHED_PORT",
         "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-MISURATA-9381809-20260921T070600Z",
-        "port": "Misurata",
-        "vessel": "BURHAN DIZMAN",
-        "imo": "9381809",
-        "mmsi": "314707000",
-        "firstSeen": "2026-09-21T07:06:00+00:00",
-        "lastSeen": "2026-09-21T15:55:51Z",
-        "waitingHours": 15.91,
-        "lat": 32.388907,
-        "lon": 15.284093,
-        "sog": 0.2,
-        "distanceKm": 5.56,
-        "destination": "BENGHAZI",
-        "destinationClass": "To Benghazi",
-        "eta": "18:21 (LT)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
@@ -3651,10 +3629,10 @@
       "unknown": 9
     },
     "phaseUpdatedAt": "2026-09-21T19:43:56Z",
-    "exclusivityFilteredAt": "2026-09-17T17:30:58Z",
+    "exclusivityFilteredAt": "2026-09-21T23:01:05Z",
     "exclusivityRemoved": [
       {
-        "port": "Benghazi",
+        "port": "Misurata",
         "vessel": "BURHAN DIZMAN",
         "imo": "9381809",
         "mmsi": "314707000"
