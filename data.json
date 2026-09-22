@@ -3592,7 +3592,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-22T16:00:11.912232+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-22T16:30:11.204008+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3626,12 +3626,6 @@
     ],
     "portStateReview": [
       {
-        "name": "MV FURIOUS",
-        "imo": "9398735",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
         "name": "VESTSKJAER",
         "imo": "8504155",
         "port": "Benghazi",
@@ -3641,7 +3635,7 @@
         "name": "NANA LEEN",
         "imo": "9113850",
         "port": "Benghazi",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3681,7 +3675,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-22T16:00:52.375545+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-22T16:00:11.912232+00:00",
+  "anchorageUpdatedAt": "2026-09-22T16:30:11.204008+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4082,7 +4076,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-22T16:00:11.912232+00:00",
+  "mapUpdatedAt": "2026-09-22T16:30:11.204008+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-22T16:00:44Z",
     "summary": {
