@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 7,
-        "avgWaitingHours": 38.5,
-        "medianWaitingHours": 8.3,
-        "longestWaitingHours": 139.9,
+        "avgWaitingHours": 38.52,
+        "medianWaitingHours": 8.34,
+        "longestWaitingHours": 139.94,
         "destinationConfirmed": 1,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,10 +1551,10 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 9,
-        "avgWaitingHours": 140.2,
-        "medianWaitingHours": 35.0,
-        "longestWaitingHours": 641.0,
+        "active": 8,
+        "avgWaitingHours": 130.88,
+        "medianWaitingHours": 24.41,
+        "longestWaitingHours": 641.01,
         "destinationConfirmed": 3,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1608,28 +1608,6 @@
         "enteredPortOn": "",
         "closedOn": "",
         "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9113850-20260913T163300Z",
-        "port": "Benghazi",
-        "vessel": "NANA LEEN",
-        "imo": "9113850",
-        "mmsi": "667001716",
-        "firstSeen": "2026-09-13T16:33:00+00:00",
-        "lastSeen": "2026-09-22T11:54:21Z",
-        "waitingHours": 214.96,
-        "lat": 32.121015,
-        "lon": 19.958492,
-        "sog": 0.0,
-        "distanceKm": 7.73,
-        "destination": "Benghazi",
-        "destinationClass": "Other Port",
-        "eta": "12:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
         "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
@@ -3710,13 +3688,13 @@
       "unknown": 9
     },
     "phaseUpdatedAt": "2026-09-22T13:44:46Z",
-    "exclusivityFilteredAt": "2026-09-22T12:31:19Z",
+    "exclusivityFilteredAt": "2026-09-22T15:31:08Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "BRAVE M",
-        "imo": "9153496",
-        "mmsi": "312726000"
+        "vessel": "NANA LEEN",
+        "imo": "9113850",
+        "mmsi": "667001716"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
