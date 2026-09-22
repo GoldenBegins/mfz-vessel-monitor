@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 5,
-        "avgWaitingHours": 43.6,
-        "medianWaitingHours": 29.5,
-        "longestWaitingHours": 125.4,
+        "avgWaitingHours": 43.55,
+        "medianWaitingHours": 29.47,
+        "longestWaitingHours": 125.44,
         "destinationConfirmed": 1,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,11 +1551,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 10,
-        "avgWaitingHours": 154.9,
-        "medianWaitingHours": 102.9,
-        "longestWaitingHours": 626.5,
-        "destinationConfirmed": 6,
+        "active": 9,
+        "avgWaitingHours": 153.23,
+        "medianWaitingHours": 101.42,
+        "longestWaitingHours": 626.51,
+        "destinationConfirmed": 5,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1626,28 +1626,6 @@
         "destination": "Benghazi",
         "destinationClass": "To Benghazi",
         "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "Medium",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9008146-20260914T223500Z",
-        "port": "Benghazi",
-        "vessel": "MONIF",
-        "imo": "9008146",
-        "mmsi": "511100492",
-        "firstSeen": "2026-09-14T22:35:00+00:00",
-        "lastSeen": "2026-09-21T18:35:29Z",
-        "waitingHours": 170.42,
-        "lat": 32.124818,
-        "lon": 19.980777,
-        "sog": 0.1,
-        "distanceKm": 5.95,
-        "destination": "Benghazi",
-        "destinationClass": "To Benghazi",
-        "eta": "12:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
@@ -3592,13 +3570,13 @@
       "unknown": 9
     },
     "phaseUpdatedAt": "2026-09-21T19:43:56Z",
-    "exclusivityFilteredAt": "2026-09-21T23:01:05Z",
+    "exclusivityFilteredAt": "2026-09-22T01:00:57Z",
     "exclusivityRemoved": [
       {
-        "port": "Misurata",
-        "vessel": "BURHAN DIZMAN",
-        "imo": "9381809",
-        "mmsi": "314707000"
+        "port": "Benghazi",
+        "vessel": "MONIF",
+        "imo": "9008146",
+        "mmsi": "511100492"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
