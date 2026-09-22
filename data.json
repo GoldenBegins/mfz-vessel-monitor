@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 6,
-        "avgWaitingHours": 48.9,
-        "medianWaitingHours": 32.2,
-        "longestWaitingHours": 145.9,
+        "avgWaitingHours": 48.94,
+        "medianWaitingHours": 32.16,
+        "longestWaitingHours": 145.94,
         "destinationConfirmed": 1,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,11 +1551,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 8,
-        "avgWaitingHours": 135.4,
-        "medianWaitingHours": 30.4,
-        "longestWaitingHours": 647.0,
-        "destinationConfirmed": 3,
+        "active": 7,
+        "avgWaitingHours": 148.86,
+        "medianWaitingHours": 19.86,
+        "longestWaitingHours": 647.01,
+        "destinationConfirmed": 2,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1626,28 +1626,6 @@
         "destination": "Benghazi",
         "destinationClass": "Other Port",
         "eta": "20:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9314545-20260921T043200Z",
-        "port": "Benghazi",
-        "vessel": "MEDKON M",
-        "imo": "9314545",
-        "mmsi": "271000862",
-        "firstSeen": "2026-09-21T04:32:00+00:00",
-        "lastSeen": "2026-09-22T17:51:32Z",
-        "waitingHours": 40.97,
-        "lat": 32.109933,
-        "lon": 19.978955,
-        "sog": 0.3,
-        "distanceKm": 5.55,
-        "destination": "LYBEN",
-        "destinationClass": "To Benghazi",
-        "eta": "08:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
@@ -3734,13 +3712,13 @@
       "unknown": 5
     },
     "phaseUpdatedAt": "2026-09-22T19:44:04Z",
-    "exclusivityFilteredAt": "2026-09-22T15:31:08Z",
+    "exclusivityFilteredAt": "2026-09-22T21:31:18Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "NANA LEEN",
-        "imo": "9113850",
-        "mmsi": "667001716"
+        "vessel": "MEDKON M",
+        "imo": "9314545",
+        "mmsi": "271000862"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
