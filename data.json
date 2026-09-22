@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 6,
-        "avgWaitingHours": 42.9,
-        "medianWaitingHours": 23.2,
-        "longestWaitingHours": 136.9,
+        "avgWaitingHours": 42.94,
+        "medianWaitingHours": 23.16,
+        "longestWaitingHours": 136.94,
         "destinationConfirmed": 1,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,11 +1551,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 9,
-        "avgWaitingHours": 150.5,
-        "medianWaitingHours": 103.8,
-        "longestWaitingHours": 638.0,
-        "destinationConfirmed": 4,
+        "active": 8,
+        "avgWaitingHours": 155.2,
+        "medianWaitingHours": 67.91,
+        "longestWaitingHours": 638.01,
+        "destinationConfirmed": 3,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1626,28 +1626,6 @@
         "destination": "Benghazi",
         "destinationClass": "To Benghazi",
         "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9153496-20260917T193500Z",
-        "port": "Benghazi",
-        "vessel": "BRAVE M",
-        "imo": "9153496",
-        "mmsi": "312726000",
-        "firstSeen": "2026-09-17T19:35:00+00:00",
-        "lastSeen": "2026-09-22T06:48:26Z",
-        "waitingHours": 112.92,
-        "lat": 32.151433,
-        "lon": 19.93815,
-        "sog": 0.3,
-        "distanceKm": 10.91,
-        "destination": "LY BEN",
-        "destinationClass": "To Benghazi",
-        "eta": "20:00 (UTC)",
         "status": "Anchorage",
         "enteredPortOn": "",
         "closedOn": "",
@@ -3654,13 +3632,13 @@
       "unknown": 8
     },
     "phaseUpdatedAt": "2026-09-22T10:44:13Z",
-    "exclusivityFilteredAt": "2026-09-22T01:00:57Z",
+    "exclusivityFilteredAt": "2026-09-22T12:31:19Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "MONIF",
-        "imo": "9008146",
-        "mmsi": "511100492"
+        "vessel": "BRAVE M",
+        "imo": "9153496",
+        "mmsi": "312726000"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
