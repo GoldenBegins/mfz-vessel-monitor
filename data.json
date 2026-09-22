@@ -3547,7 +3547,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-22T02:30:10.346270+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-22T03:00:11.179073+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
     "portStateReview": [
@@ -3555,7 +3555,7 @@
         "name": "MONIF",
         "imo": "9008146",
         "port": "Benghazi",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3595,7 +3595,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-22T02:30:54.305939+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-22 04:30:47",
+  "anchorageUpdatedAt": "2026-09-22T03:00:11.179073+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3951,7 +3951,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-22T02:30:10.346270+00:00",
+  "mapUpdatedAt": "2026-09-22T03:00:11.179073+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-22T02:30:39Z",
     "summary": {
