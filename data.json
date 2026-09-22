@@ -3561,7 +3561,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-22T20:30:16.128322+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-22T21:00:14.737531+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3581,6 +3581,13 @@
       {
         "name": "AMIR BEY",
         "imo": "9016155",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "KOSOVAK",
+        "imo": "9211157",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3611,7 +3618,7 @@
         "name": "MEDKON M",
         "imo": "9314545",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3674,7 +3681,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-22T20:31:05.575906+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-22 22:30:57",
+  "anchorageUpdatedAt": "2026-09-22T21:00:14.737531+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4113,7 +4120,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-22T20:30:16.128322+00:00",
+  "mapUpdatedAt": "2026-09-22T21:00:14.737531+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-22T20:30:49Z",
     "summary": {
