@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-21 22:09:02",
+  "updatedAt": "2026-09-22 06:06:31",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 67,
-    "benghaziCalls": 54,
+    "misurataCalls": 68,
+    "benghaziCalls": 57,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 25,
-    "unestimatedCalls": 29,
-    "coverage": 46.3,
+    "estimatedCalls": 27,
+    "unestimatedCalls": 30,
+    "coverage": 47.4,
     "trustedVessels": 198,
     "identityReview": 0,
-    "estimatedTEU": 20123,
-    "estimatedGeneralCargoTons": 83304,
+    "estimatedTEU": 22710,
+    "estimatedGeneralCargoTons": 89733,
     "historicalHighMediumCalls": 5,
-    "fallbackLowCalls": 18
+    "fallbackLowCalls": 20
   },
   "comparison": [
     {
@@ -38,36 +38,20 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 67,
-      "benghaziCalls": 54,
+      "misurataCalls": 68,
+      "benghaziCalls": 57,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 20123,
-      "estimatedGeneralCargoTons": 83304,
-      "coverage": 46.3
+      "estimatedTEU": 22710,
+      "estimatedGeneralCargoTons": 89733,
+      "coverage": 47.4
     }
   ],
   "estimates": [
-    {
-      "vessel": "VENTO DI BORA",
-      "imo": "9950064",
-      "type": "Container",
-      "estimate": "2,211 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
-    {
-      "vessel": "CINDY",
-      "imo": "9004499",
-      "type": "General Cargo",
-      "estimate": "9,836 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "FALCON-EG",
       "imo": "8105404",
@@ -245,19 +229,35 @@
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
     {
+      "vessel": "CMACGM FORTSTE MARIE",
+      "imo": "9261906",
+      "type": "Container",
+      "estimate": "2,587 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
       "vessel": "MEDKON ANKA",
       "imo": "9366469",
       "type": "Container",
       "estimate": "1,928 TEU",
       "confidence": "Medium",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "MONIF",
+      "imo": "9008146",
+      "type": "General Cargo",
+      "estimate": "6,429 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "6 internal high-priority checks are recorded."
+      "detail": "236 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
