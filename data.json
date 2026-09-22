@@ -3574,9 +3574,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-22T08:00:11.332697+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-22T08:30:17.063637+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "MSC NORDIC F",
+        "imo": "9448671",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "AMIR BEY",
         "imo": "9016155",
@@ -3600,12 +3607,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "MSC NORDIC F",
-        "imo": "9448671",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3650,7 +3651,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-22T08:01:01.450938+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-22 10:00:54",
+  "anchorageUpdatedAt": "2026-09-22T08:30:17.063637+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4010,7 +4011,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-22T08:00:11.332697+00:00",
+  "mapUpdatedAt": "2026-09-22T08:30:17.063637+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-22T08:00:46Z",
     "summary": {
