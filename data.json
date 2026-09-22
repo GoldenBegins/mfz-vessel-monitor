@@ -3576,7 +3576,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-22T21:00:14.737531+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-22T21:30:19.209479+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3601,13 +3601,6 @@
         "winner": "SHIPNEXT"
       },
       {
-        "name": "KOSOVAK",
-        "imo": "9211157",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
         "name": "SNP PAZAR",
         "imo": "9549310",
         "port": "Benghazi",
@@ -3623,6 +3616,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "KOSOVAK",
+        "imo": "9211157",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3673,7 +3672,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-22T21:01:13.360324+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-22 23:01:05",
+  "anchorageUpdatedAt": "2026-09-22T21:30:19.209479+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4127,7 +4126,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-22T21:00:14.737531+00:00",
+  "mapUpdatedAt": "2026-09-22T21:30:19.209479+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-22T21:00:55Z",
     "summary": {
