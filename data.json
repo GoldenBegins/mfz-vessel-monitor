@@ -4157,14 +4157,14 @@
   },
   "mapUpdatedAt": "2026-09-22T23:00:09.614706+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-22T22:44:07Z",
+    "updatedAt": "2026-09-22T23:00:44Z",
     "summary": {
       "confirmedTotal": 52,
-      "candidateTotal": 2,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 26,
       "benghaziToMisurataConfirmed": 26,
       "misurataToBenghaziCandidates": 1,
-      "benghaziToMisurataCandidates": 1
+      "benghaziToMisurataCandidates": 0
     },
     "rows": [
       {
@@ -4181,7 +4181,7 @@
         "originStayHours": 72.0,
         "destinationAnchorageFirstSeen": "2026-09-22T01:39:00+00:00",
         "destinationAnchorageLastSeen": "2026-09-22T18:49:49Z",
-        "destinationAnchorageHours": 21.07,
+        "destinationAnchorageHours": 21.35,
         "seaTransitCalendarGapDays": 2,
         "confidence": "Candidate — destination Port Call not confirmed yet",
         "originCallId": "Misurata|8716954|2026-09-18",
@@ -4318,26 +4318,6 @@
         "cycleDays": 5.0,
         "confidence": "High identity / Day-level timing",
         "voyageId": "8591794|Misurata|8591794|2026-09-18|Benghazi|8591794|2026-09-21"
-      },
-      {
-        "kind": "candidate",
-        "status": "Anchorage Candidate",
-        "imo": "9165059",
-        "mmsi": "577669000",
-        "vessel": "RAVEN",
-        "type": "General Cargo",
-        "originPort": "Benghazi",
-        "destinationPort": "Misurata",
-        "originFirstSeen": "2026-09-14",
-        "originLastSeen": "2026-09-18",
-        "originStayHours": 120.0,
-        "destinationAnchorageFirstSeen": "2026-09-20T19:32:00+00:00",
-        "destinationAnchorageLastSeen": "2026-09-22T18:10:45Z",
-        "destinationAnchorageHours": 51.19,
-        "seaTransitCalendarGapDays": 2,
-        "confidence": "Candidate — destination Port Call not confirmed yet",
-        "originCallId": "Benghazi|9165059|2026-09-14",
-        "anchorEpisodeId": "ANCH-MISURATA-9165059-20260920T193200Z"
       },
       {
         "kind": "confirmed",
