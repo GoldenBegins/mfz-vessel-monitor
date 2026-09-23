@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-23 14:08:16",
+  "updatedAt": "2026-09-23 22:07:13",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 74,
-    "benghaziCalls": 61,
+    "misurataCalls": 78,
+    "benghaziCalls": 63,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 29,
+    "estimatedCalls": 31,
     "unestimatedCalls": 32,
-    "coverage": 47.5,
+    "coverage": 49.2,
     "trustedVessels": 198,
     "identityReview": 0,
     "estimatedTEU": 22710,
-    "estimatedGeneralCargoTons": 105275,
+    "estimatedGeneralCargoTons": 117475,
     "historicalHighMediumCalls": 5,
-    "fallbackLowCalls": 22
+    "fallbackLowCalls": 24
   },
   "comparison": [
     {
@@ -38,8 +38,8 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 74,
-      "benghaziCalls": 61,
+      "misurataCalls": 78,
+      "benghaziCalls": 63,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -47,27 +47,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 22710,
-      "estimatedGeneralCargoTons": 105275,
-      "coverage": 47.5
+      "estimatedGeneralCargoTons": 117475,
+      "coverage": 49.2
     }
   ],
   "estimates": [
-    {
-      "vessel": "OCEAN LEGEND A",
-      "imo": "9083225",
-      "type": "General Cargo",
-      "estimate": "5,379 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "ANKA DREAM",
-      "imo": "9195470",
-      "type": "General Cargo",
-      "estimate": "4,406 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "ITIDAL",
       "imo": "8003058",
@@ -249,6 +233,22 @@
       "imo": "9314545",
       "type": "General Cargo",
       "estimate": "5,706 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "FILIKCI 3",
+      "imo": "9011985",
+      "type": "General Cargo",
+      "estimate": "1,356 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "OCEAN7 REVOLUTION",
+      "imo": "9267742",
+      "type": "General Cargo",
+      "estimate": "10,844 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     }
