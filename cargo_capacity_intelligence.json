@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-09-23T12:10:31Z",
+  "updatedAt": "2026-09-23T20:10:23Z",
   "summary": {
-    "dwtProfiles": 143,
+    "dwtProfiles": 144,
     "fleetSampleN": 17,
     "fleetMedianTonsPerDwt": 0.4996,
     "fleetP25": 0.2402,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 4,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 65,
+    "fleetRatioEstimates": 69,
     "unestimatedCalls": 6
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "Medium",
-      "Updated On": "2026-09-23T12:10:31Z"
+      "Updated On": "2026-09-23T20:10:23Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-23T12:10:31Z"
+      "Updated On": "2026-09-23T20:10:23Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Low",
-      "Updated On": "2026-09-23T12:10:31Z"
+      "Updated On": "2026-09-23T20:10:23Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-23T12:10:31Z"
+      "Updated On": "2026-09-23T20:10:23Z"
     }
   ],
   "rows": [
@@ -706,6 +706,44 @@
       "Estimated Cargo Tons": 2781.15,
       "Low Estimate": 1337.07,
       "High Estimate": 5260.16,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=17",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9011985|2026-09-23",
+      "IMO": "9011985",
+      "Vessel": "FILIKCI 3",
+      "Vessel Type": "General Cargo",
+      "DWT": 1323.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 17,
+      "Median Tons/DWT": 0.4996,
+      "Estimated Cargo Tons": 660.94,
+      "Low Estimate": 317.75,
+      "High Estimate": 1250.08,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=17",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9267742|2026-09-23",
+      "IMO": "9267742",
+      "Vessel": "OCEAN7 REVOLUTION",
+      "Vessel Type": "General Cargo",
+      "DWT": 10581.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 17,
+      "Median Tons/DWT": 0.4996,
+      "Estimated Cargo Tons": 5286.04,
+      "Low Estimate": 2541.32,
+      "High Estimate": 9997.8,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=17",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1472,6 +1510,25 @@
     },
     {
       "Port": "Misurata",
+      "Call ID": "Misurata|9195470|2026-09-23",
+      "IMO": "9195470",
+      "Vessel": "ANKA DREAM",
+      "Vessel Type": "General Cargo",
+      "DWT": 4299.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 17,
+      "Median Tons/DWT": 0.4996,
+      "Estimated Cargo Tons": 2147.69,
+      "Low Estimate": 1032.52,
+      "High Estimate": 4062.05,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=17",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
       "Call ID": "Misurata|8105404|2026-09-23",
       "IMO": "8105404",
       "Vessel": "FALCON-EG",
@@ -1485,6 +1542,25 @@
       "Estimated Cargo Tons": 4103.53,
       "Low Estimate": 1972.82,
       "High Estimate": 7761.26,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=17",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9165059|2026-09-23",
+      "IMO": "9165059",
+      "Vessel": "RAVEN",
+      "Vessel Type": "General Cargo",
+      "DWT": 9651.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 17,
+      "Median Tons/DWT": 0.4996,
+      "Estimated Cargo Tons": 4821.43,
+      "Low Estimate": 2317.95,
+      "High Estimate": 9119.06,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=17",
       "Notes": "Planning proxy, not official handled tonnage."
