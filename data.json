@@ -4124,7 +4124,7 @@
   },
   "mapUpdatedAt": "2026-09-23T08:30:23.203192+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-23T07:44:07Z",
+    "updatedAt": "2026-09-23T08:31:08Z",
     "summary": {
       "confirmedTotal": 53,
       "candidateTotal": 1,
@@ -4147,8 +4147,8 @@
         "originLastSeen": "2026-09-20",
         "originStayHours": 72.0,
         "destinationAnchorageFirstSeen": "2026-09-22T01:39:00+00:00",
-        "destinationAnchorageLastSeen": "2026-09-23T04:37:48Z",
-        "destinationAnchorageHours": 30.08,
+        "destinationAnchorageLastSeen": "2026-09-23T05:19:48Z",
+        "destinationAnchorageHours": 30.86,
         "seaTransitCalendarGapDays": 2,
         "confidence": "Candidate — destination Port Call not confirmed yet",
         "originCallId": "Misurata|8716954|2026-09-18",
