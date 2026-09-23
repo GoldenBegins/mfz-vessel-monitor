@@ -4100,36 +4100,16 @@
   },
   "mapUpdatedAt": "2026-09-23T17:30:12.697436+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-09-23T16:43:54Z",
+    "updatedAt": "2026-09-23T17:30:48Z",
     "summary": {
       "confirmedTotal": 53,
-      "candidateTotal": 2,
+      "candidateTotal": 1,
       "misurataToBenghaziConfirmed": 26,
       "benghaziToMisurataConfirmed": 27,
       "misurataToBenghaziCandidates": 1,
-      "benghaziToMisurataCandidates": 1
+      "benghaziToMisurataCandidates": 0
     },
     "rows": [
-      {
-        "kind": "candidate",
-        "status": "Anchorage Candidate",
-        "imo": "9232175",
-        "mmsi": "352004610",
-        "vessel": "JUNNING",
-        "type": "Dry Bulk",
-        "originPort": "Benghazi",
-        "destinationPort": "Misurata",
-        "originFirstSeen": "2026-09-18",
-        "originLastSeen": "2026-09-19",
-        "originStayHours": 48.0,
-        "destinationAnchorageFirstSeen": "2026-09-23T13:03:34+00:00",
-        "destinationAnchorageLastSeen": "2026-09-23T13:03:34+00:00",
-        "destinationAnchorageHours": 3.66,
-        "seaTransitCalendarGapDays": 4,
-        "confidence": "Candidate — destination Port Call not confirmed yet",
-        "originCallId": "Benghazi|9232175|2026-09-18",
-        "anchorEpisodeId": "ANCH-MISURATA-9232175-20260923T130334Z"
-      },
       {
         "kind": "candidate",
         "status": "Anchorage Candidate",
@@ -4144,7 +4124,7 @@
         "originStayHours": 72.0,
         "destinationAnchorageFirstSeen": "2026-09-22T01:39:00+00:00",
         "destinationAnchorageLastSeen": "2026-09-23T15:17:24Z",
-        "destinationAnchorageHours": 39.07,
+        "destinationAnchorageHours": 39.86,
         "seaTransitCalendarGapDays": 2,
         "confidence": "Candidate — destination Port Call not confirmed yet",
         "originCallId": "Misurata|8716954|2026-09-18",
