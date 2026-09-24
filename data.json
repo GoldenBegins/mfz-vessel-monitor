@@ -3614,7 +3614,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-24T20:00:11.923906+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-24T20:30:11.358213+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3653,6 +3653,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "MERNA 1",
+        "imo": "8716954",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
         "port": "Benghazi",
@@ -3661,12 +3668,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "MERNA 1",
-        "imo": "8716954",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "MONIF",
         "imo": "9008146",
@@ -3717,7 +3718,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-24T20:00:34.737184+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-24T20:00:11.923906+00:00",
+  "anchorageUpdatedAt": "2026-09-24T20:30:11.358213+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4220,7 +4221,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-24T20:00:11.923906+00:00",
+  "mapUpdatedAt": "2026-09-24T20:30:11.358213+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-24T19:43:29Z",
     "summary": {
