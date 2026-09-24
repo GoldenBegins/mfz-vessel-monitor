@@ -3526,9 +3526,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-24T14:00:12.873379+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-24T14:30:11.991959+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "ANWAAR AL KHALIJ",
+        "imo": "9313424",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "SOUTH SPIRIT",
         "imo": "9171125",
@@ -3553,8 +3560,8 @@
     ],
     "portStateReview": [
       {
-        "name": "ANWAAR AL KHALIJ",
-        "imo": "9313424",
+        "name": "FALCON-EG",
+        "imo": "8105404",
         "port": "Misurata",
         "decision": "NEAR_PORT"
       },
@@ -3653,7 +3660,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-24T14:01:01.119417+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-24 16:00:53",
+  "anchorageUpdatedAt": "2026-09-24T14:30:11.991959+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4126,7 +4133,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-24T14:00:12.873379+00:00",
+  "mapUpdatedAt": "2026-09-24T14:30:11.991959+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-24T13:43:59Z",
     "summary": {
