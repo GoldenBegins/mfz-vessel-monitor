@@ -3526,12 +3526,19 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-24T15:30:11.814970+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-24T16:00:14.742200+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "ANWAAR AL KHALIJ",
         "imo": "9313424",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "FALCON-EG",
+        "imo": "8105404",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3559,12 +3566,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "FALCON-EG",
-        "imo": "8105404",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "FILIKCI 3",
         "imo": "9011985",
@@ -3660,7 +3661,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-24T15:31:04.065931+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-24 17:30:56",
+  "anchorageUpdatedAt": "2026-09-24T16:00:14.742200+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4133,7 +4134,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-24T15:30:11.814970+00:00",
+  "mapUpdatedAt": "2026-09-24T16:00:14.742200+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-24T15:01:05Z",
     "summary": {
