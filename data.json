@@ -3554,7 +3554,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-25T11:30:12.188919+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-25T12:00:18.801178+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3598,7 +3598,7 @@
         "name": "CINDY",
         "imo": "9004499",
         "port": "Benghazi",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       },
       {
         "name": "VESTSKJAER",
@@ -3644,7 +3644,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-25T11:31:01.948499+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-25 13:30:54",
+  "anchorageUpdatedAt": "2026-09-25T12:00:18.801178+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4053,7 +4053,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-25T11:30:12.188919+00:00",
+  "mapUpdatedAt": "2026-09-25T12:00:18.801178+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-25T11:30:44Z",
     "summary": {
