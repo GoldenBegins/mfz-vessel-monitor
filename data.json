@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-25 06:08:28",
+  "updatedAt": "2026-09-25 14:05:53",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 83,
-    "benghaziCalls": 65,
+    "benghaziCalls": 66,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 31,
+    "estimatedCalls": 32,
     "unestimatedCalls": 34,
-    "coverage": 47.7,
+    "coverage": 48.5,
     "trustedVessels": 198,
     "identityReview": 0,
-    "estimatedTEU": 22710,
+    "estimatedTEU": 24585,
     "estimatedGeneralCargoTons": 117475,
     "historicalHighMediumCalls": 5,
-    "fallbackLowCalls": 24
+    "fallbackLowCalls": 25
   },
   "comparison": [
     {
@@ -39,27 +39,19 @@
     {
       "period": "2026-09",
       "misurataCalls": 83,
-      "benghaziCalls": 65,
+      "benghaziCalls": 66,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 22710,
+      "estimatedTEU": 24585,
       "estimatedGeneralCargoTons": 117475,
-      "coverage": 47.7
+      "coverage": 48.5
     }
   ],
   "estimates": [
-    {
-      "vessel": "ITIDAL",
-      "imo": "8003058",
-      "type": "General Cargo",
-      "estimate": "3,638 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "BURHAN DIZMAN",
       "imo": "9381809",
@@ -251,6 +243,14 @@
       "estimate": "10,844 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MSC VULCANO II",
+      "imo": "9313228",
+      "type": "Container",
+      "estimate": "1,875 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
