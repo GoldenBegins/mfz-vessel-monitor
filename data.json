@@ -3576,7 +3576,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-25T15:00:12.194281+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-25T15:30:11.118763+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3623,6 +3623,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "OCEAN7 REVOLUTION",
+        "imo": "9267742",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3734,7 +3740,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-25T15:01:16.476696+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-25 17:01:08",
+  "anchorageUpdatedAt": "2026-09-25T15:30:11.118763+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4139,7 +4145,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-25T15:00:12.194281+00:00",
+  "mapUpdatedAt": "2026-09-25T15:30:11.118763+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-25T15:00:58Z",
     "summary": {
