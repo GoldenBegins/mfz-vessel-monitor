@@ -1540,11 +1540,11 @@
     "updatedAt": "2026-09-25 23:00:50",
     "summary": {
       "Misurata": {
-        "active": 3,
-        "avgWaitingHours": 124.1,
-        "medianWaitingHours": 154.9,
-        "longestWaitingHours": 217.4,
-        "destinationConfirmed": 1,
+        "active": 2,
+        "avgWaitingHours": 108.72,
+        "medianWaitingHours": 108.72,
+        "longestWaitingHours": 217.44,
+        "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1552,10 +1552,10 @@
       },
       "Benghazi": {
         "active": 8,
-        "avgWaitingHours": 144.9,
-        "medianWaitingHours": 15.1,
+        "avgWaitingHours": 144.86,
+        "medianWaitingHours": 15.09,
         "longestWaitingHours": 718.5,
-        "destinationConfirmed": 3,
+        "destinationConfirmed": 4,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1763,28 +1763,6 @@
         "closedOn": "",
         "confidence": "High",
         "source": ""
-      },
-      {
-        "episodeId": "ANCH-MISURATA-9222558-20260919T100849Z",
-        "port": "Misurata",
-        "vessel": "DR SARKAS",
-        "imo": "9222558",
-        "mmsi": "314851000",
-        "firstSeen": "2026-09-19T10:08:49+00:00",
-        "lastSeen": "2026-09-25T18:01:31Z",
-        "waitingHours": 154.86,
-        "lat": 32.382747,
-        "lon": 15.287925,
-        "sog": 0.0,
-        "distanceKm": 5.49,
-        "destination": "LYMRA",
-        "destinationClass": "To Misurata",
-        "eta": "05:00 (UTC)",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
       },
       {
         "episodeId": "ANCH-MISURATA-9203368-20260921T060912Z",
@@ -3634,13 +3612,13 @@
       "unknown": 6
     },
     "phaseUpdatedAt": "2026-09-25T19:44:05Z",
-    "exclusivityFilteredAt": "2026-09-22T21:31:18Z",
+    "exclusivityFilteredAt": "2026-09-25T21:00:58Z",
     "exclusivityRemoved": [
       {
-        "port": "Benghazi",
-        "vessel": "MEDKON M",
-        "imo": "9314545",
-        "mmsi": "271000862"
+        "port": "Misurata",
+        "vessel": "DR SARKAS",
+        "imo": "9222558",
+        "mmsi": "314851000"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
