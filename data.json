@@ -3521,18 +3521,39 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-26T04:00:11.168361+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-26T04:30:11.494222+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "AMIR BEY",
+        "imo": "9016155",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "QUEEN NM",
         "imo": "9234991",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ZIYA SEMRAN",
+        "imo": "9863895",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "VESTSKJAER",
+        "imo": "8504155",
+        "port": "Benghazi",
+        "decision": "UNCONFIRMED"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 5,
@@ -3570,7 +3591,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-26T04:00:39.136780+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-26T04:00:11.168361+00:00",
+  "anchorageUpdatedAt": "2026-09-26T04:30:11.494222+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3956,7 +3977,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-26T04:00:11.168361+00:00",
+  "mapUpdatedAt": "2026-09-26T04:30:11.494222+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-26T03:30:41Z",
     "summary": {
