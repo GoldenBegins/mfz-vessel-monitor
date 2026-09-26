@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-09-26T12:10:25Z",
+  "updatedAt": "2026-09-26T20:10:25Z",
   "summary": {
-    "dwtProfiles": 148,
+    "dwtProfiles": 149,
     "fleetSampleN": 18,
     "fleetMedianTonsPerDwt": 0.4517,
     "fleetP25": 0.2447,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 4,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 70,
+    "fleetRatioEstimates": 71,
     "unestimatedCalls": 6
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "Medium",
-      "Updated On": "2026-09-26T12:10:25Z"
+      "Updated On": "2026-09-26T20:10:25Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-26T12:10:25Z"
+      "Updated On": "2026-09-26T20:10:25Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Low",
-      "Updated On": "2026-09-26T12:10:25Z"
+      "Updated On": "2026-09-26T20:10:25Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-26T12:10:25Z"
+      "Updated On": "2026-09-26T20:10:25Z"
     }
   ],
   "rows": [
@@ -70,15 +70,15 @@
       "IMO": "8207410",
       "Vessel": "ABASHIE",
       "Vessel Type": "General Cargo",
-      "DWT": 3028.0,
+      "DWT": 2610.0,
       "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 18,
       "Median Tons/DWT": 0.4517,
-      "Estimated Cargo Tons": 1367.76,
-      "Low Estimate": 740.94,
-      "High Estimate": 2651.25,
+      "Estimated Cargo Tons": 1178.95,
+      "Low Estimate": 638.65,
+      "High Estimate": 2285.26,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1580,6 +1580,25 @@
       "Estimated Cargo Tons": 3528.26,
       "Low Estimate": 1911.31,
       "High Estimate": 6839.15,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=18",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9356684|2026-09-26",
+      "IMO": "9356684",
+      "Vessel": "ALEXANDRA A",
+      "Vessel Type": "General Cargo",
+      "DWT": 12099.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 18,
+      "Median Tons/DWT": 0.4517,
+      "Estimated Cargo Tons": 5465.16,
+      "Low Estimate": 2960.56,
+      "High Estimate": 10593.63,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=18",
       "Notes": "Planning proxy, not official handled tonnage."
