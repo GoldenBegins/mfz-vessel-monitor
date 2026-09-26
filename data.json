@@ -3527,17 +3527,18 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-26T01:00:09.654184+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-26T01:30:11.307133+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
-    "portStateReview": [
+    "potentialDepartures": [
       {
         "name": "QUEEN NM",
         "imo": "9234991",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 5,
@@ -3575,7 +3576,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-26T01:00:54.657996+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-26 03:00:47",
+  "anchorageUpdatedAt": "2026-09-26T01:30:11.307133+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3980,7 +3981,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-26T01:00:09.654184+00:00",
+  "mapUpdatedAt": "2026-09-26T01:30:11.307133+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-26T01:00:39Z",
     "summary": {
