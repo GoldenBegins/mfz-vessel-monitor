@@ -3580,7 +3580,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-26T15:00:14.273687+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-26T15:30:12.849578+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3620,6 +3620,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "BREB COUNTESS",
+        "imo": "9421166",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3709,7 +3715,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-26T15:00:55.308951+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-26T15:00:14.273687+00:00",
+  "anchorageUpdatedAt": "2026-09-26T15:30:12.849578+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4144,7 +4150,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-26T15:00:14.273687+00:00",
+  "mapUpdatedAt": "2026-09-26T15:30:12.849578+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-26T14:30:48Z",
     "summary": {
