@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-26 06:07:45",
+  "updatedAt": "2026-09-26 14:06:48",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 87,
-    "benghaziCalls": 67,
+    "misurataCalls": 88,
+    "benghaziCalls": 69,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,14 +11,14 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 33,
-    "unestimatedCalls": 34,
+    "estimatedCalls": 34,
+    "unestimatedCalls": 35,
     "coverage": 49.3,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 25925,
+    "estimatedTEU": 26867,
     "estimatedGeneralCargoTons": 117475,
-    "historicalHighMediumCalls": 6,
+    "historicalHighMediumCalls": 7,
     "fallbackLowCalls": 25
   },
   "comparison": [
@@ -38,28 +38,20 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 87,
-      "benghaziCalls": 67,
+      "misurataCalls": 88,
+      "benghaziCalls": 69,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 25925,
+      "estimatedTEU": 26867,
       "estimatedGeneralCargoTons": 117475,
       "coverage": 49.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "JELENA",
-      "imo": "9519042",
-      "type": "General Cargo",
-      "estimate": "5,842 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "MEDKON LIA",
       "imo": "9139646",
@@ -249,6 +241,14 @@
       "imo": "9234991",
       "type": "Container",
       "estimate": "1,340 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "KOSOVAK",
+      "imo": "9211157",
+      "type": "Container",
+      "estimate": "942 TEU",
       "confidence": "High",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
