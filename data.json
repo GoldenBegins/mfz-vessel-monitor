@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-27 14:08:03",
+  "updatedAt": "2026-09-27 22:08:41",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 91,
-    "benghaziCalls": 71,
+    "misurataCalls": 93,
+    "benghaziCalls": 75,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,13 +11,13 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 34,
-    "unestimatedCalls": 37,
-    "coverage": 47.9,
+    "estimatedCalls": 35,
+    "unestimatedCalls": 40,
+    "coverage": 46.7,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 26867,
-    "estimatedGeneralCargoTons": 117475,
+    "estimatedGeneralCargoTons": 109412,
     "historicalHighMediumCalls": 7,
     "fallbackLowCalls": 25
   },
@@ -38,8 +38,8 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 91,
-      "benghaziCalls": 71,
+      "misurataCalls": 93,
+      "benghaziCalls": 75,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -47,19 +47,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 26867,
-      "estimatedGeneralCargoTons": 117475,
-      "coverage": 47.9
+      "estimatedGeneralCargoTons": 109412,
+      "coverage": 46.7
     }
   ],
   "estimates": [
-    {
-      "vessel": "MEDKON LIA",
-      "imo": "9139646",
-      "type": "Container",
-      "estimate": "1,003 TEU",
-      "confidence": "Low",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "PARPALI",
       "imo": "9134701",
@@ -88,7 +80,7 @@
       "vessel": "CELINE",
       "imo": "9139323",
       "type": "General Cargo",
-      "estimate": "4,670 t",
+      "estimate": "4,268 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -104,7 +96,7 @@
       "vessel": "RAVEN",
       "imo": "9165059",
       "type": "General Cargo",
-      "estimate": "9,891 t",
+      "estimate": "9,040 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -112,7 +104,7 @@
       "vessel": "SEA WAVE 4",
       "imo": "9125152",
       "type": "General Cargo",
-      "estimate": "5,152 t",
+      "estimate": "4,709 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -136,7 +128,7 @@
       "vessel": "BURHAN DIZMAN",
       "imo": "9381809",
       "type": "General Cargo",
-      "estimate": "7,912 t",
+      "estimate": "7,231 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -152,7 +144,7 @@
       "vessel": "JELENA",
       "imo": "9519042",
       "type": "General Cargo",
-      "estimate": "5,842 t",
+      "estimate": "5,339 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -168,7 +160,7 @@
       "vessel": "ANKA DREAM",
       "imo": "9195470",
       "type": "General Cargo",
-      "estimate": "4,406 t",
+      "estimate": "4,027 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -192,7 +184,7 @@
       "vessel": "MONIF",
       "imo": "9008146",
       "type": "General Cargo",
-      "estimate": "6,429 t",
+      "estimate": "5,876 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -200,7 +192,7 @@
       "vessel": "CINDY",
       "imo": "9004499",
       "type": "General Cargo",
-      "estimate": "9,836 t",
+      "estimate": "8,989 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -208,7 +200,7 @@
       "vessel": "MEDKON M",
       "imo": "9314545",
       "type": "General Cargo",
-      "estimate": "5,706 t",
+      "estimate": "5,215 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -216,7 +208,7 @@
       "vessel": "FILIKCI 3",
       "imo": "9011985",
       "type": "General Cargo",
-      "estimate": "1,356 t",
+      "estimate": "1,239 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -224,7 +216,7 @@
       "vessel": "OCEAN7 REVOLUTION",
       "imo": "9267742",
       "type": "General Cargo",
-      "estimate": "10,844 t",
+      "estimate": "9,911 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -251,6 +243,14 @@
       "estimate": "942 TEU",
       "confidence": "High",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "ARTVIN",
+      "imo": "8917869",
+      "type": "GENERAL CARGO",
+      "estimate": "2,047 t",
+      "confidence": "Low",
+      "method": "Same IMO - trusted MFZ historical median actual tons"
     }
   ],
   "review": [],
