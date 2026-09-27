@@ -3603,7 +3603,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-27T19:40:10.296818+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-27T20:00:22.898278+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3628,6 +3628,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "GOTHICA",
+        "imo": "7826867",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "MSC VULCANO II",
         "imo": "9313228",
         "port": "Benghazi",
@@ -3643,12 +3650,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "ANWAAR AL KHALIJ",
         "imo": "9313424",
@@ -3705,7 +3706,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-27T19:44:05.096691+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-27 21:44:00",
+  "anchorageUpdatedAt": "2026-09-27T20:00:22.898278+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4140,7 +4141,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-27T19:40:10.296818+00:00",
+  "mapUpdatedAt": "2026-09-27T20:00:22.898278+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-27T19:43:52Z",
     "summary": {
