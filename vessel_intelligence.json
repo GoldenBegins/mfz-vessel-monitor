@@ -1,6 +1,6 @@
 {
   "version": "VESSEL_INTELLIGENCE_V1",
-  "updatedAt": "2026-09-26T20:10:19Z",
+  "updatedAt": "2026-09-27T04:10:16Z",
   "summary": {
     "vessels": 189,
     "dwtKnown": 148,
@@ -212,11 +212,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 1,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 43.0,
+      "Avg Port Stay Proxy Days": 44.0,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -254,11 +254,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 1,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 43.0,
+      "Avg Port Stay Proxy Days": 44.0,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -716,11 +716,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 1,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 43.0,
+      "Avg Port Stay Proxy Days": 44.0,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -842,11 +842,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 1,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 19.0,
+      "Avg Port Stay Proxy Days": 20.0,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -884,11 +884,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 0,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 2.0,
+      "Avg Port Stay Proxy Days": 3.0,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 0.0,
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -926,11 +926,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 0,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 5.0,
+      "Avg Port Stay Proxy Days": 6.0,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 0.0,
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -1010,11 +1010,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 2,
       "Total Calls": 2,
-      "Avg Port Stay Proxy Days": 14.5,
+      "Avg Port Stay Proxy Days": 15.0,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 66.42,
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -1179,7 +1179,7 @@
       "Benghazi Calls": 0,
       "Total Calls": 0,
       "Avg Port Stay Proxy Days": "",
-      "Anchorage Episodes": 1,
+      "Anchorage Episodes": 2,
       "Avg Anchorage Hours": 0.0,
       "Last Observed Port": "",
       "Last Observed On": "",
@@ -1556,11 +1556,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 0,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 15.0,
+      "Avg Port Stay Proxy Days": 16.0,
       "Anchorage Episodes": 2,
       "Avg Anchorage Hours": 43.97,
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -2102,11 +2102,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 1,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 1.0,
+      "Avg Port Stay Proxy Days": 2.0,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -2522,11 +2522,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 1,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 5.0,
+      "Avg Port Stay Proxy Days": 6.0,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 113.42,
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -3110,11 +3110,11 @@
       "Misurata Calls": 4,
       "Benghazi Calls": 0,
       "Total Calls": 4,
-      "Avg Port Stay Proxy Days": 2.5,
+      "Avg Port Stay Proxy Days": 2.75,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 6.36,
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "شركة البحرين",
       "Last Agent Port": "Misurata",
@@ -3404,11 +3404,11 @@
       "Misurata Calls": 3,
       "Benghazi Calls": 3,
       "Total Calls": 6,
-      "Avg Port Stay Proxy Days": 2.67,
+      "Avg Port Stay Proxy Days": 2.83,
       "Anchorage Episodes": 4,
       "Avg Anchorage Hours": 45.11,
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "شركة دليل",
       "Last Agent Port": "Misurata",
@@ -3488,11 +3488,11 @@
       "Misurata Calls": 4,
       "Benghazi Calls": 0,
       "Total Calls": 4,
-      "Avg Port Stay Proxy Days": 2.75,
+      "Avg Port Stay Proxy Days": 3.0,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -3572,11 +3572,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 0,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 2.0,
+      "Avg Port Stay Proxy Days": 3.0,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 155.36,
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -3782,11 +3782,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 1,
       "Total Calls": 2,
-      "Avg Port Stay Proxy Days": 3.0,
+      "Avg Port Stay Proxy Days": 3.5,
       "Anchorage Episodes": 2,
       "Avg Anchorage Hours": 1.98,
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -4328,11 +4328,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 0,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 16.0,
+      "Avg Port Stay Proxy Days": 17.0,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 447.4,
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "الافق اللامع",
       "Last Agent Port": "Misurata",
@@ -4454,11 +4454,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 0,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 13.0,
+      "Avg Port Stay Proxy Days": 14.0,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 240.38,
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -4874,11 +4874,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 3,
       "Total Calls": 3,
-      "Avg Port Stay Proxy Days": 3.33,
+      "Avg Port Stay Proxy Days": 3.67,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 2.97,
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -4916,11 +4916,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 1,
       "Total Calls": 2,
-      "Avg Port Stay Proxy Days": 2.0,
+      "Avg Port Stay Proxy Days": 2.5,
       "Anchorage Episodes": 2,
       "Avg Anchorage Hours": 12.2,
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -5588,11 +5588,11 @@
       "Misurata Calls": 2,
       "Benghazi Calls": 1,
       "Total Calls": 3,
-      "Avg Port Stay Proxy Days": 1.67,
+      "Avg Port Stay Proxy Days": 2.0,
       "Anchorage Episodes": 2,
       "Avg Anchorage Hours": 37.25,
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "اساس ليبيا",
       "Last Agent Port": "Misurata",
@@ -6092,11 +6092,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 0,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 5.0,
+      "Avg Port Stay Proxy Days": 6.0,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -6468,13 +6468,13 @@
       "ETA": "",
       "External Updated On": "",
       "Misurata Calls": 0,
-      "Benghazi Calls": 0,
-      "Total Calls": 0,
-      "Avg Port Stay Proxy Days": "",
+      "Benghazi Calls": 1,
+      "Total Calls": 1,
+      "Avg Port Stay Proxy Days": 1.0,
       "Anchorage Episodes": 1,
       "Avg Anchorage Hours": 0.0,
-      "Last Observed Port": "",
-      "Last Observed On": "",
+      "Last Observed Port": "Benghazi",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -7268,11 +7268,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 1,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 43.0,
+      "Avg Port Stay Proxy Days": 44.0,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -7730,11 +7730,11 @@
       "Misurata Calls": 0,
       "Benghazi Calls": 2,
       "Total Calls": 2,
-      "Avg Port Stay Proxy Days": 13.0,
+      "Avg Port Stay Proxy Days": 13.5,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Benghazi",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -7898,11 +7898,11 @@
       "Misurata Calls": 1,
       "Benghazi Calls": 0,
       "Total Calls": 1,
-      "Avg Port Stay Proxy Days": 43.0,
+      "Avg Port Stay Proxy Days": 44.0,
       "Anchorage Episodes": 0,
       "Avg Anchorage Hours": "",
       "Last Observed Port": "Misurata",
-      "Last Observed On": "2026-09-26T00:00:00Z",
+      "Last Observed On": "2026-09-27T00:00:00Z",
       "Sources": "Vessel Master",
       "Last Known Libya Agent": "",
       "Last Agent Port": "",
@@ -7965,7 +7965,7 @@
       "ETA Error Hours": 69.4,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -7976,7 +7976,7 @@
       "ETA Error Hours": -253.18,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -7987,7 +7987,7 @@
       "ETA Error Hours": 3.7,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -7998,7 +7998,7 @@
       "ETA Error Hours": -718.73,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8009,7 +8009,7 @@
       "ETA Error Hours": 1.33,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8020,7 +8020,7 @@
       "ETA Error Hours": 63.53,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8031,7 +8031,7 @@
       "ETA Error Hours": -108.25,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8042,7 +8042,7 @@
       "ETA Error Hours": -422.9,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8053,7 +8053,7 @@
       "ETA Error Hours": 62.58,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8064,7 +8064,7 @@
       "ETA Error Hours": 39.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8075,7 +8075,7 @@
       "ETA Error Hours": 202.18,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8086,7 +8086,7 @@
       "ETA Error Hours": -630.62,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8097,7 +8097,7 @@
       "ETA Error Hours": -459.97,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8108,7 +8108,7 @@
       "ETA Error Hours": 102.42,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8119,7 +8119,7 @@
       "ETA Error Hours": 57.23,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8130,7 +8130,7 @@
       "ETA Error Hours": -381.45,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8141,7 +8141,7 @@
       "ETA Error Hours": 27.95,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8152,7 +8152,7 @@
       "ETA Error Hours": -521.22,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8163,7 +8163,7 @@
       "ETA Error Hours": -12.97,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8174,7 +8174,7 @@
       "ETA Error Hours": 5.38,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8185,7 +8185,7 @@
       "ETA Error Hours": 29.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8196,7 +8196,7 @@
       "ETA Error Hours": 136.68,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8207,7 +8207,7 @@
       "ETA Error Hours": -591.3,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8218,7 +8218,7 @@
       "ETA Error Hours": -750.48,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8229,7 +8229,7 @@
       "ETA Error Hours": 21.73,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8240,7 +8240,7 @@
       "ETA Error Hours": -12.6,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8251,7 +8251,7 @@
       "ETA Error Hours": 33.92,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8262,7 +8262,7 @@
       "ETA Error Hours": -196.02,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8273,7 +8273,7 @@
       "ETA Error Hours": 19.9,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8284,7 +8284,7 @@
       "ETA Error Hours": -198.27,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8295,7 +8295,7 @@
       "ETA Error Hours": 53.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8306,7 +8306,7 @@
       "ETA Error Hours": -227.5,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8317,7 +8317,7 @@
       "ETA Error Hours": -1.88,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8328,7 +8328,7 @@
       "ETA Error Hours": -733.3,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8339,7 +8339,7 @@
       "ETA Error Hours": 66.8,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8350,7 +8350,7 @@
       "ETA Error Hours": -277.15,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8361,7 +8361,7 @@
       "ETA Error Hours": 4.05,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8372,7 +8372,7 @@
       "ETA Error Hours": 3.33,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8383,7 +8383,7 @@
       "ETA Error Hours": 66.47,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8394,7 +8394,7 @@
       "ETA Error Hours": -701.28,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8405,7 +8405,7 @@
       "ETA Error Hours": 50.27,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8416,7 +8416,7 @@
       "ETA Error Hours": 161.85,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8427,7 +8427,7 @@
       "ETA Error Hours": 2.43,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8438,7 +8438,7 @@
       "ETA Error Hours": -11.95,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8449,7 +8449,7 @@
       "ETA Error Hours": 0.03,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Benghazi",
@@ -8460,7 +8460,7 @@
       "ETA Error Hours": -14.43,
       "Source": "https://www.myshiptracking.com/estimate?pid=3184",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8471,18 +8471,18 @@
       "ETA Error Hours": 38.58,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
       "IMO": "7826867",
       "Vessel": "GOTHICA",
-      "Expected ETA": "2026-09-27 8:43",
+      "Expected ETA": "2026-09-27 8:52",
       "Actual First Seen": "2026-08-16T00:00:00Z",
-      "ETA Error Hours": -1016.72,
+      "ETA Error Hours": -1016.87,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Planned / Expected",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8493,7 +8493,7 @@
       "ETA Error Hours": -473.6,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Planned / Expected",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8504,7 +8504,7 @@
       "ETA Error Hours": -18.3,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8515,7 +8515,7 @@
       "ETA Error Hours": 10.03,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8526,7 +8526,7 @@
       "ETA Error Hours": 21.95,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8537,7 +8537,7 @@
       "ETA Error Hours": 1.62,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8548,7 +8548,7 @@
       "ETA Error Hours": -465.03,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8559,7 +8559,7 @@
       "ETA Error Hours": 122.85,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8570,7 +8570,7 @@
       "ETA Error Hours": 6.5,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8581,7 +8581,7 @@
       "ETA Error Hours": -597.57,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8592,7 +8592,7 @@
       "ETA Error Hours": 152.25,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8603,7 +8603,7 @@
       "ETA Error Hours": -11.28,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8614,7 +8614,7 @@
       "ETA Error Hours": 12.07,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8625,7 +8625,7 @@
       "ETA Error Hours": -447.88,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8636,7 +8636,7 @@
       "ETA Error Hours": -12.18,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8647,7 +8647,7 @@
       "ETA Error Hours": -9.9,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8658,7 +8658,7 @@
       "ETA Error Hours": -995.98,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8669,7 +8669,7 @@
       "ETA Error Hours": -161.15,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8680,7 +8680,7 @@
       "ETA Error Hours": -8.42,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8691,7 +8691,7 @@
       "ETA Error Hours": -932.03,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8702,7 +8702,7 @@
       "ETA Error Hours": -762.55,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8713,7 +8713,7 @@
       "ETA Error Hours": -20.12,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8724,7 +8724,7 @@
       "ETA Error Hours": 215.67,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8735,7 +8735,7 @@
       "ETA Error Hours": -279.98,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8746,7 +8746,7 @@
       "ETA Error Hours": -153.7,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8757,7 +8757,7 @@
       "ETA Error Hours": -745.17,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8768,7 +8768,7 @@
       "ETA Error Hours": 5.63,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8779,7 +8779,7 @@
       "ETA Error Hours": -5.13,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8790,7 +8790,7 @@
       "ETA Error Hours": -638.82,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8801,7 +8801,7 @@
       "ETA Error Hours": 217.85,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8812,7 +8812,7 @@
       "ETA Error Hours": -10.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8823,7 +8823,7 @@
       "ETA Error Hours": -920.95,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8834,7 +8834,7 @@
       "ETA Error Hours": 32.83,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8845,7 +8845,7 @@
       "ETA Error Hours": -275.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8856,7 +8856,7 @@
       "ETA Error Hours": -13.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8867,7 +8867,7 @@
       "ETA Error Hours": -262.98,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8878,7 +8878,7 @@
       "ETA Error Hours": 18.62,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8889,7 +8889,7 @@
       "ETA Error Hours": -685.4,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8900,7 +8900,7 @@
       "ETA Error Hours": -10.92,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8911,7 +8911,7 @@
       "ETA Error Hours": -753.72,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8922,7 +8922,7 @@
       "ETA Error Hours": -0.02,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8933,7 +8933,7 @@
       "ETA Error Hours": -4.28,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8944,7 +8944,7 @@
       "ETA Error Hours": -1.2,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8955,7 +8955,7 @@
       "ETA Error Hours": -977.17,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8966,7 +8966,7 @@
       "ETA Error Hours": -0.2,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8977,7 +8977,7 @@
       "ETA Error Hours": -402.27,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8988,7 +8988,7 @@
       "ETA Error Hours": -612.37,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -8999,7 +8999,7 @@
       "ETA Error Hours": -10.15,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Arrived / In Port",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9010,7 +9010,7 @@
       "ETA Error Hours": -6.43,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9021,7 +9021,7 @@
       "ETA Error Hours": -966.35,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9032,7 +9032,7 @@
       "ETA Error Hours": -12.22,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9043,7 +9043,7 @@
       "ETA Error Hours": -20.5,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9054,7 +9054,7 @@
       "ETA Error Hours": -379.03,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9065,7 +9065,7 @@
       "ETA Error Hours": -4.48,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9076,7 +9076,7 @@
       "ETA Error Hours": -6.0,
       "Source": "Flexport Atlas",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9087,7 +9087,7 @@
       "ETA Error Hours": -1.3,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9098,7 +9098,7 @@
       "ETA Error Hours": -15.13,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9109,7 +9109,7 @@
       "ETA Error Hours": -9.55,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9120,7 +9120,7 @@
       "ETA Error Hours": 38.25,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9131,7 +9131,7 @@
       "ETA Error Hours": -22.63,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9142,7 +9142,7 @@
       "ETA Error Hours": -13.27,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     },
     {
       "Port": "Misurata",
@@ -9153,7 +9153,7 @@
       "ETA Error Hours": -14.02,
       "Source": "https://www.myshiptracking.com/estimate?pid=3197",
       "Status": "Overdue / Not Confirmed",
-      "Calculated On": "2026-09-26T20:10:18Z"
+      "Calculated On": "2026-09-27T04:10:16Z"
     }
   ]
 }
