@@ -3538,12 +3538,19 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-27T19:00:10.318647+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-27T19:30:11.408093+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "JUNNING",
         "imo": "9232175",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "SULINA",
+        "imo": "8509363",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3572,14 +3579,20 @@
     ],
     "portStateReview": [
       {
-        "name": "SULINA",
-        "imo": "8509363",
+        "name": "GOTHICA",
+        "imo": "7826867",
         "port": "Misurata",
         "decision": "NEAR_PORT"
       },
       {
         "name": "ANWAAR AL KHALIJ",
         "imo": "9313424",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "LEPTIS STAR",
+        "imo": "8517592",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
       },
@@ -3627,7 +3640,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-27T19:01:03.216293+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-27 21:00:56",
+  "anchorageUpdatedAt": "2026-09-27T19:30:11.408093+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4043,7 +4056,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-27T19:00:10.318647+00:00",
+  "mapUpdatedAt": "2026-09-27T19:30:11.408093+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-27T19:00:48Z",
     "summary": {
