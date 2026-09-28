@@ -3524,7 +3524,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-28T22:30:13.021245+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-28T22:40:11.084724+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3603,6 +3603,12 @@
         "imo": "8504155",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "GOTHICA",
+        "imo": "7826867",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3642,7 +3648,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-28T22:31:01.773414+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-29 00:30:53",
+  "anchorageUpdatedAt": "2026-09-28T22:40:11.084724+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4021,7 +4027,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-28T22:30:13.021245+00:00",
+  "mapUpdatedAt": "2026-09-28T22:40:11.084724+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-28T22:30:45Z",
     "summary": {
