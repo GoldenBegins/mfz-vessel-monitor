@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-27 22:08:41",
+  "updatedAt": "2026-09-28 06:06:47",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 93,
-    "benghaziCalls": 75,
+    "misurataCalls": 94,
+    "benghaziCalls": 79,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 35,
-    "unestimatedCalls": 40,
-    "coverage": 46.7,
+    "estimatedCalls": 36,
+    "unestimatedCalls": 43,
+    "coverage": 45.6,
     "trustedVessels": 199,
     "identityReview": 0,
     "estimatedTEU": 26867,
-    "estimatedGeneralCargoTons": 109412,
+    "estimatedGeneralCargoTons": 114751,
     "historicalHighMediumCalls": 7,
-    "fallbackLowCalls": 25
+    "fallbackLowCalls": 26
   },
   "comparison": [
     {
@@ -38,8 +38,8 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 93,
-      "benghaziCalls": 75,
+      "misurataCalls": 94,
+      "benghaziCalls": 79,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -47,19 +47,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 26867,
-      "estimatedGeneralCargoTons": 109412,
-      "coverage": 46.7
+      "estimatedGeneralCargoTons": 114751,
+      "coverage": 45.6
     }
   ],
   "estimates": [
-    {
-      "vessel": "PARPALI",
-      "imo": "9134701",
-      "type": "Container",
-      "estimate": "1,379 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "KOSOVAK",
       "imo": "9211157",
@@ -251,13 +243,21 @@
       "estimate": "2,047 t",
       "confidence": "Low",
       "method": "Same IMO - trusted MFZ historical median actual tons"
+    },
+    {
+      "vessel": "JELENA",
+      "imo": "9519042",
+      "type": "General Cargo",
+      "estimate": "5,339 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "235 internal high-priority checks are recorded."
+      "detail": "236 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
