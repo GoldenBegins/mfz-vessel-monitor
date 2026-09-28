@@ -3497,7 +3497,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-28T17:00:12.382021+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-28T17:30:11.789173+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3524,6 +3524,13 @@
       {
         "name": "BRAVE M",
         "imo": "9153496",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "GRANDE INGHILTERRA",
+        "imo": "9992634",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3561,12 +3568,6 @@
         "imo": "1077933",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "GRANDE INGHILTERRA",
-        "imo": "9992634",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "VESTSKJAER",
@@ -3635,7 +3636,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-28T17:01:08.040196+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-28 19:00:55",
+  "anchorageUpdatedAt": "2026-09-28T17:30:11.789173+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4010,7 +4011,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-28T17:00:12.382021+00:00",
+  "mapUpdatedAt": "2026-09-28T17:30:11.789173+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-28T17:00:47Z",
     "summary": {
