@@ -3497,12 +3497,19 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-28T17:30:11.789173+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-28T18:00:12.559282+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "ALEXANDRA A",
         "imo": "9356684",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "LILA",
+        "imo": "9278923",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3554,12 +3561,6 @@
       {
         "name": "MALAK M",
         "imo": "9216353",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "LILA",
-        "imo": "9278923",
         "port": "Misurata",
         "decision": "NEAR_PORT"
       },
@@ -3636,7 +3637,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-28T17:31:00.083722+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-28 19:30:52",
+  "anchorageUpdatedAt": "2026-09-28T18:00:12.559282+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4011,7 +4012,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-28T17:30:11.789173+00:00",
+  "mapUpdatedAt": "2026-09-28T18:00:12.559282+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-28T17:30:44Z",
     "summary": {
