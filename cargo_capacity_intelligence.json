@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-09-27T20:10:25Z",
+  "updatedAt": "2026-09-28T04:10:24Z",
   "summary": {
-    "dwtProfiles": 151,
+    "dwtProfiles": 154,
     "fleetSampleN": 19,
     "fleetMedianTonsPerDwt": 0.4996,
     "fleetP25": 0.2492,
@@ -10,8 +10,8 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 4,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 72,
-    "unestimatedCalls": 6
+    "fleetRatioEstimates": 73,
+    "unestimatedCalls": 7
   },
   "calibration": [
     {
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "Medium",
-      "Updated On": "2026-09-27T20:10:25Z"
+      "Updated On": "2026-09-28T04:10:24Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-27T20:10:25Z"
+      "Updated On": "2026-09-28T04:10:24Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-09-27T20:10:25Z"
+      "Updated On": "2026-09-28T04:10:24Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-09-27T20:10:25Z"
+      "Updated On": "2026-09-28T04:10:24Z"
     }
   ],
   "rows": [
@@ -744,6 +744,44 @@
       "Estimated Cargo Tons": 5286.04,
       "Low Estimate": 2636.91,
       "High Estimate": 9487.82,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=19",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|8356974|2026-09-27",
+      "IMO": "8356974",
+      "Vessel": "NOURAN ED",
+      "Vessel Type": "General Cargo",
+      "DWT": "",
+      "Commodity Used": "",
+      "Method": "No Estimate",
+      "Historical Visits": 0,
+      "Sample N": 0,
+      "Median Tons/DWT": "",
+      "Estimated Cargo Tons": "",
+      "Low Estimate": "",
+      "High Estimate": "",
+      "Confidence": "Unresolved",
+      "Source": "",
+      "Notes": "Insufficient calibration or DWT."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9519042|2026-09-28",
+      "IMO": "9519042",
+      "Vessel": "JELENA",
+      "Vessel Type": "General Cargo",
+      "DWT": 5700.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 19,
+      "Median Tons/DWT": 0.4996,
+      "Estimated Cargo Tons": 2847.59,
+      "Low Estimate": 1420.51,
+      "High Estimate": 5111.1,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=19",
       "Notes": "Planning proxy, not official handled tonnage."
