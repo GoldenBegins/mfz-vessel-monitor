@@ -3493,7 +3493,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-28T15:00:11.664997+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-28T15:30:13.787757+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3525,6 +3525,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "JELENA",
+        "imo": "9519042",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
         "port": "Benghazi",
@@ -3546,8 +3553,8 @@
         "decision": "UNCONFIRMED"
       },
       {
-        "name": "JELENA",
-        "imo": "9519042",
+        "name": "GRANDE INGHILTERRA",
+        "imo": "9992634",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       },
@@ -3595,7 +3602,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-28T15:01:01.282462+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-28 17:00:53",
+  "anchorageUpdatedAt": "2026-09-28T15:30:13.787757+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3966,7 +3973,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-28T15:00:11.664997+00:00",
+  "mapUpdatedAt": "2026-09-28T15:30:13.787757+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-28T15:00:44Z",
     "summary": {
