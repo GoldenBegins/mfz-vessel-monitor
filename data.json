@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 4,
-        "avgWaitingHours": 59.0,
+        "avgWaitingHours": 58.98,
         "medianWaitingHours": 0.0,
-        "longestWaitingHours": 235.9,
+        "longestWaitingHours": 235.94,
         "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,11 +1551,11 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 9,
-        "avgWaitingHours": 55.6,
+        "active": 8,
+        "avgWaitingHours": 57.41,
         "medianWaitingHours": 0.0,
-        "longestWaitingHours": 344.0,
-        "destinationConfirmed": 3,
+        "longestWaitingHours": 343.97,
+        "destinationConfirmed": 2,
         "destinationUncertain": 0,
         "entryCandidates": 0,
         "departureCandidates": 0,
@@ -1609,28 +1609,6 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-1054931-20260924T221200Z",
-        "port": "Benghazi",
-        "vessel": "FERESA",
-        "imo": "1054931",
-        "mmsi": "253000150",
-        "firstSeen": "2026-09-24T22:12:00+00:00",
-        "lastSeen": "2026-09-24T22:12:00+00:00",
-        "waitingHours": 41.31,
-        "lat": 32.121914,
-        "lon": 19.9648,
-        "sog": 0.8,
-        "distanceKm": 7.2,
-        "destination": "BENGHAZI",
-        "destinationClass": "To Benghazi",
-        "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": ""
       },
       {
         "episodeId": "ANCH-BENGHAZI-9267742-20260925T223500Z",
@@ -3584,13 +3562,13 @@
       "unknown": 5
     },
     "phaseUpdatedAt": "2026-09-29T10:44:52Z",
-    "exclusivityFilteredAt": "2026-09-29T14:01:08Z",
+    "exclusivityFilteredAt": "2026-09-29T16:31:06Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "NIKOLAS",
-        "imo": "9203526",
-        "mmsi": "357388000"
+        "vessel": "FERESA",
+        "imo": "1054931",
+        "mmsi": "253000150"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
