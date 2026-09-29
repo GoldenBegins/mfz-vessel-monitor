@@ -3471,7 +3471,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-29T03:30:10.924374+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-29T04:00:13.155642+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3482,79 +3482,9 @@
         "winner": "SHIPNEXT"
       },
       {
-        "name": "ALEXANDRA A",
-        "imo": "9356684",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MALAK M",
-        "imo": "9216353",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
         "name": "VENTO DI BORA",
         "imo": "9950064",
         "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LILA",
-        "imo": "9278923",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "AMIR BEY",
-        "imo": "9016155",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ARTVIN",
-        "imo": "8917869",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "BRAVE M",
-        "imo": "9153496",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GRANDE INGHILTERRA",
-        "imo": "9992634",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "JELENA",
-        "imo": "9519042",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       }
@@ -3564,12 +3494,6 @@
         "name": "INNOVATOR(S/T)",
         "imo": "1077933",
         "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "VESTSKJAER",
-        "imo": "8504155",
-        "port": "Benghazi",
         "decision": "UNCONFIRMED"
       }
     ],
@@ -3633,7 +3557,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-29T03:30:52.565068+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-29T03:30:10.924374+00:00",
+  "anchorageUpdatedAt": "2026-09-29T04:00:13.155642+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3982,7 +3906,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-29T03:30:10.924374+00:00",
+  "mapUpdatedAt": "2026-09-29T04:00:13.155642+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-29T03:00:54Z",
     "summary": {
