@@ -3467,7 +3467,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-29T15:00:11.683128+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-29T15:30:11.814865+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3499,6 +3499,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "ISMAIL BEY",
+        "imo": "9008079",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
         "port": "Benghazi",
@@ -3512,6 +3519,18 @@
         "imo": "1077933",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "MEDKON SAMSUN",
+        "imo": "9305934",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "KRITI CORAL",
+        "imo": "9417220",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "VESTSKJAER",
@@ -3563,7 +3582,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-29T15:01:10.040153+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-29 17:01:02",
+  "anchorageUpdatedAt": "2026-09-29T15:30:11.814865+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3885,7 +3904,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-29T15:00:11.683128+00:00",
+  "mapUpdatedAt": "2026-09-29T15:30:11.814865+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-29T15:00:53Z",
     "summary": {
