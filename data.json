@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 4,
-        "avgWaitingHours": 59.0,
+        "avgWaitingHours": 58.98,
         "medianWaitingHours": 0.0,
-        "longestWaitingHours": 235.9,
+        "longestWaitingHours": 235.94,
         "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,10 +1551,10 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 10,
-        "avgWaitingHours": 50.2,
-        "medianWaitingHours": 0.9,
-        "longestWaitingHours": 344.0,
+        "active": 9,
+        "avgWaitingHours": 55.62,
+        "medianWaitingHours": 0.0,
+        "longestWaitingHours": 343.97,
         "destinationConfirmed": 3,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1645,28 +1645,6 @@
         "lon": 19.97096,
         "sog": 0.0,
         "distanceKm": 7.81,
-        "destination": "Benghazi",
-        "destinationClass": "Other Port",
-        "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9203526-20260926T133825Z",
-        "port": "Benghazi",
-        "vessel": "NIKOLAS",
-        "imo": "9203526",
-        "mmsi": "357388000",
-        "firstSeen": "2026-09-26T13:38:25+00:00",
-        "lastSeen": "2026-09-29T08:20:29Z",
-        "waitingHours": 1.87,
-        "lat": 32.129128,
-        "lon": 19.946923,
-        "sog": 0.0,
-        "distanceKm": 9.06,
         "destination": "Benghazi",
         "destinationClass": "Other Port",
         "eta": "",
@@ -3587,13 +3565,13 @@
       "unknown": 5
     },
     "phaseUpdatedAt": "2026-09-29T10:44:52Z",
-    "exclusivityFilteredAt": "2026-09-25T21:00:58Z",
+    "exclusivityFilteredAt": "2026-09-29T14:01:08Z",
     "exclusivityRemoved": [
       {
-        "port": "Misurata",
-        "vessel": "DR SARKAS",
-        "imo": "9222558",
-        "mmsi": "314851000"
+        "port": "Benghazi",
+        "vessel": "NIKOLAS",
+        "imo": "9203526",
+        "mmsi": "357388000"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
