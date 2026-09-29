@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-29 06:06:14",
+  "updatedAt": "2026-09-29 14:07:34",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 97,
-    "benghaziCalls": 80,
+    "benghaziCalls": 82,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 36,
+    "estimatedCalls": 38,
     "unestimatedCalls": 44,
-    "coverage": 45.0,
+    "coverage": 46.3,
     "trustedVessels": 199,
     "identityReview": 0,
-    "estimatedTEU": 26867,
-    "estimatedGeneralCargoTons": 114751,
+    "estimatedTEU": 29736,
+    "estimatedGeneralCargoTons": 126084,
     "historicalHighMediumCalls": 7,
-    "fallbackLowCalls": 26
+    "fallbackLowCalls": 28
   },
   "comparison": [
     {
@@ -39,35 +39,19 @@
     {
       "period": "2026-09",
       "misurataCalls": 97,
-      "benghaziCalls": 80,
+      "benghaziCalls": 82,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 26867,
-      "estimatedGeneralCargoTons": 114751,
-      "coverage": 45.0
+      "estimatedTEU": 29736,
+      "estimatedGeneralCargoTons": 126084,
+      "coverage": 46.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "KOSOVAK",
-      "imo": "9211157",
-      "type": "Container",
-      "estimate": "942 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
-    {
-      "vessel": "MEDKON ANKA",
-      "imo": "9366469",
-      "type": "Container",
-      "estimate": "1,928 TEU",
-      "confidence": "Medium",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "CELINE",
       "imo": "9139323",
@@ -251,6 +235,22 @@
       "estimate": "5,339 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "ALEXANDRA A",
+      "imo": "9356684",
+      "type": "General Cargo",
+      "estimate": "11,333 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "NIKOLAS",
+      "imo": "9203526",
+      "type": "Container",
+      "estimate": "2,869 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
