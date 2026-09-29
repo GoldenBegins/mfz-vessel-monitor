@@ -1541,9 +1541,9 @@
     "summary": {
       "Misurata": {
         "active": 4,
-        "avgWaitingHours": 59.0,
+        "avgWaitingHours": 58.98,
         "medianWaitingHours": 0.0,
-        "longestWaitingHours": 235.9,
+        "longestWaitingHours": 235.94,
         "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1551,10 +1551,10 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 8,
-        "avgWaitingHours": 57.4,
+        "active": 7,
+        "avgWaitingHours": 65.61,
         "medianWaitingHours": 0.0,
-        "longestWaitingHours": 344.0,
+        "longestWaitingHours": 343.97,
         "destinationConfirmed": 2,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1645,28 +1645,6 @@
         "lon": 19.982343,
         "sog": 0.0,
         "distanceKm": 7.98,
-        "destination": "Benghazi",
-        "destinationClass": "UNKNOWN/OTHER",
-        "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9108843-20260928T182519Z",
-        "port": "Benghazi",
-        "vessel": "ATTAHADDI 2",
-        "imo": "9108843",
-        "mmsi": "",
-        "firstSeen": "2026-09-28T18:25:19+00:00",
-        "lastSeen": "2026-09-29T03:04:18Z",
-        "waitingHours": 0.0,
-        "lat": 32.12,
-        "lon": 19.978333,
-        "sog": 0.0,
-        "distanceKm": 5.93,
         "destination": "Benghazi",
         "destinationClass": "UNKNOWN/OTHER",
         "eta": "",
@@ -3585,13 +3563,13 @@
       "unknown": 5
     },
     "phaseUpdatedAt": "2026-09-29T10:44:52Z",
-    "exclusivityFilteredAt": "2026-09-29T16:31:06Z",
+    "exclusivityFilteredAt": "2026-09-29T17:01:02Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "FERESA",
-        "imo": "1054931",
-        "mmsi": "253000150"
+        "vessel": "ATTAHADDI 2",
+        "imo": "9108843",
+        "mmsi": ""
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
