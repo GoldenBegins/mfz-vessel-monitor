@@ -3542,7 +3542,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-30T16:30:11.155939+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-30T16:40:11.807664+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3555,6 +3555,13 @@
       {
         "name": "AMIR BEY",
         "imo": "9016155",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JINANAH",
+        "imo": "9395343",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3624,7 +3631,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-30T16:31:02.036921+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-30 18:30:54",
+  "anchorageUpdatedAt": "2026-09-30T16:40:11.807664+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4044,7 +4051,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-30T16:30:11.155939+00:00",
+  "mapUpdatedAt": "2026-09-30T16:40:11.807664+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-30T16:30:45Z",
     "summary": {
