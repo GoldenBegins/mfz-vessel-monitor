@@ -3523,7 +3523,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-30T12:30:11.427555+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-30T13:00:20.542266+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3547,6 +3547,12 @@
         "imo": "1077933",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "JOLLY ORO",
+        "imo": "9450313",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "FERESA",
@@ -3598,7 +3604,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-30T12:30:52.644421+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-30T12:30:11.427555+00:00",
+  "anchorageUpdatedAt": "2026-09-30T13:00:20.542266+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3999,7 +4005,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-30T12:30:11.427555+00:00",
+  "mapUpdatedAt": "2026-09-30T13:00:20.542266+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-30T10:00:52Z",
     "summary": {
