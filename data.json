@@ -3508,55 +3508,14 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-30T23:00:10.830256+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-30T23:30:11.997853+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "JOLLY ORO",
-        "imo": "9450313",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "AMIR BEY",
-        "imo": "9016155",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "JINANAH",
-        "imo": "9395343",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ZIYA SEMRAN",
-        "imo": "9863895",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
+    "potentialDepartures": [],
     "portStateReview": [
       {
         "name": "INNOVATOR(S/T)",
         "imo": "1077933",
         "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "FERESA",
-        "imo": "1054931",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "VESTSKJAER",
-        "imo": "8504155",
-        "port": "Benghazi",
         "decision": "UNCONFIRMED"
       }
     ],
@@ -3597,7 +3556,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-30T23:00:59.083575+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-01 01:00:51",
+  "anchorageUpdatedAt": "2026-09-30T23:30:11.997853+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3983,7 +3942,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-30T23:00:10.830256+00:00",
+  "mapUpdatedAt": "2026-09-30T23:30:11.997853+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-30T23:00:43Z",
     "summary": {
