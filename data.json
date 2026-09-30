@@ -3523,9 +3523,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-09-30T13:00:20.542266+00:00",
+    "lightPortSyncUpdatedAt": "2026-09-30T13:30:12.110167+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "JOLLY ORO",
+        "imo": "9450313",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "AMIR BEY",
         "imo": "9016155",
@@ -3547,12 +3554,6 @@
         "imo": "1077933",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "JOLLY ORO",
-        "imo": "9450313",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "FERESA",
@@ -3604,7 +3605,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-09-30T13:01:47.321669+00:00"
   },
-  "anchorageUpdatedAt": "2026-09-30 15:01:39",
+  "anchorageUpdatedAt": "2026-09-30T13:30:12.110167+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4005,7 +4006,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-09-30T13:00:20.542266+00:00",
+  "mapUpdatedAt": "2026-09-30T13:30:12.110167+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-09-30T13:01:24Z",
     "summary": {
