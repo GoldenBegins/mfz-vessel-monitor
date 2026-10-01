@@ -12423,7 +12423,48 @@
           "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
         }
       }
+    },
+    {
+      "timestamp": "2026-10-01T19:45:15Z",
+      "periodStart": "2026-09-25",
+      "periodEnd": "2026-10-01",
+      "effectiveDays": 7,
+      "version": "V2_PHASE_AWARE",
+      "ports": {
+        "Misurata": {
+          "port": "Misurata",
+          "arrivals": 22,
+          "arrivalsPerDay": 3.14,
+          "avgPortStayProxyDays": 2.55,
+          "currentInPort": 11,
+          "confirmedPrePort": 0,
+          "postPortActive": 1,
+          "unknownAnchorage": 6,
+          "confirmedQueueRatio": 0.0,
+          "potentialQueueRatio": 0.55,
+          "openCalls": 9,
+          "closedCalls": 13,
+          "pressureLevel": "Medium",
+          "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
+        },
+        "Benghazi": {
+          "port": "Benghazi",
+          "arrivals": 21,
+          "arrivalsPerDay": 3.0,
+          "avgPortStayProxyDays": 2.57,
+          "currentInPort": 11,
+          "confirmedPrePort": 0,
+          "postPortActive": 2,
+          "unknownAnchorage": 2,
+          "confirmedQueueRatio": 0.0,
+          "potentialQueueRatio": 0.18,
+          "openCalls": 10,
+          "closedCalls": 11,
+          "pressureLevel": "Low",
+          "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
+        }
+      }
     }
   ],
-  "updatedAt": "2026-10-01T16:44:48Z"
+  "updatedAt": "2026-10-01T19:45:23Z"
 }
