@@ -3560,7 +3560,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-01T12:30:10.925200+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-01T13:00:13.523430+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3592,6 +3592,12 @@
         "decision": "ANCHORAGE"
       },
       {
+        "name": "CHRISTINA",
+        "imo": "9429211",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
         "name": "FERESA",
         "imo": "1054931",
         "port": "Benghazi",
@@ -3602,12 +3608,6 @@
         "imo": "8504155",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "VENTO DI BORA",
-        "imo": "9950064",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3647,7 +3647,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-01T12:31:22.870748+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-01 14:31:15",
+  "anchorageUpdatedAt": "2026-10-01T13:00:13.523430+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4048,7 +4048,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-01T12:30:10.925200+00:00",
+  "mapUpdatedAt": "2026-10-01T13:00:13.523430+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-01T12:31:05Z",
     "summary": {
