@@ -3531,7 +3531,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-01T10:30:52.769979+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-01T10:40:11.424236+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3553,12 +3553,6 @@
       {
         "name": "INNOVATOR(S/T)",
         "imo": "1077933",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "MV FURIOUS",
-        "imo": "9398735",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
       },
@@ -3612,7 +3606,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-01T10:31:52.571938+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-01 12:31:45",
+  "anchorageUpdatedAt": "2026-10-01T10:40:11.424236+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3998,7 +3992,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-01T10:30:52.769979+00:00",
+  "mapUpdatedAt": "2026-10-01T10:40:11.424236+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-01T10:31:34Z",
     "summary": {
