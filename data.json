@@ -3545,9 +3545,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-01T15:00:11.795553+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-01T15:30:12.706312+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "MV FURIOUS",
+        "imo": "9398735",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "CHRISTINA",
         "imo": "9429211",
@@ -3633,7 +3640,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-01T15:01:07.510783+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-01 17:00:59",
+  "anchorageUpdatedAt": "2026-10-01T15:30:12.706312+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4042,7 +4049,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-01T15:00:11.795553+00:00",
+  "mapUpdatedAt": "2026-10-01T15:30:12.706312+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-01T14:01:10Z",
     "summary": {
