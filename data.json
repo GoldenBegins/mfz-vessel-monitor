@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-01 06:15:51",
+  "updatedAt": "2026-10-01 14:05:58",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 99,
-    "benghaziCalls": 84,
+    "misurataCalls": 2,
+    "benghaziCalls": 2,
     "misurataExcludedCalls": 0,
-    "benghaziExcludedCalls": 1,
-    "excludedCalls": 1,
+    "benghaziExcludedCalls": 0,
+    "excludedCalls": 0,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 39,
-    "unestimatedCalls": 45,
-    "coverage": 46.4,
-    "trustedVessels": 199,
+    "estimatedCalls": 1,
+    "unestimatedCalls": 1,
+    "coverage": 50.0,
+    "trustedVessels": 200,
     "identityReview": 0,
-    "estimatedTEU": 31518,
-    "estimatedGeneralCargoTons": 126084,
-    "historicalHighMediumCalls": 7,
-    "fallbackLowCalls": 28
+    "estimatedTEU": 2211,
+    "estimatedGeneralCargoTons": 227609,
+    "historicalHighMediumCalls": 0,
+    "fallbackLowCalls": 1
   },
   "comparison": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "period": "2026-09",
-      "misurataCalls": 99,
+      "misurataCalls": 103,
       "benghaziCalls": 84,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
@@ -49,17 +49,23 @@
       "estimatedTEU": 31518,
       "estimatedGeneralCargoTons": 126084,
       "coverage": 46.4
+    },
+    {
+      "period": "2026-10",
+      "misurataCalls": 2,
+      "benghaziCalls": 2,
+      "misurataExcludedCalls": 0,
+      "benghaziExcludedCalls": 0,
+      "misurataActualTEU": 0,
+      "misurataActualGeneralCargoTons": 0,
+      "misurataTEUStatus": "Not available",
+      "misurataGeneralCargoStatus": "Not available",
+      "estimatedTEU": 2211,
+      "estimatedGeneralCargoTons": 227609,
+      "coverage": 50.0
     }
   ],
   "estimates": [
-    {
-      "vessel": "LYNN",
-      "imo": "9295531",
-      "type": "Container",
-      "estimate": "995 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "RAVEN",
       "imo": "9165059",
@@ -245,19 +251,27 @@
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     },
     {
-      "vessel": "CONTSHIP  ACE",
+      "vessel": "CONTSHIP ACE",
       "imo": "9348637",
       "type": "Container",
       "estimate": "1,782 TEU",
       "confidence": "Low",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "VENTO DI BORA",
+      "imo": "9950064",
+      "type": "Container",
+      "estimate": "2,211 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "7 internal high-priority checks are recorded."
+      "detail": "235 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
