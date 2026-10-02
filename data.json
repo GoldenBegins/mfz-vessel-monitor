@@ -3553,7 +3553,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-02T12:00:11.601948+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-02T12:30:11.065139+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3573,6 +3573,13 @@
       {
         "name": "NIKOLAS",
         "imo": "9203526",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "VENTO DI BORA",
+        "imo": "9950064",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3642,7 +3649,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-02T12:00:24.344457+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-02T12:00:11.601948+00:00",
+  "anchorageUpdatedAt": "2026-10-02T12:30:11.065139+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4036,7 +4043,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-02T12:00:11.601948+00:00",
+  "mapUpdatedAt": "2026-10-02T12:30:11.065139+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-02T11:30:59Z",
     "summary": {
