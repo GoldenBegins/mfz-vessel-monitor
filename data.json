@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-02 14:05:45",
+  "updatedAt": "2026-10-02 22:08:07",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 6,
-    "benghaziCalls": 3,
+    "benghaziCalls": 4,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 2,
+    "estimatedCalls": 3,
     "unestimatedCalls": 1,
-    "coverage": 66.7,
+    "coverage": 75.0,
     "trustedVessels": 200,
     "identityReview": 0,
     "estimatedTEU": 4139,
-    "estimatedGeneralCargoTons": 227609,
+    "estimatedGeneralCargoTons": 7231,
     "historicalHighMediumCalls": 1,
-    "fallbackLowCalls": 1
+    "fallbackLowCalls": 2
   },
   "comparison": [
     {
@@ -53,7 +53,7 @@
     {
       "period": "2026-10",
       "misurataCalls": 6,
-      "benghaziCalls": 3,
+      "benghaziCalls": 4,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -61,19 +61,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 4139,
-      "estimatedGeneralCargoTons": 227609,
-      "coverage": 66.7
+      "estimatedGeneralCargoTons": 7231,
+      "coverage": 75.0
     }
   ],
   "estimates": [
-    {
-      "vessel": "SEA WAVE 4",
-      "imo": "9125152",
-      "type": "General Cargo",
-      "estimate": "4,709 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "BUXLINK",
       "imo": "9235816",
@@ -257,6 +249,14 @@
       "estimate": "2,211 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "BURHAN DIZMAN",
+      "imo": "9381809",
+      "type": "General Cargo",
+      "estimate": "7,231 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     },
     {
       "vessel": "MEDKON ANKA",
