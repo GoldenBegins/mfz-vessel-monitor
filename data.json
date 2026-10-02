@@ -5476,7 +5476,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-10-02T07:30:58Z",
+    "updatedAt": "2026-10-02T08:30:53Z",
     "periodStart": "2026-09-26",
     "periodEnd": "2026-10-02",
     "effectiveDays": 7,
@@ -5505,13 +5505,13 @@
         "currentInPort": 11,
         "confirmedPrePort": 0,
         "postPortActive": 0,
-        "unknownAnchorage": 4,
+        "unknownAnchorage": 6,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.36,
+        "potentialQueueRatio": 0.55,
         "openCalls": 9,
         "closedCalls": 10,
-        "pressureLevel": "Low",
-        "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
+        "pressureLevel": "Medium",
+        "likelyReason": "السبب المرجح: مدة البقاء المرصودة أطول؛ بطء دوران/تحرير السعة محتمل."
       }
     }
   }
