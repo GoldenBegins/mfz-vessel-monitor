@@ -3548,13 +3548,20 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-02T08:00:10.518352+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-02T08:30:12.559486+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "AMIR BEY",
         "imo": "9016155",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "CONTSHIP ACE",
+        "imo": "9348637",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3617,7 +3624,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-02T08:00:59.558627+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-02T08:00:10.518352+00:00",
+  "anchorageUpdatedAt": "2026-10-02T08:30:12.559486+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4003,7 +4010,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-02T08:00:10.518352+00:00",
+  "mapUpdatedAt": "2026-10-02T08:30:12.559486+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-02T07:30:54Z",
     "summary": {
