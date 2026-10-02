@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-02 06:09:00",
+  "updatedAt": "2026-10-02 14:05:45",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 4,
-    "benghaziCalls": 2,
+    "misurataCalls": 6,
+    "benghaziCalls": 3,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,14 +11,14 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 1,
+    "estimatedCalls": 2,
     "unestimatedCalls": 1,
-    "coverage": 50.0,
+    "coverage": 66.7,
     "trustedVessels": 200,
     "identityReview": 0,
-    "estimatedTEU": 2211,
+    "estimatedTEU": 4139,
     "estimatedGeneralCargoTons": 227609,
-    "historicalHighMediumCalls": 0,
+    "historicalHighMediumCalls": 1,
     "fallbackLowCalls": 1
   },
   "comparison": [
@@ -52,28 +52,20 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 4,
-      "benghaziCalls": 2,
+      "misurataCalls": 6,
+      "benghaziCalls": 3,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 2211,
+      "estimatedTEU": 4139,
       "estimatedGeneralCargoTons": 227609,
-      "coverage": 50.0
+      "coverage": 66.7
     }
   ],
   "estimates": [
-    {
-      "vessel": "RAVEN",
-      "imo": "9165059",
-      "type": "General Cargo",
-      "estimate": "9,040 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "SEA WAVE 4",
       "imo": "9125152",
@@ -265,13 +257,21 @@
       "estimate": "2,211 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "MEDKON ANKA",
+      "imo": "9366469",
+      "type": "Container",
+      "estimate": "1,928 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "7 internal high-priority checks are recorded."
+      "detail": "235 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
