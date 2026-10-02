@@ -1555,9 +1555,9 @@
     "summary": {
       "Misurata": {
         "active": 7,
-        "avgWaitingHours": 33.7,
+        "avgWaitingHours": 33.71,
         "medianWaitingHours": 0.0,
-        "longestWaitingHours": 235.9,
+        "longestWaitingHours": 235.94,
         "destinationConfirmed": 0,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1565,10 +1565,10 @@
         "review": 0
       },
       "Benghazi": {
-        "active": 7,
-        "avgWaitingHours": 63.2,
+        "active": 6,
+        "avgWaitingHours": 73.72,
         "medianWaitingHours": 0.0,
-        "longestWaitingHours": 344.0,
+        "longestWaitingHours": 343.97,
         "destinationConfirmed": 2,
         "destinationUncertain": 0,
         "entryCandidates": 0,
@@ -1683,28 +1683,6 @@
         "distanceKm": 6.48,
         "destination": "Qasr Ahmed",
         "destinationClass": "UNKNOWN/OTHER",
-        "eta": "",
-        "status": "Anchorage",
-        "enteredPortOn": "",
-        "closedOn": "",
-        "confidence": "High",
-        "source": "Anchorage Reconcile v3 (Shipnext fresh anchorage)"
-      },
-      {
-        "episodeId": "ANCH-BENGHAZI-9366469-20260930T043500Z",
-        "port": "Benghazi",
-        "vessel": "MEDKON ANKA",
-        "imo": "9366469",
-        "mmsi": "352003607",
-        "firstSeen": "2026-09-30T04:35:00+00:00",
-        "lastSeen": "2026-10-02T06:24:31Z",
-        "waitingHours": 0.0,
-        "lat": 32.124658,
-        "lon": 19.97991,
-        "sog": 0.6,
-        "distanceKm": 6.02,
-        "destination": "Benghazi",
-        "destinationClass": "MATCHED_PORT",
         "eta": "",
         "status": "Anchorage",
         "enteredPortOn": "",
@@ -3665,13 +3643,13 @@
       "unknown": 7
     },
     "phaseUpdatedAt": "2026-10-02T04:44:23Z",
-    "exclusivityFilteredAt": "2026-10-01T14:01:26Z",
+    "exclusivityFilteredAt": "2026-10-02T11:01:12Z",
     "exclusivityRemoved": [
       {
         "port": "Benghazi",
-        "vessel": "VENTO DI BORA",
-        "imo": "9950064",
-        "mmsi": "538010485"
+        "vessel": "MEDKON ANKA",
+        "imo": "9366469",
+        "mmsi": "352003607"
       }
     ],
     "identityDedupUpdatedAt": "2026-08-21T20:05:59Z",
