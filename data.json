@@ -4053,7 +4053,7 @@
   },
   "mapUpdatedAt": "2026-10-02T18:00:13.912070+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-10-02T17:30:47Z",
+    "updatedAt": "2026-10-02T18:00:51Z",
     "summary": {
       "confirmedTotal": 65,
       "candidateTotal": 1,
@@ -4098,7 +4098,7 @@
         "originLastSeen": "2026-09-29",
         "originStayHours": 48.0,
         "destinationAnchorageFirstSeen": "2026-09-30T16:16:41+00:00",
-        "destinationAnchorageLastSeen": "2026-10-02T16:46:00Z",
+        "destinationAnchorageLastSeen": "2026-10-02T17:50:19Z",
         "destinationAnchorageHours": 0.0,
         "seaTransitCalendarGapDays": 1,
         "confidence": "Candidate — destination Port Call not confirmed yet",
