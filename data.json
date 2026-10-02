@@ -3534,7 +3534,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-02T14:30:12.445848+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-02T15:00:13.981223+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3559,6 +3559,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "NOURAN ED",
+        "imo": "8356974",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "VENTO DI BORA",
         "imo": "9950064",
         "port": "Benghazi",
@@ -3575,8 +3582,8 @@
     ],
     "portStateReview": [
       {
-        "name": "NOURAN ED",
-        "imo": "8356974",
+        "name": "ALEXANDRA A",
+        "imo": "9356684",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       },
@@ -3653,7 +3660,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-02T14:31:10.232379+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-02 16:31:03",
+  "anchorageUpdatedAt": "2026-10-02T15:00:13.981223+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4028,7 +4035,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-02T14:30:12.445848+00:00",
+  "mapUpdatedAt": "2026-10-02T15:00:13.981223+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-02T14:30:53Z",
     "summary": {
