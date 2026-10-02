@@ -3534,13 +3534,20 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-02T15:00:13.981223+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-02T15:30:14.847994+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "AMIR BEY",
         "imo": "9016155",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ALEXANDRA A",
+        "imo": "9356684",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3581,12 +3588,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "ALEXANDRA A",
-        "imo": "9356684",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "FERESA",
         "imo": "1054931",
@@ -3660,7 +3661,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-02T15:00:59.101727+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-02T15:00:13.981223+00:00",
+  "anchorageUpdatedAt": "2026-10-02T15:30:14.847994+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4035,7 +4036,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-02T15:00:13.981223+00:00",
+  "mapUpdatedAt": "2026-10-02T15:30:14.847994+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-02T14:30:53Z",
     "summary": {
