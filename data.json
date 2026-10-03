@@ -3930,14 +3930,14 @@
   },
   "mapUpdatedAt": "2026-10-03T02:30:09.970391+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-10-03T01:30:43Z",
+    "updatedAt": "2026-10-03T02:30:42Z",
     "summary": {
       "confirmedTotal": 66,
-      "candidateTotal": 1,
+      "candidateTotal": 0,
       "misurataToBenghaziConfirmed": 36,
       "benghaziToMisurataConfirmed": 30,
       "misurataToBenghaziCandidates": 0,
-      "benghaziToMisurataCandidates": 1
+      "benghaziToMisurataCandidates": 0
     },
     "rows": [
       {
@@ -3983,26 +3983,6 @@
         "cycleDays": 6.0,
         "confidence": "High identity / Day-level timing",
         "voyageId": "9950064|Misurata|9950064|2026-09-27|Benghazi|9950064|2026-10-01"
-      },
-      {
-        "kind": "candidate",
-        "status": "Anchorage Candidate",
-        "imo": "9008079",
-        "mmsi": "268246901",
-        "vessel": "ISMAIL BEY",
-        "type": "",
-        "originPort": "Benghazi",
-        "destinationPort": "Misurata",
-        "originFirstSeen": "2026-09-28",
-        "originLastSeen": "2026-09-29",
-        "originStayHours": 48.0,
-        "destinationAnchorageFirstSeen": "2026-09-30T16:16:41+00:00",
-        "destinationAnchorageLastSeen": "2026-10-02T23:10:51Z",
-        "destinationAnchorageHours": 0.0,
-        "seaTransitCalendarGapDays": 1,
-        "confidence": "Candidate — destination Port Call not confirmed yet",
-        "originCallId": "Benghazi|9008079|2026-09-28",
-        "anchorEpisodeId": "ANCH-MISURATA-9008079-20260930T161641Z"
       },
       {
         "kind": "confirmed",
