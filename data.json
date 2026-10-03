@@ -3530,7 +3530,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-03T11:30:10.178660+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-03T12:00:11.953979+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3556,6 +3556,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "MSC AMIHAN F",
+        "imo": "9449687",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "FERESA",
         "imo": "1054931",
@@ -3606,7 +3612,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-03T11:31:05.052843+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-03 13:30:57",
+  "anchorageUpdatedAt": "2026-10-03T12:00:11.953979+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4000,7 +4006,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-03T11:30:10.178660+00:00",
+  "mapUpdatedAt": "2026-10-03T12:00:11.953979+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-03T11:30:49Z",
     "summary": {
