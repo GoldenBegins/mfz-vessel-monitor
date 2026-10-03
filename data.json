@@ -3539,7 +3539,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-03T16:40:09.432897+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-03T17:00:17.544928+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3572,6 +3572,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "SEA ENDURANCE",
+        "imo": "9516179",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "FERESA",
         "imo": "1054931",
@@ -3622,7 +3628,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-03T16:30:57.228157+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-03T16:40:09.432897+00:00",
+  "anchorageUpdatedAt": "2026-10-03T17:00:17.544928+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4012,7 +4018,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-03T16:40:09.432897+00:00",
+  "mapUpdatedAt": "2026-10-03T17:00:17.544928+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-03T16:30:42Z",
     "summary": {
