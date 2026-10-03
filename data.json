@@ -3495,7 +3495,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-03T21:00:14.990041+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-03T21:30:12.645235+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3534,6 +3534,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
         "port": "Benghazi",
@@ -3542,12 +3549,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "BURHAN DIZMAN",
-        "imo": "9381809",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "FERESA",
         "imo": "1054931",
@@ -3598,7 +3599,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-03T21:01:03.244218+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-03T21:00:14.990041+00:00",
+  "anchorageUpdatedAt": "2026-10-03T21:30:12.645235+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4003,7 +4004,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-03T21:00:14.990041+00:00",
+  "mapUpdatedAt": "2026-10-03T21:30:12.645235+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-03T19:30:44Z",
     "summary": {
