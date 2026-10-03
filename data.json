@@ -5494,7 +5494,7 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-10-03T07:44:26Z",
+    "updatedAt": "2026-10-03T07:44:44Z",
     "periodStart": "2026-09-27",
     "periodEnd": "2026-10-03",
     "effectiveDays": 7,
@@ -5504,16 +5504,16 @@
         "arrivals": 20,
         "arrivalsPerDay": 2.86,
         "avgPortStayProxyDays": 2.65,
-        "currentInPort": 12,
+        "currentInPort": 13,
         "confirmedPrePort": 0,
-        "postPortActive": 0,
-        "unknownAnchorage": 6,
+        "postPortActive": 1,
+        "unknownAnchorage": 5,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.5,
+        "potentialQueueRatio": 0.38,
         "openCalls": 9,
         "closedCalls": 11,
-        "pressureLevel": "Medium",
-        "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
+        "pressureLevel": "Low",
+        "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
       },
       "Benghazi": {
         "port": "Benghazi",
@@ -5522,14 +5522,14 @@
         "avgPortStayProxyDays": 3.28,
         "currentInPort": 9,
         "confirmedPrePort": 0,
-        "postPortActive": 0,
-        "unknownAnchorage": 4,
+        "postPortActive": 1,
+        "unknownAnchorage": 3,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.44,
+        "potentialQueueRatio": 0.33,
         "openCalls": 5,
         "closedCalls": 13,
-        "pressureLevel": "Medium",
-        "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
+        "pressureLevel": "Low",
+        "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
       }
     }
   }
