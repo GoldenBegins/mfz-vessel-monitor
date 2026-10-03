@@ -3495,7 +3495,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-03T17:00:17.544928+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-03T17:30:14.855281+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3508,6 +3508,13 @@
       {
         "name": "MSC AMIHAN F",
         "imo": "9449687",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "SEA ENDURANCE",
+        "imo": "9516179",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3528,12 +3535,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "SEA ENDURANCE",
-        "imo": "9516179",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "FERESA",
         "imo": "1054931",
@@ -3584,7 +3585,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-03T17:01:07.287658+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-03 19:01:00",
+  "anchorageUpdatedAt": "2026-10-03T17:30:14.855281+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3989,7 +3990,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-03T17:00:17.544928+00:00",
+  "mapUpdatedAt": "2026-10-03T17:30:14.855281+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-03T17:00:52Z",
     "summary": {
