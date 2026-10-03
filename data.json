@@ -5499,42 +5499,42 @@
   },
   "portPressure": {
     "version": "V2_PHASE_AWARE",
-    "updatedAt": "2026-10-03T11:30:53Z",
+    "updatedAt": "2026-10-03T15:30:47Z",
     "periodStart": "2026-09-27",
     "periodEnd": "2026-10-03",
     "effectiveDays": 7,
     "ports": {
       "Misurata": {
         "port": "Misurata",
-        "arrivals": 20,
-        "arrivalsPerDay": 2.86,
-        "avgPortStayProxyDays": 2.65,
+        "arrivals": 23,
+        "arrivalsPerDay": 3.29,
+        "avgPortStayProxyDays": 2.43,
         "currentInPort": 14,
         "confirmedPrePort": 0,
         "postPortActive": 0,
-        "unknownAnchorage": 6,
+        "unknownAnchorage": 5,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.43,
-        "openCalls": 9,
+        "potentialQueueRatio": 0.36,
+        "openCalls": 12,
         "closedCalls": 11,
-        "pressureLevel": "Medium",
-        "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
+        "pressureLevel": "Low",
+        "likelyReason": "ضغط انتظار الدخول المحتمل منخفض حاليًا."
       },
       "Benghazi": {
         "port": "Benghazi",
-        "arrivals": 18,
-        "arrivalsPerDay": 2.57,
-        "avgPortStayProxyDays": 3.28,
+        "arrivals": 19,
+        "arrivalsPerDay": 2.71,
+        "avgPortStayProxyDays": 3.16,
         "currentInPort": 9,
         "confirmedPrePort": 0,
         "postPortActive": 0,
-        "unknownAnchorage": 4,
+        "unknownAnchorage": 5,
         "confirmedQueueRatio": 0.0,
-        "potentialQueueRatio": 0.44,
-        "openCalls": 5,
+        "potentialQueueRatio": 0.56,
+        "openCalls": 6,
         "closedCalls": 13,
         "pressureLevel": "Medium",
-        "likelyReason": "يوجد ضغط محتمل، لكن جزءًا من سفن المخطاف غير محسوم التصنيف؛ يلزم تاريخ أطول."
+        "likelyReason": "السبب المرجح: مدة البقاء المرصودة أطول؛ بطء دوران/تحرير السعة محتمل."
       }
     }
   }
