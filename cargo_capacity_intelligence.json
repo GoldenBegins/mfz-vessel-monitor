@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-10-03T04:10:26Z",
+  "updatedAt": "2026-10-03T12:10:27Z",
   "summary": {
-    "dwtProfiles": 162,
+    "dwtProfiles": 164,
     "fleetSampleN": 19,
     "fleetMedianTonsPerDwt": 0.4996,
     "fleetP25": 0.2492,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 4,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 77,
+    "fleetRatioEstimates": 79,
     "unestimatedCalls": 7
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "Medium",
-      "Updated On": "2026-10-03T04:10:26Z"
+      "Updated On": "2026-10-03T12:10:27Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-10-03T04:10:26Z"
+      "Updated On": "2026-10-03T12:10:27Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-10-03T04:10:26Z"
+      "Updated On": "2026-10-03T12:10:27Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-10-03T04:10:26Z"
+      "Updated On": "2026-10-03T12:10:27Z"
     }
   ],
   "rows": [
@@ -70,15 +70,15 @@
       "IMO": "8207410",
       "Vessel": "ABASHIE",
       "Vessel Type": "General Cargo",
-      "DWT": 2610.0,
+      "DWT": 3028.0,
       "Commodity Used": "",
       "Method": "MFZ fleet Tons/DWT",
       "Historical Visits": 0,
       "Sample N": 19,
       "Median Tons/DWT": 0.4996,
-      "Estimated Cargo Tons": 1303.9,
-      "Low Estimate": 650.44,
-      "High Estimate": 2340.35,
+      "Estimated Cargo Tons": 1512.72,
+      "Low Estimate": 754.61,
+      "High Estimate": 2715.16,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=19",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1732,6 +1732,44 @@
       "Estimated Cargo Tons": 4689.54,
       "Low Estimate": 2339.35,
       "High Estimate": 8417.18,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=19",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9396440|2026-10-03",
+      "IMO": "9396440",
+      "Vessel": "CIVARINA",
+      "Vessel Type": "General Cargo",
+      "DWT": 4650.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 19,
+      "Median Tons/DWT": 0.4996,
+      "Estimated Cargo Tons": 2323.04,
+      "Low Estimate": 1158.83,
+      "High Estimate": 4169.58,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=19",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9388388|2026-10-03",
+      "IMO": "9388388",
+      "Vessel": "LIBERTAS H",
+      "Vessel Type": "General Cargo",
+      "DWT": 8716.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 19,
+      "Median Tons/DWT": 0.4996,
+      "Estimated Cargo Tons": 4354.32,
+      "Low Estimate": 2172.13,
+      "High Estimate": 7815.5,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=19",
       "Notes": "Planning proxy, not official handled tonnage."
