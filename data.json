@@ -3424,7 +3424,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-04T23:00:12.916990+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-04T23:30:14.566596+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3479,6 +3479,12 @@
     ],
     "portStateReview": [
       {
+        "name": "MY WORRY",
+        "imo": "9546150",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
+      {
         "name": "ANWAAR AL KHALIJ",
         "imo": "9313424",
         "port": "Benghazi",
@@ -3528,7 +3534,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-04T23:00:42.562594+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-04T23:00:12.916990+00:00",
+  "anchorageUpdatedAt": "2026-10-04T23:30:14.566596+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3854,7 +3860,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-04T23:00:12.916990+00:00",
+  "mapUpdatedAt": "2026-10-04T23:30:14.566596+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-04T19:44:12Z",
     "summary": {
