@@ -3387,9 +3387,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-04T17:00:10.123577+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-04T17:30:10.671689+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "DONG-A METIS",
+        "imo": "9419747",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "MEDKON NLS",
         "imo": "9390812",
@@ -3401,6 +3408,13 @@
         "name": "ARDMORE SEAVANGUARD",
         "imo": "9637088",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MSC TALIA F",
+        "imo": "9308601",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3477,7 +3491,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-04T17:00:52.285832+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-04T17:00:10.123577+00:00",
+  "anchorageUpdatedAt": "2026-10-04T17:30:10.671689+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3807,7 +3821,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-04T17:00:10.123577+00:00",
+  "mapUpdatedAt": "2026-10-04T17:30:10.671689+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-04T16:47:22Z",
     "summary": {
