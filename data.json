@@ -3473,86 +3473,9 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-04T04:00:12.879089+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-04T04:30:12.286469+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "AFAMIA STAR",
-        "imo": "9203368",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GLEN",
-        "imo": "9125061",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MSC AMIHAN F",
-        "imo": "9449687",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "PARPALI",
-        "imo": "9134701",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "SEA ENDURANCE",
-        "imo": "9516179",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ARDMORE SEAVANGUARD",
-        "imo": "9637088",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "AYSHA M",
-        "imo": "8511146",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "AMIR BEY",
-        "imo": "9016155",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LIBERTAS H",
-        "imo": "9388388",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "BURHAN DIZMAN",
-        "imo": "9381809",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "TUCSON",
-        "imo": "9441374",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
@@ -3562,12 +3485,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "FERESA",
-        "imo": "1054931",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
@@ -3612,7 +3529,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-04T04:00:35.557696+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-04T04:00:12.879089+00:00",
+  "anchorageUpdatedAt": "2026-10-04T04:30:12.286469+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3995,7 +3912,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-04T04:00:12.879089+00:00",
+  "mapUpdatedAt": "2026-10-04T04:30:12.286469+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-04T02:30:46Z",
     "summary": {
