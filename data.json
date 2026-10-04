@@ -3408,9 +3408,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-04T10:00:12.042143+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-04T10:30:10.767753+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "MEDKON NLS",
+        "imo": "9390812",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "ARDMORE SEAVANGUARD",
         "imo": "9637088",
@@ -3441,12 +3448,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "MEDKON NLS",
-        "imo": "9390812",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "ANWAAR AL KHALIJ",
         "imo": "9313424",
@@ -3520,7 +3521,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-04T10:01:00.050364+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-04 12:00:53",
+  "anchorageUpdatedAt": "2026-10-04T10:30:10.767753+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3861,7 +3862,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-04T10:00:12.042143+00:00",
+  "mapUpdatedAt": "2026-10-04T10:30:10.767753+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-04T10:00:44Z",
     "summary": {
