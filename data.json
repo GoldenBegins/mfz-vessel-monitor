@@ -3416,12 +3416,26 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-04T06:00:09.514759+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-04T06:30:09.900387+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
+        "name": "ARDMORE SEAVANGUARD",
+        "imo": "9637088",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "TUCSON",
+        "imo": "9441374",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3472,7 +3486,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-04T06:00:53.950496+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-04T06:00:09.514759+00:00",
+  "anchorageUpdatedAt": "2026-10-04T06:30:09.900387+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3798,7 +3812,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-04T06:00:09.514759+00:00",
+  "mapUpdatedAt": "2026-10-04T06:30:09.900387+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-04T05:30:41Z",
     "summary": {
