@@ -3453,13 +3453,27 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-05T20:30:11.663152+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-05T21:00:13.438266+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "PURE MERCY",
         "imo": "9277474",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MERNA 1",
+        "imo": "8716954",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "CRISTALLINA",
+        "imo": "1022718",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3487,16 +3501,10 @@
     ],
     "portStateReview": [
       {
-        "name": "MERNA 1",
-        "imo": "8716954",
+        "name": "DR SARKAS",
+        "imo": "9222558",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "CRISTALLINA",
-        "imo": "1022718",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
+        "decision": "ANCHORAGE"
       },
       {
         "name": "VESTSKJAER",
@@ -3542,7 +3550,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-05T20:30:54.215439+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-05T20:30:11.663152+00:00",
+  "anchorageUpdatedAt": "2026-10-05T21:00:13.438266+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3925,7 +3933,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-05T20:30:11.663152+00:00",
+  "mapUpdatedAt": "2026-10-05T21:00:13.438266+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-05T13:01:31Z",
     "summary": {
