@@ -3447,7 +3447,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-05T22:00:14.755353+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-05T22:30:13.245273+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3494,6 +3494,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "XIN HAI TONG 36",
+        "imo": "9594626",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "DR SARKAS",
         "imo": "9222558",
@@ -3544,7 +3550,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-05T22:01:02.373187+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-05T22:00:14.755353+00:00",
+  "anchorageUpdatedAt": "2026-10-05T22:30:13.245273+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3908,7 +3914,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-05T22:00:14.755353+00:00",
+  "mapUpdatedAt": "2026-10-05T22:30:13.245273+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-05T13:01:31Z",
     "summary": {
