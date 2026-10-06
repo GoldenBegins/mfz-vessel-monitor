@@ -3406,7 +3406,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-06T17:00:16.043426+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-06T17:30:14.154549+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3426,6 +3426,13 @@
       {
         "name": "CINZIA A",
         "imo": "9226516",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ISMAIL BEY",
+        "imo": "9008079",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3467,12 +3474,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "ISMAIL BEY",
-        "imo": "9008079",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "XING SHUN 25",
         "imo": "8591794",
@@ -3529,7 +3530,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-06T17:00:54.343298+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-06T17:00:16.043426+00:00",
+  "anchorageUpdatedAt": "2026-10-06T17:30:14.154549+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3901,7 +3902,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-06T17:00:16.043426+00:00",
+  "mapUpdatedAt": "2026-10-06T17:30:14.154549+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-05T13:01:31Z",
     "summary": {
