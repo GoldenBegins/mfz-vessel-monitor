@@ -3381,7 +3381,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-06T16:00:13.214003+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-06T16:30:11.727237+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3425,14 +3425,33 @@
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ANKA DREAM",
+        "imo": "9195470",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
+      {
+        "name": "MEDKON MAX",
+        "imo": "9347786",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "VESTSKJAER",
         "imo": "8504155",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "GOTHICA",
+        "imo": "7826867",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3472,7 +3491,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-06T16:00:45.759912+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-06T16:00:13.214003+00:00",
+  "anchorageUpdatedAt": "2026-10-06T16:30:11.727237+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3783,7 +3802,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-06T16:00:13.214003+00:00",
+  "mapUpdatedAt": "2026-10-06T16:30:11.727237+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-05T13:01:31Z",
     "summary": {
