@@ -3451,7 +3451,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-06T00:00:10.720273+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-06T00:30:10.587665+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3462,7 +3462,14 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "MAGNA1",
+        "imo": "9293557",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3500,7 +3507,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-06T00:00:42.366236+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-06T00:00:10.720273+00:00",
+  "anchorageUpdatedAt": "2026-10-06T00:30:10.587665+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3868,7 +3875,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-06T00:00:10.720273+00:00",
+  "mapUpdatedAt": "2026-10-06T00:30:10.587665+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-05T13:01:31Z",
     "summary": {
