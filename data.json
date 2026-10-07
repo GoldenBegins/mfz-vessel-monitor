@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-07 06:06:07",
+  "updatedAt": "2026-10-07 14:07:01",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 23,
-    "benghaziCalls": 13,
+    "misurataCalls": 31,
+    "benghaziCalls": 17,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 5,
-    "unestimatedCalls": 8,
-    "coverage": 38.5,
-    "trustedVessels": 200,
+    "estimatedCalls": 7,
+    "unestimatedCalls": 10,
+    "coverage": 41.2,
+    "trustedVessels": 201,
     "identityReview": 0,
     "estimatedTEU": 5518,
-    "estimatedGeneralCargoTons": 11258,
+    "estimatedGeneralCargoTons": 25586,
     "historicalHighMediumCalls": 2,
-    "fallbackLowCalls": 3
+    "fallbackLowCalls": 5
   },
   "comparison": [
     {
@@ -52,8 +52,8 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 23,
-      "benghaziCalls": 13,
+      "misurataCalls": 31,
+      "benghaziCalls": 17,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -61,27 +61,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 5518,
-      "estimatedGeneralCargoTons": 11258,
-      "coverage": 38.5
+      "estimatedGeneralCargoTons": 25586,
+      "coverage": 41.2
     }
   ],
   "estimates": [
-    {
-      "vessel": "BURHAN DIZMAN",
-      "imo": "9381809",
-      "type": "General Cargo",
-      "estimate": "7,231 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "CONTSHIP ACE",
-      "imo": "9348637",
-      "type": "Container",
-      "estimate": "1,782 TEU",
-      "confidence": "Low",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "JELENA",
       "imo": "9519042",
@@ -265,13 +249,29 @@
       "estimate": "4,027 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "CINDY",
+      "imo": "9004499",
+      "type": "General Cargo",
+      "estimate": "8,989 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "JELENA",
+      "imo": "9519042",
+      "type": "General Cargo",
+      "estimate": "5,339 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "7 internal high-priority checks are recorded."
+      "detail": "234 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
