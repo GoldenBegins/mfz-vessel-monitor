@@ -3442,23 +3442,9 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-07T22:30:19.434294+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-07T22:40:09.901758+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "ATRIA",
-        "imo": "9188518",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "CIVARINA",
-        "imo": "9396440",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
@@ -3525,7 +3511,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-07T22:30:58.249188+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-07T22:30:19.434294+00:00",
+  "anchorageUpdatedAt": "2026-10-07T22:40:09.901758+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3907,7 +3893,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-07T22:30:19.434294+00:00",
+  "mapUpdatedAt": "2026-10-07T22:40:09.901758+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-05T13:01:31Z",
     "summary": {
