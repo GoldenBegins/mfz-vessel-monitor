@@ -3444,12 +3444,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-08T11:00:14.255358+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-08T11:30:13.196380+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "GOTHICA",
         "imo": "7826867",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JOLLY ROSA",
+        "imo": "9484534",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3468,12 +3475,6 @@
         "imo": "7326893",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "JOLLY ROSA",
-        "imo": "9484534",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "VESTSKJAER",
@@ -3519,7 +3520,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-08T11:01:01.098121+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-08T11:00:14.255358+00:00",
+  "anchorageUpdatedAt": "2026-10-08T11:30:13.196380+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3890,7 +3891,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-08T11:00:14.255358+00:00",
+  "mapUpdatedAt": "2026-10-08T11:30:13.196380+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-05T13:01:31Z",
     "summary": {
