@@ -3404,7 +3404,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-08T18:00:19.864808+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-08T18:30:11.110939+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3429,6 +3429,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "WHITE SKY",
+        "imo": "9528718",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
         "port": "Benghazi",
@@ -3444,8 +3451,8 @@
         "decision": "UNCONFIRMED"
       },
       {
-        "name": "WHITE SKY",
-        "imo": "9528718",
+        "name": "",
+        "imo": "9449687",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       },
@@ -3493,7 +3500,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-08T18:00:49.068665+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-08T18:00:19.864808+00:00",
+  "anchorageUpdatedAt": "2026-10-08T18:30:11.110939+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3860,7 +3867,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-08T18:00:19.864808+00:00",
+  "mapUpdatedAt": "2026-10-08T18:30:11.110939+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-05T13:01:31Z",
     "summary": {
