@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-08 22:07:37",
+  "updatedAt": "2026-10-09 06:07:45",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 33,
+    "misurataCalls": 34,
     "benghaziCalls": 20,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
@@ -52,7 +52,7 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 33,
+      "misurataCalls": 34,
       "benghaziCalls": 20,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
@@ -271,7 +271,7 @@
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "7 internal high-priority checks are recorded."
+      "detail": "234 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
