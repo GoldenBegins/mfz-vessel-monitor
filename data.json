@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-09 06:07:45",
+  "updatedAt": "2026-10-09 14:06:48",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 34,
-    "benghaziCalls": 20,
+    "benghaziCalls": 22,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,12 +11,12 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 7,
-    "unestimatedCalls": 13,
-    "coverage": 35.0,
+    "estimatedCalls": 8,
+    "unestimatedCalls": 14,
+    "coverage": 36.4,
     "trustedVessels": 201,
     "identityReview": 0,
-    "estimatedTEU": 5518,
+    "estimatedTEU": 7214,
     "estimatedGeneralCargoTons": 25586,
     "historicalHighMediumCalls": 2,
     "fallbackLowCalls": 5
@@ -53,27 +53,19 @@
     {
       "period": "2026-10",
       "misurataCalls": 34,
-      "benghaziCalls": 20,
+      "benghaziCalls": 22,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 5518,
+      "estimatedTEU": 7214,
       "estimatedGeneralCargoTons": 25586,
-      "coverage": 35.0
+      "coverage": 36.4
     }
   ],
   "estimates": [
-    {
-      "vessel": "JELENA",
-      "imo": "9519042",
-      "type": "General Cargo",
-      "estimate": "5,339 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "KAPTAN AYTAC A",
       "imo": "9242302",
@@ -265,6 +257,14 @@
       "estimate": "5,339 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "SIDRA AHLAM",
+      "imo": "9108233",
+      "type": "Container ship",
+      "estimate": "1,696 TEU",
+      "confidence": "Low",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
