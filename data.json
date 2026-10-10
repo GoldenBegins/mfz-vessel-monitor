@@ -3351,13 +3351,27 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-10T04:00:10.034887+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-10T04:30:09.227946+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "REMAH",
         "imo": "9947720",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ZIYA SEMRAN",
+        "imo": "9863895",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JINANAH",
+        "imo": "9395343",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       }
@@ -3367,6 +3381,12 @@
         "name": "MAWASHI EXPRESS",
         "imo": "7326893",
         "port": "Misurata",
+        "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "VESTSKJAER",
+        "imo": "8504155",
+        "port": "Benghazi",
         "decision": "UNCONFIRMED"
       }
     ],
@@ -3407,7 +3427,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-10T04:00:31.314767+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-10T04:00:10.034887+00:00",
+  "anchorageUpdatedAt": "2026-10-10T04:30:09.227946+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3714,7 +3734,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-10T04:00:10.034887+00:00",
+  "mapUpdatedAt": "2026-10-10T04:30:09.227946+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-10T01:30:36Z",
     "summary": {
