@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-11 14:06:37",
+  "updatedAt": "2026-10-11 22:05:42",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 39,
-    "benghaziCalls": 27,
+    "misurataCalls": 42,
+    "benghaziCalls": 29,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 10,
-    "unestimatedCalls": 17,
-    "coverage": 37.0,
+    "estimatedCalls": 11,
+    "unestimatedCalls": 18,
+    "coverage": 37.9,
     "trustedVessels": 201,
     "identityReview": 0,
     "estimatedTEU": 9142,
-    "estimatedGeneralCargoTons": 31462,
+    "estimatedGeneralCargoTons": 37337,
     "historicalHighMediumCalls": 3,
-    "fallbackLowCalls": 6
+    "fallbackLowCalls": 7
   },
   "comparison": [
     {
@@ -52,8 +52,8 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 39,
-      "benghaziCalls": 27,
+      "misurataCalls": 42,
+      "benghaziCalls": 29,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -61,19 +61,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 9142,
-      "estimatedGeneralCargoTons": 31462,
-      "coverage": 37.0
+      "estimatedGeneralCargoTons": 37337,
+      "coverage": 37.9
     }
   ],
   "estimates": [
-    {
-      "vessel": "CMACGM FORTSTE MARIE",
-      "imo": "9261906",
-      "type": "Container",
-      "estimate": "2,587 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "MEDKON ANKA",
       "imo": "9366469",
@@ -255,6 +247,14 @@
       "imo": "9008146",
       "type": "General Cargo",
       "estimate": "5,876 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "DUYGU",
+      "imo": "9199787",
+      "type": "General Cargo",
+      "estimate": "5,875 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
