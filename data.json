@@ -3420,9 +3420,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-11T20:30:10.538039+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-11T21:00:26.979819+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "MALAK M",
+        "imo": "9216353",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "MARVEA",
         "imo": "9301897",
@@ -3453,12 +3460,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "MALAK M",
-        "imo": "9216353",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "KOSOVAK",
         "imo": "9211157",
@@ -3503,7 +3504,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-11T20:30:59.909375+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-11T20:30:10.538039+00:00",
+  "anchorageUpdatedAt": "2026-10-11T21:00:26.979819+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3912,7 +3913,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-11T20:30:10.538039+00:00",
+  "mapUpdatedAt": "2026-10-11T21:00:26.979819+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-10T01:30:36Z",
     "summary": {
