@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-11 06:06:16",
+  "updatedAt": "2026-10-11 14:06:37",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 37,
-    "benghaziCalls": 23,
+    "misurataCalls": 39,
+    "benghaziCalls": 27,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 8,
-    "unestimatedCalls": 15,
-    "coverage": 34.8,
+    "estimatedCalls": 10,
+    "unestimatedCalls": 17,
+    "coverage": 37.0,
     "trustedVessels": 201,
     "identityReview": 0,
-    "estimatedTEU": 7214,
-    "estimatedGeneralCargoTons": 25586,
-    "historicalHighMediumCalls": 2,
-    "fallbackLowCalls": 5
+    "estimatedTEU": 9142,
+    "estimatedGeneralCargoTons": 31462,
+    "historicalHighMediumCalls": 3,
+    "fallbackLowCalls": 6
   },
   "comparison": [
     {
@@ -52,36 +52,20 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 37,
-      "benghaziCalls": 23,
+      "misurataCalls": 39,
+      "benghaziCalls": 27,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 7214,
-      "estimatedGeneralCargoTons": 25586,
-      "coverage": 34.8
+      "estimatedTEU": 9142,
+      "estimatedGeneralCargoTons": 31462,
+      "coverage": 37.0
     }
   ],
   "estimates": [
-    {
-      "vessel": "KAPTAN AYTAC A",
-      "imo": "9242302",
-      "type": "Container",
-      "estimate": "1,316 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
-    {
-      "vessel": "ANKA DREAM",
-      "imo": "9195470",
-      "type": "General Cargo",
-      "estimate": "4,027 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "CMACGM FORTSTE MARIE",
       "imo": "9261906",
@@ -265,13 +249,29 @@
       "estimate": "1,696 TEU",
       "confidence": "Low",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "MONIF",
+      "imo": "9008146",
+      "type": "General Cargo",
+      "estimate": "5,876 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MEDKON ANKA",
+      "imo": "9366469",
+      "type": "Container",
+      "estimate": "1,928 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "7 internal high-priority checks are recorded."
+      "detail": "234 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
