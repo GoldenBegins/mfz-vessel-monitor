@@ -3363,7 +3363,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-12T05:30:10.117276+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-12T06:00:19.427388+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3376,6 +3376,13 @@
       {
         "name": "SIDRA AHLAM",
         "imo": "9108233",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MSC VERA F",
+        "imo": "9235610",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3419,7 +3426,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-12T05:30:57.023636+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-12T05:30:10.117276+00:00",
+  "anchorageUpdatedAt": "2026-10-12T06:00:19.427388+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3771,7 +3778,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-12T05:30:10.117276+00:00",
+  "mapUpdatedAt": "2026-10-12T06:00:19.427388+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-10T01:30:36Z",
     "summary": {
