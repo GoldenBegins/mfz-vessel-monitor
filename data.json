@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11 22:05:42",
+  "updatedAt": "2026-10-12 06:07:20",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 42,
@@ -271,7 +271,7 @@
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "234 internal high-priority checks are recorded."
+      "detail": "7 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
