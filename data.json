@@ -3399,7 +3399,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-12T22:30:15.032177+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-12T22:40:13.612967+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3459,7 +3459,14 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "SEA MERAY",
+        "imo": "9104421",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3497,7 +3504,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-12T22:31:06.551368+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-12T22:30:15.032177+00:00",
+  "anchorageUpdatedAt": "2026-10-12T22:40:13.612967+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3872,7 +3879,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-12T22:30:15.032177+00:00",
+  "mapUpdatedAt": "2026-10-12T22:40:13.612967+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-10T01:30:36Z",
     "summary": {
