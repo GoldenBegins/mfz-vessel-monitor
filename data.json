@@ -3391,7 +3391,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-12T18:30:11.450342+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-12T19:00:14.608723+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3411,6 +3411,13 @@
       {
         "name": "FATIH",
         "imo": "9381421",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "HAMBURG.HS",
+        "imo": "9168403",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3437,14 +3444,7 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "HAMBURG.HS",
-        "imo": "9168403",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3482,7 +3482,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-12T18:30:59.239797+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-12T18:30:11.450342+00:00",
+  "anchorageUpdatedAt": "2026-10-12T19:00:14.608723+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3849,7 +3849,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-12T18:30:11.450342+00:00",
+  "mapUpdatedAt": "2026-10-12T19:00:14.608723+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-10T01:30:36Z",
     "summary": {
