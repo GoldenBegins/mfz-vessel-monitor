@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-13 14:06:34",
+  "updatedAt": "2026-10-13 22:06:49",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 42,
-    "benghaziCalls": 29,
+    "misurataCalls": 49,
+    "benghaziCalls": 33,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 11,
-    "unestimatedCalls": 18,
-    "coverage": 37.9,
+    "estimatedCalls": 13,
+    "unestimatedCalls": 20,
+    "coverage": 39.4,
     "trustedVessels": 201,
     "identityReview": 0,
-    "estimatedTEU": 9142,
-    "estimatedGeneralCargoTons": 37337,
-    "historicalHighMediumCalls": 3,
-    "fallbackLowCalls": 7
+    "estimatedTEU": 10084,
+    "estimatedGeneralCargoTons": 40173,
+    "historicalHighMediumCalls": 4,
+    "fallbackLowCalls": 8
   },
   "comparison": [
     {
@@ -52,36 +52,20 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 42,
-      "benghaziCalls": 29,
+      "misurataCalls": 49,
+      "benghaziCalls": 33,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 9142,
-      "estimatedGeneralCargoTons": 37337,
-      "coverage": 37.9
+      "estimatedTEU": 10084,
+      "estimatedGeneralCargoTons": 40173,
+      "coverage": 39.4
     }
   ],
   "estimates": [
-    {
-      "vessel": "MEDKON ANKA",
-      "imo": "9366469",
-      "type": "Container",
-      "estimate": "1,928 TEU",
-      "confidence": "Medium",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
-    {
-      "vessel": "MONIF",
-      "imo": "9008146",
-      "type": "General Cargo",
-      "estimate": "5,876 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "CINDY",
       "imo": "9004499",
@@ -265,13 +249,29 @@
       "estimate": "1,928 TEU",
       "confidence": "Medium",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "KOSOVAK",
+      "imo": "9211157",
+      "type": "Container",
+      "estimate": "942 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "ABASHIE",
+      "imo": "8207410",
+      "type": "General Cargo",
+      "estimate": "2,836 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "7 internal high-priority checks are recorded."
+      "detail": "234 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
