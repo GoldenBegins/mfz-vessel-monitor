@@ -3356,13 +3356,27 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-13T14:30:11.480944+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-13T15:00:13.769751+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "ATHENA",
+        "imo": "9187344",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "MALAK M",
         "imo": "9216353",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "KRITI RUBY",
+        "imo": "9391282",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3374,20 +3388,7 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "ATHENA",
-        "imo": "9187344",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "KRITI RUBY",
-        "imo": "9391282",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3425,7 +3426,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-13T14:30:46.415224+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-13T14:30:11.480944+00:00",
+  "anchorageUpdatedAt": "2026-10-13T15:00:13.769751+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3777,7 +3778,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-13T14:30:11.480944+00:00",
+  "mapUpdatedAt": "2026-10-13T15:00:13.769751+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-10T01:30:36Z",
     "summary": {
