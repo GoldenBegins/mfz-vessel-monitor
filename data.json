@@ -1601,7 +1601,11 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Ships25",
-        "observedAt": "2026-10-14T04:11:00+00:00"
+        "observedAt": "2026-10-14T04:11:00+00:00",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-MISURATA-9335147-20261013T040802Z",
@@ -1624,7 +1628,11 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Shipnext",
-        "observedAt": "2026-10-14T02:50:01+00:00"
+        "observedAt": "2026-10-14T02:50:01+00:00",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-MISURATA-1112812-20261013T191427Z",
@@ -1647,7 +1655,11 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Shipnext",
-        "observedAt": "2026-10-14T03:37:32+00:00"
+        "observedAt": "2026-10-14T03:37:32+00:00",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-8517592-20260928T014029Z",
@@ -1670,7 +1682,12 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Shipnext",
-        "observedAt": "2026-10-14T03:08:50+00:00"
+        "observedAt": "2026-10-14T03:08:50+00:00",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Benghazi|8517592|2026-09-12"
       }
     ],
     "currentInPort": {
@@ -3420,10 +3437,10 @@
     "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
-      "postPort": 3,
-      "unknown": 4
+      "postPort": 1,
+      "unknown": 3
     },
-    "phaseUpdatedAt": "2026-10-04T19:44:31Z",
+    "phaseUpdatedAt": "2026-10-14T04:44:47Z",
     "exclusivityFilteredAt": "2026-10-02T11:01:12Z",
     "exclusivityRemoved": [
       {
