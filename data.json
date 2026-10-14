@@ -3457,10 +3457,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-14T14:00:29.304284+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-14T14:30:20.169835+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
     "portStateReview": [
+      {
+        "name": "RAVEN",
+        "imo": "9165059",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "MAGNA1",
         "imo": "9293557",
@@ -3550,7 +3556,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-14T14:01:40.443574+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-14T14:00:29.304284+00:00",
+  "anchorageUpdatedAt": "2026-10-14T14:30:20.169835+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3966,7 +3972,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-14T14:00:29.304284+00:00",
+  "mapUpdatedAt": "2026-10-14T14:30:20.169835+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-14T04:44:29Z",
     "summary": {
