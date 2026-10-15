@@ -3393,7 +3393,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-15T22:00:14.206424+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-15T22:30:13.502800+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3413,6 +3413,13 @@
       {
         "name": "LYNN",
         "imo": "9295531",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MERNA 1",
+        "imo": "8716954",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3439,14 +3446,7 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "MERNA 1",
-        "imo": "8716954",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 4,
@@ -3484,7 +3484,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-15T22:00:41.939886+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-15T22:00:14.206424+00:00",
+  "anchorageUpdatedAt": "2026-10-15T22:30:13.502800+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3863,7 +3863,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-15T22:00:14.206424+00:00",
+  "mapUpdatedAt": "2026-10-15T22:30:13.502800+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-14T18:02:42Z",
     "summary": {
