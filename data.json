@@ -3417,7 +3417,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-15T16:30:13.677788+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-15T16:40:11.972437+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3436,6 +3436,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "ASIA INSPIRE",
+        "imo": "9752709",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "DUYGU",
         "imo": "9199787",
@@ -3503,7 +3509,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-15T16:30:54.055211+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-15T16:30:13.677788+00:00",
+  "anchorageUpdatedAt": "2026-10-15T16:40:11.972437+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3870,7 +3876,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-15T16:30:13.677788+00:00",
+  "mapUpdatedAt": "2026-10-15T16:40:11.972437+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-14T18:02:42Z",
     "summary": {
