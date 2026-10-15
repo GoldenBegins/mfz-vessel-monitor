@@ -3408,7 +3408,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-15T18:00:13.122965+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-15T18:30:12.656239+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3440,7 +3440,20 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "ALEXANDRA A",
+        "imo": "9356684",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 4,
@@ -3478,7 +3491,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-15T18:00:46.522120+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-15T18:00:13.122965+00:00",
+  "anchorageUpdatedAt": "2026-10-15T18:30:12.656239+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3872,7 +3885,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-15T18:00:13.122965+00:00",
+  "mapUpdatedAt": "2026-10-15T18:30:12.656239+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-14T18:02:42Z",
     "summary": {
