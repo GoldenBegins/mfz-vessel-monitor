@@ -3374,9 +3374,16 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-15T19:00:13.816669+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-15T19:30:11.523609+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "ALEXANDRA A",
+        "imo": "9356684",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "ASIA INSPIRE",
         "imo": "9752709",
@@ -3387,6 +3394,13 @@
       {
         "name": "LYNN",
         "imo": "9295531",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3406,20 +3420,7 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "ALEXANDRA A",
-        "imo": "9356684",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "BURHAN DIZMAN",
-        "imo": "9381809",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 4,
@@ -3457,7 +3458,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-15T19:00:47.187118+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-15T19:00:13.816669+00:00",
+  "anchorageUpdatedAt": "2026-10-15T19:30:11.523609+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3817,7 +3818,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-15T19:00:13.816669+00:00",
+  "mapUpdatedAt": "2026-10-15T19:30:11.523609+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-14T18:02:42Z",
     "summary": {
