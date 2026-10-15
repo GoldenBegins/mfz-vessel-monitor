@@ -3417,7 +3417,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-15T14:00:11.663323+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-15T14:30:14.526025+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3428,7 +3428,14 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "LYNN",
+        "imo": "9295531",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 4,
@@ -3489,7 +3496,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-15T14:00:45.801210+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-15T14:00:11.663323+00:00",
+  "anchorageUpdatedAt": "2026-10-15T14:30:14.526025+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3856,7 +3863,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-15T14:00:11.663323+00:00",
+  "mapUpdatedAt": "2026-10-15T14:30:14.526025+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-14T18:02:42Z",
     "summary": {
