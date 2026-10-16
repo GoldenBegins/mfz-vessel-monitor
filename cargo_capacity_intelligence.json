@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-10-16T12:10:29Z",
+  "updatedAt": "2026-10-16T20:10:23Z",
   "summary": {
-    "dwtProfiles": 185,
+    "dwtProfiles": 187,
     "fleetSampleN": 19,
     "fleetMedianTonsPerDwt": 0.4996,
     "fleetP25": 0.2492,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 4,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 94,
+    "fleetRatioEstimates": 95,
     "unestimatedCalls": 8
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "Medium",
-      "Updated On": "2026-10-16T12:10:29Z"
+      "Updated On": "2026-10-16T20:10:23Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-10-16T12:10:29Z"
+      "Updated On": "2026-10-16T20:10:23Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-10-16T12:10:29Z"
+      "Updated On": "2026-10-16T20:10:23Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-10-16T12:10:29Z"
+      "Updated On": "2026-10-16T20:10:23Z"
     }
   ],
   "rows": [
@@ -934,6 +934,25 @@
       "Estimated Cargo Tons": 1512.72,
       "Low Estimate": 754.61,
       "High Estimate": 2715.16,
+      "Confidence": "Medium",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=19",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9519042|2026-10-16",
+      "IMO": "9519042",
+      "Vessel": "JELENA",
+      "Vessel Type": "General Cargo",
+      "DWT": 5700.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 19,
+      "Median Tons/DWT": 0.4996,
+      "Estimated Cargo Tons": 2847.59,
+      "Low Estimate": 1420.51,
+      "High Estimate": 5111.1,
       "Confidence": "Medium",
       "Source": "MFZ actual cargo + exact IMO DWT; n=19",
       "Notes": "Planning proxy, not official handled tonnage."
