@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-16 14:06:34",
+  "updatedAt": "2026-10-16 22:07:36",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 57,
-    "benghaziCalls": 33,
+    "misurataCalls": 60,
+    "benghaziCalls": 37,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 13,
-    "unestimatedCalls": 20,
-    "coverage": 39.4,
+    "estimatedCalls": 14,
+    "unestimatedCalls": 23,
+    "coverage": 37.8,
     "trustedVessels": 201,
     "identityReview": 0,
     "estimatedTEU": 10084,
-    "estimatedGeneralCargoTons": 40173,
+    "estimatedGeneralCargoTons": 45512,
     "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 8
+    "fallbackLowCalls": 9
   },
   "comparison": [
     {
@@ -52,8 +52,8 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 57,
-      "benghaziCalls": 33,
+      "misurataCalls": 60,
+      "benghaziCalls": 37,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -61,19 +61,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 10084,
-      "estimatedGeneralCargoTons": 40173,
-      "coverage": 39.4
+      "estimatedGeneralCargoTons": 45512,
+      "coverage": 37.8
     }
   ],
   "estimates": [
-    {
-      "vessel": "CINDY",
-      "imo": "9004499",
-      "type": "General Cargo",
-      "estimate": "8,989 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "MEDKON M",
       "imo": "9314545",
@@ -265,13 +257,21 @@
       "estimate": "2,836 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "JELENA",
+      "imo": "9519042",
+      "type": "General Cargo",
+      "estimate": "5,339 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "8 internal high-priority checks are recorded."
+      "detail": "235 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
