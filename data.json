@@ -3416,7 +3416,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-16T21:00:22.896553+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-16T21:30:12.294150+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3427,7 +3427,14 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "GUO YUN HAI",
+        "imo": "1112812",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 4,
@@ -3465,7 +3472,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-16T21:01:04.545047+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-16T21:00:22.896553+00:00",
+  "anchorageUpdatedAt": "2026-10-16T21:30:12.294150+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3851,7 +3858,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-16T21:00:22.896553+00:00",
+  "mapUpdatedAt": "2026-10-16T21:30:12.294150+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-14T18:02:42Z",
     "summary": {
