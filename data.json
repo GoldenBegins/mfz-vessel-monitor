@@ -3555,7 +3555,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-17T14:00:21.567932+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-17T14:30:15.756295+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3574,6 +3574,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "APL SAIPAN",
+        "imo": "9239850",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "JELENA",
         "imo": "9519042",
@@ -3618,7 +3624,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-17T14:01:06.643212+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-17T14:00:21.567932+00:00",
+  "anchorageUpdatedAt": "2026-10-17T14:30:15.756295+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4061,7 +4067,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-17T14:00:21.567932+00:00",
+  "mapUpdatedAt": "2026-10-17T14:30:15.756295+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-17T10:45:49Z",
     "summary": {
