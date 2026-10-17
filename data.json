@@ -3423,10 +3423,17 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-17T09:00:11.538287+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-17T09:30:17.367971+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "ALLEGRI",
+        "imo": "9127459",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 4,
@@ -3464,7 +3471,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-17T09:00:41.019232+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-17T09:00:11.538287+00:00",
+  "anchorageUpdatedAt": "2026-10-17T09:30:17.367971+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3880,7 +3887,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-17T09:00:11.538287+00:00",
+  "mapUpdatedAt": "2026-10-17T09:30:17.367971+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-14T18:02:42Z",
     "summary": {
