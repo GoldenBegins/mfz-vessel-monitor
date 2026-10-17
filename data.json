@@ -1601,7 +1601,11 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Ships25",
-        "observedAt": "2026-10-17T10:35:06+00:00"
+        "observedAt": "2026-10-17T10:35:06+00:00",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-MISURATA-9313424-20261015T100600Z",
@@ -1624,7 +1628,12 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Ships25",
-        "observedAt": "2026-10-17T10:37:00+00:00"
+        "observedAt": "2026-10-17T10:37:00+00:00",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Misurata|9313424|2026-09-22"
       },
       {
         "episodeId": "ANCH-MISURATA-9362657-20261017T064406Z",
@@ -1647,7 +1656,11 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Shipnext",
-        "observedAt": "2026-10-17T09:26:11+00:00"
+        "observedAt": "2026-10-17T09:26:11+00:00",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       },
       {
         "episodeId": "ANCH-BENGHAZI-8517592-20260928T014029Z",
@@ -1670,7 +1683,12 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Ships25",
-        "observedAt": "2026-10-17T10:36:00+00:00"
+        "observedAt": "2026-10-17T10:36:00+00:00",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Benghazi|8517592|2026-09-12"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9381809-20261016T163300Z",
@@ -1693,7 +1711,12 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Ships25",
-        "observedAt": "2026-10-17T10:39:00+00:00"
+        "observedAt": "2026-10-17T10:39:00+00:00",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Benghazi|9381809|2026-10-02"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9356684-20261016T223700Z",
@@ -1716,7 +1739,12 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Ships25",
-        "observedAt": "2026-10-17T10:36:17+00:00"
+        "observedAt": "2026-10-17T10:36:17+00:00",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Benghazi|9356684|2026-09-29"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9293557-20261014T214528Z",
@@ -1739,7 +1767,12 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Ships25",
-        "observedAt": "2026-10-17T10:38:00+00:00"
+        "observedAt": "2026-10-17T10:38:00+00:00",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Benghazi|9293557|2026-10-13"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9563885-20261016T193400Z",
@@ -1762,7 +1795,12 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Ships25",
-        "observedAt": "2026-10-17T10:36:00+00:00"
+        "observedAt": "2026-10-17T10:36:00+00:00",
+        "anchoragePhase": "POST_PORT",
+        "anchoragePhaseAr": "بعد مغادرة الميناء",
+        "anchoragePhaseConfidence": "High",
+        "anchoragePhaseReason": "آخر Port Call انتهى قبل بدء رصد المخطاف ولم تبدأ زيارة لاحقة بعد.",
+        "anchoragePhaseCallId": "Benghazi|9563885|2026-10-10"
       },
       {
         "episodeId": "ANCH-BENGHAZI-9458456-20261017T092356Z",
@@ -1785,7 +1823,11 @@
         "closedOn": "",
         "confidence": "High",
         "source": "Shipnext",
-        "observedAt": "2026-10-17T09:23:56+00:00"
+        "observedAt": "2026-10-17T09:23:56+00:00",
+        "anchoragePhase": "UNKNOWN",
+        "anchoragePhaseAr": "غير محسوم",
+        "anchoragePhaseConfidence": "Low",
+        "anchoragePhaseReason": "لا يوجد تسلسل زمني كافٍ."
       }
     ],
     "currentInPort": {
@@ -3565,10 +3607,10 @@
     "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
-      "postPort": 4,
-      "unknown": 2
+      "postPort": 6,
+      "unknown": 3
     },
-    "phaseUpdatedAt": "2026-10-14T16:46:49Z",
+    "phaseUpdatedAt": "2026-10-17T10:46:07Z",
     "exclusivityFilteredAt": "2026-10-02T11:01:12Z",
     "exclusivityRemoved": [
       {
