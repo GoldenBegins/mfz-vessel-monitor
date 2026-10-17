@@ -4020,16 +4020,36 @@
   },
   "mapUpdatedAt": "2026-10-17T19:40:16.688991+00:00",
   "interPortVoyages": {
-    "updatedAt": "2026-10-17T10:45:49Z",
+    "updatedAt": "2026-10-17T19:46:42Z",
     "summary": {
       "confirmedTotal": 90,
-      "candidateTotal": 1,
+      "candidateTotal": 2,
       "misurataToBenghaziConfirmed": 47,
       "benghaziToMisurataConfirmed": 43,
       "misurataToBenghaziCandidates": 0,
-      "benghaziToMisurataCandidates": 1
+      "benghaziToMisurataCandidates": 2
     },
     "rows": [
+      {
+        "kind": "candidate",
+        "status": "Anchorage Candidate",
+        "imo": "9449687",
+        "mmsi": "636021438",
+        "vessel": "MSC AMIHAN F",
+        "type": "",
+        "originPort": "Benghazi",
+        "destinationPort": "Misurata",
+        "originFirstSeen": "2026-10-07",
+        "originLastSeen": "2026-10-08",
+        "originStayHours": 48.0,
+        "destinationAnchorageFirstSeen": "2026-10-17T13:38:00+00:00",
+        "destinationAnchorageLastSeen": "2026-10-17T18:57:18Z",
+        "destinationAnchorageHours": 0.0,
+        "seaTransitCalendarGapDays": 9,
+        "confidence": "Candidate — destination Port Call not confirmed yet",
+        "originCallId": "Benghazi|9449687|2026-10-07",
+        "anchorEpisodeId": "ANCH-MISURATA-9449687-20261017T133800Z"
+      },
       {
         "kind": "confirmed",
         "status": "Confirmed",
@@ -4087,7 +4107,7 @@
         "originLastSeen": "2026-10-04",
         "originStayHours": 96.0,
         "destinationAnchorageFirstSeen": "2026-10-15T10:06:00+00:00",
-        "destinationAnchorageLastSeen": "2026-10-17T09:17:52Z",
+        "destinationAnchorageLastSeen": "2026-10-17T13:11:53Z",
         "destinationAnchorageHours": 0.0,
         "seaTransitCalendarGapDays": 11,
         "confidence": "Candidate — destination Port Call not confirmed yet",
