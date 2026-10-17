@@ -3579,52 +3579,9 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-17T22:30:22.885726+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-17T22:40:14.288574+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "KRITI CAPTAIN",
-        "imo": "9335147",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "NOURAN ED",
-        "imo": "8356974",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "APL SAIPAN",
-        "imo": "9239850",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "RAPHAELA",
-        "imo": "9365831",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "JELENA",
-        "imo": "9519042",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
+    "potentialDepartures": [],
     "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
@@ -3663,7 +3620,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-17T22:31:34.854928+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-17T22:30:22.885726+00:00",
+  "anchorageUpdatedAt": "2026-10-17T22:40:14.288574+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4060,7 +4017,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-17T22:30:22.885726+00:00",
+  "mapUpdatedAt": "2026-10-17T22:40:14.288574+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-17T19:46:42Z",
     "summary": {
