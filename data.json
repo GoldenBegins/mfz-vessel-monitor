@@ -3454,51 +3454,15 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-18T23:00:09.329835+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-18T23:30:10.313153+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "ALEXANDRA A",
-        "imo": "9356684",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MERNA 1",
-        "imo": "8716954",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MSC TALIA F",
-        "imo": "9308601",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ANKA DREAM",
-        "imo": "9195470",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
+    "potentialDepartures": [],
     "portStateReview": [
       {
-        "name": "JULYANA 2",
-        "imo": "1066013",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
+        "name": "ANWAAR AL KHALIJ",
+        "imo": "9313424",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3538,7 +3502,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-18T23:00:38.535853+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-18T23:00:09.329835+00:00",
+  "anchorageUpdatedAt": "2026-10-18T23:30:10.313153+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3909,7 +3873,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-18T23:00:09.329835+00:00",
+  "mapUpdatedAt": "2026-10-18T23:30:10.313153+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-18T01:45:36Z",
     "summary": {
