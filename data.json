@@ -3549,7 +3549,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-18T03:30:11.354207+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-18T04:00:11.800618+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3558,22 +3558,23 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
+      },
       {
         "name": "ISKENDERUN-M",
         "imo": "9206140",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       },
       {
         "name": "MERNA 1",
         "imo": "8716954",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3611,7 +3612,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-18T03:30:41.537176+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-18T03:30:11.354207+00:00",
+  "anchorageUpdatedAt": "2026-10-18T04:00:11.800618+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4035,7 +4036,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-18T03:30:11.354207+00:00",
+  "mapUpdatedAt": "2026-10-18T04:00:11.800618+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-18T01:45:36Z",
     "summary": {
