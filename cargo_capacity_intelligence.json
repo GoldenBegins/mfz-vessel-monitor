@@ -1,6 +1,6 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-10-18T12:10:32Z",
+  "updatedAt": "2026-10-18T20:10:23Z",
   "summary": {
     "dwtProfiles": 191,
     "fleetSampleN": 21,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 4,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 98,
+    "fleetRatioEstimates": 99,
     "unestimatedCalls": 8
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-10-18T12:10:32Z"
+      "Updated On": "2026-10-18T20:10:23Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-10-18T12:10:32Z"
+      "Updated On": "2026-10-18T20:10:23Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-10-18T12:10:32Z"
+      "Updated On": "2026-10-18T20:10:23Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-10-18T12:10:32Z"
+      "Updated On": "2026-10-18T20:10:23Z"
     }
   ],
   "rows": [
@@ -972,6 +972,25 @@
       "Estimated Cargo Tons": 7068.24,
       "Low Estimate": 3124.51,
       "High Estimate": 10265.84,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=21",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9195470|2026-10-18",
+      "IMO": "9195470",
+      "Vessel": "ANKA DREAM",
+      "Vessel Type": "General Cargo",
+      "DWT": 4299.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 21,
+      "Median Tons/DWT": 0.5842,
+      "Estimated Cargo Tons": 2511.48,
+      "Low Estimate": 1110.2,
+      "High Estimate": 3647.64,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=21",
       "Notes": "Planning proxy, not official handled tonnage."
