@@ -3509,37 +3509,9 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-18T22:30:13.181590+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-18T22:40:08.384956+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "ALEXIA I",
-        "imo": "9365049",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ISKENDERUN-M",
-        "imo": "9206140",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MSC POTOMAC F",
-        "imo": "9236274",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "PAPU",
-        "imo": "9377561",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "ALEXANDRA A",
         "imo": "9356684",
@@ -3621,7 +3593,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-18T22:30:40.272873+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-18T22:30:13.181590+00:00",
+  "anchorageUpdatedAt": "2026-10-18T22:40:08.384956+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4007,7 +3979,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-18T22:30:13.181590+00:00",
+  "mapUpdatedAt": "2026-10-18T22:40:08.384956+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-18T01:45:36Z",
     "summary": {
