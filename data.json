@@ -3532,7 +3532,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-18T15:00:11.886344+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-18T15:30:11.053275+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3564,7 +3564,20 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "PAPU",
+        "imo": "9377561",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "GOTHICA",
+        "imo": "7826867",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3602,7 +3615,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-18T15:00:40.796303+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-18T15:00:11.886344+00:00",
+  "anchorageUpdatedAt": "2026-10-18T15:30:11.053275+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4011,7 +4024,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-18T15:00:11.886344+00:00",
+  "mapUpdatedAt": "2026-10-18T15:30:11.053275+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-18T01:45:36Z",
     "summary": {
