@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-17 22:06:55",
+  "updatedAt": "2026-10-18 06:06:33",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 65,
-    "benghaziCalls": 40,
+    "misurataCalls": 68,
+    "benghaziCalls": 41,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 15,
+    "estimatedCalls": 16,
     "unestimatedCalls": 25,
-    "coverage": 37.5,
+    "coverage": 39.0,
     "trustedVessels": 202,
     "identityReview": 0,
     "estimatedTEU": 10084,
-    "estimatedGeneralCargoTons": 51493,
+    "estimatedGeneralCargoTons": 58043,
     "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 10
+    "fallbackLowCalls": 11
   },
   "comparison": [
     {
@@ -52,8 +52,8 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 65,
-      "benghaziCalls": 40,
+      "misurataCalls": 68,
+      "benghaziCalls": 41,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -61,19 +61,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 10084,
-      "estimatedGeneralCargoTons": 51493,
-      "coverage": 37.5
+      "estimatedGeneralCargoTons": 58043,
+      "coverage": 39.0
     }
   ],
   "estimates": [
-    {
-      "vessel": "FILIKCI 3",
-      "imo": "9011985",
-      "type": "General Cargo",
-      "estimate": "1,123 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "OCEAN7 REVOLUTION",
       "imo": "9267742",
@@ -263,6 +255,14 @@
       "imo": "9356684",
       "type": "General Cargo",
       "estimate": "10,266 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "BURHAN DIZMAN",
+      "imo": "9381809",
+      "type": "General Cargo",
+      "estimate": "6,550 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     }
