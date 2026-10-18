@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-18 14:04:05",
+  "updatedAt": "2026-10-18 22:07:10",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 68,
-    "benghaziCalls": 41,
+    "misurataCalls": 69,
+    "benghaziCalls": 43,
     "misurataExcludedCalls": 0,
-    "benghaziExcludedCalls": 0,
-    "excludedCalls": 0,
+    "benghaziExcludedCalls": 1,
+    "excludedCalls": 1,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 16,
-    "unestimatedCalls": 25,
-    "coverage": 39.0,
+    "estimatedCalls": 17,
+    "unestimatedCalls": 26,
+    "coverage": 39.5,
     "trustedVessels": 202,
     "identityReview": 0,
     "estimatedTEU": 10084,
-    "estimatedGeneralCargoTons": 58043,
+    "estimatedGeneralCargoTons": 61691,
     "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 11
+    "fallbackLowCalls": 12
   },
   "comparison": [
     {
@@ -52,28 +52,20 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 68,
-      "benghaziCalls": 41,
+      "misurataCalls": 69,
+      "benghaziCalls": 43,
       "misurataExcludedCalls": 0,
-      "benghaziExcludedCalls": 0,
+      "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 10084,
-      "estimatedGeneralCargoTons": 58043,
-      "coverage": 39.0
+      "estimatedGeneralCargoTons": 61691,
+      "coverage": 39.5
     }
   ],
   "estimates": [
-    {
-      "vessel": "OCEAN7 REVOLUTION",
-      "imo": "9267742",
-      "type": "General Cargo",
-      "estimate": "8,978 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "MSC VULCANO II",
       "imo": "9313228",
@@ -255,6 +247,14 @@
       "imo": "9356684",
       "type": "General Cargo",
       "estimate": "10,266 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "ANKA DREAM",
+      "imo": "9195470",
+      "type": "General Cargo",
+      "estimate": "3,648 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
