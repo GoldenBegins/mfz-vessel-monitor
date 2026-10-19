@@ -3439,16 +3439,18 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-19T00:30:11.782162+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-19T01:00:10.045123+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
-    "portStateReview": [
+    "potentialDepartures": [
       {
         "name": "ALLEGRI",
         "imo": "9127459",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
+    "portStateReview": [
       {
         "name": "ANWAAR AL KHALIJ",
         "imo": "9313424",
@@ -3493,7 +3495,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-19T00:30:39.776155+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-19T00:30:11.782162+00:00",
+  "anchorageUpdatedAt": "2026-10-19T01:00:10.045123+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3849,7 +3851,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-19T00:30:11.782162+00:00",
+  "mapUpdatedAt": "2026-10-19T01:00:10.045123+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-18T01:45:36Z",
     "summary": {
