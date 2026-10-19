@@ -3477,7 +3477,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-19T17:00:10.740787+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-19T17:30:11.315001+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3502,7 +3502,14 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "MEDKON NLS",
+        "imo": "9390812",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3540,7 +3547,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-19T17:00:53.555396+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-19T17:00:10.740787+00:00",
+  "anchorageUpdatedAt": "2026-10-19T17:30:11.315001+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3922,7 +3929,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-19T17:00:10.740787+00:00",
+  "mapUpdatedAt": "2026-10-19T17:30:11.315001+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-18T01:45:36Z",
     "summary": {
