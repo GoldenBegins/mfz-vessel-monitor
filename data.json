@@ -3515,7 +3515,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-19T20:00:12.333996+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-19T20:30:11.459537+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3560,6 +3560,12 @@
         "imo": "9235816",
         "port": "Misurata",
         "decision": "NEAR_PORT"
+      },
+      {
+        "name": "AITOLIKOS",
+        "imo": "9386483",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3599,7 +3605,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-19T20:00:42.415340+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-19T20:00:12.333996+00:00",
+  "anchorageUpdatedAt": "2026-10-19T20:30:11.459537+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4046,7 +4052,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-19T20:00:12.333996+00:00",
+  "mapUpdatedAt": "2026-10-19T20:30:11.459537+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-18T01:45:36Z",
     "summary": {
