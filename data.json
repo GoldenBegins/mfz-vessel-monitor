@@ -3508,7 +3508,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-20T15:00:12.621224+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-20T15:30:12.532521+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3522,6 +3522,13 @@
         "name": "CHANG HONG AN",
         "imo": "9562001",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "GUO ZHI HAI",
+        "imo": "1112824",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3578,7 +3585,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-20T15:00:43.399301+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-20T15:00:12.621224+00:00",
+  "anchorageUpdatedAt": "2026-10-20T15:30:12.532521+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3983,7 +3990,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-20T15:00:12.621224+00:00",
+  "mapUpdatedAt": "2026-10-20T15:30:12.532521+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
