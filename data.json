@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-20 06:06:44",
+  "updatedAt": "2026-10-20 14:06:49",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 74,
-    "benghaziCalls": 48,
+    "misurataCalls": 79,
+    "benghaziCalls": 50,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -12,8 +12,8 @@
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
     "estimatedCalls": 17,
-    "unestimatedCalls": 31,
-    "coverage": 35.4,
+    "unestimatedCalls": 33,
+    "coverage": 34.0,
     "trustedVessels": 202,
     "identityReview": 0,
     "estimatedTEU": 10084,
@@ -52,8 +52,8 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 74,
-      "benghaziCalls": 48,
+      "misurataCalls": 79,
+      "benghaziCalls": 50,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -62,7 +62,7 @@
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 10084,
       "estimatedGeneralCargoTons": 61691,
-      "coverage": 35.4
+      "coverage": 34.0
     }
   ],
   "estimates": [
@@ -271,7 +271,7 @@
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "8 internal high-priority checks are recorded."
+      "detail": "234 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
