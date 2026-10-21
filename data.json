@@ -3519,7 +3519,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-21T17:00:10.963159+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-21T17:30:11.200358+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3544,7 +3544,14 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "SEA CARYATIS",
+        "imo": "9166625",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3582,7 +3589,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-21T17:00:43.661500+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-21T17:00:10.963159+00:00",
+  "anchorageUpdatedAt": "2026-10-21T17:30:11.200358+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3979,7 +3986,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-21T17:00:10.963159+00:00",
+  "mapUpdatedAt": "2026-10-21T17:30:11.200358+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
