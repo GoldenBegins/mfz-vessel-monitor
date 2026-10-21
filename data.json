@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-20 22:10:09",
+  "updatedAt": "2026-10-21 14:07:15",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 79,
-    "benghaziCalls": 50,
+    "misurataCalls": 85,
+    "benghaziCalls": 51,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 17,
+    "estimatedCalls": 18,
     "unestimatedCalls": 33,
-    "coverage": 34.0,
+    "coverage": 35.3,
     "trustedVessels": 202,
     "identityReview": 0,
-    "estimatedTEU": 10084,
+    "estimatedTEU": 12920,
     "estimatedGeneralCargoTons": 61691,
     "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 12
+    "fallbackLowCalls": 13
   },
   "comparison": [
     {
@@ -52,28 +52,20 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 79,
-      "benghaziCalls": 50,
+      "misurataCalls": 85,
+      "benghaziCalls": 51,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 10084,
+      "estimatedTEU": 12920,
       "estimatedGeneralCargoTons": 61691,
-      "coverage": 34.0
+      "coverage": 35.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "MSC VULCANO II",
-      "imo": "9313228",
-      "type": "Container",
-      "estimate": "1,875 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "QUEEN NM",
       "imo": "9234991",
@@ -265,6 +257,14 @@
       "estimate": "6,550 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "BUXLINK",
+      "imo": "9235816",
+      "type": "Container",
+      "estimate": "2,836 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
