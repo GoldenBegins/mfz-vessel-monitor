@@ -3543,44 +3543,9 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-22T23:00:12.219410+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-22T23:30:09.187180+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "LEADER M",
-        "imo": "9194464",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MALAK M",
-        "imo": "9216353",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LIDER TRABZON",
-        "imo": "9006112",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "AITOLIKOS",
-        "imo": "9386483",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ZEFIREA",
-        "imo": "9607643",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "ZIYA SEMRAN",
         "imo": "9863895",
@@ -3627,7 +3592,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-22T23:00:46.491464+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-22T23:00:12.219410+00:00",
+  "anchorageUpdatedAt": "2026-10-22T23:30:09.187180+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4058,7 +4023,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-22T23:00:12.219410+00:00",
+  "mapUpdatedAt": "2026-10-22T23:30:09.187180+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
