@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-22 06:06:46",
+  "updatedAt": "2026-10-22 14:20:57",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 88,
-    "benghaziCalls": 52,
+    "misurataCalls": 89,
+    "benghaziCalls": 54,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 18,
-    "unestimatedCalls": 34,
-    "coverage": 34.6,
+    "estimatedCalls": 19,
+    "unestimatedCalls": 35,
+    "coverage": 35.2,
     "trustedVessels": 202,
     "identityReview": 0,
     "estimatedTEU": 12920,
-    "estimatedGeneralCargoTons": 61691,
+    "estimatedGeneralCargoTons": 67014,
     "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 13
+    "fallbackLowCalls": 14
   },
   "comparison": [
     {
@@ -52,8 +52,8 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 88,
-      "benghaziCalls": 52,
+      "misurataCalls": 89,
+      "benghaziCalls": 54,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -61,19 +61,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 12920,
-      "estimatedGeneralCargoTons": 61691,
-      "coverage": 34.6
+      "estimatedGeneralCargoTons": 67014,
+      "coverage": 35.2
     }
   ],
   "estimates": [
-    {
-      "vessel": "QUEEN NM",
-      "imo": "9234991",
-      "type": "Container",
-      "estimate": "1,340 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "KOSOVAK",
       "imo": "9211157",
@@ -265,6 +257,14 @@
       "estimate": "2,836 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "MONIF",
+      "imo": "9008146",
+      "type": "General Cargo",
+      "estimate": "5,323 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
