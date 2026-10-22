@@ -3553,7 +3553,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-22T16:00:11.243747+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-22T16:30:11.556651+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3571,7 +3571,14 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "MALAK M",
+        "imo": "9216353",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3609,7 +3616,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-22T16:00:46.391423+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-22T16:00:11.243747+00:00",
+  "anchorageUpdatedAt": "2026-10-22T16:30:11.556651+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4063,7 +4070,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-22T16:00:11.243747+00:00",
+  "mapUpdatedAt": "2026-10-22T16:30:11.556651+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
