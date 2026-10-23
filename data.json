@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-23 14:07:34",
+  "updatedAt": "2026-10-23 22:05:33",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 91,
-    "benghaziCalls": 54,
+    "misurataCalls": 93,
+    "benghaziCalls": 57,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 19,
-    "unestimatedCalls": 35,
-    "coverage": 35.2,
+    "estimatedCalls": 21,
+    "unestimatedCalls": 36,
+    "coverage": 36.8,
     "trustedVessels": 202,
     "identityReview": 0,
-    "estimatedTEU": 12920,
-    "estimatedGeneralCargoTons": 67014,
-    "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 14
+    "estimatedTEU": 14299,
+    "estimatedGeneralCargoTons": 72809,
+    "historicalHighMediumCalls": 5,
+    "fallbackLowCalls": 15
   },
   "comparison": [
     {
@@ -52,36 +52,20 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 91,
-      "benghaziCalls": 54,
+      "misurataCalls": 93,
+      "benghaziCalls": 57,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 12920,
-      "estimatedGeneralCargoTons": 67014,
-      "coverage": 35.2
+      "estimatedTEU": 14299,
+      "estimatedGeneralCargoTons": 72809,
+      "coverage": 36.8
     }
   ],
   "estimates": [
-    {
-      "vessel": "KOSOVAK",
-      "imo": "9211157",
-      "type": "Container",
-      "estimate": "942 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
-    {
-      "vessel": "ARTVIN",
-      "imo": "8917869",
-      "type": "GENERAL CARGO",
-      "estimate": "2,047 t",
-      "confidence": "Low",
-      "method": "Same IMO - trusted MFZ historical median actual tons"
-    },
     {
       "vessel": "JELENA",
       "imo": "9519042",
@@ -265,13 +249,29 @@
       "estimate": "5,323 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "HASAN G",
+      "imo": "9136852",
+      "type": "General Cargo",
+      "estimate": "5,795 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "PARPALI",
+      "imo": "9134701",
+      "type": "Container",
+      "estimate": "1,379 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "8 internal high-priority checks are recorded."
+      "detail": "234 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
