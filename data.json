@@ -3512,7 +3512,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-23T16:00:09.808696+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-23T16:40:11.065673+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3546,6 +3546,13 @@
       {
         "name": "TOI CHALLENGER",
         "imo": "9151515",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "DERNA",
+        "imo": "9176125",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3603,7 +3610,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-23T16:30:43.358901+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-23T16:00:09.808696+00:00",
+  "anchorageUpdatedAt": "2026-10-23T16:40:11.065673+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4000,7 +4007,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-23T16:00:09.808696+00:00",
+  "mapUpdatedAt": "2026-10-23T16:40:11.065673+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
