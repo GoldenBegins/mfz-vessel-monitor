@@ -3535,7 +3535,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-23T18:00:12.685626+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-23T18:30:11.233081+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3555,6 +3555,13 @@
       {
         "name": "MAX",
         "imo": "9351098",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "SAINT ANNA",
+        "imo": "9715270",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3582,12 +3589,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "DERNA",
-        "imo": "9176125",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "PACIFIC VICTOR",
         "imo": "9458456",
@@ -3632,7 +3633,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-23T18:00:45.468515+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-23T18:00:12.685626+00:00",
+  "anchorageUpdatedAt": "2026-10-23T18:30:11.233081+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4052,7 +4053,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-23T18:00:12.685626+00:00",
+  "mapUpdatedAt": "2026-10-23T18:30:11.233081+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
