@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-24 14:06:44",
+  "updatedAt": "2026-10-24 22:05:30",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 96,
-    "benghaziCalls": 60,
+    "benghaziCalls": 62,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 21,
-    "unestimatedCalls": 39,
-    "coverage": 35.0,
+    "estimatedCalls": 22,
+    "unestimatedCalls": 40,
+    "coverage": 35.5,
     "trustedVessels": 202,
     "identityReview": 0,
     "estimatedTEU": 14299,
-    "estimatedGeneralCargoTons": 72809,
+    "estimatedGeneralCargoTons": 80952,
     "historicalHighMediumCalls": 5,
-    "fallbackLowCalls": 15
+    "fallbackLowCalls": 16
   },
   "comparison": [
     {
@@ -53,7 +53,7 @@
     {
       "period": "2026-10",
       "misurataCalls": 96,
-      "benghaziCalls": 60,
+      "benghaziCalls": 62,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -61,19 +61,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 14299,
-      "estimatedGeneralCargoTons": 72809,
-      "coverage": 35.0
+      "estimatedGeneralCargoTons": 80952,
+      "coverage": 35.5
     }
   ],
   "estimates": [
-    {
-      "vessel": "JELENA",
-      "imo": "9519042",
-      "type": "General Cargo",
-      "estimate": "4,836 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "ALEXANDRA A",
       "imo": "9356684",
@@ -265,6 +257,14 @@
       "estimate": "1,379 TEU",
       "confidence": "High",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "CINDY",
+      "imo": "9004499",
+      "type": "General Cargo",
+      "estimate": "8,143 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
