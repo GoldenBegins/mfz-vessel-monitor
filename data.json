@@ -3460,19 +3460,12 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-24T12:30:10.149201+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-24T13:00:11.768116+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "JAOHAR ADAM",
         "imo": "9362657",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "CHONA",
-        "imo": "9201877",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3504,7 +3497,7 @@
         "name": "NIKOLAS",
         "imo": "9203526",
         "port": "Misurata",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3544,7 +3537,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-24T12:30:44.951660+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-24T12:30:10.149201+00:00",
+  "anchorageUpdatedAt": "2026-10-24T13:00:11.768116+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3938,7 +3931,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-24T12:30:10.149201+00:00",
+  "mapUpdatedAt": "2026-10-24T13:00:11.768116+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
