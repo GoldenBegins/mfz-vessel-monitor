@@ -3435,12 +3435,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-25T19:30:11.044701+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-25T19:40:10.226004+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "NAVIG8 GRACE",
         "imo": "9833656",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "PAROSHIP",
+        "imo": "9614880",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3474,14 +3481,7 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "PAROSHIP",
-        "imo": "9614880",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3519,7 +3519,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-25T19:30:40.133328+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-25T19:30:11.044701+00:00",
+  "anchorageUpdatedAt": "2026-10-25T19:40:10.226004+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3924,7 +3924,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-25T19:30:11.044701+00:00",
+  "mapUpdatedAt": "2026-10-25T19:40:10.226004+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
