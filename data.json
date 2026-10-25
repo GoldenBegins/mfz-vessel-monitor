@@ -3435,9 +3435,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-25T16:00:12.746219+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-25T16:30:11.854990+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "NAVIG8 GRACE",
+        "imo": "9833656",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "JAOHAR ADAM",
         "imo": "9362657",
@@ -3498,7 +3505,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-25T16:00:56.274141+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-25T16:00:12.746219+00:00",
+  "anchorageUpdatedAt": "2026-10-25T16:30:11.854990+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3903,7 +3910,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-25T16:00:12.746219+00:00",
+  "mapUpdatedAt": "2026-10-25T16:30:11.854990+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
