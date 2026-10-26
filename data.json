@@ -3446,14 +3446,14 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-26T14:00:11.936089+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-26T14:30:11.120154+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "ABASHIE",
         "imo": "8207410",
         "port": "Benghazi",
-        "decision": "AWAY_STALE",
+        "decision": "AWAY",
         "winner": "SHIPNEXT"
       }
     ],
@@ -3495,7 +3495,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-26T14:00:47.853539+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-26T14:00:11.936089+00:00",
+  "anchorageUpdatedAt": "2026-10-26T14:30:11.120154+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3911,7 +3911,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-26T14:00:11.936089+00:00",
+  "mapUpdatedAt": "2026-10-26T14:30:11.120154+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
