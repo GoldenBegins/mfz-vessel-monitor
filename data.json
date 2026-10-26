@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-26 14:05:34",
+  "updatedAt": "2026-10-26 22:07:09",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 102,
-    "benghaziCalls": 64,
+    "misurataCalls": 103,
+    "benghaziCalls": 65,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 1,
     "excludedCalls": 1,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 23,
+    "estimatedCalls": 24,
     "unestimatedCalls": 41,
-    "coverage": 35.9,
+    "coverage": 36.9,
     "trustedVessels": 202,
     "identityReview": 0,
     "estimatedTEU": 16227,
-    "estimatedGeneralCargoTons": 80952,
+    "estimatedGeneralCargoTons": 85788,
     "historicalHighMediumCalls": 6,
-    "fallbackLowCalls": 16
+    "fallbackLowCalls": 17
   },
   "comparison": [
     {
@@ -52,8 +52,8 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 102,
-      "benghaziCalls": 64,
+      "misurataCalls": 103,
+      "benghaziCalls": 65,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
@@ -61,19 +61,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 16227,
-      "estimatedGeneralCargoTons": 80952,
-      "coverage": 35.9
+      "estimatedGeneralCargoTons": 85788,
+      "coverage": 36.9
     }
   ],
   "estimates": [
-    {
-      "vessel": "NIKOLAS",
-      "imo": "9203526",
-      "type": "Container",
-      "estimate": "2,869 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "CONTSHIP ACE",
       "imo": "9348637",
@@ -265,6 +257,14 @@
       "estimate": "1,928 TEU",
       "confidence": "Medium",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "JELENA",
+      "imo": "9519042",
+      "type": "General Cargo",
+      "estimate": "4,836 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
