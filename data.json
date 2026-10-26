@@ -3431,7 +3431,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-26T20:00:15.030577+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-26T20:30:12.310335+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3444,6 +3444,13 @@
       {
         "name": "ABASHIE",
         "imo": "8207410",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JELENA",
+        "imo": "9519042",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3487,7 +3494,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-26T20:00:46.739351+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-26T20:00:15.030577+00:00",
+  "anchorageUpdatedAt": "2026-10-26T20:30:12.310335+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3888,7 +3895,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-26T20:00:15.030577+00:00",
+  "mapUpdatedAt": "2026-10-26T20:30:12.310335+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
