@@ -3422,17 +3422,10 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-26T02:00:09.045084+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-26T02:30:10.119336+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
-    "portStateReview": [
-      {
-        "name": "T-MED",
-        "imo": "9163142",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3470,7 +3463,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-26T02:00:48.143519+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-26T02:00:09.045084+00:00",
+  "anchorageUpdatedAt": "2026-10-26T02:30:10.119336+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3875,7 +3868,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-26T02:00:09.045084+00:00",
+  "mapUpdatedAt": "2026-10-26T02:30:10.119336+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
