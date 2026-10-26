@@ -3446,39 +3446,10 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-26T23:00:13.747032+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-26T23:30:10.937982+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "SELIN-M",
-        "imo": "9178551",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ANWAAR AL KHALIJ",
-        "imo": "9313424",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ABASHIE",
-        "imo": "8207410",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "JELENA",
-        "imo": "9519042",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 3,
@@ -3516,7 +3487,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-26T23:00:49.640862+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-26T23:00:13.747032+00:00",
+  "anchorageUpdatedAt": "2026-10-26T23:30:10.937982+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3932,7 +3903,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-26T23:00:13.747032+00:00",
+  "mapUpdatedAt": "2026-10-26T23:30:10.937982+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-20T09:01:40Z",
     "summary": {
