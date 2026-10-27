@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-10-27 06:07:36",
+  "updatedAt": "2026-10-27 14:06:11",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 103,
-    "benghaziCalls": 65,
+    "misurataCalls": 104,
+    "benghaziCalls": 67,
     "misurataExcludedCalls": 0,
-    "benghaziExcludedCalls": 1,
-    "excludedCalls": 1,
+    "benghaziExcludedCalls": 2,
+    "excludedCalls": 2,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 24,
-    "unestimatedCalls": 41,
-    "coverage": 36.9,
+    "estimatedCalls": 25,
+    "unestimatedCalls": 42,
+    "coverage": 37.3,
     "trustedVessels": 202,
     "identityReview": 0,
     "estimatedTEU": 16227,
-    "estimatedGeneralCargoTons": 85788,
+    "estimatedGeneralCargoTons": 89436,
     "historicalHighMediumCalls": 6,
-    "fallbackLowCalls": 17
+    "fallbackLowCalls": 18
   },
   "comparison": [
     {
@@ -52,28 +52,20 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 103,
-      "benghaziCalls": 65,
+      "misurataCalls": 104,
+      "benghaziCalls": 67,
       "misurataExcludedCalls": 0,
-      "benghaziExcludedCalls": 1,
+      "benghaziExcludedCalls": 2,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 16227,
-      "estimatedGeneralCargoTons": 85788,
-      "coverage": 36.9
+      "estimatedGeneralCargoTons": 89436,
+      "coverage": 37.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "CONTSHIP ACE",
-      "imo": "9348637",
-      "type": "Container",
-      "estimate": "1,782 TEU",
-      "confidence": "Low",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "VENTO DI BORA",
       "imo": "9950064",
@@ -265,13 +257,21 @@
       "estimate": "4,836 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "ANKA DREAM",
+      "imo": "9195470",
+      "type": "General Cargo",
+      "estimate": "3,648 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "8 internal high-priority checks are recorded."
+      "detail": "234 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
