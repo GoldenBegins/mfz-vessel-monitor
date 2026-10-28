@@ -3537,94 +3537,18 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-28T12:30:10.510671+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-28T13:00:12.813974+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
+    "potentialDepartures": [
+      {
+        "name": "MSC AMIHAN F",
+        "imo": "9449687",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
     "portStateReview": [
-      {
-        "name": "JU XIANG",
-        "imo": "9294202",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "NAVIOS STELLAR",
-        "imo": "9498781",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "SUPER EMMA",
-        "imo": "9791901",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "HISTRIA AMBRA",
-        "imo": "9607631",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "ATHENA",
-        "imo": "9187344",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "SPRING OASIS",
-        "imo": "9666039",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "T-MED",
-        "imo": "9163142",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "GRACE A",
-        "imo": "8403337",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "BAO RESOURCE",
-        "imo": "9609823",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "BAO_GALA",
-        "imo": "9478963",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "LEMON",
-        "imo": "9317353",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "PRETTY NELLY",
-        "imo": "8872801",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "NIKOLAS",
-        "imo": "9203526",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "DIAMOND",
-        "imo": "9593086",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
       {
         "name": "JULYANA 2",
         "imo": "1066013",
@@ -3636,12 +3560,6 @@
         "imo": "8911413",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "MSC AMIHAN F",
-        "imo": "9449687",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
       }
     ],
     "phaseSummary": {
@@ -3704,7 +3622,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-28T12:31:04.167494+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-28T12:30:10.510671+00:00",
+  "anchorageUpdatedAt": "2026-10-28T13:00:12.813974+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4105,7 +4023,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-28T12:30:10.510671+00:00",
+  "mapUpdatedAt": "2026-10-28T13:00:12.813974+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-27T19:45:38Z",
     "summary": {
