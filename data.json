@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-28 06:06:28",
+  "updatedAt": "2026-10-28 14:06:50",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 105,
-    "benghaziCalls": 68,
+    "benghaziCalls": 70,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 2,
     "excludedCalls": 2,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 26,
-    "unestimatedCalls": 42,
-    "coverage": 38.2,
-    "trustedVessels": 202,
+    "estimatedCalls": 29,
+    "unestimatedCalls": 41,
+    "coverage": 41.4,
+    "trustedVessels": 204,
     "identityReview": 0,
-    "estimatedTEU": 19096,
-    "estimatedGeneralCargoTons": 89436,
-    "historicalHighMediumCalls": 6,
-    "fallbackLowCalls": 19
+    "estimatedTEU": 21480,
+    "estimatedGeneralCargoTons": 91130,
+    "historicalHighMediumCalls": 8,
+    "fallbackLowCalls": 20
   },
   "comparison": [
     {
@@ -47,54 +47,30 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 31518,
-      "estimatedGeneralCargoTons": 114406,
+      "estimatedGeneralCargoTons": 111813,
       "coverage": 46.4
     },
     {
       "period": "2026-10",
       "misurataCalls": 105,
-      "benghaziCalls": 68,
+      "benghaziCalls": 70,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 2,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 19096,
-      "estimatedGeneralCargoTons": 89436,
-      "coverage": 38.2
+      "estimatedTEU": 21480,
+      "estimatedGeneralCargoTons": 91130,
+      "coverage": 41.4
     }
   ],
   "estimates": [
     {
-      "vessel": "BURHAN DIZMAN",
-      "imo": "9381809",
-      "type": "General Cargo",
-      "estimate": "6,550 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "MEDKON ANKA",
-      "imo": "9366469",
-      "type": "Container",
-      "estimate": "1,928 TEU",
-      "confidence": "Medium",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
-    {
-      "vessel": "PARPALI",
-      "imo": "9134701",
-      "type": "Container",
-      "estimate": "1,379 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
-    {
       "vessel": "ANKA DREAM",
       "imo": "9195470",
       "type": "General Cargo",
-      "estimate": "3,648 t",
+      "estimate": "3,563 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -102,15 +78,23 @@
       "vessel": "CINDY",
       "imo": "9004499",
       "type": "General Cargo",
-      "estimate": "8,143 t",
+      "estimate": "7,955 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "",
+      "imo": "9449687",
+      "type": "Container ship",
+      "estimate": "1,192 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     },
     {
       "vessel": "JELENA",
       "imo": "9519042",
       "type": "General Cargo",
-      "estimate": "4,836 t",
+      "estimate": "4,725 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -126,7 +110,7 @@
       "vessel": "MONIF",
       "imo": "9008146",
       "type": "General Cargo",
-      "estimate": "5,323 t",
+      "estimate": "5,200 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -134,7 +118,7 @@
       "vessel": "DUYGU",
       "imo": "9199787",
       "type": "General Cargo",
-      "estimate": "5,322 t",
+      "estimate": "5,199 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -158,7 +142,7 @@
       "vessel": "ABASHIE",
       "imo": "8207410",
       "type": "General Cargo",
-      "estimate": "2,569 t",
+      "estimate": "2,510 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -166,7 +150,7 @@
       "vessel": "JELENA",
       "imo": "9519042",
       "type": "General Cargo",
-      "estimate": "4,836 t",
+      "estimate": "4,725 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -174,7 +158,7 @@
       "vessel": "ALEXANDRA A",
       "imo": "9356684",
       "type": "General Cargo",
-      "estimate": "10,266 t",
+      "estimate": "10,029 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -182,7 +166,7 @@
       "vessel": "ANKA DREAM",
       "imo": "9195470",
       "type": "General Cargo",
-      "estimate": "3,648 t",
+      "estimate": "3,563 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -190,7 +174,7 @@
       "vessel": "BURHAN DIZMAN",
       "imo": "9381809",
       "type": "General Cargo",
-      "estimate": "6,550 t",
+      "estimate": "6,399 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -206,7 +190,7 @@
       "vessel": "MONIF",
       "imo": "9008146",
       "type": "General Cargo",
-      "estimate": "5,323 t",
+      "estimate": "5,200 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -214,7 +198,7 @@
       "vessel": "HASAN G",
       "imo": "9136852",
       "type": "General Cargo",
-      "estimate": "5,795 t",
+      "estimate": "5,661 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -230,7 +214,7 @@
       "vessel": "CINDY",
       "imo": "9004499",
       "type": "General Cargo",
-      "estimate": "8,143 t",
+      "estimate": "7,955 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -246,7 +230,7 @@
       "vessel": "JELENA",
       "imo": "9519042",
       "type": "General Cargo",
-      "estimate": "4,836 t",
+      "estimate": "4,725 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -254,7 +238,7 @@
       "vessel": "ANKA DREAM",
       "imo": "9195470",
       "type": "General Cargo",
-      "estimate": "3,648 t",
+      "estimate": "3,563 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -265,13 +249,29 @@
       "estimate": "2,869 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "ECE",
+      "imo": "8911413",
+      "type": "General Cargo",
+      "estimate": "3,759 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MSC AMIHAN F",
+      "imo": "9449687",
+      "type": "Container ship",
+      "estimate": "1,192 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "234 internal high-priority checks are recorded."
+      "detail": "232 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
