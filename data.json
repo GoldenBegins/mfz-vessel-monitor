@@ -3570,17 +3570,9 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-28T14:30:14.440476+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-28T15:00:12.156928+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "MSC AMIHAN F",
-        "imo": "9449687",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
+    "potentialDepartures": [],
     "portStateReview": [
       {
         "name": "JULYANA 2",
@@ -3591,6 +3583,12 @@
       {
         "name": "ECE",
         "imo": "8911413",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "MSC AMIHAN F",
+        "imo": "9449687",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
@@ -3655,7 +3653,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-28T14:30:52.448307+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-28T14:30:14.440476+00:00",
+  "anchorageUpdatedAt": "2026-10-28T15:00:12.156928+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4037,7 +4035,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-28T14:30:14.440476+00:00",
+  "mapUpdatedAt": "2026-10-28T15:00:12.156928+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-27T19:45:38Z",
     "summary": {
