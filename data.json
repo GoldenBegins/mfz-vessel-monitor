@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-29 14:05:42",
+  "updatedAt": "2026-10-29 22:07:12",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 107,
-    "benghaziCalls": 72,
+    "misurataCalls": 108,
+    "benghaziCalls": 74,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 2,
     "excludedCalls": 2,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 29,
-    "unestimatedCalls": 43,
-    "coverage": 40.3,
+    "estimatedCalls": 30,
+    "unestimatedCalls": 44,
+    "coverage": 40.5,
     "trustedVessels": 204,
     "identityReview": 0,
-    "estimatedTEU": 21480,
+    "estimatedTEU": 23691,
     "estimatedGeneralCargoTons": 91130,
     "historicalHighMediumCalls": 8,
-    "fallbackLowCalls": 20
+    "fallbackLowCalls": 21
   },
   "comparison": [
     {
@@ -52,28 +52,20 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 107,
-      "benghaziCalls": 72,
+      "misurataCalls": 108,
+      "benghaziCalls": 74,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 2,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 21480,
+      "estimatedTEU": 23691,
       "estimatedGeneralCargoTons": 91130,
-      "coverage": 40.3
+      "coverage": 40.5
     }
   ],
   "estimates": [
-    {
-      "vessel": "ANKA DREAM",
-      "imo": "9195470",
-      "type": "General Cargo",
-      "estimate": "3,563 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "CINDY",
       "imo": "9004499",
@@ -265,6 +257,14 @@
       "estimate": "1,192 TEU",
       "confidence": "Medium",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "VENTO DI BORA",
+      "imo": "9950064",
+      "type": "Container",
+      "estimate": "2,211 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
