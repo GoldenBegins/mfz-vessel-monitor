@@ -3483,16 +3483,18 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-29T11:30:11.441089+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-29T12:00:13.519714+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
-    "portStateReview": [
+    "potentialDepartures": [
       {
         "name": "JU XIANG",
         "imo": "9294202",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
+    "portStateReview": [
       {
         "name": "JULYANA 2",
         "imo": "1066013",
@@ -3566,7 +3568,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-29T11:30:55.191701+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-29T11:30:11.441089+00:00",
+  "anchorageUpdatedAt": "2026-10-29T12:00:13.519714+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3960,7 +3962,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-29T11:30:11.441089+00:00",
+  "mapUpdatedAt": "2026-10-29T12:00:13.519714+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-27T19:45:38Z",
     "summary": {
