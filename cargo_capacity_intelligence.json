@@ -1,14 +1,14 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-10-30T12:10:25Z",
+  "updatedAt": "2026-10-30T20:10:25Z",
   "summary": {
-    "dwtProfiles": 209,
+    "dwtProfiles": 210,
     "fleetSampleN": 23,
     "fleetMedianTonsPerDwt": 0.6028,
     "fleetP25": 0.2963,
-    "fleetP75": 0.8289,
+    "fleetP75": 0.8881,
     "commodityModelsUsable": 1,
-    "exactVesselEstimates": 5,
+    "exactVesselEstimates": 7,
     "commodityEstimates": 0,
     "fleetRatioEstimates": 109,
     "unestimatedCalls": 8
@@ -20,11 +20,11 @@
       "Sample N": 23,
       "Median Tons/DWT": 0.6028,
       "P25": 0.2963,
-      "P75": 0.8289,
+      "P75": 0.8881,
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-10-30T12:10:25Z"
+      "Updated On": "2026-10-30T20:10:25Z"
     },
     {
       "Level": "Commodity",
@@ -36,19 +36,19 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-10-30T12:10:25Z"
+      "Updated On": "2026-10-30T20:10:25Z"
     },
     {
       "Level": "Commodity",
       "Key": "حديد",
       "Sample N": 14,
-      "Median Tons/DWT": 0.6159,
+      "Median Tons/DWT": 0.6116,
       "P25": 0.3422,
-      "P75": 0.805,
+      "P75": 0.8344,
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-10-30T12:10:25Z"
+      "Updated On": "2026-10-30T20:10:25Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-10-30T12:10:25Z"
+      "Updated On": "2026-10-30T20:10:25Z"
     }
   ],
   "rows": [
@@ -78,7 +78,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 1825.33,
       "Low Estimate": 897.27,
-      "High Estimate": 2509.89,
+      "High Estimate": 2689.31,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -116,7 +116,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2516.76,
       "Low Estimate": 1237.16,
-      "High Estimate": 3460.63,
+      "High Estimate": 3708.02,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -154,7 +154,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2109.86,
       "Low Estimate": 1037.14,
-      "High Estimate": 2901.13,
+      "High Estimate": 3108.52,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -173,7 +173,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3434.24,
       "Low Estimate": 1688.16,
-      "High Estimate": 4722.2,
+      "High Estimate": 5059.78,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -192,7 +192,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3436.05,
       "Low Estimate": 1689.05,
-      "High Estimate": 4724.69,
+      "High Estimate": 5062.45,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -230,7 +230,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 7293.47,
       "Low Estimate": 3585.23,
-      "High Estimate": 10028.77,
+      "High Estimate": 10745.71,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -287,7 +287,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -306,7 +306,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4824.94,
       "Low Estimate": 2371.78,
-      "High Estimate": 6634.46,
+      "High Estimate": 7108.74,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -325,7 +325,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 13793.63,
       "Low Estimate": 6780.5,
-      "High Estimate": 18966.73,
+      "High Estimate": 20322.61,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -344,7 +344,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -363,7 +363,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3781.46,
       "Low Estimate": 1858.85,
-      "High Estimate": 5199.64,
+      "High Estimate": 5571.35,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -382,7 +382,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3436.05,
       "Low Estimate": 1689.05,
-      "High Estimate": 4724.69,
+      "High Estimate": 5062.45,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -401,7 +401,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 6233.12,
       "Low Estimate": 3064.0,
-      "High Estimate": 8570.75,
+      "High Estimate": 9183.45,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -420,7 +420,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5785.22,
       "Low Estimate": 2843.83,
-      "High Estimate": 7954.88,
+      "High Estimate": 8523.56,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -439,7 +439,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4951.53,
       "Low Estimate": 2434.01,
-      "High Estimate": 6808.53,
+      "High Estimate": 7295.25,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -458,7 +458,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3163.58,
       "Low Estimate": 1555.11,
-      "High Estimate": 4350.03,
+      "High Estimate": 4661.0,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -477,7 +477,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -496,7 +496,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2140.0,
       "Low Estimate": 1051.95,
-      "High Estimate": 2942.57,
+      "High Estimate": 3152.93,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -515,7 +515,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -534,7 +534,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3436.05,
       "Low Estimate": 1689.05,
-      "High Estimate": 4724.69,
+      "High Estimate": 5062.45,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -553,7 +553,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2747.03,
       "Low Estimate": 1350.35,
-      "High Estimate": 3777.26,
+      "High Estimate": 4047.29,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -572,7 +572,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5817.78,
       "Low Estimate": 2859.83,
-      "High Estimate": 7999.65,
+      "High Estimate": 8571.52,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -591,7 +591,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3030.36,
       "Low Estimate": 1489.62,
-      "High Estimate": 4166.84,
+      "High Estimate": 4464.72,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -610,7 +610,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -629,7 +629,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3436.05,
       "Low Estimate": 1689.05,
-      "High Estimate": 4724.69,
+      "High Estimate": 5062.45,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -648,7 +648,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -667,7 +667,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3781.46,
       "Low Estimate": 1858.85,
-      "High Estimate": 5199.64,
+      "High Estimate": 5571.35,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -686,7 +686,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5785.22,
       "Low Estimate": 2843.83,
-      "High Estimate": 7954.88,
+      "High Estimate": 8523.56,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -705,7 +705,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3355.88,
       "Low Estimate": 1649.64,
-      "High Estimate": 4614.45,
+      "High Estimate": 4944.32,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -724,7 +724,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 797.53,
       "Low Estimate": 392.04,
-      "High Estimate": 1096.63,
+      "High Estimate": 1175.02,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -743,7 +743,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 6378.39,
       "Low Estimate": 3135.41,
-      "High Estimate": 8770.52,
+      "High Estimate": 9397.5,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -781,7 +781,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3436.05,
       "Low Estimate": 1689.05,
-      "High Estimate": 4724.69,
+      "High Estimate": 5062.45,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -800,7 +800,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 7293.47,
       "Low Estimate": 3585.23,
-      "High Estimate": 10028.77,
+      "High Estimate": 10745.71,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -819,7 +819,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -838,7 +838,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -857,7 +857,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5785.22,
       "Low Estimate": 2843.83,
-      "High Estimate": 7954.88,
+      "High Estimate": 8523.56,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -876,7 +876,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3436.05,
       "Low Estimate": 1689.05,
-      "High Estimate": 4724.69,
+      "High Estimate": 5062.45,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -895,7 +895,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3781.46,
       "Low Estimate": 1858.85,
-      "High Estimate": 5199.64,
+      "High Estimate": 5571.35,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -914,7 +914,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3780.86,
       "Low Estimate": 1858.55,
-      "High Estimate": 5198.82,
+      "High Estimate": 5570.47,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -933,7 +933,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 1825.33,
       "Low Estimate": 897.27,
-      "High Estimate": 2509.89,
+      "High Estimate": 2689.31,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -952,7 +952,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3436.05,
       "Low Estimate": 1689.05,
-      "High Estimate": 4724.69,
+      "High Estimate": 5062.45,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -971,7 +971,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 7293.47,
       "Low Estimate": 3585.23,
-      "High Estimate": 10028.77,
+      "High Estimate": 10745.71,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -990,7 +990,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1009,7 +1009,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1028,7 +1028,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3781.46,
       "Low Estimate": 1858.85,
-      "High Estimate": 5199.64,
+      "High Estimate": 5571.35,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1047,7 +1047,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4117.23,
       "Low Estimate": 2023.9,
-      "High Estimate": 5661.34,
+      "High Estimate": 6066.05,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1066,7 +1066,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5785.22,
       "Low Estimate": 2843.83,
-      "High Estimate": 7954.88,
+      "High Estimate": 8523.56,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1085,7 +1085,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3436.05,
       "Low Estimate": 1689.05,
-      "High Estimate": 4724.69,
+      "High Estimate": 5062.45,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1104,7 +1104,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1123,7 +1123,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2733.77,
       "Low Estimate": 1343.83,
-      "High Estimate": 3759.03,
+      "High Estimate": 4027.75,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1142,7 +1142,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4708.59,
       "Low Estimate": 2314.59,
-      "High Estimate": 6474.48,
+      "High Estimate": 6937.33,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1161,7 +1161,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4117.23,
       "Low Estimate": 2023.9,
-      "High Estimate": 5661.34,
+      "High Estimate": 6066.05,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1180,7 +1180,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3254.0,
       "Low Estimate": 1599.56,
-      "High Estimate": 4474.36,
+      "High Estimate": 4794.22,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1199,7 +1199,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 7293.47,
       "Low Estimate": 3585.23,
-      "High Estimate": 10028.77,
+      "High Estimate": 10745.71,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1218,7 +1218,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 1366.58,
       "Low Estimate": 671.77,
-      "High Estimate": 1879.1,
+      "High Estimate": 2013.43,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1237,7 +1237,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5390.98,
       "Low Estimate": 2650.03,
-      "High Estimate": 7412.79,
+      "High Estimate": 7942.71,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1256,7 +1256,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3104.5,
       "Low Estimate": 1526.07,
-      "High Estimate": 4268.8,
+      "High Estimate": 4573.96,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1275,7 +1275,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4354.74,
       "Low Estimate": 2140.65,
-      "High Estimate": 5987.92,
+      "High Estimate": 6415.98,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1313,7 +1313,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 6485.09,
       "Low Estimate": 3187.86,
-      "High Estimate": 8917.23,
+      "High Estimate": 9554.7,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1332,7 +1332,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 6366.34,
       "Low Estimate": 3129.49,
-      "High Estimate": 8753.94,
+      "High Estimate": 9379.73,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1351,7 +1351,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 1317.15,
       "Low Estimate": 647.47,
-      "High Estimate": 1811.13,
+      "High Estimate": 1940.6,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1370,7 +1370,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5588.1,
       "Low Estimate": 2746.93,
-      "High Estimate": 7683.84,
+      "High Estimate": 8233.14,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1389,7 +1389,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5658.63,
       "Low Estimate": 2781.6,
-      "High Estimate": 7780.82,
+      "High Estimate": 8337.05,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1408,7 +1408,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1427,7 +1427,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2007.98,
       "Low Estimate": 987.06,
-      "High Estimate": 2761.04,
+      "High Estimate": 2958.42,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1446,7 +1446,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4117.23,
       "Low Estimate": 2023.9,
-      "High Estimate": 5661.34,
+      "High Estimate": 6066.05,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1465,7 +1465,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5108.26,
       "Low Estimate": 2511.06,
-      "High Estimate": 7024.04,
+      "High Estimate": 7526.17,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1484,7 +1484,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4166.66,
       "Low Estimate": 2048.2,
-      "High Estimate": 5729.31,
+      "High Estimate": 6138.88,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1503,7 +1503,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4117.23,
       "Low Estimate": 2023.9,
-      "High Estimate": 5661.34,
+      "High Estimate": 6066.05,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1522,7 +1522,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5254.14,
       "Low Estimate": 2582.77,
-      "High Estimate": 7224.63,
+      "High Estimate": 7741.1,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1541,7 +1541,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3434.24,
       "Low Estimate": 1688.16,
-      "High Estimate": 4722.2,
+      "High Estimate": 5059.78,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1560,7 +1560,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3355.88,
       "Low Estimate": 1649.64,
-      "High Estimate": 4614.45,
+      "High Estimate": 4944.32,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1579,7 +1579,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5850.33,
       "Low Estimate": 2875.83,
-      "High Estimate": 8044.41,
+      "High Estimate": 8619.48,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1636,7 +1636,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3781.46,
       "Low Estimate": 1858.85,
-      "High Estimate": 5199.64,
+      "High Estimate": 5571.35,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1655,7 +1655,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5556.76,
       "Low Estimate": 2731.52,
-      "High Estimate": 7640.73,
+      "High Estimate": 8186.95,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1674,7 +1674,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1693,7 +1693,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1712,7 +1712,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3355.88,
       "Low Estimate": 1649.64,
-      "High Estimate": 4614.45,
+      "High Estimate": 4944.32,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1731,7 +1731,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4934.05,
       "Low Estimate": 2425.42,
-      "High Estimate": 6784.49,
+      "High Estimate": 7269.49,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1769,7 +1769,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4951.53,
       "Low Estimate": 2434.01,
-      "High Estimate": 6808.53,
+      "High Estimate": 7295.25,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1788,7 +1788,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3316.09,
       "Low Estimate": 1630.08,
-      "High Estimate": 4559.74,
+      "High Estimate": 4885.7,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1807,7 +1807,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4951.53,
       "Low Estimate": 2434.01,
-      "High Estimate": 6808.53,
+      "High Estimate": 7295.25,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1826,7 +1826,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5254.14,
       "Low Estimate": 2582.77,
-      "High Estimate": 7224.63,
+      "High Estimate": 7741.1,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1864,7 +1864,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1883,7 +1883,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 3392.65,
       "Low Estimate": 1667.72,
-      "High Estimate": 4665.01,
+      "High Estimate": 4998.5,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1902,7 +1902,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1921,7 +1921,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4951.53,
       "Low Estimate": 2434.01,
-      "High Estimate": 6808.53,
+      "High Estimate": 7295.25,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1940,7 +1940,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5817.78,
       "Low Estimate": 2859.83,
-      "High Estimate": 7999.65,
+      "High Estimate": 8571.52,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1959,7 +1959,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4708.59,
       "Low Estimate": 2314.59,
-      "High Estimate": 6474.48,
+      "High Estimate": 6937.33,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1978,7 +1978,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 7293.47,
       "Low Estimate": 3585.23,
-      "High Estimate": 10028.77,
+      "High Estimate": 10745.71,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -1997,7 +1997,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5181.2,
       "Low Estimate": 2546.91,
-      "High Estimate": 7124.33,
+      "High Estimate": 7633.63,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2016,7 +2016,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 13793.63,
       "Low Estimate": 6780.5,
-      "High Estimate": 18966.73,
+      "High Estimate": 20322.61,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2035,7 +2035,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5658.63,
       "Low Estimate": 2781.6,
-      "High Estimate": 7780.82,
+      "High Estimate": 8337.05,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2054,7 +2054,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2803.09,
       "Low Estimate": 1377.91,
-      "High Estimate": 3854.35,
+      "High Estimate": 4129.89,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2073,7 +2073,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5254.14,
       "Low Estimate": 2582.77,
-      "High Estimate": 7224.63,
+      "High Estimate": 7741.1,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2092,7 +2092,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2111,7 +2111,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5358.43,
       "Low Estimate": 2634.03,
-      "High Estimate": 7368.03,
+      "High Estimate": 7894.75,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2130,7 +2130,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4638.07,
       "Low Estimate": 2279.92,
-      "High Estimate": 6377.5,
+      "High Estimate": 6833.41,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2149,7 +2149,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2168,7 +2168,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 6485.09,
       "Low Estimate": 3187.86,
-      "High Estimate": 8917.23,
+      "High Estimate": 9554.7,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2187,7 +2187,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5817.78,
       "Low Estimate": 2859.83,
-      "High Estimate": 7999.65,
+      "High Estimate": 8571.52,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2206,7 +2206,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 7293.47,
       "Low Estimate": 3585.23,
-      "High Estimate": 10028.77,
+      "High Estimate": 10745.71,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2225,7 +2225,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
-      "High Estimate": 6399.05,
+      "High Estimate": 6856.51,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2263,7 +2263,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 6562.86,
       "Low Estimate": 3226.09,
-      "High Estimate": 9024.16,
+      "High Estimate": 9669.27,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2282,7 +2282,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4856.89,
       "Low Estimate": 2387.49,
-      "High Estimate": 6678.39,
+      "High Estimate": 7155.81,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2301,7 +2301,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2591.51,
       "Low Estimate": 1273.9,
-      "High Estimate": 3563.41,
+      "High Estimate": 3818.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2320,7 +2320,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 5254.14,
       "Low Estimate": 2582.77,
-      "High Estimate": 7224.63,
+      "High Estimate": 7741.1,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2358,7 +2358,7 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 2866.39,
       "Low Estimate": 1409.02,
-      "High Estimate": 3941.39,
+      "High Estimate": 4223.15,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2377,10 +2377,48 @@
       "Median Tons/DWT": 0.6028,
       "Estimated Cargo Tons": 4117.23,
       "Low Estimate": 2023.9,
-      "High Estimate": 5661.34,
+      "High Estimate": 6066.05,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9100061|2026-10-30",
+      "IMO": "9100061",
+      "Vessel": "KORMORAN",
+      "Vessel Type": "General Cargo",
+      "DWT": 5388.0,
+      "Commodity Used": "",
+      "Method": "Exact vessel MFZ historical",
+      "Historical Visits": 1,
+      "Sample N": 1,
+      "Median Tons/DWT": "",
+      "Estimated Cargo Tons": 4999.04,
+      "Low Estimate": 4999.04,
+      "High Estimate": 4999.04,
+      "Confidence": "Low",
+      "Source": "MFZ Actual Cargo Calls exact IMO",
+      "Notes": ""
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9040948|2026-10-30",
+      "IMO": "9040948",
+      "Vessel": "RECEP KURU",
+      "Vessel Type": "General Cargo",
+      "DWT": 5118.0,
+      "Commodity Used": "",
+      "Method": "Exact vessel MFZ historical",
+      "Historical Visits": 2,
+      "Sample N": 2,
+      "Median Tons/DWT": "",
+      "Estimated Cargo Tons": 4094.79,
+      "Low Estimate": 3634.93,
+      "High Estimate": 4554.66,
+      "Confidence": "Medium",
+      "Source": "MFZ Actual Cargo Calls exact IMO",
+      "Notes": ""
     }
   ],
   "methodology": "Exact vessel first (1 visit Low, 2 Medium, 3+ High). Commodity ratio only when current commodity is known and commodity sample n>=5. Otherwise fleet ratio. P25-P75 range. Planning proxy only."
