@@ -3398,16 +3398,18 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-30T14:30:11.904783+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-30T15:00:12.847421+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
-    "portStateReview": [
+    "potentialDepartures": [
       {
         "name": "BAO GALA",
         "imo": "9478963",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
+    "portStateReview": [
       {
         "name": "JULYANA 2",
         "imo": "1066013",
@@ -3475,7 +3477,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-30T14:30:54.644617+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-30T14:30:11.904783+00:00",
+  "anchorageUpdatedAt": "2026-10-30T15:00:12.847421+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3824,7 +3826,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-30T14:30:11.904783+00:00",
+  "mapUpdatedAt": "2026-10-30T15:00:12.847421+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-27T19:45:38Z",
     "summary": {
