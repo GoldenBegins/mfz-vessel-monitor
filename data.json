@@ -3588,7 +3588,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-30T22:41:02.032855+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-30T23:00:12.824079+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3603,6 +3603,13 @@
         "imo": "9366134",
         "port": "Misurata",
         "decision": "AWAY_STALE",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "NIKOLAS",
+        "imo": "9203526",
+        "port": "Benghazi",
+        "decision": "AWAY",
         "winner": "SHIPNEXT"
       }
     ],
@@ -3624,12 +3631,6 @@
         "imo": "1066013",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "NIKOLAS",
-        "imo": "9203526",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "ECE",
@@ -3681,7 +3682,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-30T22:46:17.001403+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-31 00:46:11",
+  "anchorageUpdatedAt": "2026-10-30T23:00:12.824079+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4060,7 +4061,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-30T22:41:02.032855+00:00",
+  "mapUpdatedAt": "2026-10-30T23:00:12.824079+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
