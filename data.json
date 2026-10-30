@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30 06:06:14",
+  "updatedAt": "2026-10-30 14:05:35",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 108,
@@ -17,7 +17,7 @@
     "trustedVessels": 204,
     "identityReview": 0,
     "estimatedTEU": 23691,
-    "estimatedGeneralCargoTons": 91130,
+    "estimatedGeneralCargoTons": 89180,
     "historicalHighMediumCalls": 8,
     "fallbackLowCalls": 21
   },
@@ -47,7 +47,7 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 31518,
-      "estimatedGeneralCargoTons": 111813,
+      "estimatedGeneralCargoTons": 109465,
       "coverage": 46.4
     },
     {
@@ -61,7 +61,7 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 23691,
-      "estimatedGeneralCargoTons": 91130,
+      "estimatedGeneralCargoTons": 89180,
       "coverage": 40.5
     }
   ],
@@ -70,7 +70,7 @@
       "vessel": "CINDY",
       "imo": "9004499",
       "type": "General Cargo",
-      "estimate": "7,955 t",
+      "estimate": "7,785 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -86,7 +86,7 @@
       "vessel": "JELENA",
       "imo": "9519042",
       "type": "General Cargo",
-      "estimate": "4,725 t",
+      "estimate": "4,624 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -102,7 +102,7 @@
       "vessel": "MONIF",
       "imo": "9008146",
       "type": "General Cargo",
-      "estimate": "5,200 t",
+      "estimate": "5,088 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -110,7 +110,7 @@
       "vessel": "DUYGU",
       "imo": "9199787",
       "type": "General Cargo",
-      "estimate": "5,199 t",
+      "estimate": "5,088 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -134,7 +134,7 @@
       "vessel": "ABASHIE",
       "imo": "8207410",
       "type": "General Cargo",
-      "estimate": "2,510 t",
+      "estimate": "2,456 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -142,7 +142,7 @@
       "vessel": "JELENA",
       "imo": "9519042",
       "type": "General Cargo",
-      "estimate": "4,725 t",
+      "estimate": "4,624 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -150,7 +150,7 @@
       "vessel": "ALEXANDRA A",
       "imo": "9356684",
       "type": "General Cargo",
-      "estimate": "10,029 t",
+      "estimate": "9,814 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -158,7 +158,7 @@
       "vessel": "ANKA DREAM",
       "imo": "9195470",
       "type": "General Cargo",
-      "estimate": "3,563 t",
+      "estimate": "3,487 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -166,7 +166,7 @@
       "vessel": "BURHAN DIZMAN",
       "imo": "9381809",
       "type": "General Cargo",
-      "estimate": "6,399 t",
+      "estimate": "6,262 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -182,7 +182,7 @@
       "vessel": "MONIF",
       "imo": "9008146",
       "type": "General Cargo",
-      "estimate": "5,200 t",
+      "estimate": "5,088 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -190,7 +190,7 @@
       "vessel": "HASAN G",
       "imo": "9136852",
       "type": "General Cargo",
-      "estimate": "5,661 t",
+      "estimate": "5,540 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -206,7 +206,7 @@
       "vessel": "CINDY",
       "imo": "9004499",
       "type": "General Cargo",
-      "estimate": "7,955 t",
+      "estimate": "7,785 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -222,7 +222,7 @@
       "vessel": "JELENA",
       "imo": "9519042",
       "type": "General Cargo",
-      "estimate": "4,725 t",
+      "estimate": "4,624 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -230,7 +230,7 @@
       "vessel": "ANKA DREAM",
       "imo": "9195470",
       "type": "General Cargo",
-      "estimate": "3,563 t",
+      "estimate": "3,487 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
@@ -246,7 +246,7 @@
       "vessel": "ECE",
       "imo": "8911413",
       "type": "General Cargo",
-      "estimate": "3,759 t",
+      "estimate": "3,679 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
