@@ -3635,7 +3635,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-31T20:00:12.904459+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-31T20:30:14.672600+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3649,11 +3649,23 @@
         "name": "ORITA",
         "imo": "9318931",
         "port": "Misurata",
-        "decision": "AWAY",
+        "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
+      {
+        "name": "HISTRIA AMBRA",
+        "imo": "9607631",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "DORADO CHEM",
+        "imo": "9296119",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
       {
         "name": "DERNA",
         "imo": "9176125",
@@ -3669,6 +3681,12 @@
       {
         "name": "MAGNA1",
         "imo": "9293557",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "PACIFIC DALIAN",
+        "imo": "9339090",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
       }
@@ -3710,7 +3728,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-31T20:00:41.216960+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-31T20:00:12.904459+00:00",
+  "anchorageUpdatedAt": "2026-10-31T20:30:14.672600+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4141,7 +4159,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-31T20:00:12.904459+00:00",
+  "mapUpdatedAt": "2026-10-31T20:30:14.672600+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
