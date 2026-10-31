@@ -3635,33 +3635,23 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-31T23:00:09.637947+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-31T23:30:11.070883+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
+    "potentialDepartures": [
+      {
+        "name": "JI LI",
+        "imo": "9267405",
+        "port": "Misurata",
+        "decision": "AWAY_STALE",
+        "winner": "SHIPNEXT"
+      }
+    ],
     "portStateReview": [
       {
         "name": "DERNA",
         "imo": "9176125",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "TAHSIN KALKAVAN",
-        "imo": "8515661",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "MAGNA1",
-        "imo": "9293557",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "PACIFIC DALIAN",
-        "imo": "9339090",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3701,7 +3691,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-31T23:00:50.196298+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-31T23:00:09.637947+00:00",
+  "anchorageUpdatedAt": "2026-10-31T23:30:11.070883+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4132,7 +4122,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-31T23:00:09.637947+00:00",
+  "mapUpdatedAt": "2026-10-31T23:30:11.070883+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
