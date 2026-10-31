@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-31 14:06:35",
+  "updatedAt": "2026-10-31 22:05:52",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 113,
-    "benghaziCalls": 79,
+    "misurataCalls": 115,
+    "benghaziCalls": 80,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 2,
     "excludedCalls": 2,
@@ -11,14 +11,14 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 31,
+    "estimatedCalls": 32,
     "unestimatedCalls": 48,
-    "coverage": 39.2,
+    "coverage": 40.0,
     "trustedVessels": 204,
     "identityReview": 0,
-    "estimatedTEU": 23691,
+    "estimatedTEU": 24753,
     "estimatedGeneralCargoTons": 98274,
-    "historicalHighMediumCalls": 8,
+    "historicalHighMediumCalls": 9,
     "fallbackLowCalls": 21
   },
   "comparison": [
@@ -52,28 +52,20 @@
     },
     {
       "period": "2026-10",
-      "misurataCalls": 113,
-      "benghaziCalls": 79,
+      "misurataCalls": 115,
+      "benghaziCalls": 80,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 2,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 23691,
+      "estimatedTEU": 24753,
       "estimatedGeneralCargoTons": 98274,
-      "coverage": 39.2
+      "coverage": 40.0
     }
   ],
   "estimates": [
-    {
-      "vessel": "",
-      "imo": "9449687",
-      "type": "Container ship",
-      "estimate": "1,192 TEU",
-      "confidence": "Medium",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "JELENA",
       "imo": "9519042",
@@ -265,6 +257,14 @@
       "estimate": "4,990 t",
       "confidence": "Low",
       "method": "Same IMO - trusted MFZ historical median actual tons"
+    },
+    {
+      "vessel": "PACIFIC DALIAN",
+      "imo": "9339090",
+      "type": "Container",
+      "estimate": "1,062 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
