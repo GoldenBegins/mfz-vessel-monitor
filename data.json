@@ -3570,7 +3570,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-31T04:40:09.140441+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-31T05:00:11.625837+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3582,12 +3582,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "RECEP KURU",
-        "imo": "9040948",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "HAKKI AYKIN",
         "imo": "9045730",
@@ -3632,7 +3626,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-31T04:30:48.627396+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-31T04:40:09.140441+00:00",
+  "anchorageUpdatedAt": "2026-10-31T05:00:11.625837+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4007,7 +4001,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-31T04:40:09.140441+00:00",
+  "mapUpdatedAt": "2026-10-31T05:00:11.625837+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
