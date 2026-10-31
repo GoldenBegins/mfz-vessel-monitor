@@ -3554,7 +3554,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-10-31T12:00:10.161544+00:00",
+    "lightPortSyncUpdatedAt": "2026-10-31T12:30:10.650986+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3563,9 +3563,36 @@
         "port": "Misurata",
         "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JI LI",
+        "imo": "9267405",
+        "port": "Misurata",
+        "decision": "AWAY_STALE",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "TAHSIN KALKAVAN",
+        "imo": "8515661",
+        "port": "Benghazi",
+        "decision": "AWAY_STALE",
+        "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "DERNA",
+        "imo": "9176125",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "MAGNA1",
+        "imo": "9293557",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 6,
@@ -3603,7 +3630,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-10-31T12:00:39.065733+00:00"
   },
-  "anchorageUpdatedAt": "2026-10-31T12:00:10.161544+00:00",
+  "anchorageUpdatedAt": "2026-10-31T12:30:10.650986+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3963,7 +3990,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-10-31T12:00:10.161544+00:00",
+  "mapUpdatedAt": "2026-10-31T12:30:10.650986+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
