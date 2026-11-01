@@ -3639,7 +3639,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-01T00:00:11.530105+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-01T00:30:10.629749+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3655,7 +3655,7 @@
         "name": "DERNA",
         "imo": "9176125",
         "port": "Benghazi",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3695,7 +3695,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-01T00:00:44.432062+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-01T00:00:11.530105+00:00",
+  "anchorageUpdatedAt": "2026-11-01T00:30:10.629749+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4130,7 +4130,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-01T00:00:11.530105+00:00",
+  "mapUpdatedAt": "2026-11-01T00:30:10.629749+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
