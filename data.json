@@ -3610,7 +3610,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-01T09:00:11.422758+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-01T09:30:12.213944+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3624,7 +3624,7 @@
         "name": "ORITA",
         "imo": "9318931",
         "port": "Misurata",
-        "decision": "AWAY",
+        "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
       }
     ],
@@ -3673,7 +3673,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-01T09:00:57.600365+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-01T09:00:11.422758+00:00",
+  "anchorageUpdatedAt": "2026-11-01T09:30:12.213944+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4104,7 +4104,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-01T09:00:11.422758+00:00",
+  "mapUpdatedAt": "2026-11-01T09:30:12.213944+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
