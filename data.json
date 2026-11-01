@@ -3610,7 +3610,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-01T10:00:10.705255+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-01T10:30:13.940650+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3633,7 +3633,7 @@
         "name": "DORADO CHEM",
         "imo": "9296119",
         "port": "Misurata",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3673,7 +3673,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-01T10:00:49.952729+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-01T10:00:10.705255+00:00",
+  "anchorageUpdatedAt": "2026-11-01T10:30:13.940650+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4104,7 +4104,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-01T10:00:10.705255+00:00",
+  "mapUpdatedAt": "2026-11-01T10:30:13.940650+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
