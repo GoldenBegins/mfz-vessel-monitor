@@ -3636,7 +3636,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-01T05:00:10.518576+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-01T05:30:13.055684+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3656,12 +3656,6 @@
     ],
     "portStateReview": [
       {
-        "name": "JI LI",
-        "imo": "9267405",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
         "name": "DORADO CHEM",
         "imo": "9296119",
         "port": "Misurata",
@@ -3671,7 +3665,7 @@
         "name": "TAHSIN KALKAVAN",
         "imo": "8515661",
         "port": "Benghazi",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3711,7 +3705,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-01T05:00:54.434537+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-01T05:00:10.518576+00:00",
+  "anchorageUpdatedAt": "2026-11-01T05:30:13.055684+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4142,7 +4136,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-01T05:00:10.518576+00:00",
+  "mapUpdatedAt": "2026-11-01T05:30:13.055684+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
