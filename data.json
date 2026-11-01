@@ -3531,7 +3531,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-01T21:00:14.968545+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-01T21:30:18.227839+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3560,12 +3560,6 @@
         "name": "ASIM IMAMOGLU",
         "imo": "9357078",
         "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "QUEEN NM",
-        "imo": "9234991",
-        "port": "Benghazi",
         "decision": "ANCHORAGE"
       },
       {
@@ -3612,7 +3606,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-01T21:00:54.979912+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-01T21:00:14.968545+00:00",
+  "anchorageUpdatedAt": "2026-11-01T21:30:18.227839+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4062,7 +4056,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-01T21:00:14.968545+00:00",
+  "mapUpdatedAt": "2026-11-01T21:30:18.227839+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
