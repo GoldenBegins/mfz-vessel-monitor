@@ -3542,36 +3542,32 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-02T00:30:14.416502+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-02T01:00:10.836665+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "VIKING ORCA",
-        "imo": "9555254",
-        "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      },
+    "potentialDepartures": [],
+    "portStateReview": [
       {
         "name": "GOTHICA",
         "imo": "7826867",
         "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
+        "decision": "NEAR_PORT"
       },
       {
-        "name": "GUO YI HAI",
-        "imo": "1112850",
+        "name": "NIKOLAOS C",
+        "imo": "9339650",
         "port": "Benghazi",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
+        "decision": "ANCHORAGE"
+      },
       {
-        "name": "ASIM IMAMOGLU",
-        "imo": "9357078",
-        "port": "Misurata",
+        "name": "RAZONI",
+        "imo": "9086526",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "UNI F",
+        "imo": "9159579",
+        "port": "Benghazi",
         "decision": "ANCHORAGE"
       }
     ],
@@ -3612,7 +3608,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-02T00:30:58.670941+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-02T00:30:14.416502+00:00",
+  "anchorageUpdatedAt": "2026-11-02T01:00:10.836665+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4130,7 +4126,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-02T00:30:14.416502+00:00",
+  "mapUpdatedAt": "2026-11-02T01:00:10.836665+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
