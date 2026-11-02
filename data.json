@@ -3564,7 +3564,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-02T14:00:13.644474+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-02T14:30:11.960244+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3586,7 +3586,7 @@
         "name": "NIKOLAOS C",
         "imo": "9339650",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
+        "decision": "ANCHORAGE"
       },
       {
         "name": "RAZONI",
@@ -3644,7 +3644,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-02T14:00:46.964563+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-02T14:00:13.644474+00:00",
+  "anchorageUpdatedAt": "2026-11-02T14:30:11.960244+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4158,7 +4158,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-02T14:00:13.644474+00:00",
+  "mapUpdatedAt": "2026-11-02T14:30:11.960244+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
