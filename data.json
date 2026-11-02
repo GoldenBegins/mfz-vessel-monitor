@@ -3532,24 +3532,10 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-02T18:30:13.366774+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-02T19:00:13.123696+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "RMS ROSE",
-        "imo": "9318761",
-        "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      }
-    ],
+    "potentialDepartures": [],
     "portStateReview": [
-      {
-        "name": "ASIM IMAMOGLU",
-        "imo": "9357078",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
       {
         "name": "RAZONI",
         "imo": "9086526",
@@ -3606,7 +3592,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-02T18:30:55.824005+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-02T18:30:13.366774+00:00",
+  "anchorageUpdatedAt": "2026-11-02T19:00:13.123696+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4075,7 +4061,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-02T18:30:13.366774+00:00",
+  "mapUpdatedAt": "2026-11-02T19:00:13.123696+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
