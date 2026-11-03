@@ -3498,7 +3498,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-03T16:40:13.873950+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-03T17:00:14.101688+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3506,6 +3506,13 @@
         "imo": "9318931",
         "port": "Misurata",
         "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "SUPER EMMA",
+        "imo": "9791901",
+        "port": "Misurata",
+        "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
       }
     ],
@@ -3521,12 +3528,6 @@
         "imo": "9947720",
         "port": "Misurata",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "SUPER EMMA",
-        "imo": "9791901",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "IBN BATTUTA",
@@ -3578,7 +3579,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-03T16:30:51.171129+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-03T16:40:13.873950+00:00",
+  "anchorageUpdatedAt": "2026-11-03T17:00:14.101688+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4013,7 +4014,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-03T16:40:13.873950+00:00",
+  "mapUpdatedAt": "2026-11-03T17:00:14.101688+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
