@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-02 22:06:41",
+  "updatedAt": "2026-11-03 06:05:49",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 9,
-    "benghaziCalls": 8,
+    "misurataCalls": 12,
+    "benghaziCalls": 9,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 0,
     "excludedCalls": 0,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 1,
+    "estimatedCalls": 2,
     "unestimatedCalls": 7,
-    "coverage": 12.5,
+    "coverage": 22.2,
     "trustedVessels": 204,
     "identityReview": 0,
     "estimatedTEU": 1340,
-    "estimatedGeneralCargoTons": 304646,
+    "estimatedGeneralCargoTons": 2569,
     "historicalHighMediumCalls": 1,
-    "fallbackLowCalls": 0
+    "fallbackLowCalls": 1
   },
   "comparison": [
     {
@@ -66,8 +66,8 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 9,
-      "benghaziCalls": 8,
+      "misurataCalls": 12,
+      "benghaziCalls": 9,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 0,
       "misurataActualTEU": 0,
@@ -75,19 +75,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 1340,
-      "estimatedGeneralCargoTons": 304646,
-      "coverage": 12.5
+      "estimatedGeneralCargoTons": 2569,
+      "coverage": 22.2
     }
   ],
   "estimates": [
-    {
-      "vessel": "SIDRA AHLAM",
-      "imo": "9108233",
-      "type": "Container ship",
-      "estimate": "1,696 TEU",
-      "confidence": "Low",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "MONIF",
       "imo": "9008146",
@@ -279,6 +271,14 @@
       "estimate": "1,340 TEU",
       "confidence": "High",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "BISHARA",
+      "imo": "8207410",
+      "type": "General Cargo",
+      "estimate": "2,569 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
