@@ -1,6 +1,6 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-11-03T12:10:30Z",
+  "updatedAt": "2026-11-03T20:10:31Z",
   "summary": {
     "dwtProfiles": 218,
     "fleetSampleN": 23,
@@ -10,8 +10,8 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 7,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 112,
-    "unestimatedCalls": 9
+    "fleetRatioEstimates": 113,
+    "unestimatedCalls": 10
   },
   "calibration": [
     {
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-11-03T12:10:30Z"
+      "Updated On": "2026-11-03T20:10:31Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-11-03T12:10:30Z"
+      "Updated On": "2026-11-03T20:10:31Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-11-03T12:10:30Z"
+      "Updated On": "2026-11-03T20:10:31Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-11-03T12:10:30Z"
+      "Updated On": "2026-11-03T20:10:31Z"
     }
   ],
   "rows": [
@@ -1146,6 +1146,25 @@
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9593086|2026-11-03",
+      "IMO": "9593086",
+      "Vessel": "DIAMOND",
+      "Vessel Type": "General Cargo",
+      "DWT": "",
+      "Commodity Used": "",
+      "Method": "No Estimate",
+      "Historical Visits": 0,
+      "Sample N": 0,
+      "Median Tons/DWT": "",
+      "Estimated Cargo Tons": "",
+      "Low Estimate": "",
+      "High Estimate": "",
+      "Confidence": "Unresolved",
+      "Source": "",
+      "Notes": "Insufficient calibration or DWT."
     },
     {
       "Port": "Misurata",
@@ -2492,6 +2511,25 @@
       "Estimated Cargo Tons": 4653.74,
       "Low Estimate": 2287.63,
       "High Estimate": 6856.51,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=23",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9523237|2026-11-03",
+      "IMO": "9523237",
+      "Vessel": "SEYHAN IMAMOGLU",
+      "Vessel Type": "General Cargo",
+      "DWT": 3331.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 23,
+      "Median Tons/DWT": 0.6028,
+      "Estimated Cargo Tons": 2007.98,
+      "Low Estimate": 987.06,
+      "High Estimate": 2958.42,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
