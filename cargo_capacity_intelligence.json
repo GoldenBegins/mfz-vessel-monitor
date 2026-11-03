@@ -1,8 +1,8 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-11-02T20:10:31Z",
+  "updatedAt": "2026-11-03T04:10:34Z",
   "summary": {
-    "dwtProfiles": 217,
+    "dwtProfiles": 218,
     "fleetSampleN": 23,
     "fleetMedianTonsPerDwt": 0.6028,
     "fleetP25": 0.2963,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 7,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 110,
+    "fleetRatioEstimates": 112,
     "unestimatedCalls": 9
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-11-02T20:10:31Z"
+      "Updated On": "2026-11-03T04:10:34Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-11-02T20:10:31Z"
+      "Updated On": "2026-11-03T04:10:34Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-11-02T20:10:31Z"
+      "Updated On": "2026-11-03T04:10:34Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-11-02T20:10:31Z"
+      "Updated On": "2026-11-03T04:10:34Z"
     }
   ],
   "rows": [
@@ -1124,6 +1124,25 @@
       "Estimated Cargo Tons": 2733.77,
       "Low Estimate": 1343.83,
       "High Estimate": 4027.75,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=23",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|8207410|2026-11-02",
+      "IMO": "8207410",
+      "Vessel": "BISHARA",
+      "Vessel Type": "General Cargo",
+      "DWT": 3028.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 23,
+      "Median Tons/DWT": 0.6028,
+      "Estimated Cargo Tons": 1825.33,
+      "Low Estimate": 897.27,
+      "High Estimate": 2689.31,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=23",
       "Notes": "Planning proxy, not official handled tonnage."
@@ -2457,6 +2476,25 @@
       "Confidence": "Unresolved",
       "Source": "",
       "Notes": "Insufficient calibration or DWT."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9381809|2026-11-02",
+      "IMO": "9381809",
+      "Vessel": "BURHAN DIZMAN",
+      "Vessel Type": "General Cargo",
+      "DWT": 7720.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 23,
+      "Median Tons/DWT": 0.6028,
+      "Estimated Cargo Tons": 4653.74,
+      "Low Estimate": 2287.63,
+      "High Estimate": 6856.51,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=23",
+      "Notes": "Planning proxy, not official handled tonnage."
     }
   ],
   "methodology": "Exact vessel first (1 visit Low, 2 Medium, 3+ High). Commodity ratio only when current commodity is known and commodity sample n>=5. Otherwise fleet ratio. P25-P75 range. Planning proxy only."
