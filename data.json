@@ -3498,7 +3498,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-03T07:00:11.632372+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-03T07:30:13.919894+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3507,19 +3507,18 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LUCITA",
-        "imo": "9338113",
-        "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
       {
         "name": "GUO YI HAI",
         "imo": "1112850",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "LUCITA",
+        "imo": "9338113",
         "port": "Misurata",
         "decision": "NEAR_PORT"
       },
@@ -3579,7 +3578,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-03T07:00:54.435693+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-03T07:00:11.632372+00:00",
+  "anchorageUpdatedAt": "2026-11-03T07:30:13.919894+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4014,7 +4013,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-03T07:00:11.632372+00:00",
+  "mapUpdatedAt": "2026-11-03T07:30:13.919894+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-10-30T22:46:00Z",
     "summary": {
