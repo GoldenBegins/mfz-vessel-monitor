@@ -3637,7 +3637,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-04T17:30:15.980554+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-04T18:00:12.706538+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3691,12 +3691,6 @@
         "decision": "ANCHORAGE"
       },
       {
-        "name": "OCEAN7 CAROLINA",
-        "imo": "9810331",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
-      {
         "name": "IBN BATTUTA",
         "imo": "9448970",
         "port": "Benghazi",
@@ -3740,7 +3734,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-04T17:30:53.019657+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-04T17:30:15.980554+00:00",
+  "anchorageUpdatedAt": "2026-11-04T18:00:12.706538+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4183,7 +4177,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-04T17:30:15.980554+00:00",
+  "mapUpdatedAt": "2026-11-04T18:00:12.706538+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
