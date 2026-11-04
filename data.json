@@ -3629,7 +3629,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-04T17:00:11.943803+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-04T17:30:15.980554+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3637,6 +3637,13 @@
         "imo": "9791901",
         "port": "Misurata",
         "decision": "AWAY_STALE",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "DORADO CHEM",
+        "imo": "9296119",
+        "port": "Misurata",
+        "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
       {
@@ -3656,13 +3663,6 @@
       {
         "name": "HAKKI AYKIN",
         "imo": "9045730",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "BISHARA",
-        "imo": "8207410",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3732,7 +3732,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-04T17:00:43.877275+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-04T17:00:11.943803+00:00",
+  "anchorageUpdatedAt": "2026-11-04T17:30:15.980554+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4167,7 +4167,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-04T17:00:11.943803+00:00",
+  "mapUpdatedAt": "2026-11-04T17:30:15.980554+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
