@@ -3601,7 +3601,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-04T12:00:13.770447+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-04T12:30:11.854969+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3614,6 +3614,13 @@
       {
         "name": "XING SHUN 25",
         "imo": "8591794",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MSC AMIHAN F",
+        "imo": "9449687",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3637,6 +3644,12 @@
       {
         "name": "SEYHAN IMAMOGLU",
         "imo": "9523237",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "VALDARNO",
+        "imo": "9717503",
         "port": "Misurata",
         "decision": "ANCHORAGE"
       },
@@ -3684,7 +3697,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-04T12:00:48.738837+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-04T12:00:13.770447+00:00",
+  "anchorageUpdatedAt": "2026-11-04T12:30:11.854969+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4089,7 +4102,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-04T12:00:13.770447+00:00",
+  "mapUpdatedAt": "2026-11-04T12:30:11.854969+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
