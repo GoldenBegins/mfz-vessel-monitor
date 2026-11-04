@@ -3641,7 +3641,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-04T18:00:12.706538+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-04T18:30:11.701413+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3675,6 +3675,13 @@
       {
         "name": "HAKKI AYKIN",
         "imo": "9045730",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "BISHARA",
+        "imo": "8207410",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3738,7 +3745,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-04T18:00:44.265762+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-04T18:00:12.706538+00:00",
+  "anchorageUpdatedAt": "2026-11-04T18:30:11.701413+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4185,7 +4192,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-04T18:00:12.706538+00:00",
+  "mapUpdatedAt": "2026-11-04T18:30:11.701413+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
