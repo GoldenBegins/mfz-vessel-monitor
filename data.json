@@ -3603,7 +3603,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-04T22:00:13.724201+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-04T22:30:11.899987+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3616,6 +3616,13 @@
       {
         "name": "DORADO CHEM",
         "imo": "9296119",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "GOTHICA",
+        "imo": "7826867",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3720,7 +3727,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-04T22:00:48.256196+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-04T22:00:13.724201+00:00",
+  "anchorageUpdatedAt": "2026-11-04T22:30:11.899987+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4116,7 +4123,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-04T22:00:13.724201+00:00",
+  "mapUpdatedAt": "2026-11-04T22:30:11.899987+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
