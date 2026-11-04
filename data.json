@@ -3603,51 +3603,9 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-04T22:30:11.899987+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-04T22:40:11.711441+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "SUPER EMMA",
-        "imo": "9791901",
-        "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "DORADO CHEM",
-        "imo": "9296119",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "XING SHUN 25",
-        "imo": "8591794",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MSC AMIHAN F",
-        "imo": "9449687",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MUNIS",
-        "imo": "9157569",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "HAKKI AYKIN",
         "imo": "9045730",
@@ -3688,6 +3646,12 @@
         "imo": "9211157",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
+      },
+      {
+        "name": "JULYANA 2",
+        "imo": "1066013",
+        "port": "Benghazi",
+        "decision": "UNCONFIRMED"
       }
     ],
     "phaseSummary": {
@@ -3727,7 +3691,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-04T22:30:56.521401+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-04T22:30:11.899987+00:00",
+  "anchorageUpdatedAt": "2026-11-04T22:40:11.711441+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4123,7 +4087,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-04T22:30:11.899987+00:00",
+  "mapUpdatedAt": "2026-11-04T22:40:11.711441+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
