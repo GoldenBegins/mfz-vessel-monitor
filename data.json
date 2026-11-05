@@ -3573,7 +3573,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-05T19:00:12.209830+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-05T19:30:12.882189+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3611,12 +3611,6 @@
         "imo": "8872801",
         "port": "Misurata",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "MSC TALIA F",
-        "imo": "9308601",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "MUNIS",
@@ -3680,7 +3674,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-05T19:00:53.136220+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-05T19:00:12.209830+00:00",
+  "anchorageUpdatedAt": "2026-11-05T19:30:12.882189+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4061,7 +4055,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-05T19:00:12.209830+00:00",
+  "mapUpdatedAt": "2026-11-05T19:30:12.882189+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
