@@ -3569,14 +3569,14 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-05T17:00:11.393746+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-05T17:30:15.114171+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "YOSOR 1",
         "imo": "9020340",
         "port": "Misurata",
-        "decision": "AWAY",
+        "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
       },
       {
@@ -3616,12 +3616,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "VALDARNO",
-        "imo": "9717503",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "PRETTY NELLY",
         "imo": "8872801",
@@ -3678,7 +3672,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-05T17:00:43.013940+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-05T17:00:11.393746+00:00",
+  "anchorageUpdatedAt": "2026-11-05T17:30:15.114171+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4055,7 +4049,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-05T17:00:11.393746+00:00",
+  "mapUpdatedAt": "2026-11-05T17:30:15.114171+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
