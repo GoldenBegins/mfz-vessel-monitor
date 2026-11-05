@@ -3569,7 +3569,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-05T12:00:15.958871+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-05T12:30:13.462697+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3635,12 +3635,6 @@
         "decision": "NEAR_PORT"
       },
       {
-        "name": "MSC AMIHAN F",
-        "imo": "9449687",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
         "name": "KOSOVAK",
         "imo": "9211157",
         "port": "Benghazi",
@@ -3684,7 +3678,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-05T12:00:53.663376+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-05T12:00:15.958871+00:00",
+  "anchorageUpdatedAt": "2026-11-05T12:30:13.462697+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4046,7 +4040,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-05T12:00:15.958871+00:00",
+  "mapUpdatedAt": "2026-11-05T12:30:13.462697+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
