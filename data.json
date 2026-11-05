@@ -3573,12 +3573,19 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-05T21:30:13.846347+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-05T22:00:17.482356+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "YOSOR 1",
         "imo": "9020340",
+        "port": "Misurata",
+        "decision": "AWAY_STALE",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "KORMORAN",
+        "imo": "9100061",
         "port": "Misurata",
         "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
@@ -3606,12 +3613,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "KORMORAN",
-        "imo": "9100061",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "PRETTY NELLY",
         "imo": "8872801",
@@ -3680,7 +3681,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-05T21:30:58.468928+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-05T21:30:13.846347+00:00",
+  "anchorageUpdatedAt": "2026-11-05T22:00:17.482356+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4061,7 +4062,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-05T21:30:13.846347+00:00",
+  "mapUpdatedAt": "2026-11-05T22:00:17.482356+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
