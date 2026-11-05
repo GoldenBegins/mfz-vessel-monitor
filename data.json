@@ -3554,84 +3554,10 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-05T22:30:12.328592+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-05T22:40:08.824967+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "YOSOR 1",
-        "imo": "9020340",
-        "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "KORMORAN",
-        "imo": "9100061",
-        "port": "Misurata",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LIBERTAS H",
-        "imo": "9388388",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MALAK M",
-        "imo": "9216353",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MEDKON NLS",
-        "imo": "9390812",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "XING SHUN 25",
-        "imo": "8591794",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "PRETTY NELLY",
-        "imo": "8872801",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "MUNIS",
-        "imo": "9157569",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "KOSOVAK",
-        "imo": "9211157",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "JULYANA 2",
-        "imo": "1066013",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "NIKOLAOS C",
-        "imo": "9339650",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 7,
@@ -3669,7 +3595,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-05T22:30:59.000833+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-05T22:30:12.328592+00:00",
+  "anchorageUpdatedAt": "2026-11-05T22:40:08.824967+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4031,7 +3957,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-05T22:30:12.328592+00:00",
+  "mapUpdatedAt": "2026-11-05T22:40:08.824967+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
