@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-04 22:06:30",
+  "updatedAt": "2026-11-05 06:06:32",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 17,
-    "benghaziCalls": 12,
+    "misurataCalls": 23,
+    "benghaziCalls": 14,
     "misurataExcludedCalls": 0,
-    "benghaziExcludedCalls": 0,
-    "excludedCalls": 0,
+    "benghaziExcludedCalls": 1,
+    "excludedCalls": 1,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 2,
-    "unestimatedCalls": 10,
-    "coverage": 16.7,
-    "trustedVessels": 204,
+    "estimatedCalls": 3,
+    "unestimatedCalls": 11,
+    "coverage": 21.4,
+    "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 1340,
+    "estimatedTEU": 2282,
     "estimatedGeneralCargoTons": 2569,
-    "historicalHighMediumCalls": 1,
+    "historicalHighMediumCalls": 2,
     "fallbackLowCalls": 1
   },
   "comparison": [
@@ -66,28 +66,20 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 17,
-      "benghaziCalls": 12,
+      "misurataCalls": 23,
+      "benghaziCalls": 14,
       "misurataExcludedCalls": 0,
-      "benghaziExcludedCalls": 0,
+      "benghaziExcludedCalls": 1,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 1340,
+      "estimatedTEU": 2282,
       "estimatedGeneralCargoTons": 2569,
-      "coverage": 16.7
+      "coverage": 21.4
     }
   ],
   "estimates": [
-    {
-      "vessel": "MONIF",
-      "imo": "9008146",
-      "type": "General Cargo",
-      "estimate": "5,323 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "DUYGU",
       "imo": "9199787",
@@ -279,13 +271,21 @@
       "estimate": "2,569 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "KOSOVAK",
+      "imo": "9211157",
+      "type": "Container",
+      "estimate": "942 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "10 internal high-priority checks are recorded."
+      "detail": "233 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
