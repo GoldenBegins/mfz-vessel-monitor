@@ -3573,7 +3573,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-06T03:00:10.270997+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-06T03:30:10.463426+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3603,6 +3603,12 @@
         "imo": "9339650",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
+      },
+      {
+        "name": "JULYANA 2",
+        "imo": "1066013",
+        "port": "Benghazi",
+        "decision": "UNCONFIRMED"
       }
     ],
     "phaseSummary": {
@@ -3642,7 +3648,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-06T03:00:55.379411+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-06T03:00:10.270997+00:00",
+  "anchorageUpdatedAt": "2026-11-06T03:30:10.463426+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4038,7 +4044,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-06T03:00:10.270997+00:00",
+  "mapUpdatedAt": "2026-11-06T03:30:10.463426+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
