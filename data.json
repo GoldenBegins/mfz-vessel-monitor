@@ -3588,9 +3588,24 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-06T01:00:11.954952+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-06T01:30:10.637454+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
+    "potentialDepartures": [
+      {
+        "name": "DIONYSSIS A",
+        "imo": "9356660",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MV ANA N",
+        "imo": "9416850",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
     "portStateReview": [
       {
         "name": "NIKOLAOS C",
@@ -3636,7 +3651,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-06T01:00:56.895027+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-06T01:00:11.954952+00:00",
+  "anchorageUpdatedAt": "2026-11-06T01:30:10.637454+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4032,7 +4047,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-06T01:00:11.954952+00:00",
+  "mapUpdatedAt": "2026-11-06T01:30:10.637454+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
