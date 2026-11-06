@@ -3588,7 +3588,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-06T04:00:10.409031+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-06T04:30:09.338534+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3615,6 +3615,12 @@
     ],
     "portStateReview": [
       {
+        "name": "PRETTY NELLY",
+        "imo": "8872801",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
+      {
         "name": "NIKOLAOS C",
         "imo": "9339650",
         "port": "Benghazi",
@@ -3625,6 +3631,12 @@
         "imo": "1066013",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3664,7 +3676,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-06T04:00:33.377489+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-06T04:00:10.409031+00:00",
+  "anchorageUpdatedAt": "2026-11-06T04:30:09.338534+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4075,7 +4087,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-06T04:00:10.409031+00:00",
+  "mapUpdatedAt": "2026-11-06T04:30:09.338534+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
