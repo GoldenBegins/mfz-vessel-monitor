@@ -1,6 +1,6 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-11-07T04:10:25Z",
+  "updatedAt": "2026-11-07T12:10:28Z",
   "summary": {
     "dwtProfiles": 221,
     "fleetSampleN": 25,
@@ -8,7 +8,7 @@
     "fleetP25": 0.2873,
     "fleetP75": 0.8485,
     "commodityModelsUsable": 1,
-    "exactVesselEstimates": 7,
+    "exactVesselEstimates": 8,
     "commodityEstimates": 0,
     "fleetRatioEstimates": 117,
     "unestimatedCalls": 10
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-11-07T04:10:25Z"
+      "Updated On": "2026-11-07T12:10:28Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-11-07T04:10:25Z"
+      "Updated On": "2026-11-07T12:10:28Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-11-07T04:10:25Z"
+      "Updated On": "2026-11-07T12:10:28Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-11-07T04:10:25Z"
+      "Updated On": "2026-11-07T12:10:28Z"
     }
   ],
   "rows": [
@@ -2609,6 +2609,25 @@
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=25",
       "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9040948|2026-11-07",
+      "IMO": "9040948",
+      "Vessel": "RECEP KURU",
+      "Vessel Type": "General Cargo",
+      "DWT": 5118.0,
+      "Commodity Used": "",
+      "Method": "Exact vessel MFZ historical",
+      "Historical Visits": 2,
+      "Sample N": 2,
+      "Median Tons/DWT": "",
+      "Estimated Cargo Tons": 4094.79,
+      "Low Estimate": 3634.93,
+      "High Estimate": 4554.66,
+      "Confidence": "Medium",
+      "Source": "MFZ Actual Cargo Calls exact IMO",
+      "Notes": ""
     }
   ],
   "methodology": "Exact vessel first (1 visit Low, 2 Medium, 3+ High). Commodity ratio only when current commodity is known and commodity sample n>=5. Otherwise fleet ratio. P25-P75 range. Planning proxy only."
