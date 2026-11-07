@@ -3650,27 +3650,13 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-07T23:00:13.018559+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-07T23:30:13.082949+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "MERNA 1",
         "imo": "8716954",
         "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "TAHSIN KALKAVAN",
-        "imo": "8515661",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ANKA DREAM",
-        "imo": "9195470",
-        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
@@ -3684,28 +3670,10 @@
     ],
     "portStateReview": [
       {
-        "name": "MEDKON ANKA",
-        "imo": "9366469",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "DERNA",
-        "imo": "9176125",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
-      },
-      {
         "name": "REGALO",
         "imo": "9260304",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "VESTSKJAER",
-        "imo": "8504155",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
       }
     ],
     "phaseSummary": {
@@ -3745,7 +3713,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-07T23:01:06.831311+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-07T23:00:13.018559+00:00",
+  "anchorageUpdatedAt": "2026-11-07T23:30:13.082949+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4167,7 +4135,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-07T23:00:13.018559+00:00",
+  "mapUpdatedAt": "2026-11-07T23:30:13.082949+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
