@@ -3492,12 +3492,19 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-07T12:00:18.248855+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-07T12:30:14.022082+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "MERNA 1",
         "imo": "8716954",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "RECEP KURU",
+        "imo": "9040948",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3586,7 +3593,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-07T12:00:39.637195+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-07T12:00:18.248855+00:00",
+  "anchorageUpdatedAt": "2026-11-07T12:30:14.022082+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3903,7 +3910,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-07T12:00:18.248855+00:00",
+  "mapUpdatedAt": "2026-11-07T12:30:14.022082+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
