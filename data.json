@@ -3498,7 +3498,7 @@
         "source": "Anchorage Reconcile v3 (Entered Port by IMO)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-07T06:00:14.739995+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-07T06:30:12.614968+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3511,6 +3511,13 @@
       {
         "name": "MV ANA N",
         "imo": "9416850",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "BISHARA",
+        "imo": "8207410",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3535,6 +3542,12 @@
         "imo": "9356660",
         "port": "Misurata",
         "decision": "ANCHORAGE"
+      },
+      {
+        "name": "TAHSIN KALKAVAN",
+        "imo": "8515661",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "MEDKON ANKA",
@@ -3580,7 +3593,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-07T06:00:57.711122+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-07T06:00:14.739995+00:00",
+  "anchorageUpdatedAt": "2026-11-07T06:30:12.614968+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3889,7 +3902,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-07T06:00:14.739995+00:00",
+  "mapUpdatedAt": "2026-11-07T06:30:12.614968+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-03T19:45:35Z",
     "summary": {
