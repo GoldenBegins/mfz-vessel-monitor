@@ -3614,7 +3614,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-07T21:00:12.046041+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-07T21:30:11.259400+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3634,13 +3634,6 @@
       {
         "name": "TAHSIN KALKAVAN",
         "imo": "8515661",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "DERNA",
-        "imo": "9176125",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3672,6 +3665,12 @@
         "imo": "9366469",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
+      },
+      {
+        "name": "DERNA",
+        "imo": "9176125",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "REGALO",
@@ -3723,7 +3722,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-07T21:00:54.756767+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-07T21:00:12.046041+00:00",
+  "anchorageUpdatedAt": "2026-11-07T21:30:11.259400+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4122,7 +4121,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-07T21:00:12.046041+00:00",
+  "mapUpdatedAt": "2026-11-07T21:30:11.259400+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
