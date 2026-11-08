@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-07 22:07:56",
+  "updatedAt": "2026-11-08 06:05:32",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 28,
-    "benghaziCalls": 22,
+    "misurataCalls": 31,
+    "benghaziCalls": 25,
     "misurataExcludedCalls": 0,
-    "benghaziExcludedCalls": 1,
-    "excludedCalls": 1,
+    "benghaziExcludedCalls": 2,
+    "excludedCalls": 2,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 7,
-    "unestimatedCalls": 15,
-    "coverage": 31.8,
+    "estimatedCalls": 8,
+    "unestimatedCalls": 17,
+    "coverage": 32.0,
     "trustedVessels": 205,
     "identityReview": 0,
     "estimatedTEU": 4210,
-    "estimatedGeneralCargoTons": 14240,
+    "estimatedGeneralCargoTons": 17784,
     "historicalHighMediumCalls": 3,
-    "fallbackLowCalls": 4
+    "fallbackLowCalls": 5
   },
   "comparison": [
     {
@@ -66,28 +66,20 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 28,
-      "benghaziCalls": 22,
+      "misurataCalls": 31,
+      "benghaziCalls": 25,
       "misurataExcludedCalls": 0,
-      "benghaziExcludedCalls": 1,
+      "benghaziExcludedCalls": 2,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 4210,
-      "estimatedGeneralCargoTons": 14240,
-      "coverage": 31.8
+      "estimatedGeneralCargoTons": 17784,
+      "coverage": 32.0
     }
   ],
   "estimates": [
-    {
-      "vessel": "JELENA",
-      "imo": "9519042",
-      "type": "General Cargo",
-      "estimate": "4,698 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "ALEXANDRA A",
       "imo": "9356684",
@@ -273,6 +265,14 @@
       "method": "Fallback - DWT × verified MFZ historical utilization"
     },
     {
+      "vessel": "ANKA DREAM",
+      "imo": "9195470",
+      "type": "General Cargo",
+      "estimate": "3,544 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
       "vessel": "MEDKON ANKA",
       "imo": "9366469",
       "type": "Container",
@@ -285,7 +285,7 @@
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "10 internal high-priority checks are recorded."
+      "detail": "233 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
