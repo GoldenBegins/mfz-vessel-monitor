@@ -3654,7 +3654,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-08T00:30:14.298940+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-08T01:00:15.057372+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3672,6 +3672,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "NIKOLAOS C",
+        "imo": "9339650",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "UHL FRONTIER",
         "imo": "9789685",
         "port": "Benghazi",
@@ -3685,12 +3692,6 @@
         "imo": "9407366",
         "port": "Misurata",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "NIKOLAOS C",
-        "imo": "9339650",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "REGALO",
@@ -3736,7 +3737,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-08T00:31:00.993237+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-08T00:30:14.298940+00:00",
+  "anchorageUpdatedAt": "2026-11-08T01:00:15.057372+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4162,7 +4163,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-08T00:30:14.298940+00:00",
+  "mapUpdatedAt": "2026-11-08T01:00:15.057372+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
