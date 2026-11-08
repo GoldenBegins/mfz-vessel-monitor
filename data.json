@@ -3512,85 +3512,10 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-08T23:00:12.240234+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-08T23:30:09.641285+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "GRACE A",
-        "imo": "8403337",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "K-RIVER",
-        "imo": "9138355",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "PARPALI",
-        "imo": "9134701",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "RECEP KURU",
-        "imo": "9040948",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "SHAN",
-        "imo": "9352688",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "UNIMAR LIVESTOCK",
-        "imo": "7021821",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LIDER TRABZON",
-        "imo": "9006112",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ATRIA",
-        "imo": "9188518",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
+    "potentialDepartures": [],
     "portStateReview": [
-      {
-        "name": "VALDARNO",
-        "imo": "9717503",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "SNP WIND",
-        "imo": "9132038",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "HAMBURG.HS",
-        "imo": "9168403",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
       {
         "name": "REGALO",
         "imo": "9260304",
@@ -3635,7 +3560,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-08T23:01:08.300987+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-08T23:00:12.240234+00:00",
+  "anchorageUpdatedAt": "2026-11-08T23:30:09.641285+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3959,7 +3884,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-08T23:00:12.240234+00:00",
+  "mapUpdatedAt": "2026-11-08T23:30:09.641285+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
