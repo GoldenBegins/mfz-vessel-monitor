@@ -3458,7 +3458,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-08T21:00:12.659239+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-08T21:30:14.088182+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3518,6 +3518,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "MV ANA N",
+        "imo": "9416850",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "NIKOLAOS C",
         "imo": "9339650",
         "port": "Benghazi",
@@ -3550,6 +3557,12 @@
       {
         "name": "SNP WIND",
         "imo": "9132038",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "HAMBURG.HS",
+        "imo": "9168403",
         "port": "Misurata",
         "decision": "ANCHORAGE"
       },
@@ -3621,7 +3634,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-08T21:00:56.877349+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-08T21:00:12.659239+00:00",
+  "anchorageUpdatedAt": "2026-11-08T21:30:14.088182+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3904,7 +3917,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-08T21:00:12.659239+00:00",
+  "mapUpdatedAt": "2026-11-08T21:30:14.088182+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
