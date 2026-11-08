@@ -3582,7 +3582,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-08T08:30:13.456309+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-08T09:00:14.331596+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3628,8 +3628,22 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "LIDER TRABZON",
+        "imo": "9006112",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "NIKOLAOS C",
         "imo": "9339650",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "OCEAN7 CAROLINA",
+        "imo": "9810331",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3654,12 +3668,6 @@
         "imo": "9132038",
         "port": "Misurata",
         "decision": "ANCHORAGE"
-      },
-      {
-        "name": "OCEAN7 CAROLINA",
-        "imo": "9810331",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "REGALO",
@@ -3723,7 +3731,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-08T08:31:02.698040+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-08T08:30:13.456309+00:00",
+  "anchorageUpdatedAt": "2026-11-08T09:00:14.331596+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4077,7 +4085,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-08T08:30:13.456309+00:00",
+  "mapUpdatedAt": "2026-11-08T09:00:14.331596+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
