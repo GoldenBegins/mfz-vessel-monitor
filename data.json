@@ -3512,43 +3512,15 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-09T23:00:11.135007+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-09T23:30:13.943460+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "BURHAN DIZMAN",
-        "imo": "9381809",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "RAZONI",
-        "imo": "9086526",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "BASHT",
-        "imo": "9346536",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
+    "potentialDepartures": [],
     "portStateReview": [
       {
         "name": "GUO REN HAI",
         "imo": "1112848",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "QUEEN NM",
-        "imo": "9234991",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3588,7 +3560,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-09T23:00:59.868651+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-09T23:00:11.135007+00:00",
+  "anchorageUpdatedAt": "2026-11-09T23:30:13.943460+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3961,7 +3933,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-09T23:00:11.135007+00:00",
+  "mapUpdatedAt": "2026-11-09T23:30:13.943460+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
