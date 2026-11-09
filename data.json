@@ -3522,15 +3522,27 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-09T00:30:11.473646+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-09T01:00:09.803336+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
     "portStateReview": [
+      {
+        "name": "BURHAN DIZMAN",
+        "imo": "9381809",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "GUO REN HAI",
         "imo": "1112848",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "KRITI CORAL",
+        "imo": "9417220",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3570,7 +3582,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-09T00:30:57.896032+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-09T00:30:11.473646+00:00",
+  "anchorageUpdatedAt": "2026-11-09T01:00:09.803336+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3917,7 +3929,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-09T00:30:11.473646+00:00",
+  "mapUpdatedAt": "2026-11-09T01:00:09.803336+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
