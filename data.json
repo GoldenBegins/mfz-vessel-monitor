@@ -3510,7 +3510,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-09T18:30:12.509951+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-09T19:00:13.164183+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3551,6 +3551,13 @@
       {
         "name": "RAZONI",
         "imo": "9086526",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "BASHT",
+        "imo": "9346536",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3625,7 +3632,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-09T18:30:58.257960+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-09T18:30:12.509951+00:00",
+  "anchorageUpdatedAt": "2026-11-09T19:00:13.164183+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3983,7 +3990,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-09T18:30:12.509951+00:00",
+  "mapUpdatedAt": "2026-11-09T19:00:13.164183+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
