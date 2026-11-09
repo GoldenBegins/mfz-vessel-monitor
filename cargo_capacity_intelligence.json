@@ -1,6 +1,6 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-11-08T20:10:27Z",
+  "updatedAt": "2026-11-09T04:10:25Z",
   "summary": {
     "dwtProfiles": 225,
     "fleetSampleN": 25,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 1,
     "exactVesselEstimates": 8,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 118,
+    "fleetRatioEstimates": 120,
     "unestimatedCalls": 10
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-11-08T20:10:27Z"
+      "Updated On": "2026-11-09T04:10:25Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-11-08T20:10:27Z"
+      "Updated On": "2026-11-09T04:10:25Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-11-08T20:10:27Z"
+      "Updated On": "2026-11-09T04:10:25Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Insufficient",
-      "Updated On": "2026-11-08T20:10:27Z"
+      "Updated On": "2026-11-09T04:10:25Z"
     }
   ],
   "rows": [
@@ -1226,6 +1226,25 @@
     {
       "Port": "Benghazi",
       "Call ID": "Benghazi|9195470|2026-11-07",
+      "IMO": "9195470",
+      "Vessel": "ANKA DREAM",
+      "Vessel Type": "General Cargo",
+      "DWT": 4299.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 25,
+      "Median Tons/DWT": 0.5842,
+      "Estimated Cargo Tons": 2511.48,
+      "Low Estimate": 1235.27,
+      "High Estimate": 3647.64,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=25",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9195470|2026-11-09",
       "IMO": "9195470",
       "Vessel": "ANKA DREAM",
       "Vessel Type": "General Cargo",
@@ -2647,6 +2666,25 @@
       "Confidence": "Medium",
       "Source": "MFZ Actual Cargo Calls exact IMO",
       "Notes": ""
+    },
+    {
+      "Port": "Misurata",
+      "Call ID": "Misurata|9168403|2026-11-08",
+      "IMO": "9168403",
+      "Vessel": "HAMBURG.HS",
+      "Vessel Type": "General Cargo",
+      "DWT": 8889.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 25,
+      "Median Tons/DWT": 0.5842,
+      "Estimated Cargo Tons": 5192.96,
+      "Low Estimate": 2554.17,
+      "High Estimate": 7542.2,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=25",
+      "Notes": "Planning proxy, not official handled tonnage."
     }
   ],
   "methodology": "Exact vessel first (1 visit Low, 2 Medium, 3+ High). Commodity ratio only when current commodity is known and commodity sample n>=5. Otherwise fleet ratio. P25-P75 range. Planning proxy only."
