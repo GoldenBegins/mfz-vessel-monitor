@@ -3478,7 +3478,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-09T20:30:14.947599+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-09T21:00:17.088114+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3552,12 +3552,6 @@
         "decision": "UNCONFIRMED"
       },
       {
-        "name": "KRITI CORAL",
-        "imo": "9417220",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
-      {
         "name": "QUEEN NM",
         "imo": "9234991",
         "port": "Benghazi",
@@ -3601,7 +3595,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-09T20:30:55.848858+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-09T20:30:14.947599+00:00",
+  "anchorageUpdatedAt": "2026-11-09T21:00:17.088114+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3940,7 +3934,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-09T20:30:14.947599+00:00",
+  "mapUpdatedAt": "2026-11-09T21:00:17.088114+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
