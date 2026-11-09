@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-09 06:06:42",
+  "updatedAt": "2026-11-09 14:06:45",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 37,
-    "benghaziCalls": 28,
+    "misurataCalls": 39,
+    "benghaziCalls": 29,
     "misurataExcludedCalls": 0,
     "benghaziExcludedCalls": 2,
     "excludedCalls": 2,
@@ -11,14 +11,14 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 9,
+    "estimatedCalls": 10,
     "unestimatedCalls": 19,
-    "coverage": 32.1,
+    "coverage": 34.5,
     "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 4210,
+    "estimatedTEU": 5550,
     "estimatedGeneralCargoTons": 21328,
-    "historicalHighMediumCalls": 3,
+    "historicalHighMediumCalls": 4,
     "fallbackLowCalls": 6
   },
   "comparison": [
@@ -66,28 +66,20 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 37,
-      "benghaziCalls": 28,
+      "misurataCalls": 39,
+      "benghaziCalls": 29,
       "misurataExcludedCalls": 0,
       "benghaziExcludedCalls": 2,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 4210,
+      "estimatedTEU": 5550,
       "estimatedGeneralCargoTons": 21328,
-      "coverage": 32.1
+      "coverage": 34.5
     }
   ],
   "estimates": [
-    {
-      "vessel": "ANKA DREAM",
-      "imo": "9195470",
-      "type": "General Cargo",
-      "estimate": "3,544 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "BURHAN DIZMAN",
       "imo": "9381809",
@@ -279,6 +271,14 @@
       "estimate": "3,544 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "QUEEN NM",
+      "imo": "9234991",
+      "type": "Container",
+      "estimate": "1,340 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
