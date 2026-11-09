@@ -3497,7 +3497,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-09T20:00:14.529073+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-09T20:30:14.947599+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3524,6 +3524,13 @@
       {
         "name": "RAPHAELA",
         "imo": "9365831",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ATHENA",
+        "imo": "9187344",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3613,7 +3620,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-09T20:00:29.526495+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-09T20:00:14.529073+00:00",
+  "anchorageUpdatedAt": "2026-11-09T20:30:14.947599+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3971,7 +3978,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-09T20:00:14.529073+00:00",
+  "mapUpdatedAt": "2026-11-09T20:30:14.947599+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
