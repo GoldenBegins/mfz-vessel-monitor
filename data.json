@@ -3510,21 +3510,21 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-10T13:40:12.324250+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-10T14:00:16.276365+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "PARPALI",
         "imo": "9134701",
         "port": "Misurata",
-        "decision": "AWAY_STALE",
+        "decision": "AWAY",
         "winner": "SHIPNEXT"
       },
       {
         "name": "SHAN",
         "imo": "9352688",
         "port": "Misurata",
-        "decision": "AWAY",
+        "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
       },
       {
@@ -3564,18 +3564,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "PORTARIA",
-        "imo": "9464326",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "SEREF KURU",
-        "imo": "8606111",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
       {
         "name": "GUO REN HAI",
         "imo": "1112848",
@@ -3620,7 +3608,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-10T13:30:58.760685+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-10T13:40:12.324250+00:00",
+  "anchorageUpdatedAt": "2026-11-10T14:00:16.276365+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3978,7 +3966,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-10T13:40:12.324250+00:00",
+  "mapUpdatedAt": "2026-11-10T14:00:16.276365+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
