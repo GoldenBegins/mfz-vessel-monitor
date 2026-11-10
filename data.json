@@ -3529,7 +3529,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-10T02:30:12.477443+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-10T03:00:14.812165+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3538,9 +3538,22 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ATHENA",
+        "imo": "9187344",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
+      {
+        "name": "SEREF KURU",
+        "imo": "8606111",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
       {
         "name": "GUO REN HAI",
         "imo": "1112848",
@@ -3585,7 +3598,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-10T02:31:01.875017+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-10T02:30:12.477443+00:00",
+  "anchorageUpdatedAt": "2026-11-10T03:00:14.812165+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3988,7 +4001,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-10T02:30:12.477443+00:00",
+  "mapUpdatedAt": "2026-11-10T03:00:14.812165+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
