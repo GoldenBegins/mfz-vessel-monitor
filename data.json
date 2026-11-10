@@ -3533,7 +3533,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-10T14:30:12.029521+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-10T15:00:16.072814+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3565,6 +3565,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "LCT SAMLAYA 5",
+        "imo": "9220158",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "ANKA DREAM",
         "imo": "9195470",
         "port": "Benghazi",
@@ -3577,19 +3584,18 @@
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GOTHICA",
-        "imo": "7826867",
-        "port": "Benghazi",
-        "decision": "AWAY_STALE",
-        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
       {
         "name": "AXIOS STAR",
         "imo": "9407366",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "ATRIA",
+        "imo": "9188518",
         "port": "Misurata",
         "decision": "NEAR_PORT"
       },
@@ -3602,6 +3608,12 @@
       {
         "name": "KRITI CORAL",
         "imo": "9417220",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "MSC NORDIC F",
+        "imo": "9448671",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
@@ -3643,7 +3655,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-10T14:31:01.690779+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-10T14:30:12.029521+00:00",
+  "anchorageUpdatedAt": "2026-11-10T15:00:16.072814+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4024,7 +4036,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-10T14:30:12.029521+00:00",
+  "mapUpdatedAt": "2026-11-10T15:00:16.072814+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
