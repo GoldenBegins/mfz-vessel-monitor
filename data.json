@@ -3525,19 +3525,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-10T12:30:15.154954+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-10T13:00:16.722202+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
-        "name": "SHAN",
-        "imo": "9352688",
+        "name": "PARPALI",
+        "imo": "9134701",
         "port": "Misurata",
-        "decision": "AWAY",
+        "decision": "AWAY_STALE",
         "winner": "SHIPNEXT"
       },
       {
-        "name": "PORTARIA",
-        "imo": "9464326",
+        "name": "SHAN",
+        "imo": "9352688",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3573,16 +3573,22 @@
     ],
     "portStateReview": [
       {
+        "name": "PORTARIA",
+        "imo": "9464326",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
+      {
         "name": "SEREF KURU",
         "imo": "8606111",
         "port": "Misurata",
         "decision": "ANCHORAGE"
       },
       {
-        "name": "ELBELLA",
-        "imo": "9312640",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
+        "name": "ANKA DREAM",
+        "imo": "9195470",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "GUO REN HAI",
@@ -3634,7 +3640,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-10T12:30:59.420684+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-10T12:30:15.154954+00:00",
+  "anchorageUpdatedAt": "2026-11-10T13:00:16.722202+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4007,7 +4013,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-10T12:30:15.154954+00:00",
+  "mapUpdatedAt": "2026-11-10T13:00:16.722202+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
