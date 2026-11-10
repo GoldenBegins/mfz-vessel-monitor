@@ -1,25 +1,25 @@
 {
-  "updatedAt": "2026-11-10 14:06:38",
+  "updatedAt": "2026-11-10 22:04:32",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 43,
-    "benghaziCalls": 31,
-    "misurataExcludedCalls": 0,
-    "benghaziExcludedCalls": 2,
-    "excludedCalls": 2,
+    "misurataCalls": 48,
+    "benghaziCalls": 33,
+    "misurataExcludedCalls": 1,
+    "benghaziExcludedCalls": 3,
+    "excludedCalls": 4,
     "misurataActualTEU": 0,
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 10,
+    "estimatedCalls": 12,
     "unestimatedCalls": 21,
-    "coverage": 32.3,
+    "coverage": 36.4,
     "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 5550,
-    "estimatedGeneralCargoTons": 20703,
-    "historicalHighMediumCalls": 4,
-    "fallbackLowCalls": 6
+    "estimatedTEU": 6929,
+    "estimatedGeneralCargoTons": 27149,
+    "historicalHighMediumCalls": 5,
+    "fallbackLowCalls": 7
   },
   "comparison": [
     {
@@ -66,36 +66,20 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 43,
-      "benghaziCalls": 31,
-      "misurataExcludedCalls": 0,
-      "benghaziExcludedCalls": 2,
+      "misurataCalls": 48,
+      "benghaziCalls": 33,
+      "misurataExcludedCalls": 1,
+      "benghaziExcludedCalls": 3,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 5550,
-      "estimatedGeneralCargoTons": 20703,
-      "coverage": 32.3
+      "estimatedTEU": 6929,
+      "estimatedGeneralCargoTons": 27149,
+      "coverage": 36.4
     }
   ],
   "estimates": [
-    {
-      "vessel": "BURHAN DIZMAN",
-      "imo": "9381809",
-      "type": "General Cargo",
-      "estimate": "6,177 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "BUXLINK",
-      "imo": "9235816",
-      "type": "Container",
-      "estimate": "2,836 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "MONIF",
       "imo": "9008146",
@@ -277,6 +261,22 @@
       "imo": "9234991",
       "type": "Container",
       "estimate": "1,340 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "JAOHAR ADAM",
+      "imo": "9362657",
+      "type": "General Cargo",
+      "estimate": "6,446 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "PARPALI",
+      "imo": "9134701",
+      "type": "Container",
+      "estimate": "1,379 TEU",
       "confidence": "High",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
