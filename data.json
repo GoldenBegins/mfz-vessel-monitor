@@ -3570,12 +3570,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-10T19:00:13.032922+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-10T19:30:12.458642+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "AXIOS STAR",
         "imo": "9407366",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JI LI",
+        "imo": "9267405",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3667,12 +3674,6 @@
     ],
     "portStateReview": [
       {
-        "name": "JI LI",
-        "imo": "9267405",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
         "name": "GUO REN HAI",
         "imo": "1112848",
         "port": "Benghazi",
@@ -3722,7 +3723,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-10T18:34:14.449784+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-10T19:00:13.032922+00:00",
+  "anchorageUpdatedAt": "2026-11-10T19:30:12.458642+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4140,7 +4141,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-10T19:00:13.032922+00:00",
+  "mapUpdatedAt": "2026-11-10T19:30:12.458642+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
