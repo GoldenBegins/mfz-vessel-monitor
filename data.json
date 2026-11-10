@@ -3529,7 +3529,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-10T04:00:12.875162+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-10T04:30:14.782852+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3542,6 +3542,27 @@
       {
         "name": "ATHENA",
         "imo": "9187344",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ELBELLA",
+        "imo": "9312640",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ATRIA",
+        "imo": "9188518",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "GRACE A",
+        "imo": "8403337",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3559,6 +3580,18 @@
         "imo": "1112848",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "GANJA",
+        "imo": "9813565",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "QUEEN NM",
+        "imo": "9234991",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3598,7 +3631,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-10T04:00:37.763538+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-10T04:00:12.875162+00:00",
+  "anchorageUpdatedAt": "2026-11-10T04:30:14.782852+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4001,7 +4034,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-10T04:00:12.875162+00:00",
+  "mapUpdatedAt": "2026-11-10T04:30:14.782852+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
