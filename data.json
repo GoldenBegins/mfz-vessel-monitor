@@ -3572,7 +3572,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-10T22:00:16.615712+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-10T22:30:16.031831+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3676,6 +3676,12 @@
     ],
     "portStateReview": [
       {
+        "name": "RAPHAELA",
+        "imo": "9365831",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
         "name": "GUO REN HAI",
         "imo": "1112848",
         "port": "Benghazi",
@@ -3725,7 +3731,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-10T22:01:02.186828+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-10T22:00:16.615712+00:00",
+  "anchorageUpdatedAt": "2026-11-10T22:30:16.031831+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -4158,7 +4164,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-10T22:00:16.615712+00:00",
+  "mapUpdatedAt": "2026-11-10T22:30:16.031831+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
