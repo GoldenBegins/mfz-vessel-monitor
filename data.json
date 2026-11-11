@@ -3499,12 +3499,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-11T05:00:12.033004+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-11T05:30:12.312382+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "GRACE A",
         "imo": "8403337",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "LCT SAMLAYA 5",
+        "imo": "9220158",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3548,7 +3555,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-11T05:01:15.176076+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-11T05:00:12.033004+00:00",
+  "anchorageUpdatedAt": "2026-11-11T05:30:12.312382+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3921,7 +3928,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-11T05:00:12.033004+00:00",
+  "mapUpdatedAt": "2026-11-11T05:30:12.312382+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
