@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-11 14:06:33",
+  "updatedAt": "2026-11-11 22:04:05",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 52,
-    "benghaziCalls": 36,
+    "benghaziCalls": 38,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 3,
     "excludedCalls": 4,
@@ -11,12 +11,12 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 14,
-    "unestimatedCalls": 22,
-    "coverage": 38.9,
+    "estimatedCalls": 15,
+    "unestimatedCalls": 23,
+    "coverage": 39.5,
     "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 7523,
+    "estimatedTEU": 8519,
     "estimatedGeneralCargoTons": 32168,
     "historicalHighMediumCalls": 6,
     "fallbackLowCalls": 8
@@ -67,27 +67,19 @@
     {
       "period": "2026-11",
       "misurataCalls": 52,
-      "benghaziCalls": 36,
+      "benghaziCalls": 38,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 3,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 7523,
+      "estimatedTEU": 8519,
       "estimatedGeneralCargoTons": 32168,
-      "coverage": 38.9
+      "coverage": 39.5
     }
   ],
   "estimates": [
-    {
-      "vessel": "PARPALI",
-      "imo": "9134701",
-      "type": "Container",
-      "estimate": "1,379 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "CINDY",
       "imo": "9004499",
@@ -270,6 +262,14 @@
       "type": "Container ship",
       "estimate": "594 TEU",
       "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "MEDKON LUNA",
+      "imo": "9341976",
+      "type": "Container",
+      "estimate": "996 TEU",
+      "confidence": "Low",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
     },
     {
