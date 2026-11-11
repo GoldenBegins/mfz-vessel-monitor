@@ -3492,12 +3492,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-11T17:00:12.330464+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-11T17:30:12.425215+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "ELBELLA",
         "imo": "9312640",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "BELLA JUDI",
+        "imo": "9595371",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3517,6 +3524,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "ANKA DREAM",
+        "imo": "9195470",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "GRACE A",
         "imo": "8403337",
         "port": "Misurata",
@@ -3529,18 +3543,19 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "PARPALI",
+        "imo": "9134701",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
       {
-        "name": "BELLA JUDI",
-        "imo": "9595371",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "ANKA DREAM",
-        "imo": "9195470",
+        "name": "SNP WIND",
+        "imo": "9132038",
         "port": "Misurata",
         "decision": "NEAR_PORT"
       },
@@ -3594,7 +3609,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-11T17:01:03.932076+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-11T17:00:12.330464+00:00",
+  "anchorageUpdatedAt": "2026-11-11T17:30:12.425215+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3967,7 +3982,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-11T17:00:12.330464+00:00",
+  "mapUpdatedAt": "2026-11-11T17:30:12.425215+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
