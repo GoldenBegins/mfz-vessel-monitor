@@ -3492,7 +3492,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-11T19:00:11.847887+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-11T19:30:11.665981+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3519,6 +3519,13 @@
       {
         "name": "QUEEN VIVIAN",
         "imo": "9331763",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "SNP WIND",
+        "imo": "9132038",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3553,12 +3560,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "SNP WIND",
-        "imo": "9132038",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "GUO REN HAI",
         "imo": "1112848",
@@ -3609,7 +3610,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-11T19:01:07.906050+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-11T19:00:11.847887+00:00",
+  "anchorageUpdatedAt": "2026-11-11T19:30:11.665981+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3982,7 +3983,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-11T19:00:11.847887+00:00",
+  "mapUpdatedAt": "2026-11-11T19:30:11.665981+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
