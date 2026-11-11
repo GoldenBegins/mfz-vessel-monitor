@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-11 06:07:36",
+  "updatedAt": "2026-11-11 14:06:33",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 48,
-    "benghaziCalls": 33,
+    "misurataCalls": 52,
+    "benghaziCalls": 36,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 3,
     "excludedCalls": 4,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 12,
-    "unestimatedCalls": 21,
-    "coverage": 36.4,
+    "estimatedCalls": 14,
+    "unestimatedCalls": 22,
+    "coverage": 38.9,
     "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 6929,
-    "estimatedGeneralCargoTons": 27149,
-    "historicalHighMediumCalls": 5,
-    "fallbackLowCalls": 7
+    "estimatedTEU": 7523,
+    "estimatedGeneralCargoTons": 32168,
+    "historicalHighMediumCalls": 6,
+    "fallbackLowCalls": 8
   },
   "comparison": [
     {
@@ -66,36 +66,20 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 48,
-      "benghaziCalls": 33,
+      "misurataCalls": 52,
+      "benghaziCalls": 36,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 3,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 6929,
-      "estimatedGeneralCargoTons": 27149,
-      "coverage": 36.4
+      "estimatedTEU": 7523,
+      "estimatedGeneralCargoTons": 32168,
+      "coverage": 38.9
     }
   ],
   "estimates": [
-    {
-      "vessel": "MONIF",
-      "imo": "9008146",
-      "type": "General Cargo",
-      "estimate": "5,019 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "HASAN G",
-      "imo": "9136852",
-      "type": "General Cargo",
-      "estimate": "5,465 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "PARPALI",
       "imo": "9134701",
@@ -279,13 +263,29 @@
       "estimate": "1,379 TEU",
       "confidence": "High",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "DIONYSSIS A",
+      "imo": "9356660",
+      "type": "Container ship",
+      "estimate": "594 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "MONIF",
+      "imo": "9008146",
+      "type": "General Cargo",
+      "estimate": "5,019 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "10 internal high-priority checks are recorded."
+      "detail": "233 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
