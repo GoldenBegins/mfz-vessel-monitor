@@ -3496,7 +3496,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-11T23:30:09.762280+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-12T00:00:11.014337+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [],
     "portStateReview": [
@@ -3505,6 +3505,12 @@
         "imo": "1112848",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "UNI-K",
+        "imo": "9159579",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3544,7 +3550,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-11T23:31:01.520601+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-11T23:30:09.762280+00:00",
+  "anchorageUpdatedAt": "2026-11-12T00:00:11.014337+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3947,7 +3953,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-11T23:30:09.762280+00:00",
+  "mapUpdatedAt": "2026-11-12T00:00:11.014337+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
