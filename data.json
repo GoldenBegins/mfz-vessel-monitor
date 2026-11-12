@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-11 22:04:05",
+  "updatedAt": "2026-11-12 06:04:35",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 52,
-    "benghaziCalls": 38,
+    "misurataCalls": 54,
+    "benghaziCalls": 40,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 3,
     "excludedCalls": 4,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 15,
-    "unestimatedCalls": 23,
-    "coverage": 39.5,
+    "estimatedCalls": 16,
+    "unestimatedCalls": 24,
+    "coverage": 40.0,
     "trustedVessels": 205,
     "identityReview": 0,
     "estimatedTEU": 8519,
-    "estimatedGeneralCargoTons": 32168,
+    "estimatedGeneralCargoTons": 34591,
     "historicalHighMediumCalls": 6,
-    "fallbackLowCalls": 8
+    "fallbackLowCalls": 9
   },
   "comparison": [
     {
@@ -66,8 +66,8 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 52,
-      "benghaziCalls": 38,
+      "misurataCalls": 54,
+      "benghaziCalls": 40,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 3,
       "misurataActualTEU": 0,
@@ -75,19 +75,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 8519,
-      "estimatedGeneralCargoTons": 32168,
-      "coverage": 39.5
+      "estimatedGeneralCargoTons": 34591,
+      "coverage": 40.0
     }
   ],
   "estimates": [
-    {
-      "vessel": "CINDY",
-      "imo": "9004499",
-      "type": "General Cargo",
-      "estimate": "7,678 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "MEDKON ANKA",
       "imo": "9366469",
@@ -255,6 +247,14 @@
       "estimate": "1,379 TEU",
       "confidence": "High",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "BISHARA",
+      "imo": "8207410",
+      "type": "General Cargo",
+      "estimate": "2,423 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     },
     {
       "vessel": "DIONYSSIS A",
