@@ -3452,7 +3452,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-12T22:00:16.191857+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-12T22:30:11.807266+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3472,6 +3472,13 @@
       {
         "name": "GRACE A",
         "imo": "8403337",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MIRA",
+        "imo": "9336244",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3533,6 +3540,12 @@
         "decision": "ANCHORAGE"
       },
       {
+        "name": "UHL FRONTIER",
+        "imo": "9789685",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      },
+      {
         "name": "JULYANA 2",
         "imo": "1066013",
         "port": "Benghazi",
@@ -3582,7 +3595,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-12T22:00:52.976366+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-12T22:00:16.191857+00:00",
+  "anchorageUpdatedAt": "2026-11-12T22:30:11.807266+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3974,7 +3987,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-12T22:00:16.191857+00:00",
+  "mapUpdatedAt": "2026-11-12T22:30:11.807266+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
