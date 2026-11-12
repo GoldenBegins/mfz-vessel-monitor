@@ -3392,7 +3392,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-12T17:00:11.099719+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-12T17:30:14.283942+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3417,8 +3417,29 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "LCT SAMLAYA 5",
+        "imo": "9220158",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "REGALO",
+        "imo": "9260304",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "JAOHAR ADAM",
         "imo": "9362657",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "BISHARA",
+        "imo": "8207410",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3432,10 +3453,22 @@
         "decision": "UNCONFIRMED"
       },
       {
-        "name": "REGALO",
-        "imo": "9260304",
-        "port": "Benghazi",
+        "name": "MERNA 1",
+        "imo": "8716954",
+        "port": "Misurata",
         "decision": "NEAR_PORT"
+      },
+      {
+        "name": "JULYANA 2",
+        "imo": "1066013",
+        "port": "Benghazi",
+        "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "VESTSKJAER",
+        "imo": "8504155",
+        "port": "Benghazi",
+        "decision": "UNCONFIRMED"
       }
     ],
     "phaseSummary": {
@@ -3475,7 +3508,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-12T17:01:07.378934+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-12T17:00:11.099719+00:00",
+  "anchorageUpdatedAt": "2026-11-12T17:30:14.283942+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3833,7 +3866,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-12T17:00:11.099719+00:00",
+  "mapUpdatedAt": "2026-11-12T17:30:14.283942+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
