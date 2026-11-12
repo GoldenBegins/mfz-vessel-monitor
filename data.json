@@ -3466,13 +3466,27 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-12T04:00:11.999174+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-12T04:30:10.360130+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "GRANDE INGHILTERRA",
         "imo": "9992634",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "GRACE A",
+        "imo": "8403337",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "JAOHAR ADAM",
+        "imo": "9362657",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       }
@@ -3522,7 +3536,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-12T04:00:28.452047+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-12T04:00:11.999174+00:00",
+  "anchorageUpdatedAt": "2026-11-12T04:30:10.360130+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3895,7 +3909,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-12T04:00:11.999174+00:00",
+  "mapUpdatedAt": "2026-11-12T04:30:10.360130+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
