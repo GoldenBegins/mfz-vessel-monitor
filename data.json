@@ -3373,30 +3373,9 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-13T04:00:11.571512+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-13T04:30:11.343601+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "ATHENA",
-        "imo": "9187344",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GRANDE INGHILTERRA",
-        "imo": "9992634",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MERNA 1",
-        "imo": "8716954",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "GRACE A",
         "imo": "8403337",
@@ -3405,64 +3384,8 @@
         "winner": "SHIPNEXT"
       },
       {
-        "name": "MIRA",
-        "imo": "9336244",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LCT SAMLAYA 5",
-        "imo": "9220158",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "DIONYSSIS A",
-        "imo": "9356660",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "AVANTI",
-        "imo": "9403334",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MEDKON LUNA",
-        "imo": "9341976",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
         "name": "REGALO",
         "imo": "9260304",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "UHL FRONTIER",
-        "imo": "9789685",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "JAOHAR ADAM",
-        "imo": "9362657",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "BISHARA",
-        "imo": "8207410",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3473,18 +3396,6 @@
         "name": "GUO REN HAI",
         "imo": "1112848",
         "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "JULYANA 2",
-        "imo": "1066013",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "VESTSKJAER",
-        "imo": "8504155",
-        "port": "Benghazi",
         "decision": "UNCONFIRMED"
       }
     ],
@@ -3525,7 +3436,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-13T04:00:36.752392+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-13T04:00:11.571512+00:00",
+  "anchorageUpdatedAt": "2026-11-13T04:30:11.343601+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3864,7 +3775,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-13T04:00:11.571512+00:00",
+  "mapUpdatedAt": "2026-11-13T04:30:11.343601+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
