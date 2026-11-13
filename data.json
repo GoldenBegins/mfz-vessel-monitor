@@ -3413,7 +3413,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-13T12:00:13.261029+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-13T12:30:13.845140+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3437,6 +3437,12 @@
         "imo": "1112848",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "MING XI YUAN YANG",
+        "imo": "9679385",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
       },
       {
         "name": "MONIF",
@@ -3482,7 +3488,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-13T12:00:46.136180+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-13T12:00:13.261029+00:00",
+  "anchorageUpdatedAt": "2026-11-13T12:30:13.845140+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3848,7 +3854,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-13T12:00:13.261029+00:00",
+  "mapUpdatedAt": "2026-11-13T12:30:13.845140+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
