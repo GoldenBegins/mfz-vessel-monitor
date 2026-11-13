@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-13 14:04:50",
+  "updatedAt": "2026-11-13 22:04:40",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 58,
-    "benghaziCalls": 46,
+    "benghaziCalls": 49,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 3,
     "excludedCalls": 4,
@@ -11,14 +11,14 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 17,
-    "unestimatedCalls": 29,
-    "coverage": 37.0,
+    "estimatedCalls": 18,
+    "unestimatedCalls": 31,
+    "coverage": 36.7,
     "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 10511,
+    "estimatedTEU": 11703,
     "estimatedGeneralCargoTons": 34591,
-    "historicalHighMediumCalls": 6,
+    "historicalHighMediumCalls": 7,
     "fallbackLowCalls": 10
   },
   "comparison": [
@@ -67,27 +67,19 @@
     {
       "period": "2026-11",
       "misurataCalls": 58,
-      "benghaziCalls": 46,
+      "benghaziCalls": 49,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 3,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 10511,
+      "estimatedTEU": 11703,
       "estimatedGeneralCargoTons": 34591,
-      "coverage": 37.0
+      "coverage": 36.7
     }
   ],
   "estimates": [
-    {
-      "vessel": "JELENA",
-      "imo": "9519042",
-      "type": "General Cargo",
-      "estimate": "4,560 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "ANKA DREAM",
       "imo": "9195470",
@@ -279,6 +271,14 @@
       "estimate": "1,992 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "MSC AMIHAN F",
+      "imo": "9449687",
+      "type": "Container ship",
+      "estimate": "1,192 TEU",
+      "confidence": "Medium",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
