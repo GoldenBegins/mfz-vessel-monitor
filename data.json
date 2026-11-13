@@ -3388,7 +3388,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-13T19:40:10.328674+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-13T20:00:11.633956+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3426,12 +3426,6 @@
         "imo": "1112848",
         "port": "Misurata",
         "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "LIDER PERIHAN",
-        "imo": "9499539",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
       },
       {
         "name": "MONIF",
@@ -3477,7 +3471,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-13T19:30:42.406318+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-13T19:40:10.328674+00:00",
+  "anchorageUpdatedAt": "2026-11-13T20:00:11.633956+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3805,7 +3799,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-13T19:40:10.328674+00:00",
+  "mapUpdatedAt": "2026-11-13T20:00:11.633956+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
