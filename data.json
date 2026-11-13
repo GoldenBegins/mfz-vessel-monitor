@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-12 22:04:35",
+  "updatedAt": "2026-11-13 06:04:34",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 57,
-    "benghaziCalls": 43,
+    "benghaziCalls": 46,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 3,
     "excludedCalls": 4,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 16,
-    "unestimatedCalls": 27,
-    "coverage": 37.2,
+    "estimatedCalls": 17,
+    "unestimatedCalls": 29,
+    "coverage": 37.0,
     "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 8519,
+    "estimatedTEU": 10511,
     "estimatedGeneralCargoTons": 34591,
     "historicalHighMediumCalls": 6,
-    "fallbackLowCalls": 9
+    "fallbackLowCalls": 10
   },
   "comparison": [
     {
@@ -67,27 +67,19 @@
     {
       "period": "2026-11",
       "misurataCalls": 57,
-      "benghaziCalls": 43,
+      "benghaziCalls": 46,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 3,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 8519,
+      "estimatedTEU": 10511,
       "estimatedGeneralCargoTons": 34591,
-      "coverage": 37.2
+      "coverage": 37.0
     }
   ],
   "estimates": [
-    {
-      "vessel": "MEDKON ANKA",
-      "imo": "9366469",
-      "type": "Container",
-      "estimate": "1,928 TEU",
-      "confidence": "Medium",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "JELENA",
       "imo": "9519042",
@@ -279,6 +271,14 @@
       "estimate": "5,019 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "ELBELLA",
+      "imo": "9312640",
+      "type": "Container",
+      "estimate": "1,992 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
