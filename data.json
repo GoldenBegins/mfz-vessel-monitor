@@ -3424,7 +3424,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-13T00:30:11.393563+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-13T01:00:10.859845+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3523,7 +3523,7 @@
         "name": "MERNA 1",
         "imo": "8716954",
         "port": "Misurata",
-        "decision": "ANCHORAGE"
+        "decision": "NEAR_PORT"
       },
       {
         "name": "JULYANA 2",
@@ -3575,7 +3575,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-13T00:30:45.458473+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-13T00:30:11.393563+00:00",
+  "anchorageUpdatedAt": "2026-11-13T01:00:10.859845+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3952,7 +3952,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-13T00:30:11.393563+00:00",
+  "mapUpdatedAt": "2026-11-13T01:00:10.859845+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
