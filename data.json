@@ -3386,7 +3386,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-14T16:30:10.408985+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-14T16:40:10.670485+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3402,16 +3402,16 @@
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
+      },
       {
         "name": "GRANDE INGHILTERRA",
         "imo": "9992634",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 7,
@@ -3449,7 +3449,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-14T16:30:42.133184+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-14T16:30:10.408985+00:00",
+  "anchorageUpdatedAt": "2026-11-14T16:40:10.670485+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3762,7 +3762,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-14T16:30:10.408985+00:00",
+  "mapUpdatedAt": "2026-11-14T16:40:10.670485+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
