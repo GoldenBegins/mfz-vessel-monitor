@@ -3345,12 +3345,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-14T18:00:13.476871+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-14T18:30:12.135780+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "GRACE A",
         "imo": "8403337",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "EUROCARGO SALERNO",
+        "imo": "9175494",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3374,12 +3381,6 @@
       {
         "name": "HAMBURG.HS",
         "imo": "9168403",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "EUROCARGO SALERNO",
-        "imo": "9175494",
         "port": "Misurata",
         "decision": "NEAR_PORT"
       }
@@ -3421,7 +3422,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-14T18:01:30.018535+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-14T18:00:13.476871+00:00",
+  "anchorageUpdatedAt": "2026-11-14T18:30:12.135780+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3719,7 +3720,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-14T18:00:13.476871+00:00",
+  "mapUpdatedAt": "2026-11-14T18:30:12.135780+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
