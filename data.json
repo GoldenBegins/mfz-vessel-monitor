@@ -3330,52 +3330,9 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-14T22:30:20.158735+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-14T22:40:09.531722+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "HAMBURG.HS",
-        "imo": "9168403",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GRACE A",
-        "imo": "8403337",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "EUROCARGO SALERNO",
-        "imo": "9175494",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "PACIFIC DALIAN",
-        "imo": "9339090",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "ELBELLA",
-        "imo": "9312640",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GRANDE INGHILTERRA",
-        "imo": "9992634",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
+    "potentialDepartures": [],
     "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
@@ -3414,7 +3371,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-14T22:31:21.532480+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-14T22:30:20.158735+00:00",
+  "anchorageUpdatedAt": "2026-11-14T22:40:09.531722+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3697,7 +3654,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-14T22:30:20.158735+00:00",
+  "mapUpdatedAt": "2026-11-14T22:40:09.531722+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
