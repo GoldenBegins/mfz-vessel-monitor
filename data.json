@@ -3382,13 +3382,20 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-14T14:30:11.580681+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-14T15:00:11.312852+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "GRACE A",
         "imo": "8403337",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "ELBELLA",
+        "imo": "9312640",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       }
@@ -3431,7 +3438,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-14T14:31:09.695646+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-14T14:30:11.580681+00:00",
+  "anchorageUpdatedAt": "2026-11-14T15:00:11.312852+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3740,7 +3747,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-14T14:30:11.580681+00:00",
+  "mapUpdatedAt": "2026-11-14T15:00:11.312852+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
