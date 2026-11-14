@@ -3326,73 +3326,18 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-14T04:00:13.739767+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-14T04:30:09.566952+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
-      {
-        "name": "PARPALI",
-        "imo": "9134701",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "POLKA",
-        "imo": "9422641",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "PORTARIA",
-        "imo": "9464326",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
       {
         "name": "GRACE A",
         "imo": "8403337",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LIDER PERIHAN",
-        "imo": "9499539",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "REGALO",
-        "imo": "9260304",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "DIONYSSIS A",
-        "imo": "9356660",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "GUO REN HAI",
-        "imo": "1112848",
-        "port": "Misurata",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "MONIF",
-        "imo": "9008146",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 7,
@@ -3430,7 +3375,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-14T04:00:38.510529+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-14T04:00:13.739767+00:00",
+  "anchorageUpdatedAt": "2026-11-14T04:30:09.566952+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3709,7 +3654,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-14T04:00:13.739767+00:00",
+  "mapUpdatedAt": "2026-11-14T04:30:09.566952+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
