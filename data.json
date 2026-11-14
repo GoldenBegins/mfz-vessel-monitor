@@ -3353,9 +3353,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-14T20:00:25.001659+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-14T20:30:12.339932+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "HAMBURG.HS",
+        "imo": "9168403",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "GRACE A",
         "imo": "8403337",
@@ -3386,12 +3393,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "HAMBURG.HS",
-        "imo": "9168403",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "PACIFIC DALIAN",
         "imo": "9339090",
@@ -3436,7 +3437,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-14T20:01:36.322148+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-14T20:00:25.001659+00:00",
+  "anchorageUpdatedAt": "2026-11-14T20:30:12.339932+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3742,7 +3743,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-14T20:00:25.001659+00:00",
+  "mapUpdatedAt": "2026-11-14T20:30:12.339932+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
