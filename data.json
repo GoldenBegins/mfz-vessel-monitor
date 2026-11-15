@@ -3309,13 +3309,27 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-15T14:00:10.843274+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-15T14:30:12.233068+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "GRACE A",
         "imo": "8403337",
         "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "VELOS ZIRCON",
+        "imo": "9433810",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MSC AMIHAN F",
+        "imo": "9449687",
+        "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
       }
@@ -3325,7 +3339,7 @@
         "name": "STRAIT PEARL",
         "imo": "9607576",
         "port": "Misurata",
-        "decision": "NEAR_PORT"
+        "decision": "ANCHORAGE"
       },
       {
         "name": "IBN BATTUTA",
@@ -3371,7 +3385,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-15T14:01:23.950974+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-15T14:00:10.843274+00:00",
+  "anchorageUpdatedAt": "2026-11-15T14:30:12.233068+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3669,7 +3683,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-15T14:00:10.843274+00:00",
+  "mapUpdatedAt": "2026-11-15T14:30:12.233068+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
