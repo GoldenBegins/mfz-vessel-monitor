@@ -3307,7 +3307,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-15T12:00:10.487584+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-15T12:30:10.428311+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3324,6 +3324,12 @@
         "imo": "9607576",
         "port": "Misurata",
         "decision": "NEAR_PORT"
+      },
+      {
+        "name": "IBN BATTUTA",
+        "imo": "9448970",
+        "port": "Benghazi",
+        "decision": "UNCONFIRMED"
       }
     ],
     "phaseSummary": {
@@ -3363,7 +3369,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-15T12:01:16.993803+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-15T12:00:10.487584+00:00",
+  "anchorageUpdatedAt": "2026-11-15T12:30:10.428311+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3646,7 +3652,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-15T12:00:10.487584+00:00",
+  "mapUpdatedAt": "2026-11-15T12:30:10.428311+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
