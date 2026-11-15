@@ -3358,9 +3358,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-15T20:00:12.800295+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-15T20:30:12.881766+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "LOS AMIGOS",
+        "imo": "9033713",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "GRACE A",
         "imo": "8403337",
@@ -3434,7 +3441,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-15T20:01:28.467455+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-15T20:00:12.800295+00:00",
+  "anchorageUpdatedAt": "2026-11-15T20:30:12.881766+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3807,7 +3814,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-15T20:00:12.800295+00:00",
+  "mapUpdatedAt": "2026-11-15T20:30:12.881766+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
