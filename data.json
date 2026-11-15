@@ -3324,59 +3324,10 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-15T22:30:11.389193+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-15T22:40:09.005053+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "LOS AMIGOS",
-        "imo": "9033713",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GRACE A",
-        "imo": "8403337",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "VELOS ZIRCON",
-        "imo": "9433810",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "MSC AMIHAN F",
-        "imo": "9449687",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "JELENA",
-        "imo": "9519042",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "STRAIT PEARL",
-        "imo": "9607576",
-        "port": "Misurata",
-        "decision": "ANCHORAGE"
-      },
-      {
-        "name": "IBN BATTUTA",
-        "imo": "9448970",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 7,
@@ -3414,7 +3365,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-15T22:31:17.864852+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-15T22:30:11.389193+00:00",
+  "anchorageUpdatedAt": "2026-11-15T22:40:09.005053+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3753,7 +3704,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-15T22:30:11.389193+00:00",
+  "mapUpdatedAt": "2026-11-15T22:40:09.005053+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
