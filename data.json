@@ -3330,7 +3330,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-16T17:30:14.275948+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-16T18:00:12.696522+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3354,6 +3354,12 @@
         "imo": "9448970",
         "port": "Benghazi",
         "decision": "UNCONFIRMED"
+      },
+      {
+        "name": "ATTAHADDI 2",
+        "imo": "9108843",
+        "port": "Benghazi",
+        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3393,7 +3399,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-16T17:30:48.242565+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-16T17:30:14.275948+00:00",
+  "anchorageUpdatedAt": "2026-11-16T18:00:12.696522+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3751,7 +3757,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-16T17:30:14.275948+00:00",
+  "mapUpdatedAt": "2026-11-16T18:00:12.696522+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
