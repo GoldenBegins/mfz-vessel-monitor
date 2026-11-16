@@ -3330,7 +3330,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-16T18:00:12.696522+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-16T18:30:13.188693+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3343,6 +3343,13 @@
       {
         "name": "RAPHAELA",
         "imo": "9365831",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "LIDER ATILLA",
+        "imo": "7613404",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3399,7 +3406,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-16T18:00:45.635116+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-16T18:00:12.696522+00:00",
+  "anchorageUpdatedAt": "2026-11-16T18:30:13.188693+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3757,7 +3764,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-16T18:00:12.696522+00:00",
+  "mapUpdatedAt": "2026-11-16T18:30:13.188693+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
