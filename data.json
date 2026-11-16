@@ -3321,58 +3321,10 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-16T22:30:11.264328+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-16T22:40:08.890486+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [
-      {
-        "name": "BASHT",
-        "imo": "9346536",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "GRACE A",
-        "imo": "8403337",
-        "port": "Misurata",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "RAPHAELA",
-        "imo": "9365831",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      },
-      {
-        "name": "LIDER ATILLA",
-        "imo": "7613404",
-        "port": "Benghazi",
-        "decision": "AWAY",
-        "winner": "SHIPNEXT"
-      }
-    ],
-    "portStateReview": [
-      {
-        "name": "MSC NORDIC F",
-        "imo": "9448671",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "IBN BATTUTA",
-        "imo": "9448970",
-        "port": "Benghazi",
-        "decision": "UNCONFIRMED"
-      },
-      {
-        "name": "ATTAHADDI 2",
-        "imo": "9108843",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
-      }
-    ],
+    "potentialDepartures": [],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 7,
@@ -3410,7 +3362,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-16T22:31:23.845902+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-16T22:30:11.264328+00:00",
+  "anchorageUpdatedAt": "2026-11-16T22:40:08.890486+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3772,7 +3724,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-16T22:30:11.264328+00:00",
+  "mapUpdatedAt": "2026-11-16T22:40:08.890486+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
