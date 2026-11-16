@@ -3328,9 +3328,17 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-16T00:00:11.401062+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-16T00:30:11.593905+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
+    "potentialDepartures": [
+      {
+        "name": "RAPHAELA",
+        "imo": "9365831",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
     "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
@@ -3369,7 +3377,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-16T00:01:24.340109+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-16T00:00:11.401062+00:00",
+  "anchorageUpdatedAt": "2026-11-16T00:30:11.593905+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3712,7 +3720,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-16T00:00:11.401062+00:00",
+  "mapUpdatedAt": "2026-11-16T00:30:11.593905+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
