@@ -3321,7 +3321,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-17T13:30:35.242884+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-17T13:40:50.571407+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3347,6 +3347,12 @@
       }
     ],
     "portStateReview": [
+      {
+        "name": "DERNA",
+        "imo": "9176125",
+        "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
       {
         "name": "IBN BATTUTA",
         "imo": "9448970",
@@ -3391,7 +3397,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-17T13:34:14.307200+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-17T13:30:35.242884+00:00",
+  "anchorageUpdatedAt": "2026-11-17T13:40:50.571407+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3753,7 +3759,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-17T13:30:35.242884+00:00",
+  "mapUpdatedAt": "2026-11-17T13:40:50.571407+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
