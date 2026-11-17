@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-17 06:04:45",
+  "updatedAt": "2026-11-17 14:05:09",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
     "misurataCalls": 73,
-    "benghaziCalls": 58,
+    "benghaziCalls": 60,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 4,
     "excludedCalls": 5,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 21,
-    "unestimatedCalls": 37,
-    "coverage": 36.2,
+    "estimatedCalls": 22,
+    "unestimatedCalls": 38,
+    "coverage": 36.7,
     "trustedVessels": 205,
     "identityReview": 0,
     "estimatedTEU": 13631,
-    "estimatedGeneralCargoTons": 41574,
+    "estimatedGeneralCargoTons": 43997,
     "historicalHighMediumCalls": 8,
-    "fallbackLowCalls": 12
+    "fallbackLowCalls": 13
   },
   "comparison": [
     {
@@ -67,7 +67,7 @@
     {
       "period": "2026-11",
       "misurataCalls": 73,
-      "benghaziCalls": 58,
+      "benghaziCalls": 60,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 4,
       "misurataActualTEU": 0,
@@ -75,19 +75,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 13631,
-      "estimatedGeneralCargoTons": 41574,
-      "coverage": 36.2
+      "estimatedGeneralCargoTons": 43997,
+      "coverage": 36.7
     }
   ],
   "estimates": [
-    {
-      "vessel": "MSC AMIHAN F",
-      "imo": "9449687",
-      "type": "Container ship",
-      "estimate": "1,192 TEU",
-      "confidence": "Medium",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "VENTO DI BORA",
       "imo": "9950064",
@@ -279,6 +271,14 @@
       "estimate": "1,928 TEU",
       "confidence": "Medium",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "LIDER ATILLA",
+      "imo": "8207410",
+      "type": "General Cargo",
+      "estimate": "2,423 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
