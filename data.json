@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-18 06:05:30",
+  "updatedAt": "2026-11-18 14:04:39",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 74,
+    "misurataCalls": 78,
     "benghaziCalls": 61,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 4,
@@ -66,7 +66,7 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 74,
+      "misurataCalls": 78,
       "benghaziCalls": 61,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 4,
