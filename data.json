@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-18 14:04:39",
+  "updatedAt": "2026-11-18 22:04:52",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 78,
-    "benghaziCalls": 61,
+    "misurataCalls": 81,
+    "benghaziCalls": 66,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 4,
     "excludedCalls": 5,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 22,
-    "unestimatedCalls": 39,
-    "coverage": 36.1,
+    "estimatedCalls": 23,
+    "unestimatedCalls": 43,
+    "coverage": 34.8,
     "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 13631,
+    "estimatedTEU": 16467,
     "estimatedGeneralCargoTons": 43997,
     "historicalHighMediumCalls": 8,
-    "fallbackLowCalls": 13
+    "fallbackLowCalls": 14
   },
   "comparison": [
     {
@@ -66,28 +66,20 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 78,
-      "benghaziCalls": 61,
+      "misurataCalls": 81,
+      "benghaziCalls": 66,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 4,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 13631,
+      "estimatedTEU": 16467,
       "estimatedGeneralCargoTons": 43997,
-      "coverage": 36.1
+      "coverage": 34.8
     }
   ],
   "estimates": [
-    {
-      "vessel": "VENTO DI BORA",
-      "imo": "9950064",
-      "type": "Container",
-      "estimate": "2,211 TEU",
-      "confidence": "Low",
-      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
-    },
     {
       "vessel": "HAKKI AYKIN",
       "imo": "9045730",
@@ -279,6 +271,14 @@
       "estimate": "2,423 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "BUXLINK",
+      "imo": "9235816",
+      "type": "Container",
+      "estimate": "2,836 TEU",
+      "confidence": "Low",
+      "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
     }
   ],
   "review": [],
