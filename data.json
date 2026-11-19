@@ -3365,7 +3365,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-19T16:00:12.628896+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-19T16:30:12.525848+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3395,6 +3395,12 @@
         "name": "A.M.K EVANDER",
         "imo": "9221633",
         "port": "Misurata",
+        "decision": "NEAR_PORT"
+      },
+      {
+        "name": "SNP SPACE",
+        "imo": "9330018",
+        "port": "Benghazi",
         "decision": "NEAR_PORT"
       },
       {
@@ -3441,7 +3447,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-19T16:01:29.643423+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-19T16:00:12.628896+00:00",
+  "anchorageUpdatedAt": "2026-11-19T16:30:12.525848+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3821,7 +3827,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-19T16:00:12.628896+00:00",
+  "mapUpdatedAt": "2026-11-19T16:30:12.525848+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
