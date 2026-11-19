@@ -3339,7 +3339,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-19T17:30:16.051602+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-19T18:00:12.472563+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3352,6 +3352,13 @@
       {
         "name": "BASIC ISLAND",
         "imo": "9640061",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "SNP SPACE",
+        "imo": "9330018",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3373,10 +3380,10 @@
     ],
     "portStateReview": [
       {
-        "name": "SNP SPACE",
-        "imo": "9330018",
+        "name": "GANJA",
+        "imo": "9813565",
         "port": "Benghazi",
-        "decision": "NEAR_PORT"
+        "decision": "ANCHORAGE"
       },
       {
         "name": "GUO MING HAI",
@@ -3422,7 +3429,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-19T17:31:38.694455+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-19T17:30:16.051602+00:00",
+  "anchorageUpdatedAt": "2026-11-19T18:00:12.472563+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3776,7 +3783,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-19T17:30:16.051602+00:00",
+  "mapUpdatedAt": "2026-11-19T18:00:12.472563+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
