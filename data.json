@@ -3309,7 +3309,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-20T13:30:11.723697+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-20T13:40:11.692545+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3327,14 +3327,7 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "ANDAMA",
-        "imo": "9480526",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 7,
@@ -3372,7 +3365,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-20T13:31:26.583280+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-20T13:30:11.723697+00:00",
+  "anchorageUpdatedAt": "2026-11-20T13:40:11.692545+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3696,7 +3689,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-20T13:30:11.723697+00:00",
+  "mapUpdatedAt": "2026-11-20T13:40:11.692545+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
