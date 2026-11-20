@@ -3288,9 +3288,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-20T10:00:10.995771+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-20T10:30:11.554000+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "JOLLY CLIVIA",
+        "imo": "9444417",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "GUO MING HAI",
         "imo": "1112836",
@@ -3337,7 +3344,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-20T10:01:30.152231+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-20T10:00:10.995771+00:00",
+  "anchorageUpdatedAt": "2026-11-20T10:30:11.554000+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3627,7 +3634,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-20T10:00:10.995771+00:00",
+  "mapUpdatedAt": "2026-11-20T10:30:11.554000+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
