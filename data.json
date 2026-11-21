@@ -3348,7 +3348,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-21T16:00:13.573251+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-21T16:30:10.977421+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3373,6 +3373,13 @@
         "winner": "SHIPNEXT"
       },
       {
+        "name": "BUXLINK",
+        "imo": "9235816",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
         "name": "KARAM K",
         "imo": "9563885",
         "port": "Benghazi",
@@ -3388,12 +3395,6 @@
       }
     ],
     "portStateReview": [
-      {
-        "name": "BUXLINK",
-        "imo": "9235816",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
       {
         "name": "BURHAN DIZMAN",
         "imo": "9381809",
@@ -3438,7 +3439,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-21T16:01:34.675142+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-21T16:00:13.573251+00:00",
+  "anchorageUpdatedAt": "2026-11-21T16:30:10.977421+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3762,7 +3763,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-21T16:00:13.573251+00:00",
+  "mapUpdatedAt": "2026-11-21T16:30:10.977421+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
