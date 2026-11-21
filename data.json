@@ -3370,9 +3370,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-21T09:30:11.440736+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-21T10:00:09.660376+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "ISKENDERUN-M",
+        "imo": "9206140",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "KARAM K",
         "imo": "9563885",
@@ -3381,14 +3388,7 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [
-      {
-        "name": "ISKENDERUN-M",
-        "imo": "9206140",
-        "port": "Misurata",
-        "decision": "NEAR_PORT"
-      }
-    ],
+    "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 7,
@@ -3426,7 +3426,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-21T09:31:28.706651+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-21T09:30:11.440736+00:00",
+  "anchorageUpdatedAt": "2026-11-21T10:00:09.660376+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3720,7 +3720,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-21T09:30:11.440736+00:00",
+  "mapUpdatedAt": "2026-11-21T10:00:09.660376+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
