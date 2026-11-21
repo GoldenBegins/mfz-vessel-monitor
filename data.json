@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-21 06:04:30",
+  "updatedAt": "2026-11-21 14:04:36",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 85,
-    "benghaziCalls": 72,
+    "misurataCalls": 87,
+    "benghaziCalls": 73,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 4,
     "excludedCalls": 5,
@@ -11,14 +11,14 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 25,
+    "estimatedCalls": 26,
     "unestimatedCalls": 47,
-    "coverage": 34.7,
+    "coverage": 35.6,
     "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 16467,
+    "estimatedTEU": 17807,
     "estimatedGeneralCargoTons": 53614,
-    "historicalHighMediumCalls": 8,
+    "historicalHighMediumCalls": 9,
     "fallbackLowCalls": 16
   },
   "comparison": [
@@ -66,28 +66,20 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 85,
-      "benghaziCalls": 72,
+      "misurataCalls": 87,
+      "benghaziCalls": 73,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 4,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 16467,
+      "estimatedTEU": 17807,
       "estimatedGeneralCargoTons": 53614,
-      "coverage": 34.7
+      "coverage": 35.6
     }
   ],
   "estimates": [
-    {
-      "vessel": "QUEEN NM",
-      "imo": "9234991",
-      "type": "Container",
-      "estimate": "1,340 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "BISHARA",
       "imo": "8207410",
@@ -279,6 +271,14 @@
       "estimate": "6,177 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "QUEEN NM",
+      "imo": "9234991",
+      "type": "Container",
+      "estimate": "1,340 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
     }
   ],
   "review": [],
