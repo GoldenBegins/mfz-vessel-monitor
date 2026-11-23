@@ -3299,7 +3299,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-23T12:00:12.175669+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-23T12:30:10.891886+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3308,12 +3308,25 @@
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
+      },
+      {
+        "name": "PRINCESS AMNEH",
+        "imo": "9340269",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
       }
     ],
     "portStateReview": [
       {
-        "name": "PRINCESS AMNEH",
-        "imo": "9340269",
+        "name": "KOSOVAK",
+        "imo": "9211157",
+        "port": "Misurata",
+        "decision": "ANCHORAGE"
+      },
+      {
+        "name": "DERNA",
+        "imo": "9176125",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
@@ -3355,7 +3368,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-23T12:01:31.244065+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-23T12:00:12.175669+00:00",
+  "anchorageUpdatedAt": "2026-11-23T12:30:10.891886+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3604,7 +3617,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-23T12:00:12.175669+00:00",
+  "mapUpdatedAt": "2026-11-23T12:30:10.891886+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
