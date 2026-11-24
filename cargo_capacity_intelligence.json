@@ -1,6 +1,6 @@
 {
   "version": "CARGO_CAPACITY_V5",
-  "updatedAt": "2026-11-24T04:10:24Z",
+  "updatedAt": "2026-11-24T12:10:29Z",
   "summary": {
     "dwtProfiles": 244,
     "fleetSampleN": 26,
@@ -10,7 +10,7 @@
     "commodityModelsUsable": 2,
     "exactVesselEstimates": 9,
     "commodityEstimates": 0,
-    "fleetRatioEstimates": 135,
+    "fleetRatioEstimates": 137,
     "unestimatedCalls": 10
   },
   "calibration": [
@@ -24,7 +24,7 @@
       "Min": 0.039,
       "Max": 1.1818,
       "Confidence": "High",
-      "Updated On": "2026-11-24T04:10:24Z"
+      "Updated On": "2026-11-24T12:10:29Z"
     },
     {
       "Level": "Commodity",
@@ -36,7 +36,7 @@
       "Min": 0.1173,
       "Max": 0.4996,
       "Confidence": "Insufficient",
-      "Updated On": "2026-11-24T04:10:24Z"
+      "Updated On": "2026-11-24T12:10:29Z"
     },
     {
       "Level": "Commodity",
@@ -48,7 +48,7 @@
       "Min": 0.039,
       "Max": 1.0026,
       "Confidence": "Medium",
-      "Updated On": "2026-11-24T04:10:24Z"
+      "Updated On": "2026-11-24T12:10:29Z"
     },
     {
       "Level": "Commodity",
@@ -60,7 +60,7 @@
       "Min": 0.2402,
       "Max": 1.0962,
       "Confidence": "Low",
-      "Updated On": "2026-11-24T04:10:24Z"
+      "Updated On": "2026-11-24T12:10:29Z"
     }
   ],
   "rows": [
@@ -1428,6 +1428,44 @@
       "Estimated Cargo Tons": 5200.51,
       "Low Estimate": 2683.66,
       "High Estimate": 8007.55,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=26",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9165798|2026-11-24",
+      "IMO": "9165798",
+      "Vessel": "ALVAN",
+      "Vessel Type": "General Cargo",
+      "DWT": 22882.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 26,
+      "Median Tons/DWT": 0.5419,
+      "Estimated Cargo Tons": 12399.51,
+      "Low Estimate": 6398.62,
+      "High Estimate": 19092.29,
+      "Confidence": "High",
+      "Source": "MFZ actual cargo + exact IMO DWT; n=26",
+      "Notes": "Planning proxy, not official handled tonnage."
+    },
+    {
+      "Port": "Benghazi",
+      "Call ID": "Benghazi|9416850|2026-11-24",
+      "IMO": "9416850",
+      "Vessel": "MV ANA N",
+      "Vessel Type": "General Cargo",
+      "DWT": 3500.0,
+      "Commodity Used": "",
+      "Method": "MFZ fleet Tons/DWT",
+      "Historical Visits": 0,
+      "Sample N": 26,
+      "Median Tons/DWT": 0.5419,
+      "Estimated Cargo Tons": 1896.61,
+      "Low Estimate": 978.72,
+      "High Estimate": 2920.33,
       "Confidence": "High",
       "Source": "MFZ actual cargo + exact IMO DWT; n=26",
       "Notes": "Planning proxy, not official handled tonnage."
