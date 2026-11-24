@@ -3327,7 +3327,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-24T13:00:12.061451+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-24T13:30:13.582845+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3345,7 +3345,14 @@
         "winner": "SHIPNEXT"
       }
     ],
-    "portStateReview": [],
+    "portStateReview": [
+      {
+        "name": "MEDKON LIA",
+        "imo": "9139646",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
+      }
+    ],
     "phaseSummary": {
       "prePort": 0,
       "postPort": 7,
@@ -3383,7 +3390,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-24T13:01:28.318888+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-24T13:00:12.061451+00:00",
+  "anchorageUpdatedAt": "2026-11-24T13:30:13.582845+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3673,7 +3680,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-24T13:00:12.061451+00:00",
+  "mapUpdatedAt": "2026-11-24T13:30:13.582845+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
