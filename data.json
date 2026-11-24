@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-24 06:04:21",
+  "updatedAt": "2026-11-24 14:04:39",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 96,
-    "benghaziCalls": 78,
+    "misurataCalls": 97,
+    "benghaziCalls": 80,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 4,
     "excludedCalls": 5,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 29,
+    "estimatedCalls": 31,
     "unestimatedCalls": 49,
-    "coverage": 37.2,
+    "coverage": 38.8,
     "trustedVessels": 205,
     "identityReview": 0,
     "estimatedTEU": 21679,
-    "estimatedGeneralCargoTons": 61292,
+    "estimatedGeneralCargoTons": 82399,
     "historicalHighMediumCalls": 9,
-    "fallbackLowCalls": 18
+    "fallbackLowCalls": 20
   },
   "comparison": [
     {
@@ -66,8 +66,8 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 96,
-      "benghaziCalls": 78,
+      "misurataCalls": 97,
+      "benghaziCalls": 80,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 4,
       "misurataActualTEU": 0,
@@ -75,27 +75,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 21679,
-      "estimatedGeneralCargoTons": 61292,
-      "coverage": 37.2
+      "estimatedGeneralCargoTons": 82399,
+      "coverage": 38.8
     }
   ],
   "estimates": [
-    {
-      "vessel": "BISHARA",
-      "imo": "8207410",
-      "type": "General Cargo",
-      "estimate": "2,423 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "MV ANA N",
-      "imo": "9416850",
-      "type": "General Cargo",
-      "estimate": "2,800 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "ANKA DREAM",
       "imo": "9195470",
@@ -279,6 +263,22 @@
       "estimate": "2,869 TEU",
       "confidence": "Low",
       "method": "Fallback - TEU capacity × verified MFZ handling ratio [Live/Master call capacity]"
+    },
+    {
+      "vessel": "ALVAN",
+      "imo": "9165798",
+      "type": "General Cargo",
+      "estimate": "18,307 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "MV ANA N",
+      "imo": "9416850",
+      "type": "General Cargo",
+      "estimate": "2,800 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
