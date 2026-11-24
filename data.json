@@ -1603,7 +1603,7 @@
         "sog": 0.4,
         "observedAt": "2026-11-24T10:38:00+00:00",
         "lastSeen": "2026-11-24T10:38:00+00:00",
-        "source": "Ships25",
+        "source": "Port Presence",
         "firstSeen": "2026-11-23T07:36:09+00:00",
         "waitingHours": 27.03
       },
@@ -1617,7 +1617,7 @@
         "distanceKm": 5.821,
         "sog": 0.1,
         "observedAt": "2026-11-24T10:33:00+00:00",
-        "source": "Ships25",
+        "source": "Port Presence",
         "waitingHours": 1982.97
       },
       {
@@ -1642,7 +1642,7 @@
         "sog": 0.0,
         "observedAt": "2026-11-24T10:35:00+00:00",
         "lastSeen": "2026-11-24T10:35:00+00:00",
-        "source": "Ships25",
+        "source": "Port Presence",
         "firstSeen": "2026-11-20T18:36:00+00:00",
         "waitingHours": 87.98
       },
@@ -1715,22 +1715,7 @@
     "currentInPort": {
       "Misurata": [
         {
-          "source": "Ships25",
-          "vessel": "BALEEN",
-          "name": "BALEEN",
-          "imo": "9855367",
-          "mmsi": "",
-          "lat": 32.364338,
-          "lon": 15.214822,
-          "state": "In Port",
-          "distanceKm": 2.184,
-          "sog": 0.0,
-          "observedAt": "2026-11-24T10:35:00+00:00",
-          "confidence": "Medium",
-          "port": "Misurata"
-        },
-        {
-          "source": "Shipnext",
+          "source": "Port Presence",
           "vessel": "KOSOVAK",
           "name": "KOSOVAK",
           "imo": "9211157",
@@ -1741,51 +1726,6 @@
           "distanceKm": 2.045,
           "sog": 0.0,
           "observedAt": "2026-11-24T10:28:48+00:00",
-          "confidence": "Medium",
-          "port": "Misurata"
-        },
-        {
-          "source": "Shipnext",
-          "vessel": "MSC TALIA F",
-          "name": "MSC TALIA F",
-          "imo": "9308601",
-          "mmsi": "",
-          "lat": 32.36398833333333,
-          "lon": 15.217156666666666,
-          "state": "In Port",
-          "distanceKm": 1.963,
-          "sog": 0.0,
-          "observedAt": "2026-11-24T10:23:28+00:00",
-          "confidence": "Medium",
-          "port": "Misurata"
-        },
-        {
-          "source": "Shipnext",
-          "vessel": "LOS AMIGOS",
-          "name": "LOS AMIGOS",
-          "imo": "9033713",
-          "mmsi": "341135002",
-          "lat": 32.36293666666667,
-          "lon": 15.223611666666667,
-          "state": "In Port",
-          "distanceKm": 1.352,
-          "sog": 0.0,
-          "observedAt": "2026-11-24T10:24:17+00:00",
-          "confidence": "Medium",
-          "port": "Misurata"
-        },
-        {
-          "source": "Ships25",
-          "vessel": "MING XI YUAN YANG",
-          "name": "MING XI YUAN YANG",
-          "imo": "9679385",
-          "mmsi": "538005156",
-          "lat": 32.365849,
-          "lon": 15.221692,
-          "state": "In Port",
-          "distanceKm": 1.655,
-          "sog": 0.0,
-          "observedAt": "2026-11-24T10:37:00+00:00",
           "confidence": "Medium",
           "port": "Misurata"
         },
@@ -1805,7 +1745,37 @@
           "port": "Misurata"
         },
         {
-          "source": "Shipnext",
+          "source": "Port Presence",
+          "vessel": "LOS AMIGOS",
+          "name": "LOS AMIGOS",
+          "imo": "9033713",
+          "mmsi": "341135002",
+          "lat": 32.36293666666667,
+          "lon": 15.223611666666667,
+          "state": "In Port",
+          "distanceKm": 1.352,
+          "sog": 0.0,
+          "observedAt": "2026-11-24T10:24:17+00:00",
+          "confidence": "Medium",
+          "port": "Misurata"
+        },
+        {
+          "source": "Port Presence",
+          "vessel": "MING XI YUAN YANG",
+          "name": "MING XI YUAN YANG",
+          "imo": "9679385",
+          "mmsi": "538005156",
+          "lat": 32.365849,
+          "lon": 15.221692,
+          "state": "In Port",
+          "distanceKm": 1.655,
+          "sog": 0.0,
+          "observedAt": "2026-11-24T10:37:00+00:00",
+          "confidence": "Medium",
+          "port": "Misurata"
+        },
+        {
+          "source": "Port Presence",
           "vessel": "BURHAN DIZMAN",
           "name": "BURHAN DIZMAN",
           "imo": "9381809",
@@ -1820,22 +1790,7 @@
           "port": "Misurata"
         },
         {
-          "source": "Ships25",
-          "vessel": "BENGHAZI",
-          "name": "BENGHAZI",
-          "imo": "9277840",
-          "mmsi": "",
-          "lat": 32.370445,
-          "lon": 15.214632,
-          "state": "In Port",
-          "distanceKm": 2.487,
-          "sog": 0.0,
-          "observedAt": "2026-11-17T15:35:07+00:00",
-          "confidence": "Medium",
-          "port": "Misurata"
-        },
-        {
-          "source": "Ships25",
+          "source": "Port Presence",
           "vessel": "STRATEGIC UNITY",
           "name": "STRATEGIC UNITY",
           "imo": "9648099",
@@ -1850,7 +1805,7 @@
           "port": "Misurata"
         },
         {
-          "source": "Ships25",
+          "source": "Port Presence",
           "vessel": "ANDAMA",
           "name": "ANDAMA",
           "imo": "9480526",
@@ -1861,6 +1816,36 @@
           "distanceKm": 1.251,
           "sog": 0.0,
           "observedAt": "2026-11-24T10:33:00+00:00",
+          "confidence": "Medium",
+          "port": "Misurata"
+        },
+        {
+          "source": "Port Presence",
+          "vessel": "BALEEN",
+          "name": "BALEEN",
+          "imo": "9855367",
+          "mmsi": "",
+          "lat": 32.364338,
+          "lon": 15.214822,
+          "state": "In Port",
+          "distanceKm": 2.184,
+          "sog": 0.0,
+          "observedAt": "2026-11-24T10:35:00+00:00",
+          "confidence": "Medium",
+          "port": "Misurata"
+        },
+        {
+          "source": "Port Presence",
+          "vessel": "ATHENA",
+          "name": "ATHENA",
+          "imo": "9187344",
+          "mmsi": "377074000",
+          "lat": 32.361633,
+          "lon": 15.217092,
+          "state": "In Port",
+          "distanceKm": 1.904,
+          "sog": 0.0,
+          "observedAt": "2026-11-24T10:37:00+00:00",
           "confidence": "Medium",
           "port": "Misurata"
         },
@@ -1881,68 +1866,23 @@
         },
         {
           "source": "Ships25",
-          "vessel": "ATHENA",
-          "name": "ATHENA",
-          "imo": "9187344",
-          "mmsi": "377074000",
-          "lat": 32.361633,
-          "lon": 15.217092,
+          "vessel": "BENGHAZI",
+          "name": "BENGHAZI",
+          "imo": "9277840",
+          "mmsi": "",
+          "lat": 32.370445,
+          "lon": 15.214632,
           "state": "In Port",
-          "distanceKm": 1.904,
+          "distanceKm": 2.487,
           "sog": 0.0,
-          "observedAt": "2026-11-24T10:37:00+00:00",
+          "observedAt": "2026-11-17T15:35:07+00:00",
           "confidence": "Medium",
           "port": "Misurata"
         }
       ],
       "Benghazi": [
         {
-          "source": "Shipnext",
-          "vessel": "MEDKON LIA",
-          "name": "MEDKON LIA",
-          "imo": "9139646",
-          "mmsi": "352002790",
-          "lat": 32.113193333333335,
-          "lon": 20.042256666666667,
-          "state": "In Port",
-          "distanceKm": 1.58,
-          "sog": 0.0,
-          "observedAt": "2026-11-24T10:36:38+00:00",
-          "confidence": "Medium",
-          "port": "Benghazi"
-        },
-        {
-          "source": "Ships25",
-          "vessel": "LAGOM",
-          "name": "LAGOM",
-          "imo": "9939606",
-          "mmsi": "636023387",
-          "lat": 32.117657,
-          "lon": 20.048973,
-          "state": "In Port",
-          "distanceKm": 2.3,
-          "sog": 0.0,
-          "observedAt": "2026-11-24T10:33:00+00:00",
-          "confidence": "Medium",
-          "port": "Benghazi"
-        },
-        {
-          "source": "Shipnext",
-          "vessel": "NIKOLAS",
-          "name": "NIKOLAS",
-          "imo": "9203526",
-          "mmsi": "",
-          "lat": 32.10917,
-          "lon": 20.043771666666665,
-          "state": "In Port",
-          "distanceKm": 1.239,
-          "sog": 0.0,
-          "observedAt": "2026-11-24T10:35:49+00:00",
-          "confidence": "Medium",
-          "port": "Benghazi"
-        },
-        {
-          "source": "Ships25",
+          "source": "Port Presence",
           "vessel": "CINDY",
           "name": "CINDY",
           "imo": "9004499",
@@ -1957,7 +1897,7 @@
           "port": "Benghazi"
         },
         {
-          "source": "Ships25",
+          "source": "Port Presence",
           "vessel": "MV ANA N",
           "name": "MV ANA N",
           "imo": "9416850",
@@ -1972,7 +1912,22 @@
           "port": "Benghazi"
         },
         {
-          "source": "Ships25",
+          "source": "Port Presence",
+          "vessel": "MEDKON LIA",
+          "name": "MEDKON LIA",
+          "imo": "9139646",
+          "mmsi": "352002790",
+          "lat": 32.113193333333335,
+          "lon": 20.042256666666667,
+          "state": "In Port",
+          "distanceKm": 1.58,
+          "sog": 0.0,
+          "observedAt": "2026-11-24T10:36:38+00:00",
+          "confidence": "Medium",
+          "port": "Benghazi"
+        },
+        {
+          "source": "Port Presence",
           "vessel": "LINDA CEM",
           "name": "LINDA CEM",
           "imo": "7207530",
@@ -1983,6 +1938,21 @@
           "distanceKm": 0.902,
           "sog": 0.0,
           "observedAt": "2026-11-24T10:36:00+00:00",
+          "confidence": "Medium",
+          "port": "Benghazi"
+        },
+        {
+          "source": "Port Presence",
+          "vessel": "LAGOM",
+          "name": "LAGOM",
+          "imo": "9939606",
+          "mmsi": "636023387",
+          "lat": 32.117657,
+          "lon": 20.048973,
+          "state": "In Port",
+          "distanceKm": 2.3,
+          "sog": 0.0,
+          "observedAt": "2026-11-24T10:33:00+00:00",
           "confidence": "Medium",
           "port": "Benghazi"
         },
@@ -2027,7 +1997,7 @@
           "state": "In Port",
           "geographicState": "PORT_AREA",
           "confidence": "Medium",
-          "source": "Ships25"
+          "source": "Port Presence"
         }
       ]
     },
@@ -3411,28 +3381,13 @@
     "identityDedupConflicts": [],
     "finalApproach": [],
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
-    "liveStateResolverUpdatedAt": "2026-11-24T11:00:44.686950+00:00"
+    "liveStateResolverUpdatedAt": "2026-11-24T11:01:28.015958+00:00"
   },
   "anchorageUpdatedAt": "2026-11-24T11:00:11.469887+00:00",
   "currentInPort": {
     "Misurata": [
       {
-        "source": "Ships25",
-        "vessel": "BALEEN",
-        "name": "BALEEN",
-        "imo": "9855367",
-        "mmsi": "",
-        "lat": 32.364338,
-        "lon": 15.214822,
-        "state": "In Port",
-        "distanceKm": 2.184,
-        "sog": 0.0,
-        "observedAt": "2026-11-24T10:35:00+00:00",
-        "confidence": "Medium",
-        "port": "Misurata"
-      },
-      {
-        "source": "Shipnext",
+        "source": "Port Presence",
         "vessel": "KOSOVAK",
         "name": "KOSOVAK",
         "imo": "9211157",
@@ -3443,51 +3398,6 @@
         "distanceKm": 2.045,
         "sog": 0.0,
         "observedAt": "2026-11-24T10:28:48+00:00",
-        "confidence": "Medium",
-        "port": "Misurata"
-      },
-      {
-        "source": "Shipnext",
-        "vessel": "MSC TALIA F",
-        "name": "MSC TALIA F",
-        "imo": "9308601",
-        "mmsi": "",
-        "lat": 32.36398833333333,
-        "lon": 15.217156666666666,
-        "state": "In Port",
-        "distanceKm": 1.963,
-        "sog": 0.0,
-        "observedAt": "2026-11-24T10:23:28+00:00",
-        "confidence": "Medium",
-        "port": "Misurata"
-      },
-      {
-        "source": "Shipnext",
-        "vessel": "LOS AMIGOS",
-        "name": "LOS AMIGOS",
-        "imo": "9033713",
-        "mmsi": "341135002",
-        "lat": 32.36293666666667,
-        "lon": 15.223611666666667,
-        "state": "In Port",
-        "distanceKm": 1.352,
-        "sog": 0.0,
-        "observedAt": "2026-11-24T10:24:17+00:00",
-        "confidence": "Medium",
-        "port": "Misurata"
-      },
-      {
-        "source": "Ships25",
-        "vessel": "MING XI YUAN YANG",
-        "name": "MING XI YUAN YANG",
-        "imo": "9679385",
-        "mmsi": "538005156",
-        "lat": 32.365849,
-        "lon": 15.221692,
-        "state": "In Port",
-        "distanceKm": 1.655,
-        "sog": 0.0,
-        "observedAt": "2026-11-24T10:37:00+00:00",
         "confidence": "Medium",
         "port": "Misurata"
       },
@@ -3507,7 +3417,37 @@
         "port": "Misurata"
       },
       {
-        "source": "Shipnext",
+        "source": "Port Presence",
+        "vessel": "LOS AMIGOS",
+        "name": "LOS AMIGOS",
+        "imo": "9033713",
+        "mmsi": "341135002",
+        "lat": 32.36293666666667,
+        "lon": 15.223611666666667,
+        "state": "In Port",
+        "distanceKm": 1.352,
+        "sog": 0.0,
+        "observedAt": "2026-11-24T10:24:17+00:00",
+        "confidence": "Medium",
+        "port": "Misurata"
+      },
+      {
+        "source": "Port Presence",
+        "vessel": "MING XI YUAN YANG",
+        "name": "MING XI YUAN YANG",
+        "imo": "9679385",
+        "mmsi": "538005156",
+        "lat": 32.365849,
+        "lon": 15.221692,
+        "state": "In Port",
+        "distanceKm": 1.655,
+        "sog": 0.0,
+        "observedAt": "2026-11-24T10:37:00+00:00",
+        "confidence": "Medium",
+        "port": "Misurata"
+      },
+      {
+        "source": "Port Presence",
         "vessel": "BURHAN DIZMAN",
         "name": "BURHAN DIZMAN",
         "imo": "9381809",
@@ -3522,22 +3462,7 @@
         "port": "Misurata"
       },
       {
-        "source": "Ships25",
-        "vessel": "BENGHAZI",
-        "name": "BENGHAZI",
-        "imo": "9277840",
-        "mmsi": "",
-        "lat": 32.370445,
-        "lon": 15.214632,
-        "state": "In Port",
-        "distanceKm": 2.487,
-        "sog": 0.0,
-        "observedAt": "2026-11-17T15:35:07+00:00",
-        "confidence": "Medium",
-        "port": "Misurata"
-      },
-      {
-        "source": "Ships25",
+        "source": "Port Presence",
         "vessel": "STRATEGIC UNITY",
         "name": "STRATEGIC UNITY",
         "imo": "9648099",
@@ -3552,7 +3477,7 @@
         "port": "Misurata"
       },
       {
-        "source": "Ships25",
+        "source": "Port Presence",
         "vessel": "ANDAMA",
         "name": "ANDAMA",
         "imo": "9480526",
@@ -3563,6 +3488,36 @@
         "distanceKm": 1.251,
         "sog": 0.0,
         "observedAt": "2026-11-24T10:33:00+00:00",
+        "confidence": "Medium",
+        "port": "Misurata"
+      },
+      {
+        "source": "Port Presence",
+        "vessel": "BALEEN",
+        "name": "BALEEN",
+        "imo": "9855367",
+        "mmsi": "",
+        "lat": 32.364338,
+        "lon": 15.214822,
+        "state": "In Port",
+        "distanceKm": 2.184,
+        "sog": 0.0,
+        "observedAt": "2026-11-24T10:35:00+00:00",
+        "confidence": "Medium",
+        "port": "Misurata"
+      },
+      {
+        "source": "Port Presence",
+        "vessel": "ATHENA",
+        "name": "ATHENA",
+        "imo": "9187344",
+        "mmsi": "377074000",
+        "lat": 32.361633,
+        "lon": 15.217092,
+        "state": "In Port",
+        "distanceKm": 1.904,
+        "sog": 0.0,
+        "observedAt": "2026-11-24T10:37:00+00:00",
         "confidence": "Medium",
         "port": "Misurata"
       },
@@ -3583,68 +3538,23 @@
       },
       {
         "source": "Ships25",
-        "vessel": "ATHENA",
-        "name": "ATHENA",
-        "imo": "9187344",
-        "mmsi": "377074000",
-        "lat": 32.361633,
-        "lon": 15.217092,
+        "vessel": "BENGHAZI",
+        "name": "BENGHAZI",
+        "imo": "9277840",
+        "mmsi": "",
+        "lat": 32.370445,
+        "lon": 15.214632,
         "state": "In Port",
-        "distanceKm": 1.904,
+        "distanceKm": 2.487,
         "sog": 0.0,
-        "observedAt": "2026-11-24T10:37:00+00:00",
+        "observedAt": "2026-11-17T15:35:07+00:00",
         "confidence": "Medium",
         "port": "Misurata"
       }
     ],
     "Benghazi": [
       {
-        "source": "Shipnext",
-        "vessel": "MEDKON LIA",
-        "name": "MEDKON LIA",
-        "imo": "9139646",
-        "mmsi": "352002790",
-        "lat": 32.113193333333335,
-        "lon": 20.042256666666667,
-        "state": "In Port",
-        "distanceKm": 1.58,
-        "sog": 0.0,
-        "observedAt": "2026-11-24T10:36:38+00:00",
-        "confidence": "Medium",
-        "port": "Benghazi"
-      },
-      {
-        "source": "Ships25",
-        "vessel": "LAGOM",
-        "name": "LAGOM",
-        "imo": "9939606",
-        "mmsi": "636023387",
-        "lat": 32.117657,
-        "lon": 20.048973,
-        "state": "In Port",
-        "distanceKm": 2.3,
-        "sog": 0.0,
-        "observedAt": "2026-11-24T10:33:00+00:00",
-        "confidence": "Medium",
-        "port": "Benghazi"
-      },
-      {
-        "source": "Shipnext",
-        "vessel": "NIKOLAS",
-        "name": "NIKOLAS",
-        "imo": "9203526",
-        "mmsi": "",
-        "lat": 32.10917,
-        "lon": 20.043771666666665,
-        "state": "In Port",
-        "distanceKm": 1.239,
-        "sog": 0.0,
-        "observedAt": "2026-11-24T10:35:49+00:00",
-        "confidence": "Medium",
-        "port": "Benghazi"
-      },
-      {
-        "source": "Ships25",
+        "source": "Port Presence",
         "vessel": "CINDY",
         "name": "CINDY",
         "imo": "9004499",
@@ -3659,7 +3569,7 @@
         "port": "Benghazi"
       },
       {
-        "source": "Ships25",
+        "source": "Port Presence",
         "vessel": "MV ANA N",
         "name": "MV ANA N",
         "imo": "9416850",
@@ -3674,7 +3584,22 @@
         "port": "Benghazi"
       },
       {
-        "source": "Ships25",
+        "source": "Port Presence",
+        "vessel": "MEDKON LIA",
+        "name": "MEDKON LIA",
+        "imo": "9139646",
+        "mmsi": "352002790",
+        "lat": 32.113193333333335,
+        "lon": 20.042256666666667,
+        "state": "In Port",
+        "distanceKm": 1.58,
+        "sog": 0.0,
+        "observedAt": "2026-11-24T10:36:38+00:00",
+        "confidence": "Medium",
+        "port": "Benghazi"
+      },
+      {
+        "source": "Port Presence",
         "vessel": "LINDA CEM",
         "name": "LINDA CEM",
         "imo": "7207530",
@@ -3685,6 +3610,21 @@
         "distanceKm": 0.902,
         "sog": 0.0,
         "observedAt": "2026-11-24T10:36:00+00:00",
+        "confidence": "Medium",
+        "port": "Benghazi"
+      },
+      {
+        "source": "Port Presence",
+        "vessel": "LAGOM",
+        "name": "LAGOM",
+        "imo": "9939606",
+        "mmsi": "636023387",
+        "lat": 32.117657,
+        "lon": 20.048973,
+        "state": "In Port",
+        "distanceKm": 2.3,
+        "sog": 0.0,
+        "observedAt": "2026-11-24T10:33:00+00:00",
         "confidence": "Medium",
         "port": "Benghazi"
       },
@@ -3729,7 +3669,7 @@
         "state": "In Port",
         "geographicState": "PORT_AREA",
         "confidence": "Medium",
-        "source": "Ships25"
+        "source": "Port Presence"
       }
     ]
   },
