@@ -1,6 +1,6 @@
 {
   "version": "MONTHLY_PORT_INTELLIGENCE_V2",
-  "updatedAt": "2026-11-25T04:10:30Z",
+  "updatedAt": "2026-11-25T12:10:33Z",
   "definitions": {
     "typeResolutionCoverage": "Resolved vessel type calls / all port calls.",
     "cargoDwtCoverage": "Known DWT / classified cargo-relevant calls only.",
@@ -45,7 +45,7 @@
       "Calls with Anchorage": 37,
       "Data Confidence": "Medium",
       "Coverage Note": "3 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-08",
@@ -82,7 +82,7 @@
       "Calls with Anchorage": 88,
       "Data Confidence": "Medium",
       "Coverage Note": "5 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-09",
@@ -119,7 +119,7 @@
       "Calls with Anchorage": 82,
       "Data Confidence": "Low",
       "Coverage Note": "19 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-09",
@@ -156,7 +156,7 @@
       "Calls with Anchorage": 103,
       "Data Confidence": "Low",
       "Coverage Note": "22 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-10",
@@ -193,7 +193,7 @@
       "Calls with Anchorage": 82,
       "Data Confidence": "Low",
       "Coverage Note": "31 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-10",
@@ -230,7 +230,7 @@
       "Calls with Anchorage": 115,
       "Data Confidence": "Low",
       "Coverage Note": "53 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-11",
@@ -267,44 +267,44 @@
       "Calls with Anchorage": 85,
       "Data Confidence": "Low",
       "Coverage Note": "30 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-11",
       "Port": "Misurata",
-      "Port Calls": 100,
-      "Resolved-Type Calls": 55,
-      "Type Resolution Coverage %": 55.0,
-      "Cargo-Relevant Calls": 51,
-      "Container Calls": 23,
+      "Port Calls": 101,
+      "Resolved-Type Calls": 56,
+      "Type Resolution Coverage %": 55.4,
+      "Cargo-Relevant Calls": 52,
+      "Container Calls": 24,
       "General Cargo Calls": 14,
       "Dry Bulk Calls": 4,
       "Liquid Bulk Calls": 3,
       "Vehicle/Ro-Ro Calls": 7,
       "Unknown Type Calls": 45,
       "Excluded Calls": 4,
-      "Open Calls": 13,
+      "Open Calls": 14,
       "Closed Calls": 87,
-      "Container TEU Capacity Proxy": 24471.0,
-      "Container Calls with TEU": 16,
-      "Container TEU Coverage %": 69.6,
+      "Container TEU Capacity Proxy": 25616.0,
+      "Container Calls with TEU": 17,
+      "Container TEU Coverage %": 70.8,
       "General Cargo Estimated Tons": 45645.89,
       "General Cargo Low": 25679.87,
       "General Cargo High": 67860.96,
       "General Cargo Estimated Calls": 13,
       "General Cargo Medium/High Confidence Calls": 12,
       "General Cargo Estimate Coverage %": 92.9,
-      "Total Known DWT per Classified Cargo Call": 888400.0,
-      "Classified Cargo Calls with DWT": 49,
-      "Cargo DWT Coverage %": 96.1,
-      "All Non-Excluded Calls with DWT": 74,
-      "All Non-Excluded DWT Coverage %": 77.1,
-      "Avg Port Stay Proxy Days": 3.45,
-      "Avg Anchorage Hours": 41.06,
-      "Calls with Anchorage": 93,
+      "Total Known DWT per Classified Cargo Call": 900638.0,
+      "Classified Cargo Calls with DWT": 50,
+      "Cargo DWT Coverage %": 96.2,
+      "All Non-Excluded Calls with DWT": 75,
+      "All Non-Excluded DWT Coverage %": 77.3,
+      "Avg Port Stay Proxy Days": 3.43,
+      "Avg Anchorage Hours": 41.86,
+      "Calls with Anchorage": 94,
       "Data Confidence": "Low",
       "Coverage Note": "45 unknown-type call(s) excluded from classified-cargo DWT denominator.",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     }
   ],
   "comparison": [
@@ -335,7 +335,7 @@
       "Benghazi Cargo Estimate Coverage %": 77.8,
       "Misurata Data Confidence": "Medium",
       "Benghazi Data Confidence": "Medium",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-09",
@@ -364,7 +364,7 @@
       "Benghazi Cargo Estimate Coverage %": 95.2,
       "Misurata Data Confidence": "Low",
       "Benghazi Data Confidence": "Low",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-10",
@@ -393,18 +393,18 @@
       "Benghazi Cargo Estimate Coverage %": 100.0,
       "Misurata Data Confidence": "Low",
       "Benghazi Data Confidence": "Low",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     },
     {
       "Month": "2026-11",
-      "Misurata Port Calls": 100,
+      "Misurata Port Calls": 101,
       "Benghazi Port Calls": 85,
       "Port Call Lead": "Misurata",
-      "Misurata Type Resolution %": 55.0,
+      "Misurata Type Resolution %": 55.4,
       "Benghazi Type Resolution %": 64.7,
-      "Misurata Container Calls": 23,
+      "Misurata Container Calls": 24,
       "Benghazi Container Calls": 15,
-      "Misurata TEU Capacity Proxy": 24471.0,
+      "Misurata TEU Capacity Proxy": 25616.0,
       "Benghazi TEU Capacity Proxy": 15080.0,
       "Misurata General Cargo Tons": 45645.89,
       "Benghazi General Cargo Tons": 55806.98,
@@ -412,17 +412,17 @@
       "Misurata General Cargo High": 67860.96,
       "Benghazi General Cargo Low": 28798.54,
       "Benghazi General Cargo High": 85929.46,
-      "Misurata Cargo DWT Coverage %": 96.1,
+      "Misurata Cargo DWT Coverage %": 96.2,
       "Benghazi Cargo DWT Coverage %": 97.8,
-      "Misurata All Non-Excluded DWT Coverage %": 77.1,
+      "Misurata All Non-Excluded DWT Coverage %": 77.3,
       "Benghazi All Non-Excluded DWT Coverage %": 75.0,
-      "Misurata TEU Coverage %": 69.6,
+      "Misurata TEU Coverage %": 70.8,
       "Benghazi TEU Coverage %": 66.7,
       "Misurata Cargo Estimate Coverage %": 92.9,
       "Benghazi Cargo Estimate Coverage %": 94.4,
       "Misurata Data Confidence": "Low",
       "Benghazi Data Confidence": "Low",
-      "Updated On": "2026-11-25T04:10:30Z"
+      "Updated On": "2026-11-25T12:10:33Z"
     }
   ]
 }
