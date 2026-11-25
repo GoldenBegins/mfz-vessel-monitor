@@ -3245,9 +3245,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-25T21:00:10.759449+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-25T21:30:13.217207+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "ATHENA",
+        "imo": "9187344",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "MING XI YUAN YANG",
         "imo": "9679385",
@@ -3350,7 +3357,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-25T21:01:23.293098+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-25T21:00:10.759449+00:00",
+  "anchorageUpdatedAt": "2026-11-25T21:30:13.217207+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3584,7 +3591,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-25T21:00:10.759449+00:00",
+  "mapUpdatedAt": "2026-11-25T21:30:13.217207+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
