@@ -3341,7 +3341,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-25T17:00:12.509231+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-25T17:30:11.407200+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3354,6 +3354,20 @@
       {
         "name": "BALEEN",
         "imo": "9855367",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "KOSOVAK",
+        "imo": "9211157",
+        "port": "Misurata",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "DEPE",
+        "imo": "9186405",
         "port": "Misurata",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3418,7 +3432,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-25T17:01:26.055492+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-25T17:00:12.509231+00:00",
+  "anchorageUpdatedAt": "2026-11-25T17:30:11.407200+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3735,7 +3749,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-25T17:00:12.509231+00:00",
+  "mapUpdatedAt": "2026-11-25T17:30:11.407200+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
