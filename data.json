@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-26 06:04:23",
+  "updatedAt": "2026-11-26 14:04:34",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 101,
-    "benghaziCalls": 82,
+    "misurataCalls": 103,
+    "benghaziCalls": 85,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 4,
     "excludedCalls": 5,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 33,
-    "unestimatedCalls": 49,
-    "coverage": 40.2,
+    "estimatedCalls": 35,
+    "unestimatedCalls": 50,
+    "coverage": 41.2,
     "trustedVessels": 205,
     "identityReview": 0,
-    "estimatedTEU": 25818,
-    "estimatedGeneralCargoTons": 82399,
-    "historicalHighMediumCalls": 10,
-    "fallbackLowCalls": 21
+    "estimatedTEU": 26760,
+    "estimatedGeneralCargoTons": 87418,
+    "historicalHighMediumCalls": 11,
+    "fallbackLowCalls": 22
   },
   "comparison": [
     {
@@ -66,36 +66,20 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 101,
-      "benghaziCalls": 82,
+      "misurataCalls": 103,
+      "benghaziCalls": 85,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 4,
       "misurataActualTEU": 0,
       "misurataActualGeneralCargoTons": 0,
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
-      "estimatedTEU": 25818,
-      "estimatedGeneralCargoTons": 82399,
-      "coverage": 40.2
+      "estimatedTEU": 26760,
+      "estimatedGeneralCargoTons": 87418,
+      "coverage": 41.2
     }
   ],
   "estimates": [
-    {
-      "vessel": "ANKA DREAM",
-      "imo": "9195470",
-      "type": "General Cargo",
-      "estimate": "3,440 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "QUEEN NM",
-      "imo": "9234991",
-      "type": "Container",
-      "estimate": "1,340 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "JAOHAR ADAM",
       "imo": "9362657",
@@ -279,6 +263,22 @@
       "estimate": "1,928 TEU",
       "confidence": "Medium",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "KOSOVAK",
+      "imo": "9211157",
+      "type": "Container",
+      "estimate": "942 TEU",
+      "confidence": "High",
+      "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "MONIF",
+      "imo": "9008146",
+      "type": "General Cargo",
+      "estimate": "5,019 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
