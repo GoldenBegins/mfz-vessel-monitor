@@ -3288,7 +3288,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-26T11:30:11.272013+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-26T12:00:11.048251+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3318,6 +3318,12 @@
         "imo": "9004499",
         "port": "Benghazi",
         "decision": "ANCHORAGE"
+      },
+      {
+        "name": "LAGOM",
+        "imo": "9939606",
+        "port": "Benghazi",
+        "decision": "NEAR_PORT"
       }
     ],
     "phaseSummary": {
@@ -3357,7 +3363,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-26T11:31:25.976927+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-26T11:30:11.272013+00:00",
+  "anchorageUpdatedAt": "2026-11-26T12:00:11.048251+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3621,7 +3627,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-26T11:30:11.272013+00:00",
+  "mapUpdatedAt": "2026-11-26T12:00:11.048251+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
