@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-26 22:07:35",
+  "updatedAt": "2026-11-27 06:04:18",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 103,
-    "benghaziCalls": 85,
+    "misurataCalls": 104,
+    "benghaziCalls": 89,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 4,
     "excludedCalls": 5,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 35,
-    "unestimatedCalls": 50,
-    "coverage": 41.2,
+    "estimatedCalls": 37,
+    "unestimatedCalls": 52,
+    "coverage": 41.6,
     "trustedVessels": 205,
     "identityReview": 0,
     "estimatedTEU": 26760,
-    "estimatedGeneralCargoTons": 87418,
+    "estimatedGeneralCargoTons": 99434,
     "historicalHighMediumCalls": 11,
-    "fallbackLowCalls": 22
+    "fallbackLowCalls": 24
   },
   "comparison": [
     {
@@ -66,8 +66,8 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 103,
-      "benghaziCalls": 85,
+      "misurataCalls": 104,
+      "benghaziCalls": 89,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 4,
       "misurataActualTEU": 0,
@@ -75,27 +75,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 26760,
-      "estimatedGeneralCargoTons": 87418,
-      "coverage": 41.2
+      "estimatedGeneralCargoTons": 99434,
+      "coverage": 41.6
     }
   ],
   "estimates": [
-    {
-      "vessel": "JAOHAR ADAM",
-      "imo": "9362657",
-      "type": "General Cargo",
-      "estimate": "6,446 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
-    {
-      "vessel": "PARPALI",
-      "imo": "9134701",
-      "type": "Container",
-      "estimate": "1,379 TEU",
-      "confidence": "High",
-      "method": "Same IMO - trusted MFZ historical median handled TEU"
-    },
     {
       "vessel": "BISHARA",
       "imo": "8207410",
@@ -265,12 +249,28 @@
       "method": "Same IMO - trusted MFZ historical median handled TEU"
     },
     {
+      "vessel": "BISHARA",
+      "imo": "8207410",
+      "type": "General Cargo",
+      "estimate": "2,423 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
       "vessel": "KOSOVAK",
       "imo": "9211157",
       "type": "Container",
       "estimate": "942 TEU",
       "confidence": "High",
       "method": "Same IMO - trusted MFZ historical median handled TEU"
+    },
+    {
+      "vessel": "KUBROSLI_Y",
+      "imo": "8000836",
+      "type": "General Cargo",
+      "estimate": "9,593 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     },
     {
       "vessel": "MONIF",
@@ -285,7 +285,7 @@
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "10 internal high-priority checks are recorded."
+      "detail": "233 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
