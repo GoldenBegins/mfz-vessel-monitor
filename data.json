@@ -3245,9 +3245,17 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-27T04:00:11.169051+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-27T04:30:10.615422+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
-    "potentialDepartures": [],
+    "potentialDepartures": [
+      {
+        "name": "PRINCESS AMNEH",
+        "imo": "9340269",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      }
+    ],
     "portStateReview": [],
     "phaseSummary": {
       "prePort": 0,
@@ -3286,7 +3294,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-27T04:01:25.022168+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-27T04:00:11.169051+00:00",
+  "anchorageUpdatedAt": "2026-11-27T04:30:10.615422+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3546,7 +3554,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-27T04:00:11.169051+00:00",
+  "mapUpdatedAt": "2026-11-27T04:30:10.615422+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
