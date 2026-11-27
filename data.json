@@ -3335,7 +3335,7 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-27T17:30:10.966047+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-27T18:00:12.118809+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
@@ -3358,12 +3358,6 @@
         "imo": "9165798",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
-      },
-      {
-        "name": "KOSOVAK",
-        "imo": "9211157",
-        "port": "Benghazi",
-        "decision": "ANCHORAGE"
       }
     ],
     "phaseSummary": {
@@ -3403,7 +3397,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-27T17:31:25.700987+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-27T17:30:10.966047+00:00",
+  "anchorageUpdatedAt": "2026-11-27T18:00:12.118809+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3727,7 +3721,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-27T17:30:10.966047+00:00",
+  "mapUpdatedAt": "2026-11-27T18:00:12.118809+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
