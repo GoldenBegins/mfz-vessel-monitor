@@ -3369,12 +3369,19 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-28T14:00:11.256959+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-28T14:30:14.095733+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
       {
         "name": "LADYBUG I",
         "imo": "9391385",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
+      {
+        "name": "MONIF",
+        "imo": "9008146",
         "port": "Benghazi",
         "decision": "AWAY",
         "winner": "SHIPNEXT"
@@ -3432,7 +3439,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-28T14:01:28.182643+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-28T14:00:11.256959+00:00",
+  "anchorageUpdatedAt": "2026-11-28T14:30:14.095733+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3790,7 +3797,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-28T14:00:11.256959+00:00",
+  "mapUpdatedAt": "2026-11-28T14:30:14.095733+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
