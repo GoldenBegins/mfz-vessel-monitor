@@ -3365,9 +3365,16 @@
         "source": "Anchorage Reconcile v3 (Shipnext timestamped departure)"
       }
     ],
-    "lightPortSyncUpdatedAt": "2026-11-28T11:00:10.860532+00:00",
+    "lightPortSyncUpdatedAt": "2026-11-28T11:30:11.698035+00:00",
     "lightPortSyncSource": "Shipnext + Flexport verifier",
     "potentialDepartures": [
+      {
+        "name": "KOSOVAK",
+        "imo": "9211157",
+        "port": "Benghazi",
+        "decision": "AWAY",
+        "winner": "SHIPNEXT"
+      },
       {
         "name": "PRINCESS AMNEH",
         "imo": "9340269",
@@ -3380,12 +3387,6 @@
       {
         "name": "LADYBUG I",
         "imo": "9391385",
-        "port": "Benghazi",
-        "decision": "NEAR_PORT"
-      },
-      {
-        "name": "KOSOVAK",
-        "imo": "9211157",
         "port": "Benghazi",
         "decision": "NEAR_PORT"
       }
@@ -3427,7 +3428,7 @@
     "liveStateResolverVersion": "AUTHORITATIVE_LIVE_STATE_V1",
     "liveStateResolverUpdatedAt": "2026-11-28T11:01:29.253305+00:00"
   },
-  "anchorageUpdatedAt": "2026-11-28T11:00:10.860532+00:00",
+  "anchorageUpdatedAt": "2026-11-28T11:30:11.698035+00:00",
   "currentInPort": {
     "Misurata": [
       {
@@ -3781,7 +3782,7 @@
       }
     ]
   },
-  "mapUpdatedAt": "2026-11-28T11:00:10.860532+00:00",
+  "mapUpdatedAt": "2026-11-28T11:30:11.698035+00:00",
   "interPortVoyages": {
     "updatedAt": "2026-11-07T12:34:30Z",
     "summary": {
