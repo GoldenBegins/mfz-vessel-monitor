@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-28 06:02:42",
+  "updatedAt": "2026-11-28 14:04:10",
   "source": "palette.ly / monitor_v2.py",
   "summary": {
-    "misurataCalls": 105,
-    "benghaziCalls": 89,
+    "misurataCalls": 108,
+    "benghaziCalls": 92,
     "misurataExcludedCalls": 1,
     "benghaziExcludedCalls": 4,
     "excludedCalls": 5,
@@ -11,15 +11,15 @@
     "misurataActualGeneralCargoTons": 0,
     "misurataTEUStatus": "Not available",
     "misurataGeneralCargoStatus": "Not available",
-    "estimatedCalls": 37,
-    "unestimatedCalls": 52,
-    "coverage": 41.6,
+    "estimatedCalls": 38,
+    "unestimatedCalls": 54,
+    "coverage": 41.3,
     "trustedVessels": 205,
     "identityReview": 0,
     "estimatedTEU": 26760,
-    "estimatedGeneralCargoTons": 99434,
+    "estimatedGeneralCargoTons": 103633,
     "historicalHighMediumCalls": 11,
-    "fallbackLowCalls": 24
+    "fallbackLowCalls": 25
   },
   "comparison": [
     {
@@ -66,8 +66,8 @@
     },
     {
       "period": "2026-11",
-      "misurataCalls": 105,
-      "benghaziCalls": 89,
+      "misurataCalls": 108,
+      "benghaziCalls": 92,
       "misurataExcludedCalls": 1,
       "benghaziExcludedCalls": 4,
       "misurataActualTEU": 0,
@@ -75,19 +75,11 @@
       "misurataTEUStatus": "Not available",
       "misurataGeneralCargoStatus": "Not available",
       "estimatedTEU": 26760,
-      "estimatedGeneralCargoTons": 99434,
-      "coverage": 41.6
+      "estimatedGeneralCargoTons": 103633,
+      "coverage": 41.3
     }
   ],
   "estimates": [
-    {
-      "vessel": "BISHARA",
-      "imo": "8207410",
-      "type": "General Cargo",
-      "estimate": "2,423 t",
-      "confidence": "Low",
-      "method": "Fallback - DWT × verified MFZ historical utilization"
-    },
     {
       "vessel": "DIONYSSIS A",
       "imo": "9356660",
@@ -279,13 +271,21 @@
       "estimate": "5,019 t",
       "confidence": "Low",
       "method": "Fallback - DWT × verified MFZ historical utilization"
+    },
+    {
+      "vessel": "OCEAN LEGEND A",
+      "imo": "9083225",
+      "type": "General Cargo",
+      "estimate": "4,199 t",
+      "confidence": "Low",
+      "method": "Fallback - DWT × verified MFZ historical utilization"
     }
   ],
   "review": [],
   "quality": [
     {
       "title": "High-priority data-quality checks",
-      "detail": "10 internal high-priority checks are recorded."
+      "detail": "233 internal high-priority checks are recorded."
     }
   ],
   "expectedArrivals": [
